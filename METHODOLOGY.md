@@ -6,7 +6,7 @@ Experiments 008–018 are preserved observations, not a statistically powered mo
 
 Tasks specified editable files and required agent-written tests. Repository tests therefore reflect different agent-generated coverage; their counts are not comparable quality scores. Independent acceptance suites were maintained separately. Instructions and information-access controls evolved across experiments; the older harness did not establish a complete access boundary. A single run per model/task was preserved.
 
-Original prompts and structured measurements for 008–011 were unavailable. Their snapshots were reconstructed from existing commits, without inferring missing timings or outcomes. The recovered 011 acceptance suite supports fresh evaluation only. Both 010 candidates started from Luna 009. Recorded 012–014 reports misflag some allowed implementation changes as unexpected; retain those fields as reported and interpret them with that caveat.
+Original prompts and structured measurements for 008–011 were unavailable. Their snapshots were reconstructed from existing commits, without inferring missing timings or outcomes. The recovered 011 acceptance suite supports fresh evaluation only. Both 010 candidates started from Luna 009. Recorded 012–014 reports incorrectly flag some allowed implementation changes as unexpected. Those fields remain as reported.
 
 The historical task files under experiments/ are model inputs, not instructions for running new experiments. Behavioral fixtures and independent tests remain separate from those inputs.
 

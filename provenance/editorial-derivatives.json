@@ -16,9 +16,13 @@
     {
       "path": "README.md",
       "source_sha256": "13e289f3648cb678fb5d0eae4e057410e4a007cccde32b3ff8f4654d0e1570d5",
-      "release_sha256": "9d3a46b77a5d01ad9c9cc7ce46c86e2d2e3e40ade4b83f74d8cd2cc2d766dd11",
+      "release_sha256": "3494438f7de6b691f42b204d68e490b324bd8389dde860e0ced089723c06a65a",
       "evidence_class": "revised_explanatory_documentation_or_tooling",
-      "pre_audit_release_sha256": "0163287b2b3d71cfeb20db042d10fbdc14bcb993a3ec9d120bd21c951b183aad"
+      "pre_audit_release_sha256": "0163287b2b3d71cfeb20db042d10fbdc14bcb993a3ec9d120bd21c951b183aad",
+      "prior_release_sha256": [
+        "9d3a46b77a5d01ad9c9cc7ce46c86e2d2e3e40ade4b83f74d8cd2cc2d766dd11",
+        "7167564ffc56740c671ca3bd309cb5c02a41ef97430cb3a37e4b67d166c2d91d"
+      ]
     },
     {
       "path": "experiments/017.txt",
@@ -29,8 +33,12 @@
     {
       "path": "provenance/PUBLICATION.md",
       "source_sha256": "9d33d6a1025762210a0380720135362c0332667b1eacf2064bae8ccac8926f3b",
-      "release_sha256": "157e6fd1d1d76ad7c6db8775eb20eaaa13fac6debaee166f843c28810d688dd6",
-      "evidence_class": "revised_explanatory_documentation_or_tooling"
+      "release_sha256": "d4d1ce859d4cadac35f030908e397add2ca4133bcb16dabf870b53f7b5c7d7b5",
+      "evidence_class": "revised_explanatory_documentation_or_tooling",
+      "prior_release_sha256": [
+        "157e6fd1d1d76ad7c6db8775eb20eaaa13fac6debaee166f843c28810d688dd6",
+        "3022bcd6fdd45a7a461fea4f09eeda5dd3d3ad2d8e7f946ad7b39d24986c77c8"
+      ]
     },
     {
       "path": "provenance/RELEASE_EXCLUSIONS.json",
@@ -47,8 +55,12 @@
     {
       "path": "provenance/manifest.json",
       "source_sha256": "89635631c3dcf186ac9e393cae97a5ff27ab73a73841a5ad8ca68593427d4968",
-      "release_sha256": "3513fd88b49f7dd530233bbfae2f9f8e3f00ab6955ca39ee4016a87ce182283b",
-      "evidence_class": "revised_explanatory_documentation_or_tooling"
+      "release_sha256": "626515908752caa8b6e7b9f4cea22d1f81db80473f8137b40f404187e7c6706e",
+      "evidence_class": "revised_explanatory_documentation_or_tooling",
+      "prior_release_sha256": [
+        "3513fd88b49f7dd530233bbfae2f9f8e3f00ab6955ca39ee4016a87ce182283b",
+        "d14142e620b314a570eee60c66e5ff787477cc38057805d125e6ec5306ffc9fc"
+      ]
     },
     {
       "path": "results/018/effort.json",

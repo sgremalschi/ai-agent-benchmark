@@ -1,6 +1,6 @@
 {
   "evidence_class": "newly_executed_publication_validation",
-  "started_utc": "2026-11-26T20:48:53.194773+00:00",
+  "started_utc": "2026-11-26T20:59:46.020485+00:00",
   "runtime": {
     "python": "3.14.7",
     "platform": "Darwin",
@@ -16,7 +16,7 @@
           "returncode": 0,
           "stdout": "..................                                                       [100%]\n18 passed in 0.01s\n",
           "stderr": "",
-          "seconds": 0.2296,
+          "seconds": 0.2356,
           "counts": {
             "total": 18,
             "passed": 18,
@@ -111,7 +111,7 @@
           "returncode": 0,
           "stdout": "[]",
           "stderr": "",
-          "seconds": 0.0303,
+          "seconds": 0.0292,
           "expected_diagnostics": [],
           "matches_documented_outcome": true
         },
@@ -119,7 +119,7 @@
           "returncode": 0,
           "stdout": "[]",
           "stderr": "",
-          "seconds": 0.0299,
+          "seconds": 0.0276,
           "expected_diagnostics": [],
           "matches_documented_outcome": true
         }
@@ -130,9 +130,9 @@
       "checks": {
         "repository": {
           "returncode": 0,
-          "stdout": "...................                                                      [100%]\n19 passed in 0.01s\n",
+          "stdout": "...................                                                      [100%]\n19 passed in 0.02s\n",
           "stderr": "",
-          "seconds": 0.2426,
+          "seconds": 0.2414,
           "counts": {
             "total": 19,
             "passed": 19,
@@ -231,7 +231,7 @@
           "returncode": 0,
           "stdout": "[]",
           "stderr": "",
-          "seconds": 0.0308,
+          "seconds": 0.0304,
           "expected_diagnostics": [],
           "matches_documented_outcome": true
         },
@@ -239,7 +239,7 @@
           "returncode": 0,
           "stdout": "[]",
           "stderr": "",
-          "seconds": 0.0283,
+          "seconds": 0.0307,
           "expected_diagnostics": [],
           "matches_documented_outcome": true
         }
@@ -252,7 +252,7 @@
           "returncode": 0,
           "stdout": ".......................                                                  [100%]\n23 passed in 0.02s\n",
           "stderr": "",
-          "seconds": 0.2471,
+          "seconds": 0.2466,
           "counts": {
             "total": 23,
             "passed": 23,
@@ -367,7 +367,7 @@
           "returncode": 0,
           "stdout": "[]",
           "stderr": "",
-          "seconds": 0.0295,
+          "seconds": 0.0319,
           "expected_diagnostics": [],
           "matches_documented_outcome": true
         },
@@ -375,7 +375,7 @@
           "returncode": 0,
           "stdout": "[]",
           "stderr": "",
-          "seconds": 0.028,
+          "seconds": 0.03,
           "expected_diagnostics": [],
           "matches_documented_outcome": true
         }
@@ -388,7 +388,7 @@
           "returncode": 0,
           "stdout": ".....................................                                    [100%]\n37 passed in 0.04s\n",
           "stderr": "",
-          "seconds": 0.2694,
+          "seconds": 0.2818,
           "counts": {
             "total": 37,
             "passed": 37,
@@ -559,7 +559,7 @@
           "returncode": 0,
           "stdout": "[]",
           "stderr": "",
-          "seconds": 0.0294,
+          "seconds": 0.0302,
           "expected_diagnostics": [],
           "matches_documented_outcome": true
         },
@@ -567,7 +567,7 @@
           "returncode": 0,
           "stdout": "[]",
           "stderr": "",
-          "seconds": 0.0293,
+          "seconds": 0.0317,
           "expected_diagnostics": [],
           "matches_documented_outcome": true
         }
@@ -578,9 +578,9 @@
       "checks": {
         "repository": {
           "returncode": 0,
-          "stdout": "..................................                                       [100%]\n34 passed in 0.02s\n",
+          "stdout": "..................................                                       [100%]\n34 passed in 0.03s\n",
           "stderr": "",
-          "seconds": 0.2515,
+          "seconds": 0.2689,
           "counts": {
             "total": 34,
             "passed": 34,
@@ -739,7 +739,7 @@
           "returncode": 0,
           "stdout": "[]",
           "stderr": "",
-          "seconds": 0.0306,
+          "seconds": 0.0295,
           "expected_diagnostics": [],
           "matches_documented_outcome": true
         },
@@ -747,7 +747,7 @@
           "returncode": 0,
           "stdout": "[]",
           "stderr": "",
-          "seconds": 0.0306,
+          "seconds": 0.0308,
           "expected_diagnostics": [],
           "matches_documented_outcome": true
         }
@@ -760,7 +760,7 @@
           "returncode": 0,
           "stdout": ".......................................                                  [100%]\n39 passed in 0.04s\n",
           "stderr": "",
-          "seconds": 0.2649,
+          "seconds": 0.282,
           "counts": {
             "total": 39,
             "passed": 39,
@@ -939,7 +939,7 @@
           "returncode": 0,
           "stdout": "[]",
           "stderr": "",
-          "seconds": 0.0296,
+          "seconds": 0.0306,
           "expected_diagnostics": [],
           "matches_documented_outcome": true
         },
@@ -947,7 +947,7 @@
           "returncode": 0,
           "stdout": "[]",
           "stderr": "",
-          "seconds": 0.0284,
+          "seconds": 0.0314,
           "expected_diagnostics": [],
           "matches_documented_outcome": true
         }
@@ -960,7 +960,7 @@
           "returncode": 0,
           "stdout": "...............                                                          [100%]\n15 passed in 0.28s\n",
           "stderr": "",
-          "seconds": 0.5493,
+          "seconds": 0.5271,
           "counts": {
             "total": 15,
             "passed": 15,
@@ -1037,9 +1037,9 @@
         },
         "acceptance": {
           "returncode": 0,
-          "stdout": "................                                                         [100%]\n16 passed in 0.14s\n",
+          "stdout": "................                                                         [100%]\n16 passed in 0.13s\n",
           "stderr": "",
-          "seconds": 0.3785,
+          "seconds": 0.3838,
           "counts": {
             "total": 16,
             "passed": 16,
@@ -1122,7 +1122,7 @@
           "returncode": 0,
           "stdout": "[]",
           "stderr": "",
-          "seconds": 0.0308,
+          "seconds": 0.0298,
           "expected_diagnostics": [],
           "matches_documented_outcome": true
         },
@@ -1130,7 +1130,7 @@
           "returncode": 0,
           "stdout": "[]",
           "stderr": "",
-          "seconds": 0.0276,
+          "seconds": 0.0299,
           "expected_diagnostics": [],
           "matches_documented_outcome": true
         }
@@ -1143,7 +1143,7 @@
           "returncode": 0,
           "stdout": "...............................                                          [100%]\n31 passed in 0.12s\n",
           "stderr": "",
-          "seconds": 0.3503,
+          "seconds": 0.3663,
           "counts": {
             "total": 31,
             "passed": 31,
@@ -1284,9 +1284,9 @@
         },
         "acceptance": {
           "returncode": 0,
-          "stdout": "................                                                         [100%]\n16 passed in 0.14s\n",
+          "stdout": "................                                                         [100%]\n16 passed in 0.13s\n",
           "stderr": "",
-          "seconds": 0.3692,
+          "seconds": 0.3681,
           "counts": {
             "total": 16,
             "passed": 16,
@@ -1369,7 +1369,7 @@
           "returncode": 0,
           "stdout": "[]",
           "stderr": "",
-          "seconds": 0.034,
+          "seconds": 0.0305,
           "expected_diagnostics": [],
           "matches_documented_outcome": true
         },
@@ -1377,7 +1377,7 @@
           "returncode": 0,
           "stdout": "[]",
           "stderr": "",
-          "seconds": 0.0289,
+          "seconds": 0.0307,
           "expected_diagnostics": [],
           "matches_documented_outcome": true
         }
@@ -1390,7 +1390,7 @@
           "returncode": 0,
           "stdout": "..................                                                       [100%]\n18 passed in 0.02s\n",
           "stderr": "",
-          "seconds": 0.2461,
+          "seconds": 0.2577,
           "counts": {
             "total": 18,
             "passed": 18,
@@ -1481,7 +1481,7 @@
           "returncode": 0,
           "stdout": "..................                                                       [100%]\n18 passed in 0.02s\n",
           "stderr": "",
-          "seconds": 0.2457,
+          "seconds": 0.2621,
           "counts": {
             "total": 18,
             "passed": 18,
@@ -1572,7 +1572,7 @@
           "returncode": 0,
           "stdout": "[]",
           "stderr": "",
-          "seconds": 0.0316,
+          "seconds": 0.0297,
           "expected_diagnostics": [],
           "matches_documented_outcome": true
         },
@@ -1580,7 +1580,7 @@
           "returncode": 0,
           "stdout": "[]",
           "stderr": "",
-          "seconds": 0.029,
+          "seconds": 0.0298,
           "expected_diagnostics": [],
           "matches_documented_outcome": true
         }
@@ -1593,7 +1593,7 @@
           "returncode": 0,
           "stdout": "............................                                             [100%]\n28 passed in 0.03s\n",
           "stderr": "",
-          "seconds": 0.254,
+          "seconds": 0.2628,
           "counts": {
             "total": 28,
             "passed": 28,
@@ -1724,7 +1724,7 @@
           "returncode": 0,
           "stdout": "..................                                                       [100%]\n18 passed in 0.02s\n",
           "stderr": "",
-          "seconds": 0.2488,
+          "seconds": 0.2471,
           "counts": {
             "total": 18,
             "passed": 18,
@@ -1815,7 +1815,7 @@
           "returncode": 0,
           "stdout": "[]",
           "stderr": "",
-          "seconds": 0.0321,
+          "seconds": 0.031,
           "expected_diagnostics": [],
           "matches_documented_outcome": true
         },
@@ -1823,7 +1823,7 @@
           "returncode": 0,
           "stdout": "[]",
           "stderr": "",
-          "seconds": 0.0291,
+          "seconds": 0.0285,
           "expected_diagnostics": [],
           "matches_documented_outcome": true
         }
@@ -1836,7 +1836,7 @@
           "returncode": 0,
           "stdout": ".........................                                                [100%]\n25 passed in 0.02s\n",
           "stderr": "",
-          "seconds": 0.244,
+          "seconds": 0.2458,
           "counts": {
             "total": 25,
             "passed": 25,
@@ -1955,7 +1955,7 @@
           "returncode": 0,
           "stdout": "..............................                                           [100%]\n30 passed in 0.01s\n",
           "stderr": "",
-          "seconds": 0.2401,
+          "seconds": 0.2409,
           "counts": {
             "total": 30,
             "passed": 30,
@@ -2094,7 +2094,7 @@
           "returncode": 0,
           "stdout": "[]",
           "stderr": "",
-          "seconds": 0.0337,
+          "seconds": 0.031,
           "expected_diagnostics": [],
           "matches_documented_outcome": true
         },
@@ -2102,7 +2102,7 @@
           "returncode": 0,
           "stdout": "[]",
           "stderr": "",
-          "seconds": 0.0288,
+          "seconds": 0.0295,
           "expected_diagnostics": [],
           "matches_documented_outcome": true
         }
@@ -2115,7 +2115,7 @@
           "returncode": 0,
           "stdout": "................................................                         [100%]\n48 passed in 0.03s\n",
           "stderr": "",
-          "seconds": 0.255,
+          "seconds": 0.2548,
           "counts": {
             "total": 48,
             "passed": 48,
@@ -2326,7 +2326,7 @@
           "returncode": 0,
           "stdout": "..............................                                           [100%]\n30 passed in 0.01s\n",
           "stderr": "",
-          "seconds": 0.2398,
+          "seconds": 0.2469,
           "counts": {
             "total": 30,
             "passed": 30,
@@ -2465,7 +2465,7 @@
           "returncode": 0,
           "stdout": "[]",
           "stderr": "",
-          "seconds": 0.0293,
+          "seconds": 0.0303,
           "expected_diagnostics": [],
           "matches_documented_outcome": true
         },
@@ -2473,7 +2473,7 @@
           "returncode": 0,
           "stdout": "[]",
           "stderr": "",
-          "seconds": 0.0309,
+          "seconds": 0.0293,
           "expected_diagnostics": [],
           "matches_documented_outcome": true
         }
@@ -2486,7 +2486,7 @@
           "returncode": 0,
           "stdout": "................                                                         [100%]\n16 passed in 0.01s\n",
           "stderr": "",
-          "seconds": 0.24,
+          "seconds": 0.2409,
           "counts": {
             "total": 16,
             "passed": 16,
@@ -2569,7 +2569,283 @@
           "returncode": 0,
           "stdout": "...............................                                          [100%]\n31 passed in 0.02s\n",
           "stderr": "",
-          "seconds": 0.2428,
+          "seconds": 0.2431,
+          "counts": {
+            "total": 31,
+            "passed": 31,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "",
+              "test_known_cases[numbers0-0-0]"
+            ],
+            [
+              "",
+              "test_known_cases[numbers1-2-0]"
+            ],
+            [
+              "",
+              "test_known_cases[numbers2-3-1]"
+            ],
+            [
+              "",
+              "test_known_cases[numbers3-2-1]"
+            ],
+            [
+              "",
+              "test_known_cases[numbers4-2-6]"
+            ],
+            [
+              "",
+              "test_known_cases[numbers5-0-4950]"
+            ],
+            [
+              "",
+              "test_known_cases[numbers6-0-2]"
+            ],
+            [
+              "",
+              "test_known_cases[numbers7-6-2]"
+            ],
+            [
+              "",
+              "test_known_cases[numbers8-5-4]"
+            ],
+            [
+              "",
+              "test_known_cases[numbers9-0-1]"
+            ],
+            [
+              "",
+              "test_large_duplicate_count"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[0]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[10]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[11]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[12]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[13]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[14]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[15]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[16]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[17]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[18]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[19]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[1]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[2]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[3]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[4]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[5]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[6]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[7]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[8]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[9]"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0306,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 1,
+          "stdout": "[\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 43,\n      \"row\": 6\n    },\n    \"filename\": \"<candidate>/problems/order_processor.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"from decimal import ROUND_HALF_UP, Decimal\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 9\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 6\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 6\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 6,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  }\n]",
+          "stderr": "",
+          "seconds": 0.0284,
+          "expected_diagnostics": [
+            [
+              "I001",
+              "problems/order_processor.py"
+            ]
+          ],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "014/sol": {
+      "snapshot": "snapshots/014/sol",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": "......................                                                   [100%]\n22 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2455,
+          "counts": {
+            "total": 22,
+            "passed": 22,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "tests.test_pair_counter",
+              "test_all_zeros"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_arbitrary_precision_integers"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_arbitrary_precision_target"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_calls_do_not_share_frequency_state"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_duplicate_complements_count_every_index_pair"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_empty_list"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_exhaustive_small_inputs_against_brute_force"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_identical_values_count_combinations"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_identical_values_with_wrong_target"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_input_list_is_not_mutated"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_input_order_does_not_affect_count"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_large_duplicate_count"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_mixed_signs_with_zero_target"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_multiple_distinct_pairs"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_negative_and_positive_values_with_positive_target"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_negative_values_and_target"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_no_matching_pairs"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_single_element_cannot_pair_with_itself"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_two_matching_elements"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_zeros_pair_with_nonzero_values"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_empty"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_single_balloon"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "returncode": 0,
+          "stdout": "...............................                                          [100%]\n31 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.243,
           "counts": {
             "total": 31,
             "passed": 31,
@@ -2720,283 +2996,7 @@
           "returncode": 1,
           "stdout": "[\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 43,\n      \"row\": 6\n    },\n    \"filename\": \"<candidate>/problems/order_processor.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"from decimal import ROUND_HALF_UP, Decimal\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 9\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 6\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 6\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 6,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  }\n]",
           "stderr": "",
-          "seconds": 0.028,
-          "expected_diagnostics": [
-            [
-              "I001",
-              "problems/order_processor.py"
-            ]
-          ],
-          "matches_documented_outcome": true
-        }
-      }
-    },
-    "014/sol": {
-      "snapshot": "snapshots/014/sol",
-      "checks": {
-        "repository": {
-          "returncode": 0,
-          "stdout": "......................                                                   [100%]\n22 passed in 0.02s\n",
-          "stderr": "",
-          "seconds": 0.2516,
-          "counts": {
-            "total": 22,
-            "passed": 22,
-            "failed": 0,
-            "errors": 0,
-            "skipped": 0
-          },
-          "collected_test_identities": [
-            [
-              "tests.test_pair_counter",
-              "test_all_zeros"
-            ],
-            [
-              "tests.test_pair_counter",
-              "test_arbitrary_precision_integers"
-            ],
-            [
-              "tests.test_pair_counter",
-              "test_arbitrary_precision_target"
-            ],
-            [
-              "tests.test_pair_counter",
-              "test_calls_do_not_share_frequency_state"
-            ],
-            [
-              "tests.test_pair_counter",
-              "test_duplicate_complements_count_every_index_pair"
-            ],
-            [
-              "tests.test_pair_counter",
-              "test_empty_list"
-            ],
-            [
-              "tests.test_pair_counter",
-              "test_exhaustive_small_inputs_against_brute_force"
-            ],
-            [
-              "tests.test_pair_counter",
-              "test_identical_values_count_combinations"
-            ],
-            [
-              "tests.test_pair_counter",
-              "test_identical_values_with_wrong_target"
-            ],
-            [
-              "tests.test_pair_counter",
-              "test_input_list_is_not_mutated"
-            ],
-            [
-              "tests.test_pair_counter",
-              "test_input_order_does_not_affect_count"
-            ],
-            [
-              "tests.test_pair_counter",
-              "test_large_duplicate_count"
-            ],
-            [
-              "tests.test_pair_counter",
-              "test_mixed_signs_with_zero_target"
-            ],
-            [
-              "tests.test_pair_counter",
-              "test_multiple_distinct_pairs"
-            ],
-            [
-              "tests.test_pair_counter",
-              "test_negative_and_positive_values_with_positive_target"
-            ],
-            [
-              "tests.test_pair_counter",
-              "test_negative_values_and_target"
-            ],
-            [
-              "tests.test_pair_counter",
-              "test_no_matching_pairs"
-            ],
-            [
-              "tests.test_pair_counter",
-              "test_single_element_cannot_pair_with_itself"
-            ],
-            [
-              "tests.test_pair_counter",
-              "test_two_matching_elements"
-            ],
-            [
-              "tests.test_pair_counter",
-              "test_zeros_pair_with_nonzero_values"
-            ],
-            [
-              "tests.test_problem_0452_minimum_number_arrows",
-              "test_empty"
-            ],
-            [
-              "tests.test_problem_0452_minimum_number_arrows",
-              "test_single_balloon"
-            ]
-          ],
-          "collection_matches_expected": true,
-          "failure_names": [],
-          "expected_failure_names": [],
-          "matches_documented_outcome": true
-        },
-        "acceptance": {
-          "returncode": 0,
-          "stdout": "...............................                                          [100%]\n31 passed in 0.02s\n",
-          "stderr": "",
-          "seconds": 0.244,
-          "counts": {
-            "total": 31,
-            "passed": 31,
-            "failed": 0,
-            "errors": 0,
-            "skipped": 0
-          },
-          "collected_test_identities": [
-            [
-              "",
-              "test_known_cases[numbers0-0-0]"
-            ],
-            [
-              "",
-              "test_known_cases[numbers1-2-0]"
-            ],
-            [
-              "",
-              "test_known_cases[numbers2-3-1]"
-            ],
-            [
-              "",
-              "test_known_cases[numbers3-2-1]"
-            ],
-            [
-              "",
-              "test_known_cases[numbers4-2-6]"
-            ],
-            [
-              "",
-              "test_known_cases[numbers5-0-4950]"
-            ],
-            [
-              "",
-              "test_known_cases[numbers6-0-2]"
-            ],
-            [
-              "",
-              "test_known_cases[numbers7-6-2]"
-            ],
-            [
-              "",
-              "test_known_cases[numbers8-5-4]"
-            ],
-            [
-              "",
-              "test_known_cases[numbers9-0-1]"
-            ],
-            [
-              "",
-              "test_large_duplicate_count"
-            ],
-            [
-              "",
-              "test_randomized_against_reference[0]"
-            ],
-            [
-              "",
-              "test_randomized_against_reference[10]"
-            ],
-            [
-              "",
-              "test_randomized_against_reference[11]"
-            ],
-            [
-              "",
-              "test_randomized_against_reference[12]"
-            ],
-            [
-              "",
-              "test_randomized_against_reference[13]"
-            ],
-            [
-              "",
-              "test_randomized_against_reference[14]"
-            ],
-            [
-              "",
-              "test_randomized_against_reference[15]"
-            ],
-            [
-              "",
-              "test_randomized_against_reference[16]"
-            ],
-            [
-              "",
-              "test_randomized_against_reference[17]"
-            ],
-            [
-              "",
-              "test_randomized_against_reference[18]"
-            ],
-            [
-              "",
-              "test_randomized_against_reference[19]"
-            ],
-            [
-              "",
-              "test_randomized_against_reference[1]"
-            ],
-            [
-              "",
-              "test_randomized_against_reference[2]"
-            ],
-            [
-              "",
-              "test_randomized_against_reference[3]"
-            ],
-            [
-              "",
-              "test_randomized_against_reference[4]"
-            ],
-            [
-              "",
-              "test_randomized_against_reference[5]"
-            ],
-            [
-              "",
-              "test_randomized_against_reference[6]"
-            ],
-            [
-              "",
-              "test_randomized_against_reference[7]"
-            ],
-            [
-              "",
-              "test_randomized_against_reference[8]"
-            ],
-            [
-              "",
-              "test_randomized_against_reference[9]"
-            ]
-          ],
-          "collection_matches_expected": true,
-          "failure_names": [],
-          "expected_failure_names": [],
-          "matches_documented_outcome": true
-        },
-        "scoped_ruff": {
-          "returncode": 0,
-          "stdout": "[]",
-          "stderr": "",
-          "seconds": 0.0305,
-          "expected_diagnostics": [],
-          "matches_documented_outcome": true
-        },
-        "repository_ruff": {
-          "returncode": 1,
-          "stdout": "[\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 43,\n      \"row\": 6\n    },\n    \"filename\": \"<candidate>/problems/order_processor.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"from decimal import ROUND_HALF_UP, Decimal\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 9\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 6\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 6\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 6,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  }\n]",
-          "stderr": "",
-          "seconds": 0.0283,
+          "seconds": 0.0279,
           "expected_diagnostics": [
             [
               "I001",
@@ -3014,7 +3014,7 @@
           "returncode": 0,
           "stdout": "....................                                                     [100%]\n20 passed in 0.02s\n",
           "stderr": "",
-          "seconds": 0.2456,
+          "seconds": 0.248,
           "counts": {
             "total": 20,
             "passed": 20,
@@ -3113,7 +3113,7 @@
           "returncode": 0,
           "stdout": "..................                                                       [100%]\n18 passed in 0.02s\n",
           "stderr": "",
-          "seconds": 0.244,
+          "seconds": 0.2466,
           "counts": {
             "total": 18,
             "passed": 18,
@@ -3202,9 +3202,9 @@
         },
         "interruption": {
           "returncode": 1,
-          "stdout": "FF                                                                       [100%]\n=================================== FAILURES ===================================\n______ test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt] ______\n\nexception = <class 'KeyboardInterrupt'>\n\n    @pytest.mark.parametrize(\"exception\", [KeyboardInterrupt, SystemExit])\n    def test_interrupted_batch_preserves_unstarted_jobs(exception):\n        scheduler = JobScheduler(clock=lambda: 0)\n        calls = []\n    \n        def interrupt():\n            raise exception()\n    \n        scheduler.schedule(\"first\", 0, interrupt)\n        scheduler.schedule(\"second\", 0, lambda: calls.append(\"second\"))\n    \n        with pytest.raises(exception):\n            scheduler.run_due()\n    \n>       assert scheduler.run_due() == 1\nE       assert 0 == 1\nE        +  where 0 = run_due()\nE        +    where run_due = <problems.job_scheduler.JobScheduler object at 0x108928440>.run_due\n\n<repo>/acceptance/test_015_interrupt.py:20: AssertionError\n_________ test_interrupted_batch_preserves_unstarted_jobs[SystemExit] __________\n\nexception = <class 'SystemExit'>\n\n    @pytest.mark.parametrize(\"exception\", [KeyboardInterrupt, SystemExit])\n    def test_interrupted_batch_preserves_unstarted_jobs(exception):\n        scheduler = JobScheduler(clock=lambda: 0)\n        calls = []\n    \n        def interrupt():\n            raise exception()\n    \n        scheduler.schedule(\"first\", 0, interrupt)\n        scheduler.schedule(\"second\", 0, lambda: calls.append(\"second\"))\n    \n        with pytest.raises(exception):\n            scheduler.run_due()\n    \n>       assert scheduler.run_due() == 1\nE       assert 0 == 1\nE        +  where 0 = run_due()\nE        +    where run_due = <problems.job_scheduler.JobScheduler object at 0x108958050>.run_due\n\n<repo>/acceptance/test_015_interrupt.py:20: AssertionError\n=========================== short test summary info ============================\nFAILED ::test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt]\nFAILED ::test_interrupted_batch_preserves_unstarted_jobs[SystemExit] - assert...\n2 failed in 0.02s\n",
+          "stdout": "FF                                                                       [100%]\n=================================== FAILURES ===================================\n______ test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt] ______\n\nexception = <class 'KeyboardInterrupt'>\n\n    @pytest.mark.parametrize(\"exception\", [KeyboardInterrupt, SystemExit])\n    def test_interrupted_batch_preserves_unstarted_jobs(exception):\n        scheduler = JobScheduler(clock=lambda: 0)\n        calls = []\n    \n        def interrupt():\n            raise exception()\n    \n        scheduler.schedule(\"first\", 0, interrupt)\n        scheduler.schedule(\"second\", 0, lambda: calls.append(\"second\"))\n    \n        with pytest.raises(exception):\n            scheduler.run_due()\n    \n>       assert scheduler.run_due() == 1\nE       assert 0 == 1\nE        +  where 0 = run_due()\nE        +    where run_due = <problems.job_scheduler.JobScheduler object at 0x10893c440>.run_due\n\n<repo>/acceptance/test_015_interrupt.py:20: AssertionError\n_________ test_interrupted_batch_preserves_unstarted_jobs[SystemExit] __________\n\nexception = <class 'SystemExit'>\n\n    @pytest.mark.parametrize(\"exception\", [KeyboardInterrupt, SystemExit])\n    def test_interrupted_batch_preserves_unstarted_jobs(exception):\n        scheduler = JobScheduler(clock=lambda: 0)\n        calls = []\n    \n        def interrupt():\n            raise exception()\n    \n        scheduler.schedule(\"first\", 0, interrupt)\n        scheduler.schedule(\"second\", 0, lambda: calls.append(\"second\"))\n    \n        with pytest.raises(exception):\n            scheduler.run_due()\n    \n>       assert scheduler.run_due() == 1\nE       assert 0 == 1\nE        +  where 0 = run_due()\nE        +    where run_due = <problems.job_scheduler.JobScheduler object at 0x10896c050>.run_due\n\n<repo>/acceptance/test_015_interrupt.py:20: AssertionError\n=========================== short test summary info ============================\nFAILED ::test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt]\nFAILED ::test_interrupted_batch_preserves_unstarted_jobs[SystemExit] - assert...\n2 failed in 0.02s\n",
           "stderr": "",
-          "seconds": 0.2404,
+          "seconds": 0.2427,
           "counts": {
             "total": 2,
             "passed": 0,
@@ -3237,7 +3237,7 @@
           "returncode": 0,
           "stdout": "[]",
           "stderr": "",
-          "seconds": 0.029,
+          "seconds": 0.0294,
           "expected_diagnostics": [],
           "matches_documented_outcome": true
         },
@@ -3245,7 +3245,7 @@
           "returncode": 1,
           "stdout": "[\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 43,\n      \"row\": 6\n    },\n    \"filename\": \"<candidate>/problems/order_processor.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"from decimal import ROUND_HALF_UP, Decimal\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 9\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 6\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 6\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 6,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  }\n]",
           "stderr": "",
-          "seconds": 0.0285,
+          "seconds": 0.03,
           "expected_diagnostics": [
             [
               "I001",
@@ -3263,7 +3263,7 @@
           "returncode": 0,
           "stdout": "...............................                                          [100%]\n31 passed in 0.03s\n",
           "stderr": "",
-          "seconds": 0.26,
+          "seconds": 0.2621,
           "counts": {
             "total": 31,
             "passed": 31,
@@ -3406,7 +3406,7 @@
           "returncode": 0,
           "stdout": "..................                                                       [100%]\n18 passed in 0.02s\n",
           "stderr": "",
-          "seconds": 0.2454,
+          "seconds": 0.2434,
           "counts": {
             "total": 18,
             "passed": 18,
@@ -3497,7 +3497,7 @@
           "returncode": 0,
           "stdout": "..                                                                       [100%]\n2 passed in 0.01s\n",
           "stderr": "",
-          "seconds": 0.2455,
+          "seconds": 0.2315,
           "counts": {
             "total": 2,
             "passed": 2,
@@ -3524,7 +3524,7 @@
           "returncode": 0,
           "stdout": "[]",
           "stderr": "",
-          "seconds": 0.0296,
+          "seconds": 0.0307,
           "expected_diagnostics": [],
           "matches_documented_outcome": true
         },
@@ -3532,7 +3532,7 @@
           "returncode": 1,
           "stdout": "[\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 43,\n      \"row\": 6\n    },\n    \"filename\": \"<candidate>/problems/order_processor.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"from decimal import ROUND_HALF_UP, Decimal\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 9\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 6\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 6\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 6,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  }\n]",
           "stderr": "",
-          "seconds": 0.0308,
+          "seconds": 0.0284,
           "expected_diagnostics": [
             [
               "I001",
@@ -3550,7 +3550,7 @@
           "returncode": 0,
           "stdout": ".............................                                            [100%]\n29 passed in 0.02s\n",
           "stderr": "",
-          "seconds": 0.2709,
+          "seconds": 0.2521,
           "counts": {
             "total": 29,
             "passed": 29,
@@ -3683,9 +3683,9 @@
         },
         "acceptance": {
           "returncode": 0,
-          "stdout": "..............................                                           [100%]\n30 passed in 0.03s\n",
+          "stdout": "..............................                                           [100%]\n30 passed in 0.02s\n",
           "stderr": "",
-          "seconds": 0.2715,
+          "seconds": 0.2508,
           "counts": {
             "total": 30,
             "passed": 30,
@@ -3824,7 +3824,7 @@
           "returncode": 0,
           "stdout": "[]",
           "stderr": "",
-          "seconds": 0.0295,
+          "seconds": 0.0291,
           "expected_diagnostics": [],
           "matches_documented_outcome": true
         },
@@ -3832,7 +3832,7 @@
           "returncode": 1,
           "stdout": "[\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 43,\n      \"row\": 6\n    },\n    \"filename\": \"<candidate>/problems/order_processor.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"from decimal import ROUND_HALF_UP, Decimal\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 9\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 6\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 6\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 6,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  }\n]",
           "stderr": "",
-          "seconds": 0.0298,
+          "seconds": 0.0289,
           "expected_diagnostics": [
             [
               "I001",
@@ -3850,7 +3850,7 @@
           "returncode": 0,
           "stdout": "..............................                [100%]\n30 passed, 27 subtests passed in 0.03s\n",
           "stderr": "",
-          "seconds": 0.2609,
+          "seconds": 0.2555,
           "counts": {
             "total": 30,
             "passed": 30,
@@ -3987,9 +3987,9 @@
         },
         "acceptance": {
           "returncode": 0,
-          "stdout": "..............................                                           [100%]\n30 passed in 0.03s\n",
+          "stdout": "..............................                                           [100%]\n30 passed in 0.02s\n",
           "stderr": "",
-          "seconds": 0.2628,
+          "seconds": 0.2494,
           "counts": {
             "total": 30,
             "passed": 30,
@@ -4128,7 +4128,7 @@
           "returncode": 0,
           "stdout": "[]",
           "stderr": "",
-          "seconds": 0.0298,
+          "seconds": 0.03,
           "expected_diagnostics": [],
           "matches_documented_outcome": true
         },
@@ -4136,7 +4136,7 @@
           "returncode": 1,
           "stdout": "[\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 43,\n      \"row\": 6\n    },\n    \"filename\": \"<candidate>/problems/order_processor.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"from decimal import ROUND_HALF_UP, Decimal\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 9\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 6\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 6\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 6,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  }\n]",
           "stderr": "",
-          "seconds": 0.03,
+          "seconds": 0.0313,
           "expected_diagnostics": [
             [
               "I001",
@@ -4154,7 +4154,7 @@
           "returncode": 0,
           "stdout": "...........................                                              [100%]\n27 passed in 0.02s\n",
           "stderr": "",
-          "seconds": 0.2619,
+          "seconds": 0.25,
           "counts": {
             "total": 27,
             "passed": 27,
@@ -4281,7 +4281,7 @@
           "returncode": 0,
           "stdout": "...........................                                              [100%]\n27 passed in 0.02s\n",
           "stderr": "",
-          "seconds": 0.2646,
+          "seconds": 0.2476,
           "counts": {
             "total": 27,
             "passed": 27,
@@ -4408,7 +4408,7 @@
           "returncode": 0,
           "stdout": "[]",
           "stderr": "",
-          "seconds": 0.0309,
+          "seconds": 0.0316,
           "expected_diagnostics": [],
           "matches_documented_outcome": true
         },
@@ -4416,7 +4416,7 @@
           "returncode": 1,
           "stdout": "[\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 43,\n      \"row\": 6\n    },\n    \"filename\": \"<candidate>/problems/order_processor.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"from decimal import ROUND_HALF_UP, Decimal\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 9\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 6\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 6\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 6,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  }\n]",
           "stderr": "",
-          "seconds": 0.0287,
+          "seconds": 0.03,
           "expected_diagnostics": [
             [
               "I001",
@@ -4434,7 +4434,7 @@
           "returncode": 0,
           "stdout": "......................................                                   [100%]\n38 passed in 0.03s\n",
           "stderr": "",
-          "seconds": 0.2608,
+          "seconds": 0.2565,
           "counts": {
             "total": 38,
             "passed": 38,
@@ -4605,7 +4605,7 @@
           "returncode": 0,
           "stdout": "...........................                                              [100%]\n27 passed in 0.02s\n",
           "stderr": "",
-          "seconds": 0.2488,
+          "seconds": 0.2485,
           "counts": {
             "total": 27,
             "passed": 27,
@@ -4732,7 +4732,7 @@
           "returncode": 0,
           "stdout": "[]",
           "stderr": "",
-          "seconds": 0.0295,
+          "seconds": 0.0304,
           "expected_diagnostics": [],
           "matches_documented_outcome": true
         },
@@ -4740,7 +4740,7 @@
           "returncode": 1,
           "stdout": "[\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 43,\n      \"row\": 6\n    },\n    \"filename\": \"<candidate>/problems/order_processor.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"from decimal import ROUND_HALF_UP, Decimal\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 9\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 6\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 6\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 6,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  }\n]",
           "stderr": "",
-          "seconds": 0.0303,
+          "seconds": 0.0304,
           "expected_diagnostics": [
             [
               "I001",
@@ -4758,7 +4758,7 @@
           "returncode": 0,
           "stdout": "....................                                                     [100%]\n20 passed in 0.02s\n",
           "stderr": "",
-          "seconds": 0.2468,
+          "seconds": 0.2474,
           "counts": {
             "total": 20,
             "passed": 20,
@@ -4857,7 +4857,7 @@
           "returncode": 0,
           "stdout": "..................                                                       [100%]\n18 passed in 0.02s\n",
           "stderr": "",
-          "seconds": 0.2447,
+          "seconds": 0.2464,
           "counts": {
             "total": 18,
             "passed": 18,
@@ -4946,9 +4946,9 @@
         },
         "interruption": {
           "returncode": 1,
-          "stdout": "FF                                                                       [100%]\n=================================== FAILURES ===================================\n______ test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt] ______\n\nexception = <class 'KeyboardInterrupt'>\n\n    @pytest.mark.parametrize(\"exception\", [KeyboardInterrupt, SystemExit])\n    def test_interrupted_batch_preserves_unstarted_jobs(exception):\n        scheduler = JobScheduler(clock=lambda: 0)\n        calls = []\n    \n        def interrupt():\n            raise exception()\n    \n        scheduler.schedule(\"first\", 0, interrupt)\n        scheduler.schedule(\"second\", 0, lambda: calls.append(\"second\"))\n    \n        with pytest.raises(exception):\n            scheduler.run_due()\n    \n>       assert scheduler.run_due() == 1\nE       assert 0 == 1\nE        +  where 0 = run_due()\nE        +    where run_due = <problems.job_scheduler.JobScheduler object at 0x10891c440>.run_due\n\n<repo>/acceptance/test_015_interrupt.py:20: AssertionError\n_________ test_interrupted_batch_preserves_unstarted_jobs[SystemExit] __________\n\nexception = <class 'SystemExit'>\n\n    @pytest.mark.parametrize(\"exception\", [KeyboardInterrupt, SystemExit])\n    def test_interrupted_batch_preserves_unstarted_jobs(exception):\n        scheduler = JobScheduler(clock=lambda: 0)\n        calls = []\n    \n        def interrupt():\n            raise exception()\n    \n        scheduler.schedule(\"first\", 0, interrupt)\n        scheduler.schedule(\"second\", 0, lambda: calls.append(\"second\"))\n    \n        with pytest.raises(exception):\n            scheduler.run_due()\n    \n>       assert scheduler.run_due() == 1\nE       assert 0 == 1\nE        +  where 0 = run_due()\nE        +    where run_due = <problems.job_scheduler.JobScheduler object at 0x10894c050>.run_due\n\n<repo>/acceptance/test_015_interrupt.py:20: AssertionError\n=========================== short test summary info ============================\nFAILED ::test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt]\nFAILED ::test_interrupted_batch_preserves_unstarted_jobs[SystemExit] - assert...\n2 failed in 0.02s\n",
+          "stdout": "FF                                                                       [100%]\n=================================== FAILURES ===================================\n______ test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt] ______\n\nexception = <class 'KeyboardInterrupt'>\n\n    @pytest.mark.parametrize(\"exception\", [KeyboardInterrupt, SystemExit])\n    def test_interrupted_batch_preserves_unstarted_jobs(exception):\n        scheduler = JobScheduler(clock=lambda: 0)\n        calls = []\n    \n        def interrupt():\n            raise exception()\n    \n        scheduler.schedule(\"first\", 0, interrupt)\n        scheduler.schedule(\"second\", 0, lambda: calls.append(\"second\"))\n    \n        with pytest.raises(exception):\n            scheduler.run_due()\n    \n>       assert scheduler.run_due() == 1\nE       assert 0 == 1\nE        +  where 0 = run_due()\nE        +    where run_due = <problems.job_scheduler.JobScheduler object at 0x108e00440>.run_due\n\n<repo>/acceptance/test_015_interrupt.py:20: AssertionError\n_________ test_interrupted_batch_preserves_unstarted_jobs[SystemExit] __________\n\nexception = <class 'SystemExit'>\n\n    @pytest.mark.parametrize(\"exception\", [KeyboardInterrupt, SystemExit])\n    def test_interrupted_batch_preserves_unstarted_jobs(exception):\n        scheduler = JobScheduler(clock=lambda: 0)\n        calls = []\n    \n        def interrupt():\n            raise exception()\n    \n        scheduler.schedule(\"first\", 0, interrupt)\n        scheduler.schedule(\"second\", 0, lambda: calls.append(\"second\"))\n    \n        with pytest.raises(exception):\n            scheduler.run_due()\n    \n>       assert scheduler.run_due() == 1\nE       assert 0 == 1\nE        +  where 0 = run_due()\nE        +    where run_due = <problems.job_scheduler.JobScheduler object at 0x108e30050>.run_due\n\n<repo>/acceptance/test_015_interrupt.py:20: AssertionError\n=========================== short test summary info ============================\nFAILED ::test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt]\nFAILED ::test_interrupted_batch_preserves_unstarted_jobs[SystemExit] - assert...\n2 failed in 0.02s\n",
           "stderr": "",
-          "seconds": 0.2406,
+          "seconds": 0.2433,
           "counts": {
             "total": 2,
             "passed": 0,
@@ -4981,7 +4981,7 @@
           "returncode": 1,
           "stdout": "F                                                                        [100%]\n=================================== FAILURES ===================================\n________ test_jobs_scheduled_during_clock_read_wait_for_next_invocation ________\n\n    def test_jobs_scheduled_during_clock_read_wait_for_next_invocation():\n        entered_clock, release_clock = Event(), Event()\n        schedule_started, schedule_finished = Event(), Event()\n        calls, attempts, errors = [], [], []\n    \n        def clock():\n            entered_clock.set()\n            if not release_clock.wait(5):\n                raise RuntimeError('clock release timed out')\n            return 10\n    \n        scheduler = JobScheduler(clock=clock)\n        scheduler.schedule('original', 1, lambda: calls.append('original'))\n    \n        def run():\n            try:\n                attempts.append(scheduler.run_due())\n            except BaseException as exc:\n                errors.append(repr(exc))\n    \n        def add():\n            try:\n                schedule_started.set()\n                scheduler.schedule('new', 2, lambda: calls.append('new'))\n            except BaseException as exc:\n                errors.append(repr(exc))\n            finally:\n                schedule_finished.set()\n    \n        runner = Thread(target=run, daemon=True)\n        adder = Thread(target=add, daemon=True)\n        runner.start()\n        try:\n            assert entered_clock.wait(5), 'clock was not entered'\n            adder.start()\n            assert schedule_started.wait(5), 'scheduler thread did not start'\n            # A scheduler holding its lock during clock() may block schedule().\n            # Permit that valid implementation; never block the controller on it.\n            schedule_finished.wait(1)\n        finally:\n            release_clock.set()\n            runner.join(5)\n            if adder.ident is not None:\n                adder.join(5)\n        assert not runner.is_alive() and not adder.is_alive(), 'workers did not finish'\n        assert not errors, errors\n        first_calls = calls.copy()\n        next_attempts = scheduler.run_due()\n>       assert (attempts, first_calls, next_attempts, calls) == (\n            [1], ['original'], 1, ['original', 'new']\n        )\nE       AssertionError: assert ([2], ['origi...inal', 'new']) == ([1], ['origi...inal', 'new'])\nE         \nE         At index 0 diff: [2] != [1]\nE         Use -v to get more diff\n\n<repo>/results/018/phase23/test_r1.py:55: AssertionError\n=========================== short test summary info ============================\nFAILED ::test_jobs_scheduled_during_clock_read_wait_for_next_invocation - Ass...\n1 failed in 0.02s\n",
           "stderr": "",
-          "seconds": 0.2428,
+          "seconds": 0.2435,
           "counts": {
             "total": 1,
             "passed": 0,
@@ -5008,7 +5008,7 @@
           "returncode": 0,
           "stdout": "[]",
           "stderr": "",
-          "seconds": 0.0305,
+          "seconds": 0.0296,
           "expected_diagnostics": [],
           "matches_documented_outcome": true
         },
@@ -5016,7 +5016,7 @@
           "returncode": 1,
           "stdout": "[\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 43,\n      \"row\": 6\n    },\n    \"filename\": \"<candidate>/problems/order_processor.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"from decimal import ROUND_HALF_UP, Decimal\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 9\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 6\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 6\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 6,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  }\n]",
           "stderr": "",
-          "seconds": 0.0315,
+          "seconds": 0.0284,
           "expected_diagnostics": [
             [
               "I001",
@@ -5034,7 +5034,7 @@
           "returncode": 0,
           "stdout": "...............................                                          [100%]\n31 passed in 0.03s\n",
           "stderr": "",
-          "seconds": 0.2614,
+          "seconds": 0.2604,
           "counts": {
             "total": 31,
             "passed": 31,
@@ -5177,7 +5177,7 @@
           "returncode": 0,
           "stdout": "..................                                                       [100%]\n18 passed in 0.02s\n",
           "stderr": "",
-          "seconds": 0.2456,
+          "seconds": 0.2447,
           "counts": {
             "total": 18,
             "passed": 18,
@@ -5268,7 +5268,7 @@
           "returncode": 0,
           "stdout": "..                                                                       [100%]\n2 passed in 0.01s\n",
           "stderr": "",
-          "seconds": 0.2337,
+          "seconds": 0.2325,
           "counts": {
             "total": 2,
             "passed": 2,
@@ -5295,7 +5295,7 @@
           "returncode": 0,
           "stdout": ".                                                                        [100%]\n1 passed in 1.02s\n",
           "stderr": "",
-          "seconds": 1.2831,
+          "seconds": 1.2821,
           "counts": {
             "total": 1,
             "passed": 1,
@@ -5318,7 +5318,7 @@
           "returncode": 0,
           "stdout": "[]",
           "stderr": "",
-          "seconds": 0.0396,
+          "seconds": 0.039,
           "expected_diagnostics": [],
           "matches_documented_outcome": true
         },
@@ -5326,7 +5326,7 @@
           "returncode": 1,
           "stdout": "[\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 43,\n      \"row\": 6\n    },\n    \"filename\": \"<candidate>/problems/order_processor.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"from decimal import ROUND_HALF_UP, Decimal\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 9\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 6\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 6\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 6,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  }\n]",
           "stderr": "",
-          "seconds": 0.0301,
+          "seconds": 0.0297,
           "expected_diagnostics": [
             [
               "I001",
@@ -5344,7 +5344,7 @@
           "returncode": 0,
           "stdout": ".....................                                                    [100%]\n21 passed in 0.02s\n",
           "stderr": "",
-          "seconds": 0.2485,
+          "seconds": 0.2486,
           "counts": {
             "total": 21,
             "passed": 21,
@@ -5447,7 +5447,7 @@
           "returncode": 0,
           "stdout": "..................                                                       [100%]\n18 passed in 0.02s\n",
           "stderr": "",
-          "seconds": 0.247,
+          "seconds": 0.2455,
           "counts": {
             "total": 18,
             "passed": 18,
@@ -5536,9 +5536,9 @@
         },
         "interruption": {
           "returncode": 1,
-          "stdout": "FF                                                                       [100%]\n=================================== FAILURES ===================================\n______ test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt] ______\n\nexception = <class 'KeyboardInterrupt'>\n\n    @pytest.mark.parametrize(\"exception\", [KeyboardInterrupt, SystemExit])\n    def test_interrupted_batch_preserves_unstarted_jobs(exception):\n        scheduler = JobScheduler(clock=lambda: 0)\n        calls = []\n    \n        def interrupt():\n            raise exception()\n    \n        scheduler.schedule(\"first\", 0, interrupt)\n        scheduler.schedule(\"second\", 0, lambda: calls.append(\"second\"))\n    \n        with pytest.raises(exception):\n            scheduler.run_due()\n    \n>       assert scheduler.run_due() == 1\nE       assert 0 == 1\nE        +  where 0 = run_due()\nE        +    where run_due = <problems.job_scheduler.JobScheduler object at 0x10acac440>.run_due\n\n<repo>/acceptance/test_015_interrupt.py:20: AssertionError\n_________ test_interrupted_batch_preserves_unstarted_jobs[SystemExit] __________\n\nexception = <class 'SystemExit'>\n\n    @pytest.mark.parametrize(\"exception\", [KeyboardInterrupt, SystemExit])\n    def test_interrupted_batch_preserves_unstarted_jobs(exception):\n        scheduler = JobScheduler(clock=lambda: 0)\n        calls = []\n    \n        def interrupt():\n            raise exception()\n    \n        scheduler.schedule(\"first\", 0, interrupt)\n        scheduler.schedule(\"second\", 0, lambda: calls.append(\"second\"))\n    \n        with pytest.raises(exception):\n            scheduler.run_due()\n    \n>       assert scheduler.run_due() == 1\nE       assert 0 == 1\nE        +  where 0 = run_due()\nE        +    where run_due = <problems.job_scheduler.JobScheduler object at 0x10acdc050>.run_due\n\n<repo>/acceptance/test_015_interrupt.py:20: AssertionError\n=========================== short test summary info ============================\nFAILED ::test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt]\nFAILED ::test_interrupted_batch_preserves_unstarted_jobs[SystemExit] - assert...\n2 failed in 0.02s\n",
+          "stdout": "FF                                                                       [100%]\n=================================== FAILURES ===================================\n______ test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt] ______\n\nexception = <class 'KeyboardInterrupt'>\n\n    @pytest.mark.parametrize(\"exception\", [KeyboardInterrupt, SystemExit])\n    def test_interrupted_batch_preserves_unstarted_jobs(exception):\n        scheduler = JobScheduler(clock=lambda: 0)\n        calls = []\n    \n        def interrupt():\n            raise exception()\n    \n        scheduler.schedule(\"first\", 0, interrupt)\n        scheduler.schedule(\"second\", 0, lambda: calls.append(\"second\"))\n    \n        with pytest.raises(exception):\n            scheduler.run_due()\n    \n>       assert scheduler.run_due() == 1\nE       assert 0 == 1\nE        +  where 0 = run_due()\nE        +    where run_due = <problems.job_scheduler.JobScheduler object at 0x108d90440>.run_due\n\n<repo>/acceptance/test_015_interrupt.py:20: AssertionError\n_________ test_interrupted_batch_preserves_unstarted_jobs[SystemExit] __________\n\nexception = <class 'SystemExit'>\n\n    @pytest.mark.parametrize(\"exception\", [KeyboardInterrupt, SystemExit])\n    def test_interrupted_batch_preserves_unstarted_jobs(exception):\n        scheduler = JobScheduler(clock=lambda: 0)\n        calls = []\n    \n        def interrupt():\n            raise exception()\n    \n        scheduler.schedule(\"first\", 0, interrupt)\n        scheduler.schedule(\"second\", 0, lambda: calls.append(\"second\"))\n    \n        with pytest.raises(exception):\n            scheduler.run_due()\n    \n>       assert scheduler.run_due() == 1\nE       assert 0 == 1\nE        +  where 0 = run_due()\nE        +    where run_due = <problems.job_scheduler.JobScheduler object at 0x108dc0050>.run_due\n\n<repo>/acceptance/test_015_interrupt.py:20: AssertionError\n=========================== short test summary info ============================\nFAILED ::test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt]\nFAILED ::test_interrupted_batch_preserves_unstarted_jobs[SystemExit] - assert...\n2 failed in 0.02s\n",
           "stderr": "",
-          "seconds": 0.244,
+          "seconds": 0.242,
           "counts": {
             "total": 2,
             "passed": 0,
@@ -5594,7 +5594,7 @@
           "returncode": 0,
           "stdout": "[]",
           "stderr": "",
-          "seconds": 0.0306,
+          "seconds": 0.0294,
           "expected_diagnostics": [],
           "matches_documented_outcome": true
         },
@@ -5602,7 +5602,7 @@
           "returncode": 1,
           "stdout": "[\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 43,\n      \"row\": 6\n    },\n    \"filename\": \"<candidate>/problems/order_processor.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"from decimal import ROUND_HALF_UP, Decimal\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 9\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 6\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 6\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 6,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  }\n]",
           "stderr": "",
-          "seconds": 0.0282,
+          "seconds": 0.0307,
           "expected_diagnostics": [
             [
               "I001",
@@ -5615,7 +5615,7 @@
     }
   },
   "snapshots_unchanged": true,
-  "ended_utc": "2026-11-26T20:49:08.502387+00:00",
-  "seconds": 15.3076,
+  "ended_utc": "2026-11-26T21:00:01.310031+00:00",
+  "seconds": 15.2896,
   "unexpected_outcomes": []
 }

@@ -1,0 +1,1149 @@
+{
+  "evidence_class": "publication_transformations",
+  "base_commit": "7962df7b46711e54556ccd052192d1f6362d4a3a",
+  "description": "Empty scaffolding and redundant copies removed; experimental outcomes retained. Original bytes remain in the base commit.",
+  "removed_files": [
+    {
+      "path": "results/018/phase23/repaired/uv.lock",
+      "sha256": "772de240ca511264256b9ddfd1fafa736b0b35b08da317e543e35c91e6d9ea6d",
+      "reason": "byte_identical_repaired_copy",
+      "replacement": "snapshots/018/repaired-luna/uv.lock"
+    },
+    {
+      "path": "results/018/phase23/repaired/pyproject.toml",
+      "sha256": "0e33f688a6f353dce59f82354f59a566fe4fd558fdf853b1a0b3ba91cc605818",
+      "reason": "byte_identical_repaired_copy",
+      "replacement": "snapshots/018/repaired-luna/pyproject.toml"
+    },
+    {
+      "path": "results/018/phase23/repaired/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "byte_identical_repaired_copy"
+    },
+    {
+      "path": "results/018/phase23/repaired/.gitignore",
+      "sha256": "ed7b84e816359d17276a801802de5c362c2c572ce3e50a8670c8362b08351380",
+      "reason": "byte_identical_repaired_copy",
+      "replacement": "snapshots/018/repaired-luna/.gitignore"
+    },
+    {
+      "path": "results/018/phase23/repaired/.python-version",
+      "sha256": "a876e0b10411037a012498b9fe18d9bc1df32ed8b722a13564dc944ddcfd9135",
+      "reason": "byte_identical_repaired_copy",
+      "replacement": "snapshots/018/repaired-luna/.python-version"
+    },
+    {
+      "path": "results/018/phase23/repaired/tests/test_job_scheduler.py",
+      "sha256": "6d2d4b76b65e6d038d38e71d8810b14c177b900e94fe8076cc9b80bc1139687c",
+      "reason": "byte_identical_repaired_copy",
+      "replacement": "snapshots/018/repaired-luna/tests/test_job_scheduler.py"
+    },
+    {
+      "path": "results/018/phase23/repaired/tests/test_problem_0452_minimum_number_arrows.py",
+      "sha256": "1029aa9086e88b9ab52ef146ea4450f6fb34e330ec8bc66bc63f87023b08db80",
+      "reason": "byte_identical_repaired_copy",
+      "replacement": "snapshots/018/repaired-luna/tests/test_problem_0452_minimum_number_arrows.py"
+    },
+    {
+      "path": "results/018/phase23/repaired/problems/problem_0057_insert_interval.py",
+      "sha256": "b532b57a65c6c736cd3be33447f1d6a35b877792341d61714d31fe5722ba6327",
+      "reason": "byte_identical_repaired_copy",
+      "replacement": "snapshots/018/repaired-luna/problems/problem_0057_insert_interval.py"
+    },
+    {
+      "path": "results/018/phase23/repaired/problems/problem_0041_first_missing_positive.py",
+      "sha256": "d7de018947396bbd62751765930e986dc5d4010a2f8d4fdef0c239c43e5adb51",
+      "reason": "byte_identical_repaired_copy",
+      "replacement": "snapshots/018/repaired-luna/problems/problem_0041_first_missing_positive.py"
+    },
+    {
+      "path": "results/018/phase23/repaired/problems/rate_limiter.py",
+      "sha256": "3d258c077b48aaffe510a8e18eb62dfc8c41a16a7ea80ed80e5cb011c86b8e1e",
+      "reason": "byte_identical_repaired_copy",
+      "replacement": "snapshots/018/repaired-luna/problems/rate_limiter.py"
+    },
+    {
+      "path": "results/018/phase23/repaired/problems/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "byte_identical_repaired_copy",
+      "replacement": "snapshots/018/repaired-luna/problems/__init__.py"
+    },
+    {
+      "path": "results/018/phase23/repaired/problems/order_processor.py",
+      "sha256": "af9e2f58705eca15ccebbb5a7b6c9625e0e4c4696b8d334912fd6fbd3eda2522",
+      "reason": "byte_identical_repaired_copy",
+      "replacement": "snapshots/018/repaired-luna/problems/order_processor.py"
+    },
+    {
+      "path": "results/018/phase23/repaired/problems/job_scheduler.py",
+      "sha256": "433a71bcc261506465cb0083254d6ac900527ed35268bf7af6e4e2b3102825f4",
+      "reason": "byte_identical_repaired_copy",
+      "replacement": "snapshots/018/repaired-luna/problems/job_scheduler.py"
+    },
+    {
+      "path": "results/018/phase23/repaired/problems/problem_0452_minimum_number_arrows.py",
+      "sha256": "f95a51ba97d3a3b159837633016f52e9324f7f208053da8c075bc4bfcdc9cd47",
+      "reason": "byte_identical_repaired_copy",
+      "replacement": "snapshots/018/repaired-luna/problems/problem_0452_minimum_number_arrows.py"
+    },
+    {
+      "path": "results/018/phase23/repaired/problems/pair_counter.py",
+      "sha256": "44173c7d8a0672534dd0389c53b18e556d26aaa3edee9ecedd539e7a343d6b5f",
+      "reason": "byte_identical_repaired_copy",
+      "replacement": "snapshots/018/repaired-luna/problems/pair_counter.py"
+    },
+    {
+      "path": "snapshots/015/luna/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "empty_snapshot_readme"
+    },
+    {
+      "path": "snapshots/015/sol/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "empty_snapshot_readme"
+    },
+    {
+      "path": "snapshots/015/baseline/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "empty_snapshot_readme"
+    },
+    {
+      "path": "snapshots/012/luna/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "empty_snapshot_readme"
+    },
+    {
+      "path": "snapshots/012/sol/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "empty_snapshot_readme"
+    },
+    {
+      "path": "snapshots/012/baseline/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "empty_snapshot_readme"
+    },
+    {
+      "path": "snapshots/013/luna/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "empty_snapshot_readme"
+    },
+    {
+      "path": "snapshots/013/sol/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "empty_snapshot_readme"
+    },
+    {
+      "path": "snapshots/013/baseline/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "empty_snapshot_readme"
+    },
+    {
+      "path": "snapshots/014/luna/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "empty_snapshot_readme"
+    },
+    {
+      "path": "snapshots/014/sol/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "empty_snapshot_readme"
+    },
+    {
+      "path": "snapshots/014/baseline/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "empty_snapshot_readme"
+    },
+    {
+      "path": "snapshots/009/luna/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "empty_snapshot_readme"
+    },
+    {
+      "path": "snapshots/009/sol/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "empty_snapshot_readme"
+    },
+    {
+      "path": "snapshots/009/baseline/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "empty_snapshot_readme"
+    },
+    {
+      "path": "snapshots/008/luna/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "empty_snapshot_readme"
+    },
+    {
+      "path": "snapshots/008/sol/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "empty_snapshot_readme"
+    },
+    {
+      "path": "snapshots/008/baseline/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "empty_snapshot_readme"
+    },
+    {
+      "path": "snapshots/018/repaired-luna/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "empty_snapshot_readme"
+    },
+    {
+      "path": "snapshots/011/luna/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "empty_snapshot_readme"
+    },
+    {
+      "path": "snapshots/011/sol/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "empty_snapshot_readme"
+    },
+    {
+      "path": "snapshots/011/baseline/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "empty_snapshot_readme"
+    },
+    {
+      "path": "snapshots/016/luna/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "empty_snapshot_readme"
+    },
+    {
+      "path": "snapshots/016/sol/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "empty_snapshot_readme"
+    },
+    {
+      "path": "snapshots/016/baseline/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "empty_snapshot_readme"
+    },
+    {
+      "path": "snapshots/017/luna/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "empty_snapshot_readme"
+    },
+    {
+      "path": "snapshots/017/sol/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "empty_snapshot_readme"
+    },
+    {
+      "path": "snapshots/017/baseline/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "empty_snapshot_readme"
+    },
+    {
+      "path": "snapshots/010/luna/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "empty_snapshot_readme"
+    },
+    {
+      "path": "snapshots/010/sol/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "empty_snapshot_readme"
+    },
+    {
+      "path": "snapshots/010/baseline/README.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "empty_snapshot_readme"
+    },
+    {
+      "path": "validation/release-2026-11-26/018-luna-original-interruption.xml",
+      "sha256": "68690f45a511aba443966cdd34d88762e9e942d7b69867d774e12df14098b618",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/015-sol-acceptance.xml",
+      "sha256": "ca669e82cd7e7b47c4a973814dbd5e477c4e1087453e525c371b2d501ef7b952",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/013-sol-repository.xml",
+      "sha256": "cd5ab837eb43d4e37131f39050f302cf91ea8a00e54307d46c1a378fd704fa82",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/018-luna-original-repository.xml",
+      "sha256": "c2fdbad4451b81ff7094802a0db6572a861beb61ab700fd02af3b9ee891aa494",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/report.json",
+      "sha256": "c787d8e34b7d25439a934e2f3f8a3215b45a33c3e068e07c22d5146241011795",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/016-sol-acceptance.xml",
+      "sha256": "152c9d05bfcb11d3c94f74db842802ee968956307013c3f03c556e72b309cb4a",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/010-sol-repository.xml",
+      "sha256": "5dd58a787bd753f7d1db541de313fb8ced21d48e24d51dd39d31fd4176d44f9a",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/summary.md",
+      "sha256": "7c5cc8b401a0eee71a97f7a09aed14bf89a0f56d3acbdaae769f2f897481da60",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/016-sol-repository.xml",
+      "sha256": "c7b160ec195c6a7d4916b0608d06322b3eea601d5326261d714b730dde7fd94c",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/018-luna-original-acceptance.xml",
+      "sha256": "9a58fb68d57c8b28add1559117d18b07ae491d1177d37f33d174da9cd4701723",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/018-sol-original-r1.xml",
+      "sha256": "51a39a26c11114ddbafc1a2aab397e48a2ffd406898e29086f3fa901494def28",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/018-luna-repaired-r1.xml",
+      "sha256": "6e4b8b3d1d2b1d3d6e7466fe929d6e11d3298a93787b96b51d290b6787f1ff72",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/008-sol-repository.xml",
+      "sha256": "c9e7201756b5fa5c077d0ae75957a8fb243851a5de44d0c7bfb51f25a9e58040",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/015-sol-repository.xml",
+      "sha256": "affcbb31f11822b1e5b91113e802c08b522a646c278b2f18e662e83019528b9e",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/013-sol-acceptance.xml",
+      "sha256": "7c0875d8d3f4568926d8cf0e14230472a6e3f4a01daf979ee61ece230208540f",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/018-sol-original-interruption.xml",
+      "sha256": "a81194c225911b6b3575116f07f428b14556ca0da83a921e3989cbe3365d8fcc",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/016-luna-repository.xml",
+      "sha256": "da6695bb45e7a78c6029407ae7e50580d54bf859c7cd5e07c49b91dd75e75d5d",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/018-luna-repaired-interruption.xml",
+      "sha256": "b39825ddbe8ef46109b0e11c1cfade46e1d7cf2625ee9da4809094ae1a4349cf",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/017-luna-repository.xml",
+      "sha256": "612a3293ff0b4a303ac3ec5ce04a0fced972b1f91675de2047f92ffed03b3024",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/014-luna-repository.xml",
+      "sha256": "b016864a4afa4f00865f3f7166afaf49732b3035a7d4f041aabb9a89165c70bd",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/014-sol-repository.xml",
+      "sha256": "5100a5bbae06f4b7670b45388ba46c3f296d02313c0bc4db1451477279862481",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/012-sol-acceptance.xml",
+      "sha256": "69e6b5895eb08b852e860398570e2429f28e592fe2645e905ead6a6c882e2d10",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/009-sol-repository.xml",
+      "sha256": "a7eca9a663cc03c9ee872a1deb0be6265eab64740a5c736f71f7d9690f446147",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/015-luna-repository.xml",
+      "sha256": "4ac98d7346c41723e33b07340a29b6c2bf51e25ba5d2e689be1bc17d65cd0e12",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/015-luna-interruption.xml",
+      "sha256": "3d52fbefcd25eb27a6f96b1dd503edae2e52332f61ac128e4838466cc109cf89",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/013-luna-repository.xml",
+      "sha256": "e161480bd3934df77c65574f5a9bd9fffa3c5c3e5e4771c80a17e4938cbf94ba",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/017-sol-repository.xml",
+      "sha256": "8a3195dd86fff93d178d8aafb440e861d76cc4460038103c43ff7c71b1552620",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/012-luna-repository.xml",
+      "sha256": "910475413485a895555b66757b95f398ef48208dc5080b85a28bb02574469568",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/011-sol-acceptance.xml",
+      "sha256": "56244238ea11fff2c447dab5a89b4e7348dac0d8124e325e846ff7d8d9485538",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/008-luna-repository.xml",
+      "sha256": "8f2f7a6f2bda6261127b5f2bb3c6cb5726c8905c4c0a0da4ad084fa534f93a25",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/011-luna-repository.xml",
+      "sha256": "fa9487569e2b46f3db1f82ac7ecc11ae492298526bd76a4bb5f6bdec0fb85cc3",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/018-sol-original-acceptance.xml",
+      "sha256": "52fef8437d301fcee04ee03d3a9014befe98dece05a73afdbc8f75b59e7f9219",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/009-luna-repository.xml",
+      "sha256": "1067e57a2675882610aef2c7bf2c52092b1e5362280237f658bc738edf793bfa",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/010-luna-repository.xml",
+      "sha256": "e5a35238d2429e7b0f9429651bd0e4215370cabd27dbdd8448e078dcf799daae",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/018-luna-repaired-acceptance.xml",
+      "sha256": "05ee3c5159802ef54d19c831a71e63dd5f94c319b1fc521f5daf518cff225aec",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/011-luna-acceptance.xml",
+      "sha256": "50d8f2dd65c34b726eb792c66116e96a63d0c99e6773835fda3866f2d5b4dfa8",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/018-sol-original-repository.xml",
+      "sha256": "bcbde5dec5dfd8835ba03b9e55dd557e4f8d9342d9c1b82fa666377e20994d8b",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/018-luna-repaired-repository.xml",
+      "sha256": "d22fdc13d780064dcf85b7f93af2d3cbc9d6502e991307b2c21ab4b32cae24ae",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/013-luna-acceptance.xml",
+      "sha256": "e97808eabf679db906e2be5a7c231d51e7fa8c20f0d966eccf8942b16f361ec6",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/012-luna-acceptance.xml",
+      "sha256": "8f1545782b1174755482844da478d62c7f40626d5585cbb474efd993c6ae2cc6",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/017-sol-acceptance.xml",
+      "sha256": "169e04a140017e93985cc996ec6e92f86ba0a09884f421f5b0cd90384dcb108d",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/011-sol-repository.xml",
+      "sha256": "c08aceb6cfe21cb29b3d58f0d208be2dd007df42f24064712f3e083f88ea4a00",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/014-sol-acceptance.xml",
+      "sha256": "164a1fa42ed51310e09924f835394b28077066b6e2d3c87a07bb66e56dd0e4cc",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/014-luna-acceptance.xml",
+      "sha256": "85b809e9c32ce86e999fff7323e1a97d73346fd46b05b58d3ff1bb6c85510ed5",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/012-sol-repository.xml",
+      "sha256": "2b71bdfe14348860c3acb0aa89175663d14882be83fb52649c9514309743ed52",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/015-luna-acceptance.xml",
+      "sha256": "d7f4eb090c1b0eef0985b5dc8690ba00354abd0273288b3933c7377ca94ce814",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/018-luna-original-r1.xml",
+      "sha256": "d0672041825d7d5b678ac8f640dadc5d81924fb01e2d0c6885d2f46f101459f5",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/016-luna-acceptance.xml",
+      "sha256": "bdff6c6a90f3bd6c6939c9928ad336382cc267b63a034e4d4ea54f8d6540c040",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/015-sol-interruption.xml",
+      "sha256": "5c51fd99f57019cee5054b38a8b3f8f0e94fa2652c140143cac018f9601c78ca",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/release-2026-11-26/017-luna-acceptance.xml",
+      "sha256": "cabdc9d5574bfe326dbbdc5ce42407458a3fc606c4b52c9f2be5b23f8287fd63",
+      "reason": "redundant_validation_same_code_and_tests",
+      "replacement": "validation/editorial-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/018-luna-original-interruption.xml",
+      "sha256": "16324d8d6c244f62b80968114f9cac4edcf031a9c6170d8b59feed874bc6af0c",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/015-sol-acceptance.xml",
+      "sha256": "8e2b6b80fd505878752b904558bcf181bb2035484952e65e798359ecd111d0d9",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/013-sol-repository.xml",
+      "sha256": "bd03156e91a11ef8f554dd883459fb95b7f188bc4bd1d7c35445f9af59667e42",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/018-luna-original-repository.xml",
+      "sha256": "c1f5f6e9ea27af93352d8de930bcbf07c14bd078c911a7b83f7e920ad6240a8c",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/016-sol-acceptance.xml",
+      "sha256": "fc1ffa9c11479430346d2ca38f9c5f9edd44cdd83477c383c5ce51f0931c5953",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/010-sol-repository.xml",
+      "sha256": "84d724a71b2a0af84b22d921656059ea0d523e7e3282d0d6df171dcc6d6ae044",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/016-sol-repository.xml",
+      "sha256": "607eb9b6162b1283da8384647781513cd9ac551ac16c0776f462825042114eab",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/018-luna-original-acceptance.xml",
+      "sha256": "58f6cebfebf9e383ea1c1d13158f83810607f1aeed069852f2d3182740457bbe",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/018-sol-original-r1.xml",
+      "sha256": "470f5d2eda2d2f3f6de867e40a4458e30edbfc648d47ea4e13e4578278ffe8c6",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/018-luna-repaired-r1.xml",
+      "sha256": "d70209d3ee6b177c1fcf2b7ebb775e025898ab71013cc39814ad5dc7f5f23042",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/008-sol-repository.xml",
+      "sha256": "71651677487f217682b6677f02df3307800477d1533f45e64f6bf71c389414bf",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/015-sol-repository.xml",
+      "sha256": "a4c88b137840e924d5b57701e1279cb551e85f777e09dadfaba7674a582a9937",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/013-sol-acceptance.xml",
+      "sha256": "a736748e9364268ca0bbaec2efb7f1db1712c37e924169ad24d02f56299e6238",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/018-sol-original-interruption.xml",
+      "sha256": "deeb4063f72789a23c7883e054daf31fc489eab2566fc20efbc43ed5092604a6",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/016-luna-repository.xml",
+      "sha256": "759b229f538c954be729fb60c14defb87ecba9753e89dd0a23adb130b5a4a3f5",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/018-luna-repaired-interruption.xml",
+      "sha256": "063b326f4c990e4302d2684a66b9f21866d1e271f5a7e96da72668691294e93e",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/017-luna-repository.xml",
+      "sha256": "415cced905c926b2868938e69e5fe74abca8aad6f360aacf0a92162e0fef92e3",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/014-luna-repository.xml",
+      "sha256": "5806ad427acd8a49b8172d20e85da61d91c031ca951415d91fd66c051b558d64",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/014-sol-repository.xml",
+      "sha256": "fcf4d6c49226043e4c4aa4be0b961cc2b17714b8aa85c178b76c61b38284b09a",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/012-sol-acceptance.xml",
+      "sha256": "44a5988b94d41549cf5529d343d56f2fded55843c3041c57939f9f554986ba98",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/009-sol-repository.xml",
+      "sha256": "dbf08b840418f1df184df6ebbec232d923cf588d4b3268d595b76572a7c0a8a7",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/015-luna-repository.xml",
+      "sha256": "d34fce1fa8ec8bf9855af1533f2beb3c577903b0a949c17fd8a5922eb618d61f",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/015-luna-interruption.xml",
+      "sha256": "12ee6bf10b89ee02377348bdd24ac13aada103badf3427f48ce71d3e0aa2e719",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/013-luna-repository.xml",
+      "sha256": "a9edef59eb35e794fc542036e3bda22a4fd31ced33bdd593cce95c21994e83fa",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/017-sol-repository.xml",
+      "sha256": "159c2595333bca5f2d6a8e976d6bce49a819d613f30cc13f86ab14fd6328df24",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/012-luna-repository.xml",
+      "sha256": "55dba84125d1064dd150411d35449dc5e668c4040d74ffef8697e4599317f8ce",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/011-sol-acceptance.xml",
+      "sha256": "d7029344f3f53432caf4e6dcf02613180a4dd32d5f178ef38fe4611cecbdd576",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/008-luna-repository.xml",
+      "sha256": "86119585f23e4795f0f2972851ddc44ed9b41556fea2ad9972bf5d407780edfe",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/011-luna-repository.xml",
+      "sha256": "434606cb05cfea15e8ae236e99a7aa35ef23d626a90c2ffb85ae84a5bfe4fd91",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/018-sol-original-acceptance.xml",
+      "sha256": "3827f0e6c8486faa33d3e49346fde4f38b415cf5de6b6f738b623427d56b0628",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/009-luna-repository.xml",
+      "sha256": "480e7e5044a3d129d833b3da27b741f9afe8f31931dc1bb9b7bf221cc5dfe664",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/010-luna-repository.xml",
+      "sha256": "a18a67a597dc21e9517eaefe20ccbc7964485fbb6342ac7e31e55a0961218014",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/018-luna-repaired-acceptance.xml",
+      "sha256": "29ffeb6063549a0a48a4019e6dee2e75b1115138d015c5204e9c167713de2c10",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/011-luna-acceptance.xml",
+      "sha256": "926c56e36f0b795ce7ced510df7e00399e95666304dd19d38a7e1008f7d2ba0b",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/018-sol-original-repository.xml",
+      "sha256": "9b205a48bed3c9c8707e2ac70231e5eeb08e4cd32d875c3b849b33840ca148f1",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/018-luna-repaired-repository.xml",
+      "sha256": "b61a9dce7a12beda93734db136bff67792b96ef996bc4be8ec483b277450bc63",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/013-luna-acceptance.xml",
+      "sha256": "fdd68339be305b8f59fe0f169b1219d431e880f5f987d17c75c1e34faead4070",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/012-luna-acceptance.xml",
+      "sha256": "950f2bb51a94a6fddcbf5c15c7f8f0f113a2abaa7b65608cf793485ef155c8a5",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/017-sol-acceptance.xml",
+      "sha256": "455aa0aac16f044f6dc70c9e766e4256bd56986302cf2c62a1a9f75fa663e8ba",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/011-sol-repository.xml",
+      "sha256": "ba0bc08f878e4fcc540ba36d1ea370c0207df7f6c081bc6a8783fd0286dae60e",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/014-sol-acceptance.xml",
+      "sha256": "2eb3ddac59baf940e0d469b90c724ecb3ebcd13341b332fe960c39b740e8a0a9",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/014-luna-acceptance.xml",
+      "sha256": "33113e2f520899131a5eafdd09f79bcd66e0002ab9f9bfedcbce37a54ba39a46",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/012-sol-repository.xml",
+      "sha256": "fded9f7a7a3f467ef8fd736ede845387a579262b2864af3a14eee50320f3985a",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/015-luna-acceptance.xml",
+      "sha256": "b896f2d38d17d98597e7dec6e8d12034fceba3050808467a37453a3bea62d493",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/018-luna-original-r1.xml",
+      "sha256": "2943d2ce8b713ae97172736357b1f23ddcc984d0938acb01aa89c128adc0eba3",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/016-luna-acceptance.xml",
+      "sha256": "2e7ed47385714a7588ef247b8eb547bb4477b75a96717b0c1e2f40b5f82a9c20",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/015-sol-interruption.xml",
+      "sha256": "541f632ef73f65b4e92128e6de091cdd757963dd602dde49f0d47bccb080f09a",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-baseline-check-2026-11-26/017-luna-acceptance.xml",
+      "sha256": "367884000e8f5639fd1a3b5777780a7915f2743d6f8c3ffebae7487186016063",
+      "reason": "diagnostic_junit_duplicated_in_retained_report",
+      "replacement": "validation/audit-baseline-check-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/018-luna-original-interruption.xml",
+      "sha256": "752662777f368af9d6664d164a829a1557c46651c695ef6bcd4f76a98d380de9",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/015-sol-acceptance.xml",
+      "sha256": "913d676dc0ce0ca0f89844eb0b12d0f8bdeb88a0f60d8768f8386b4b4f7d05d7",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/013-sol-repository.xml",
+      "sha256": "09976b8917538bff8b9d2bac2ca280d4525e1092f0beb043c82425c57962a566",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/018-luna-original-repository.xml",
+      "sha256": "3ebef6902f39820c82a70784ba52af780bd4a9429024de8ca105d858058f6dd5",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/report.json",
+      "sha256": "7b6f65788f12610b4c3839c129759574c7b0b59ba7c0b9304cd0caa1183be36e",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/016-sol-acceptance.xml",
+      "sha256": "bc7cf79b8290441b64c32054ba9ccf87ebb649152aeaa7f0a3d71d08f63cd066",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/010-sol-repository.xml",
+      "sha256": "06dc6df911c856ccf2076d4e5c53a66dc617ff04758a8d49337f16c878357a44",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/summary.md",
+      "sha256": "2599a11d5dc53618e2f4f18bc3047abe6f57a0563725f591f25d744f59687bbc",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/016-sol-repository.xml",
+      "sha256": "1ef55ab9b5d84ab8802933d7218c214ac72f2c1758a56edbb96c11654c7207b3",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/018-luna-original-acceptance.xml",
+      "sha256": "0d80fd289393edbd34be628566aa106fa334eceb84d348b8a5efc66942b73616",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/018-sol-original-r1.xml",
+      "sha256": "5ded17daed68c25f4337403fc7d6bc591462eb8f906822a38ca7687cebaa9225",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/018-luna-repaired-r1.xml",
+      "sha256": "efbaf847979e5f652ff5e41a296be2dcbcaaecc576e16cd23a4d2f30710577bb",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/008-sol-repository.xml",
+      "sha256": "dfa98c7b20f444720f26cb4dbcd16807977f08fffeabca7ee5034a146474db1e",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/015-sol-repository.xml",
+      "sha256": "5a6541a16b69befe2972a7e24db021b4e9a75988c9aaccc354857bfc93bf01a0",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/013-sol-acceptance.xml",
+      "sha256": "ae8f85496706377a12a66422829f1f344b676d0c0ea1005b9d1a4f30221f3800",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/018-sol-original-interruption.xml",
+      "sha256": "1ae57bed968df023715a966553859cd88ea05c10bd559156fd8f64973d813b22",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/016-luna-repository.xml",
+      "sha256": "94977184801ac1986494b24d4bda91339745aff1b81d07b8bef62386e846bb45",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/018-luna-repaired-interruption.xml",
+      "sha256": "173b09f4ecd7fa6e177e507a5cd924e1e692138bde25ccfc55d745170ade0b24",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/017-luna-repository.xml",
+      "sha256": "247753be83f1664683d0aeaf1410921b8f4c9faf63a102926546899e307cb36b",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/014-luna-repository.xml",
+      "sha256": "9ea80134cab34231110980b9f6580c4c850566d05d483c1a5641247b366fbcdc",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/014-sol-repository.xml",
+      "sha256": "81700b484e1a210828eb01bfa5e51a91799ae50b4a25cb76adcb2f51e769b8e7",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/012-sol-acceptance.xml",
+      "sha256": "2ab1c4533f67c4ef80407f379e47e2d94bb1fa5fdc30edcfd4809d3e12c52dce",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/009-sol-repository.xml",
+      "sha256": "a672d7c82d296002ba3e68237aa5bc25b3a92fde158530877d304fa846e1a628",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/015-luna-repository.xml",
+      "sha256": "4dc50b644b2ccdf654e5dc747e3e7407b2d4220c036702a8f1558cfd16f888fc",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/015-luna-interruption.xml",
+      "sha256": "272df218c9e6d3727cd4bd794de122502d64b2b600d4473dea4bacca3af4f499",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/013-luna-repository.xml",
+      "sha256": "73bfe9d3598cdf0bbd08e9ec7163471ef7b8e48026a79152553feb26f26ddc99",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/017-sol-repository.xml",
+      "sha256": "136264c4e133ec32d49df08b67d73710e6d86e139be0c04b154b020948f95b3d",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/012-luna-repository.xml",
+      "sha256": "fa614ea080d5cd1823230d38baf97b8ca02c0d2edc5f127d1f5e915570083557",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/011-sol-acceptance.xml",
+      "sha256": "1440571003d21befe327a61480746d71807cd18483ad13b833d6225231eedc10",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/008-luna-repository.xml",
+      "sha256": "eae92e5fa8a047c44a1279de23a262c8db6d9e63efc6d2d00dc879ce125714d8",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/011-luna-repository.xml",
+      "sha256": "af9249e71cc01f46b152bde9bc09ca8c6b9dd4630ec19d259e6972b243bca14f",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/018-sol-original-acceptance.xml",
+      "sha256": "12937188f673d140918faa07c369e1609dccd5eeac543482bafae5ee1a88caf2",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/scaling-014.json",
+      "sha256": "68b662a1ea728e5bf38292df73a01866d187a3c57d4bf56515c2c26ff2e161ed",
+      "reason": "scaling_relocated",
+      "replacement": "validation/technical-closeout-2026-11-26/scaling-014.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/009-luna-repository.xml",
+      "sha256": "4551e0ecef733cbb39ecb14f25ae8d8835af0aec8eb63f9f40c9e8ddfc72bacf",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/010-luna-repository.xml",
+      "sha256": "f39971bc944b249b250a31df02a738eaccdcd3e99ab2600ac457b026290e3f85",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/018-luna-repaired-acceptance.xml",
+      "sha256": "7734585a45cde97ac6edddde757e18f4598153d25d4ed6b55d7020eff6be1228",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/011-luna-acceptance.xml",
+      "sha256": "084ca8184a832d821d3f6313660adeacbd32b460e8b47370ced2c46d60bfd1fd",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/018-sol-original-repository.xml",
+      "sha256": "a5f41e0475017b1fad577ad4bd54e063b840b598b2e187a3909f553ff3020737",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/018-luna-repaired-repository.xml",
+      "sha256": "d575df661fe1a87bd9283770cdb5491cbb0e7701ad17061d5b13914cf798182d",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/013-luna-acceptance.xml",
+      "sha256": "992b46b4471511c51cd40b51445d22c949a567fab7124ea405e59cd6b908cfc4",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/012-luna-acceptance.xml",
+      "sha256": "2ae515d26d151e83839afd68a17ecb596150612445c8ca6a116dbed334458312",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/017-sol-acceptance.xml",
+      "sha256": "ff50344ec94a2809f69458b1c5e068e45d5edc297a9705fee04dbcd5f9701a8a",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/011-sol-repository.xml",
+      "sha256": "b75494012a00d794afea3bc6696f89d627a3a3f97a0cd9f0698a5ef648734d94",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/014-sol-acceptance.xml",
+      "sha256": "4a35f0608fdcc93f31fb446fb9e51918869f379ccc4bed7fafa55a30ee40d19c",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/014-luna-acceptance.xml",
+      "sha256": "12fc02a1efd00d4a1c16bc0971d594f0183aa854dccfac2bd05e7abfcef5207a",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/012-sol-repository.xml",
+      "sha256": "f92202a557d1b3eb9ee9b429f1a606d5ced88c608b63e11cace202b6ba930280",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/015-luna-acceptance.xml",
+      "sha256": "7b5c6a89104eb675551ce080b060f0d18f474520ac6f75219ab3021ab2673b3d",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/018-luna-original-r1.xml",
+      "sha256": "04f7fd6d671e9add46f9e7477cbfa092bf80eaeeae05aaf62179144dc1cccc94",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/016-luna-acceptance.xml",
+      "sha256": "1fc09e7a563f0f1099078e0ebc5eb45fa6560cf2d0b51c925ba9f30475b18ebb",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/015-sol-interruption.xml",
+      "sha256": "9415742c298a0056a5c6fde8fa0f4b88cb406ef8b1cefafbba725a1881ac2299",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    },
+    {
+      "path": "validation/audit-corrections-2026-11-26/017-luna-acceptance.xml",
+      "sha256": "744e7cfc61ece929aac9ab784b93f8b2988b6dd2c7f89b09bc4bc7740c954723",
+      "reason": "superseded_by_final_technical_validation",
+      "replacement": "validation/technical-closeout-2026-11-26/report.json"
+    }
+  ],
+  "historical_path_resolution": {
+    "results/018/phase23/repaired/": "snapshots/018/repaired-luna/"
+  },
+  "snapshot_metadata_note": "Historical pyproject.toml readme declarations and hash records still name the omitted empty README.md files. Snapshots are evaluated as source, not packaged as distributions."
+}

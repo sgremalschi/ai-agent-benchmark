@@ -1,71 +1,75 @@
-# AI Coding Agent Benchmark
+# What Passing Tests Missed: Reviewing and Repairing AI-Written Code
 
-This repository presents 11 experiments in implementing, repairing, and reviewing Python software with AI coding agents. It contains 31 source snapshots and an evaluator covering 23 candidate entries.
+Both agents' job schedulers passed all 18 independent acceptance tests. Subsequent review and independent testing uncovered a scheduling race and an interruption cleanup defect in Luna's implementation. A focused repair fixed the race; both supplementary interruption checks still failed.
 
-The tasks range from small algorithms and caches to concurrent scheduling and transactional order processing. Independent tests expose defects that the agents' own tests miss and help assess what a subsequent review improves.
+This repository preserves that case alongside ten other Python coding experiments with AI agents. It includes task inputs where available, source snapshots, agent-written tests, independent checks, and recorded results. Software engineers can use it to study how a passing test suite, a plausible review, and a successful repair each leave different questions unanswered.
 
-## Main finding
+A second coding agent can uncover defects the first one missed, but neither agent replaces independent verification.
 
-In experiment 018, Sol (`gpt-6.1-sol`) reviewed a scheduler written by Luna (`gpt-6-luna`). Luna then repaired the one independently verified finding: a scheduling race that allowed a newly inserted job into an already-running batch. The repair fixed that defect while leaving two interruption failures unresolved.
+## Three minutes: The finding and the lesson
+
+In experiment 018, Sol (`gpt-6.1-sol`) reviewed Luna's (`gpt-6-luna`) scheduler from experiment 015. Only the independently verified finding was supplied to one fresh Luna repair session. Its output was then frozen and evaluated.
 
 | Independent check | Original Luna | Original Sol | Repaired Luna |
 |---|---:|---:|---:|
 | Original acceptance suite | 18/18 | 18/18 | 18/18 |
-| Supplementary interruption suite | 0/2 | 2/2 | 0/2 |
 | Scheduling-race regression (R1) | 0/1 | 1/1 | 1/1 |
+| Supplementary interruption checks | 0/2 | 2/2 | 0/2 |
 
-Review and repair added **68.43 seconds of agent execution**, bringing the collaborative total to **161.09 seconds**. This demonstrates a targeted improvement at a measured cost, with defects still unresolved. It does not establish that collaboration is generally faster, cheaper, or more reliable.
+These are the [recorded experiment 018 outcomes](results/018/phase23/final-report.json), also reproduced by the local evaluator. The interruption checks cover `KeyboardInterrupt` and `SystemExit`: two cases exposing the same cleanup defect. They supplement the original task requirements.
 
-For a short technical review, inspect the [repair diff](results/018/phase23/repair.diff), [verification ledger](results/018/verification-ledger.json), and [final comparison](results/018/phase23/final-report.json).
+Review and repair added **68.43 seconds of recorded agent execution** (+73.85%), bringing the implementation/review/repair total to **161.09 seconds**. Setup and evaluation took additional time; active human effort was not measured. See the [effort breakdown](METHODOLOGY.md). This is one successful targeted repair, with unresolved failures, rather than evidence of a general model ranking.
 
-## Experiments
+### How the race works
 
-| Experiment | Task | Available evidence |
-|---|---|---|
-| 008 | Merge intervals | Implementations and repository tests |
-| 009 | TTL/LRU cache | Implementations and repository tests |
-| 010 | Cache statistics | Implementations and repository tests |
-| 011 | Bounded task queue | Implementations, repository tests, and recovered acceptance suite |
-| 012 | Rate limiter repair | Recorded results and independent acceptance tests |
-| 013 | Behavior-preserving order refactor | Recorded results and independent acceptance tests |
-| 014 | Pair-counting optimization | Recorded results and independent acceptance tests |
-| 015 | Concurrent job scheduler | Acceptance and supplementary interruption tests |
-| 016 | Inventory reservation repair | Recorded results and independent acceptance tests |
-| 017 | Multi-file order system | Recorded results and independent acceptance tests |
-| 018 | Cross-model scheduler review and repair | Review finding, repair, and independent comparison |
+`run_due()` chooses a batch of jobs, then runs their callbacks. Jobs inserted after the batch boundary should wait for the next invocation, even if their scheduled time has already arrived.
 
-Both models passed the recorded independent acceptance suites for 012–017. Luna's recorded agent time was lower in each pair. These single runs, in a fixed execution order, do not support a general speed ranking. The scheduler's supplementary failures also show why passing acceptance does not establish complete correctness.
+The [original Luna implementation](snapshots/015/luna/problems/job_scheduler.py) reads the injected clock before capturing that boundary. If the clock pauses while another thread inserts a job, the new job can enter the current batch. The [repair](results/018/phase23/repair.diff) captures the insertion sequence under a short lock before reading the clock. The new job then waits for the next invocation. The API and existing scan/sort approach stay the same.
 
-## Run the evaluation
+A separate problem remains: Luna reserves the whole batch before running callbacks. If a callback raises `KeyboardInterrupt` or `SystemExit`, execution escapes the loop and leaves jobs that have not run reserved. Later invocations select only pending jobs, so those jobs are stranded. The review missed this defect, and the targeted repair leaves it visible.
 
-The evaluator makes no model calls and requires no AI credentials or original research repositories. Tests ran on **Python 3.14.7 on macOS**, using `uv`. Other platforms and Python versions remain untested.
+### Lessons to apply
 
-From the repository root:
+- Test specific sequences of thread actions. A worker announcing that it started does not prove it reached a blocking wait.
+- Reproduce a review finding before supplying repair feedback. Keep the regression focused on behavior so it permits alternative locking designs.
+- Freeze a repair and report remaining failures. Passing the original acceptance suite did not establish scheduler correctness.
+- Check the validator itself. Later audit corrections added exact output-type checks, quantity-type boundaries, and protection against missing or reduced test suites.
+
+## Ten minutes: Reproduce the scheduler case
+
+From the repository root, with `uv` installed:
 
 ```sh
-uv run --locked python tools/evaluate.py
-```
-
-To evaluate only experiment 018:
-
-```sh
+uv run --locked python tools/check_publication.py
 uv run --locked python tools/evaluate.py --experiment 018
 ```
 
-Each run writes a new directory under `validation/`, containing a JSON report, Markdown summary, and JUnit XML. Checks run in separate processes against temporary candidate copies. The lockfile pins the test dependencies. `uv` may download Python or public packages if needed.
+The locked environment uses Python 3.14 and may download Python or packages on first use. Validation has been tested on Python 3.14.7/macOS. Other environments remain unverified. These commands make no model calls and need no AI credentials.
 
-**Exit 0 means the results match the documented expectations, including known failures. It does not mean every test passed.** Exit 1 indicates an input-integrity mismatch, unexpected outcome (including changed test identities/counts), or a snapshot changed during execution. Invalid arguments and runtime or dependency failures are tool errors.
+The evaluator checks published input hashes, runs temporary candidate copies, and enforces the expected test identities and counts. Each run writes a new directory under `validation/` with a summary, JSON report, and JUnit XML.
 
-The [current reproduction results](validation/audit-corrections-2026-11-26/summary.md) cover all 23 candidate entries with zero unexpected outcomes. The [earlier full-test validation](validation/p1-2026-11-26/summary.md) used the pre-exclusion test set. The release omits identified example cases without established distribution permission, so repository-test counts differ. Historical implementations remain unchanged. [Post-audit corrections](provenance/AUDIT_CORRECTIONS.md) strengthen the 011 and 016 acceptance suites; earlier validation records retain their original test sets.
+**Exit 0 means the observed results match the documented expectations, including known failures. It does not mean every test passed.** Original and repaired Luna should fail the interruption checks; original Luna should also fail R1. Inherited repository lint failures are recorded separately.
 
-## How to interpret the evidence
+Run the integrity checker before generating local reports: its full publication inventory also notices added output files. Keep local reruns separate from retained publication evidence.
 
-Recorded experimental results, source reconstructed from commits, and fresh local validation are distinct evidence classes. Original prompts and structured measurements for 008–011 were unavailable; later passing tests do not recover that missing history. Both experiment 010 candidates began from Luna's 009 implementation.
+## Deeper inspection
 
-The study is small and exploratory. Models ran in a fixed Luna-then-Sol order in 012–017. Test coverage differs between candidates, and acceptance suites are incomplete specifications. Do not count overlapping test cases as independent evidence. The results retain known inherited lint failures. The portable evaluator does not measure performance or monetary cost. A [separate reproducible scaling assessment](provenance/AUDIT_CORRECTIONS.md) compares experiment 014 implementations with the quadratic control.
+| Interest | Start here |
+|---|---|
+| Scheduler behavior | [Independent R1 regression](results/018/phase23/test_r1.py), [interruption probes](acceptance/test_015_interrupt.py), [repaired source](snapshots/018/repaired-luna/problems/job_scheduler.py) |
+| Experimental design and measurement limits | [Methodology](METHODOLOGY.md), [verification ledger](results/018/verification-ledger.json) |
+| All 11 experiments, 008–018 | [Task inputs](experiments/), [starting fixtures](fixtures/), [31 snapshot lineages](snapshots/), [recorded results](results/) |
+| Stronger validation after the audit | [Acceptance corrections](provenance/AUDIT_CORRECTIONS.md), [technical validation](validation/technical-closeout-2026-11-26/summary.md), [validation after cleanup](validation/final-editorial-2026-11-26/summary.md) |
+| Source history, omissions, and reuse | [Publication provenance](provenance/PUBLICATION.md), [MIT license](LICENSE), [license scope](LICENSE_SCOPE.md) |
 
-[Methodology and limitations](METHODOLOGY.md) describe experimental controls, reviewer limitations, test portability, and the complete effort accounting. [Provenance](provenance/PUBLICATION.md) explains source identities, sanitization, and the distinction between original evidence and edited release copies.
+For the full evaluation, validator regression probes, and the separate pair-counting scaling assessment:
 
-## License
+```sh
+uv run --locked python tools/evaluate.py
+uv run --locked python -B tools/test_evaluate.py
+uv run --locked python tools/assess_scaling_014.py
+```
 
-[MIT](LICENSE), copyright 2026 Stefan Gremalschi, applies to eligible independently created project material. See [license scope](LICENSE_SCOPE.md) for third-party exclusions and AI-assistance qualifications.
+Historical acceptance results retain their original test sets. Post-audit validation strengthens experiments 011, 013, and 016; it does not revise those historical outcomes. Independent acceptance suites for 008–010 are unavailable. The study uses single runs and evolving controls, with incomplete coverage and limited public primary evidence for historical timing and token counts.
+
+This project was created with AI assistance, including agent-generated implementations and tests. Authorship statements and third-party exclusions are documented in [rights and authorship](provenance/RIGHTS_REVIEW.md).

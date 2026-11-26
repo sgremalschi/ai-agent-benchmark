@@ -1,0 +1,48 @@
+{
+  "evidence_class": "newly_executed_publication_validation",
+  "base_commit": "7962df7b46711e54556ccd052192d1f6362d4a3a",
+  "retained_source_and_evidence_files_compared": 645,
+  "retained_file_differences": [],
+  "previously_published_removals_verified": 195,
+  "duplicate_tree_files_verified_before_removal": 15,
+  "empty_snapshot_readmes_removed": 31,
+  "technical_commit_files_classified": 166,
+  "substantive_files": 9,
+  "generated_files": 157,
+  "license_documents_unchanged": true,
+  "historical_readme_metadata_omissions_documented": 31,
+  "regression_tests": {
+    "command": ".venv/bin/python -B tools/test_evaluate.py",
+    "tests": 4,
+    "returncode": 0
+  },
+  "evaluation": {
+    "candidate_entries": 23,
+    "unexpected_outcomes": 0
+  },
+  "vale": {
+    "configuration": "existing user Vale configuration; Microsoft and Vale styles, Engineering vocabulary",
+    "configuration_sha256": "03efad33fc1043b6b4a7bfdc05da02287ae1bae92505c5c3cc75a8f3ae3f2647",
+    "files": [
+      "METHODOLOGY.md",
+      "README.md",
+      "provenance/AUDIT_CORRECTIONS.md",
+      "provenance/PUBLICATION.md"
+    ],
+    "counts": {
+      "suggestion": 71,
+      "warning": 3,
+      "error": 0
+    },
+    "interpretation": "Advisory. Retained warnings concern reporting distinct categories separately; suggestions reviewed for technical precision."
+  },
+  "output_retention": "JSON report, summary and this verification record retained; new duplicate JUnit output omitted.",
+  "external_markdown_links": {
+    "method": "Retrieved referenced pages through the web tool; reachability check only, not renewed legal analysis.",
+    "retrieved": [
+      "https://openai.com/policies/terms-of-use/",
+      "https://openai.com/policies/service-terms/",
+      "https://openai.com/policies/services-agreement/"
+    ]
+  }
+}

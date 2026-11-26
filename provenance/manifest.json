@@ -1461,7 +1461,7 @@
       "editorial_derivation": "Edited recorded evidence; source identity retained. See editorial-derivatives.json for the derivative inventory."
     },
     {
-      "published_path": "results/018/phase23/repaired/.gitignore",
+      "published_path": "snapshots/018/repaired-luna/.gitignore",
       "origin": {
         "kind": "ai-benchmark",
         "path": "results/018/phase23/repaired/.gitignore"
@@ -1469,10 +1469,12 @@
       "evidence_class": "preserved_historical_artifact",
       "original_sha256": "ed7b84e816359d17276a801802de5c362c2c572ce3e50a8670c8362b08351380",
       "published_sha256": "ed7b84e816359d17276a801802de5c362c2c572ce3e50a8670c8362b08351380",
-      "sanitization": {}
+      "sanitization": {},
+      "former_published_path": "results/018/phase23/repaired/.gitignore",
+      "publication_transformation": "Canonical byte-identical repaired snapshot; historical origin unchanged."
     },
     {
-      "published_path": "results/018/phase23/repaired/.python-version",
+      "published_path": "snapshots/018/repaired-luna/.python-version",
       "origin": {
         "kind": "ai-benchmark",
         "path": "results/018/phase23/repaired/.python-version"
@@ -1480,21 +1482,12 @@
       "evidence_class": "preserved_historical_artifact",
       "original_sha256": "a876e0b10411037a012498b9fe18d9bc1df32ed8b722a13564dc944ddcfd9135",
       "published_sha256": "a876e0b10411037a012498b9fe18d9bc1df32ed8b722a13564dc944ddcfd9135",
-      "sanitization": {}
+      "sanitization": {},
+      "former_published_path": "results/018/phase23/repaired/.python-version",
+      "publication_transformation": "Canonical byte-identical repaired snapshot; historical origin unchanged."
     },
     {
-      "published_path": "results/018/phase23/repaired/README.md",
-      "origin": {
-        "kind": "ai-benchmark",
-        "path": "results/018/phase23/repaired/README.md"
-      },
-      "evidence_class": "preserved_historical_artifact",
-      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "sanitization": {}
-    },
-    {
-      "published_path": "results/018/phase23/repaired/problems/__init__.py",
+      "published_path": "snapshots/018/repaired-luna/problems/__init__.py",
       "origin": {
         "kind": "ai-benchmark",
         "path": "results/018/phase23/repaired/problems/__init__.py"
@@ -1502,10 +1495,12 @@
       "evidence_class": "preserved_historical_artifact",
       "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "sanitization": {}
+      "sanitization": {},
+      "former_published_path": "results/018/phase23/repaired/problems/__init__.py",
+      "publication_transformation": "Canonical byte-identical repaired snapshot; historical origin unchanged."
     },
     {
-      "published_path": "results/018/phase23/repaired/problems/job_scheduler.py",
+      "published_path": "snapshots/018/repaired-luna/problems/job_scheduler.py",
       "origin": {
         "kind": "ai-benchmark",
         "path": "results/018/phase23/repaired/problems/job_scheduler.py"
@@ -1513,10 +1508,12 @@
       "evidence_class": "preserved_historical_artifact",
       "original_sha256": "433a71bcc261506465cb0083254d6ac900527ed35268bf7af6e4e2b3102825f4",
       "published_sha256": "433a71bcc261506465cb0083254d6ac900527ed35268bf7af6e4e2b3102825f4",
-      "sanitization": {}
+      "sanitization": {},
+      "former_published_path": "results/018/phase23/repaired/problems/job_scheduler.py",
+      "publication_transformation": "Canonical byte-identical repaired snapshot; historical origin unchanged."
     },
     {
-      "published_path": "results/018/phase23/repaired/problems/order_processor.py",
+      "published_path": "snapshots/018/repaired-luna/problems/order_processor.py",
       "origin": {
         "kind": "ai-benchmark",
         "path": "results/018/phase23/repaired/problems/order_processor.py"
@@ -1524,10 +1521,12 @@
       "evidence_class": "preserved_historical_artifact",
       "original_sha256": "af9e2f58705eca15ccebbb5a7b6c9625e0e4c4696b8d334912fd6fbd3eda2522",
       "published_sha256": "af9e2f58705eca15ccebbb5a7b6c9625e0e4c4696b8d334912fd6fbd3eda2522",
-      "sanitization": {}
+      "sanitization": {},
+      "former_published_path": "results/018/phase23/repaired/problems/order_processor.py",
+      "publication_transformation": "Canonical byte-identical repaired snapshot; historical origin unchanged."
     },
     {
-      "published_path": "results/018/phase23/repaired/problems/pair_counter.py",
+      "published_path": "snapshots/018/repaired-luna/problems/pair_counter.py",
       "origin": {
         "kind": "ai-benchmark",
         "path": "results/018/phase23/repaired/problems/pair_counter.py"
@@ -1535,10 +1534,12 @@
       "evidence_class": "preserved_historical_artifact",
       "original_sha256": "44173c7d8a0672534dd0389c53b18e556d26aaa3edee9ecedd539e7a343d6b5f",
       "published_sha256": "44173c7d8a0672534dd0389c53b18e556d26aaa3edee9ecedd539e7a343d6b5f",
-      "sanitization": {}
+      "sanitization": {},
+      "former_published_path": "results/018/phase23/repaired/problems/pair_counter.py",
+      "publication_transformation": "Canonical byte-identical repaired snapshot; historical origin unchanged."
     },
     {
-      "published_path": "results/018/phase23/repaired/problems/problem_0041_first_missing_positive.py",
+      "published_path": "snapshots/018/repaired-luna/problems/problem_0041_first_missing_positive.py",
       "origin": {
         "kind": "ai-benchmark",
         "path": "results/018/phase23/repaired/problems/problem_0041_first_missing_positive.py"
@@ -1546,10 +1547,12 @@
       "evidence_class": "preserved_historical_artifact",
       "original_sha256": "d7de018947396bbd62751765930e986dc5d4010a2f8d4fdef0c239c43e5adb51",
       "published_sha256": "d7de018947396bbd62751765930e986dc5d4010a2f8d4fdef0c239c43e5adb51",
-      "sanitization": {}
+      "sanitization": {},
+      "former_published_path": "results/018/phase23/repaired/problems/problem_0041_first_missing_positive.py",
+      "publication_transformation": "Canonical byte-identical repaired snapshot; historical origin unchanged."
     },
     {
-      "published_path": "results/018/phase23/repaired/problems/problem_0057_insert_interval.py",
+      "published_path": "snapshots/018/repaired-luna/problems/problem_0057_insert_interval.py",
       "origin": {
         "kind": "ai-benchmark",
         "path": "results/018/phase23/repaired/problems/problem_0057_insert_interval.py"
@@ -1557,10 +1560,12 @@
       "evidence_class": "preserved_historical_artifact",
       "original_sha256": "b532b57a65c6c736cd3be33447f1d6a35b877792341d61714d31fe5722ba6327",
       "published_sha256": "b532b57a65c6c736cd3be33447f1d6a35b877792341d61714d31fe5722ba6327",
-      "sanitization": {}
+      "sanitization": {},
+      "former_published_path": "results/018/phase23/repaired/problems/problem_0057_insert_interval.py",
+      "publication_transformation": "Canonical byte-identical repaired snapshot; historical origin unchanged."
     },
     {
-      "published_path": "results/018/phase23/repaired/problems/problem_0452_minimum_number_arrows.py",
+      "published_path": "snapshots/018/repaired-luna/problems/problem_0452_minimum_number_arrows.py",
       "origin": {
         "kind": "ai-benchmark",
         "path": "results/018/phase23/repaired/problems/problem_0452_minimum_number_arrows.py"
@@ -1568,10 +1573,12 @@
       "evidence_class": "preserved_historical_artifact",
       "original_sha256": "f95a51ba97d3a3b159837633016f52e9324f7f208053da8c075bc4bfcdc9cd47",
       "published_sha256": "f95a51ba97d3a3b159837633016f52e9324f7f208053da8c075bc4bfcdc9cd47",
-      "sanitization": {}
+      "sanitization": {},
+      "former_published_path": "results/018/phase23/repaired/problems/problem_0452_minimum_number_arrows.py",
+      "publication_transformation": "Canonical byte-identical repaired snapshot; historical origin unchanged."
     },
     {
-      "published_path": "results/018/phase23/repaired/problems/rate_limiter.py",
+      "published_path": "snapshots/018/repaired-luna/problems/rate_limiter.py",
       "origin": {
         "kind": "ai-benchmark",
         "path": "results/018/phase23/repaired/problems/rate_limiter.py"
@@ -1579,10 +1586,12 @@
       "evidence_class": "preserved_historical_artifact",
       "original_sha256": "3d258c077b48aaffe510a8e18eb62dfc8c41a16a7ea80ed80e5cb011c86b8e1e",
       "published_sha256": "3d258c077b48aaffe510a8e18eb62dfc8c41a16a7ea80ed80e5cb011c86b8e1e",
-      "sanitization": {}
+      "sanitization": {},
+      "former_published_path": "results/018/phase23/repaired/problems/rate_limiter.py",
+      "publication_transformation": "Canonical byte-identical repaired snapshot; historical origin unchanged."
     },
     {
-      "published_path": "results/018/phase23/repaired/pyproject.toml",
+      "published_path": "snapshots/018/repaired-luna/pyproject.toml",
       "origin": {
         "kind": "ai-benchmark",
         "path": "results/018/phase23/repaired/pyproject.toml"
@@ -1590,10 +1599,12 @@
       "evidence_class": "preserved_historical_artifact",
       "original_sha256": "0e33f688a6f353dce59f82354f59a566fe4fd558fdf853b1a0b3ba91cc605818",
       "published_sha256": "0e33f688a6f353dce59f82354f59a566fe4fd558fdf853b1a0b3ba91cc605818",
-      "sanitization": {}
+      "sanitization": {},
+      "former_published_path": "results/018/phase23/repaired/pyproject.toml",
+      "publication_transformation": "Canonical byte-identical repaired snapshot; historical origin unchanged."
     },
     {
-      "published_path": "results/018/phase23/repaired/tests/test_job_scheduler.py",
+      "published_path": "snapshots/018/repaired-luna/tests/test_job_scheduler.py",
       "origin": {
         "kind": "ai-benchmark",
         "path": "results/018/phase23/repaired/tests/test_job_scheduler.py"
@@ -1601,10 +1612,12 @@
       "evidence_class": "preserved_historical_artifact",
       "original_sha256": "6d2d4b76b65e6d038d38e71d8810b14c177b900e94fe8076cc9b80bc1139687c",
       "published_sha256": "6d2d4b76b65e6d038d38e71d8810b14c177b900e94fe8076cc9b80bc1139687c",
-      "sanitization": {}
+      "sanitization": {},
+      "former_published_path": "results/018/phase23/repaired/tests/test_job_scheduler.py",
+      "publication_transformation": "Canonical byte-identical repaired snapshot; historical origin unchanged."
     },
     {
-      "published_path": "results/018/phase23/repaired/tests/test_problem_0452_minimum_number_arrows.py",
+      "published_path": "snapshots/018/repaired-luna/tests/test_problem_0452_minimum_number_arrows.py",
       "origin": {
         "kind": "ai-benchmark",
         "path": "results/018/phase23/repaired/tests/test_problem_0452_minimum_number_arrows.py"
@@ -1623,10 +1636,12 @@
         ],
         "pre_release_sha256": "a44b0a01c117384721852fd5bda7feabf2d3c8c5901bd9146efd20e4244d07eb",
         "release_sha256": "1029aa9086e88b9ab52ef146ea4450f6fb34e330ec8bc66bc63f87023b08db80"
-      }
+      },
+      "former_published_path": "results/018/phase23/repaired/tests/test_problem_0452_minimum_number_arrows.py",
+      "publication_transformation": "Canonical byte-identical repaired snapshot; historical origin unchanged."
     },
     {
-      "published_path": "results/018/phase23/repaired/uv.lock",
+      "published_path": "snapshots/018/repaired-luna/uv.lock",
       "origin": {
         "kind": "ai-benchmark",
         "path": "results/018/phase23/repaired/uv.lock"
@@ -1634,7 +1649,9 @@
       "evidence_class": "preserved_historical_artifact",
       "original_sha256": "772de240ca511264256b9ddfd1fafa736b0b35b08da317e543e35c91e6d9ea6d",
       "published_sha256": "772de240ca511264256b9ddfd1fafa736b0b35b08da317e543e35c91e6d9ea6d",
-      "sanitization": {}
+      "sanitization": {},
+      "former_published_path": "results/018/phase23/repaired/uv.lock",
+      "publication_transformation": "Canonical byte-identical repaired snapshot; historical origin unchanged."
     },
     {
       "published_path": "results/018/phase23/test_r1.py",
@@ -1799,18 +1816,6 @@
       "sanitization": {}
     },
     {
-      "published_path": "snapshots/008/baseline/README.md",
-      "origin": {
-        "kind": "git",
-        "commit": "20711cefdd75efbac9c5220f47dbbc13ad61d006",
-        "path": "README.md"
-      },
-      "evidence_class": "preserved_historical_artifact",
-      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "sanitization": {}
-    },
-    {
       "published_path": "snapshots/008/baseline/problems/__init__.py",
       "origin": {
         "kind": "git",
@@ -1950,18 +1955,6 @@
       "evidence_class": "preserved_historical_artifact",
       "original_sha256": "a876e0b10411037a012498b9fe18d9bc1df32ed8b722a13564dc944ddcfd9135",
       "published_sha256": "a876e0b10411037a012498b9fe18d9bc1df32ed8b722a13564dc944ddcfd9135",
-      "sanitization": {}
-    },
-    {
-      "published_path": "snapshots/008/luna/README.md",
-      "origin": {
-        "kind": "git",
-        "commit": "605ace81ad6fd6814dc5cb0189160e137f2335bb",
-        "path": "README.md"
-      },
-      "evidence_class": "preserved_historical_artifact",
-      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "sanitization": {}
     },
     {
@@ -2141,18 +2134,6 @@
       "sanitization": {}
     },
     {
-      "published_path": "snapshots/008/sol/README.md",
-      "origin": {
-        "kind": "git",
-        "commit": "a6e9ef0fbc5e684265e22a30a850b533625eaeef",
-        "path": "README.md"
-      },
-      "evidence_class": "preserved_historical_artifact",
-      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "sanitization": {}
-    },
-    {
       "published_path": "snapshots/008/sol/problems/__init__.py",
       "origin": {
         "kind": "git",
@@ -2329,18 +2310,6 @@
       "sanitization": {}
     },
     {
-      "published_path": "snapshots/009/baseline/README.md",
-      "origin": {
-        "kind": "git",
-        "commit": "20711cefdd75efbac9c5220f47dbbc13ad61d006",
-        "path": "README.md"
-      },
-      "evidence_class": "preserved_historical_artifact",
-      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "sanitization": {}
-    },
-    {
       "published_path": "snapshots/009/baseline/problems/__init__.py",
       "origin": {
         "kind": "git",
@@ -2480,18 +2449,6 @@
       "evidence_class": "preserved_historical_artifact",
       "original_sha256": "a876e0b10411037a012498b9fe18d9bc1df32ed8b722a13564dc944ddcfd9135",
       "published_sha256": "a876e0b10411037a012498b9fe18d9bc1df32ed8b722a13564dc944ddcfd9135",
-      "sanitization": {}
-    },
-    {
-      "published_path": "snapshots/009/luna/README.md",
-      "origin": {
-        "kind": "git",
-        "commit": "81a44dc4b1bcafee77381a64b271aca9b6ae695a",
-        "path": "README.md"
-      },
-      "evidence_class": "preserved_historical_artifact",
-      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "sanitization": {}
     },
     {
@@ -2661,18 +2618,6 @@
       "sanitization": {}
     },
     {
-      "published_path": "snapshots/009/sol/README.md",
-      "origin": {
-        "kind": "git",
-        "commit": "faee5e9721d5ae7cecfdb9391dae667571a6b73a",
-        "path": "README.md"
-      },
-      "evidence_class": "preserved_historical_artifact",
-      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "sanitization": {}
-    },
-    {
       "published_path": "snapshots/009/sol/problems/__init__.py",
       "origin": {
         "kind": "git",
@@ -2836,18 +2781,6 @@
       "evidence_class": "preserved_historical_artifact",
       "original_sha256": "a876e0b10411037a012498b9fe18d9bc1df32ed8b722a13564dc944ddcfd9135",
       "published_sha256": "a876e0b10411037a012498b9fe18d9bc1df32ed8b722a13564dc944ddcfd9135",
-      "sanitization": {}
-    },
-    {
-      "published_path": "snapshots/010/baseline/README.md",
-      "origin": {
-        "kind": "git",
-        "commit": "81a44dc4b1bcafee77381a64b271aca9b6ae695a",
-        "path": "README.md"
-      },
-      "evidence_class": "preserved_historical_artifact",
-      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "sanitization": {}
     },
     {
@@ -3017,18 +2950,6 @@
       "sanitization": {}
     },
     {
-      "published_path": "snapshots/010/luna/README.md",
-      "origin": {
-        "kind": "git",
-        "commit": "792706fc91e1889fbf1e7c22e797c2b0334b4817",
-        "path": "README.md"
-      },
-      "evidence_class": "preserved_historical_artifact",
-      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "sanitization": {}
-    },
-    {
       "published_path": "snapshots/010/luna/problems/__init__.py",
       "origin": {
         "kind": "git",
@@ -3192,18 +3113,6 @@
       "evidence_class": "preserved_historical_artifact",
       "original_sha256": "a876e0b10411037a012498b9fe18d9bc1df32ed8b722a13564dc944ddcfd9135",
       "published_sha256": "a876e0b10411037a012498b9fe18d9bc1df32ed8b722a13564dc944ddcfd9135",
-      "sanitization": {}
-    },
-    {
-      "published_path": "snapshots/010/sol/README.md",
-      "origin": {
-        "kind": "git",
-        "commit": "d0a7c1222cf371ccc8328a2f0b89eb500a6d4a5c",
-        "path": "README.md"
-      },
-      "evidence_class": "preserved_historical_artifact",
-      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "sanitization": {}
     },
     {
@@ -3373,18 +3282,6 @@
       "sanitization": {}
     },
     {
-      "published_path": "snapshots/011/baseline/README.md",
-      "origin": {
-        "kind": "git",
-        "commit": "723160018a75c0b88417d1cc9181e9cf0ceef59c",
-        "path": "README.md"
-      },
-      "evidence_class": "preserved_historical_artifact",
-      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "sanitization": {}
-    },
-    {
       "published_path": "snapshots/011/baseline/problems/__init__.py",
       "origin": {
         "kind": "git",
@@ -3501,18 +3398,6 @@
       "evidence_class": "preserved_historical_artifact",
       "original_sha256": "a876e0b10411037a012498b9fe18d9bc1df32ed8b722a13564dc944ddcfd9135",
       "published_sha256": "a876e0b10411037a012498b9fe18d9bc1df32ed8b722a13564dc944ddcfd9135",
-      "sanitization": {}
-    },
-    {
-      "published_path": "snapshots/011/luna/README.md",
-      "origin": {
-        "kind": "git",
-        "commit": "b9d618bede81f097ebd9cdf69bfe5d5c66aaf6a7",
-        "path": "README.md"
-      },
-      "evidence_class": "preserved_historical_artifact",
-      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "sanitization": {}
     },
     {
@@ -3659,18 +3544,6 @@
       "sanitization": {}
     },
     {
-      "published_path": "snapshots/011/sol/README.md",
-      "origin": {
-        "kind": "git",
-        "commit": "5f9b1ae1104ba5a2a329d0ce859c5e8080bc5eff",
-        "path": "README.md"
-      },
-      "evidence_class": "preserved_historical_artifact",
-      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "sanitization": {}
-    },
-    {
       "published_path": "snapshots/011/sol/problems/__init__.py",
       "origin": {
         "kind": "git",
@@ -3814,18 +3687,6 @@
       "sanitization": {}
     },
     {
-      "published_path": "snapshots/012/baseline/README.md",
-      "origin": {
-        "kind": "git",
-        "commit": "72d8e2b37e975cbacb6e9f4aae0637e4270bf694",
-        "path": "README.md"
-      },
-      "evidence_class": "preserved_historical_artifact",
-      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "sanitization": {}
-    },
-    {
       "published_path": "snapshots/012/baseline/problems/__init__.py",
       "origin": {
         "kind": "git",
@@ -3954,18 +3815,6 @@
       "evidence_class": "preserved_historical_artifact",
       "original_sha256": "a876e0b10411037a012498b9fe18d9bc1df32ed8b722a13564dc944ddcfd9135",
       "published_sha256": "a876e0b10411037a012498b9fe18d9bc1df32ed8b722a13564dc944ddcfd9135",
-      "sanitization": {}
-    },
-    {
-      "published_path": "snapshots/012/luna/README.md",
-      "origin": {
-        "kind": "git",
-        "commit": "ac8b9d3ab8affccdc1316c5ecff3e46990d90831",
-        "path": "README.md"
-      },
-      "evidence_class": "preserved_historical_artifact",
-      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "sanitization": {}
     },
     {
@@ -4112,18 +3961,6 @@
       "sanitization": {}
     },
     {
-      "published_path": "snapshots/012/sol/README.md",
-      "origin": {
-        "kind": "git",
-        "commit": "780f48cba4686ace0067f7e87aba3b578d4831f0",
-        "path": "README.md"
-      },
-      "evidence_class": "preserved_historical_artifact",
-      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "sanitization": {}
-    },
-    {
       "published_path": "snapshots/012/sol/problems/__init__.py",
       "origin": {
         "kind": "git",
@@ -4267,18 +4104,6 @@
       "sanitization": {}
     },
     {
-      "published_path": "snapshots/013/baseline/README.md",
-      "origin": {
-        "kind": "git",
-        "commit": "30fc37e9afa3117cab5464437f44ce5244903b78",
-        "path": "README.md"
-      },
-      "evidence_class": "preserved_historical_artifact",
-      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "sanitization": {}
-    },
-    {
       "published_path": "snapshots/013/baseline/problems/__init__.py",
       "origin": {
         "kind": "git",
@@ -4419,18 +4244,6 @@
       "evidence_class": "preserved_historical_artifact",
       "original_sha256": "a876e0b10411037a012498b9fe18d9bc1df32ed8b722a13564dc944ddcfd9135",
       "published_sha256": "a876e0b10411037a012498b9fe18d9bc1df32ed8b722a13564dc944ddcfd9135",
-      "sanitization": {}
-    },
-    {
-      "published_path": "snapshots/013/luna/README.md",
-      "origin": {
-        "kind": "git",
-        "commit": "5a518b4f85a722e0a1a87ec1089f525769cc3614",
-        "path": "README.md"
-      },
-      "evidence_class": "preserved_historical_artifact",
-      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "sanitization": {}
     },
     {
@@ -4589,18 +4402,6 @@
       "sanitization": {}
     },
     {
-      "published_path": "snapshots/013/sol/README.md",
-      "origin": {
-        "kind": "git",
-        "commit": "ec9b0d5d944a81398ed4f26e22a6ee4ae2934305",
-        "path": "README.md"
-      },
-      "evidence_class": "preserved_historical_artifact",
-      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "sanitization": {}
-    },
-    {
       "published_path": "snapshots/013/sol/problems/__init__.py",
       "origin": {
         "kind": "git",
@@ -4756,18 +4557,6 @@
       "sanitization": {}
     },
     {
-      "published_path": "snapshots/014/baseline/README.md",
-      "origin": {
-        "kind": "git",
-        "commit": "252f565636bf5d0ff914e07c9d9d51fe16fa7f0f",
-        "path": "README.md"
-      },
-      "evidence_class": "preserved_historical_artifact",
-      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "sanitization": {}
-    },
-    {
       "published_path": "snapshots/014/baseline/problems/__init__.py",
       "origin": {
         "kind": "git",
@@ -4920,18 +4709,6 @@
       "evidence_class": "preserved_historical_artifact",
       "original_sha256": "a876e0b10411037a012498b9fe18d9bc1df32ed8b722a13564dc944ddcfd9135",
       "published_sha256": "a876e0b10411037a012498b9fe18d9bc1df32ed8b722a13564dc944ddcfd9135",
-      "sanitization": {}
-    },
-    {
-      "published_path": "snapshots/014/luna/README.md",
-      "origin": {
-        "kind": "git",
-        "commit": "f348eb0ac62ecc54248d4001a576a3e9ea1ae295",
-        "path": "README.md"
-      },
-      "evidence_class": "preserved_historical_artifact",
-      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "sanitization": {}
     },
     {
@@ -5102,18 +4879,6 @@
       "sanitization": {}
     },
     {
-      "published_path": "snapshots/014/sol/README.md",
-      "origin": {
-        "kind": "git",
-        "commit": "65ae516ec41babc554e4cac9c0f2f84d15ea5ea9",
-        "path": "README.md"
-      },
-      "evidence_class": "preserved_historical_artifact",
-      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "sanitization": {}
-    },
-    {
       "published_path": "snapshots/014/sol/problems/__init__.py",
       "origin": {
         "kind": "git",
@@ -5281,18 +5046,6 @@
       "sanitization": {}
     },
     {
-      "published_path": "snapshots/015/baseline/README.md",
-      "origin": {
-        "kind": "git",
-        "commit": "5a1a6f16bebb817cb22e3397980c2ba591eba92e",
-        "path": "README.md"
-      },
-      "evidence_class": "preserved_historical_artifact",
-      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "sanitization": {}
-    },
-    {
       "published_path": "snapshots/015/baseline/problems/__init__.py",
       "origin": {
         "kind": "git",
@@ -5457,18 +5210,6 @@
       "evidence_class": "preserved_historical_artifact",
       "original_sha256": "a876e0b10411037a012498b9fe18d9bc1df32ed8b722a13564dc944ddcfd9135",
       "published_sha256": "a876e0b10411037a012498b9fe18d9bc1df32ed8b722a13564dc944ddcfd9135",
-      "sanitization": {}
-    },
-    {
-      "published_path": "snapshots/015/luna/README.md",
-      "origin": {
-        "kind": "git",
-        "commit": "893c78189ad9d8122e34efbe8bea125bbfbb3d6f",
-        "path": "README.md"
-      },
-      "evidence_class": "preserved_historical_artifact",
-      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "sanitization": {}
     },
     {
@@ -5651,18 +5392,6 @@
       "sanitization": {}
     },
     {
-      "published_path": "snapshots/015/sol/README.md",
-      "origin": {
-        "kind": "git",
-        "commit": "2fb133ad9f0bd18c563f189504e7f9d547764a80",
-        "path": "README.md"
-      },
-      "evidence_class": "preserved_historical_artifact",
-      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "sanitization": {}
-    },
-    {
       "published_path": "snapshots/015/sol/problems/__init__.py",
       "origin": {
         "kind": "git",
@@ -5842,18 +5571,6 @@
       "sanitization": {}
     },
     {
-      "published_path": "snapshots/016/baseline/README.md",
-      "origin": {
-        "kind": "git",
-        "commit": "ccc072c5aae77936f3cdda2cab076f8e09a32abb",
-        "path": "README.md"
-      },
-      "evidence_class": "preserved_historical_artifact",
-      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "sanitization": {}
-    },
-    {
       "published_path": "snapshots/016/baseline/problems/__init__.py",
       "origin": {
         "kind": "git",
@@ -6030,18 +5747,6 @@
       "evidence_class": "preserved_historical_artifact",
       "original_sha256": "a876e0b10411037a012498b9fe18d9bc1df32ed8b722a13564dc944ddcfd9135",
       "published_sha256": "a876e0b10411037a012498b9fe18d9bc1df32ed8b722a13564dc944ddcfd9135",
-      "sanitization": {}
-    },
-    {
-      "published_path": "snapshots/016/luna/README.md",
-      "origin": {
-        "kind": "git",
-        "commit": "de27854e0dc12887c790430f59f9f41557ecd89e",
-        "path": "README.md"
-      },
-      "evidence_class": "preserved_historical_artifact",
-      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "sanitization": {}
     },
     {
@@ -6236,18 +5941,6 @@
       "sanitization": {}
     },
     {
-      "published_path": "snapshots/016/sol/README.md",
-      "origin": {
-        "kind": "git",
-        "commit": "ed5f8e5eb16fd7a123d639bb5b7300a2f52bfc19",
-        "path": "README.md"
-      },
-      "evidence_class": "preserved_historical_artifact",
-      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "sanitization": {}
-    },
-    {
       "published_path": "snapshots/016/sol/problems/__init__.py",
       "origin": {
         "kind": "git",
@@ -6436,18 +6129,6 @@
       "evidence_class": "preserved_historical_artifact",
       "original_sha256": "a876e0b10411037a012498b9fe18d9bc1df32ed8b722a13564dc944ddcfd9135",
       "published_sha256": "a876e0b10411037a012498b9fe18d9bc1df32ed8b722a13564dc944ddcfd9135",
-      "sanitization": {}
-    },
-    {
-      "published_path": "snapshots/017/baseline/README.md",
-      "origin": {
-        "kind": "git",
-        "commit": "af2eb001d3a00fa4408e4545cc2db4a7754674ec",
-        "path": "README.md"
-      },
-      "evidence_class": "preserved_historical_artifact",
-      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "sanitization": {}
     },
     {
@@ -6687,18 +6368,6 @@
       "evidence_class": "preserved_historical_artifact",
       "original_sha256": "a876e0b10411037a012498b9fe18d9bc1df32ed8b722a13564dc944ddcfd9135",
       "published_sha256": "a876e0b10411037a012498b9fe18d9bc1df32ed8b722a13564dc944ddcfd9135",
-      "sanitization": {}
-    },
-    {
-      "published_path": "snapshots/017/luna/README.md",
-      "origin": {
-        "kind": "git",
-        "commit": "928a14345ed8b5b01cdd76c9b407ce9f4edeccf2",
-        "path": "README.md"
-      },
-      "evidence_class": "preserved_historical_artifact",
-      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "sanitization": {}
     },
     {
@@ -6953,18 +6622,6 @@
       "sanitization": {}
     },
     {
-      "published_path": "snapshots/017/sol/README.md",
-      "origin": {
-        "kind": "git",
-        "commit": "9d06cc72affd78e40626ffbf0782e1d588e73af6",
-        "path": "README.md"
-      },
-      "evidence_class": "preserved_historical_artifact",
-      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "sanitization": {}
-    },
-    {
       "published_path": "snapshots/017/sol/problems/__init__.py",
       "origin": {
         "kind": "git",
@@ -7214,17 +6871,6 @@
       "sanitization": {}
     },
     {
-      "published_path": "snapshots/018/repaired-luna/README.md",
-      "origin": {
-        "kind": "experiment_018_frozen_snapshot",
-        "path": "results/018/phase23/repaired/README.md"
-      },
-      "evidence_class": "preserved_historical_artifact",
-      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "sanitization": {}
-    },
-    {
       "published_path": "snapshots/018/repaired-luna/problems/__init__.py",
       "origin": {
         "kind": "experiment_018_frozen_snapshot",
@@ -7370,7 +7016,434 @@
   ],
   "release_derivation": {
     "implementation_changes": false,
-    "independent_suite_changes": false,
-    "description": "Example tests and machine metadata were omitted from release copies. Original measurements describe their original test sets. Editorial derivatives retain source hashes and identify changes."
-  }
+    "independent_suite_changes": true,
+    "post_audit_suite_changes": [
+      "011",
+      "013",
+      "016"
+    ],
+    "initial_publication_derivation": {
+      "implementation_changes": false,
+      "independent_suite_changes": false,
+      "description": "Example tests and machine metadata were omitted from release copies. Original measurements describe their original test sets. Editorial derivatives retain source hashes and identify changes."
+    },
+    "description": "Post-audit acceptance suites strengthen validation without changing historical implementations or results. Final cleanup removes empty scaffolding and duplicate files; canonical paths and omissions retain their original hashes.",
+    "publication_transformations": "provenance/publication-transformations.json"
+  },
+  "omitted_artifacts": [
+    {
+      "published_path": "results/018/phase23/repaired/README.md",
+      "origin": {
+        "kind": "ai-benchmark",
+        "path": "results/018/phase23/repaired/README.md"
+      },
+      "evidence_class": "preserved_historical_artifact",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitization": {},
+      "omission_reason": "byte_identical_repaired_copy"
+    },
+    {
+      "published_path": "snapshots/008/baseline/README.md",
+      "origin": {
+        "kind": "git",
+        "commit": "20711cefdd75efbac9c5220f47dbbc13ad61d006",
+        "path": "README.md"
+      },
+      "evidence_class": "preserved_historical_artifact",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitization": {},
+      "omission_reason": "empty_snapshot_readme"
+    },
+    {
+      "published_path": "snapshots/008/luna/README.md",
+      "origin": {
+        "kind": "git",
+        "commit": "605ace81ad6fd6814dc5cb0189160e137f2335bb",
+        "path": "README.md"
+      },
+      "evidence_class": "preserved_historical_artifact",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitization": {},
+      "omission_reason": "empty_snapshot_readme"
+    },
+    {
+      "published_path": "snapshots/008/sol/README.md",
+      "origin": {
+        "kind": "git",
+        "commit": "a6e9ef0fbc5e684265e22a30a850b533625eaeef",
+        "path": "README.md"
+      },
+      "evidence_class": "preserved_historical_artifact",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitization": {},
+      "omission_reason": "empty_snapshot_readme"
+    },
+    {
+      "published_path": "snapshots/009/baseline/README.md",
+      "origin": {
+        "kind": "git",
+        "commit": "20711cefdd75efbac9c5220f47dbbc13ad61d006",
+        "path": "README.md"
+      },
+      "evidence_class": "preserved_historical_artifact",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitization": {},
+      "omission_reason": "empty_snapshot_readme"
+    },
+    {
+      "published_path": "snapshots/009/luna/README.md",
+      "origin": {
+        "kind": "git",
+        "commit": "81a44dc4b1bcafee77381a64b271aca9b6ae695a",
+        "path": "README.md"
+      },
+      "evidence_class": "preserved_historical_artifact",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitization": {},
+      "omission_reason": "empty_snapshot_readme"
+    },
+    {
+      "published_path": "snapshots/009/sol/README.md",
+      "origin": {
+        "kind": "git",
+        "commit": "faee5e9721d5ae7cecfdb9391dae667571a6b73a",
+        "path": "README.md"
+      },
+      "evidence_class": "preserved_historical_artifact",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitization": {},
+      "omission_reason": "empty_snapshot_readme"
+    },
+    {
+      "published_path": "snapshots/010/baseline/README.md",
+      "origin": {
+        "kind": "git",
+        "commit": "81a44dc4b1bcafee77381a64b271aca9b6ae695a",
+        "path": "README.md"
+      },
+      "evidence_class": "preserved_historical_artifact",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitization": {},
+      "omission_reason": "empty_snapshot_readme"
+    },
+    {
+      "published_path": "snapshots/010/luna/README.md",
+      "origin": {
+        "kind": "git",
+        "commit": "792706fc91e1889fbf1e7c22e797c2b0334b4817",
+        "path": "README.md"
+      },
+      "evidence_class": "preserved_historical_artifact",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitization": {},
+      "omission_reason": "empty_snapshot_readme"
+    },
+    {
+      "published_path": "snapshots/010/sol/README.md",
+      "origin": {
+        "kind": "git",
+        "commit": "d0a7c1222cf371ccc8328a2f0b89eb500a6d4a5c",
+        "path": "README.md"
+      },
+      "evidence_class": "preserved_historical_artifact",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitization": {},
+      "omission_reason": "empty_snapshot_readme"
+    },
+    {
+      "published_path": "snapshots/011/baseline/README.md",
+      "origin": {
+        "kind": "git",
+        "commit": "723160018a75c0b88417d1cc9181e9cf0ceef59c",
+        "path": "README.md"
+      },
+      "evidence_class": "preserved_historical_artifact",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitization": {},
+      "omission_reason": "empty_snapshot_readme"
+    },
+    {
+      "published_path": "snapshots/011/luna/README.md",
+      "origin": {
+        "kind": "git",
+        "commit": "b9d618bede81f097ebd9cdf69bfe5d5c66aaf6a7",
+        "path": "README.md"
+      },
+      "evidence_class": "preserved_historical_artifact",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitization": {},
+      "omission_reason": "empty_snapshot_readme"
+    },
+    {
+      "published_path": "snapshots/011/sol/README.md",
+      "origin": {
+        "kind": "git",
+        "commit": "5f9b1ae1104ba5a2a329d0ce859c5e8080bc5eff",
+        "path": "README.md"
+      },
+      "evidence_class": "preserved_historical_artifact",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitization": {},
+      "omission_reason": "empty_snapshot_readme"
+    },
+    {
+      "published_path": "snapshots/012/baseline/README.md",
+      "origin": {
+        "kind": "git",
+        "commit": "72d8e2b37e975cbacb6e9f4aae0637e4270bf694",
+        "path": "README.md"
+      },
+      "evidence_class": "preserved_historical_artifact",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitization": {},
+      "omission_reason": "empty_snapshot_readme"
+    },
+    {
+      "published_path": "snapshots/012/luna/README.md",
+      "origin": {
+        "kind": "git",
+        "commit": "ac8b9d3ab8affccdc1316c5ecff3e46990d90831",
+        "path": "README.md"
+      },
+      "evidence_class": "preserved_historical_artifact",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitization": {},
+      "omission_reason": "empty_snapshot_readme"
+    },
+    {
+      "published_path": "snapshots/012/sol/README.md",
+      "origin": {
+        "kind": "git",
+        "commit": "780f48cba4686ace0067f7e87aba3b578d4831f0",
+        "path": "README.md"
+      },
+      "evidence_class": "preserved_historical_artifact",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitization": {},
+      "omission_reason": "empty_snapshot_readme"
+    },
+    {
+      "published_path": "snapshots/013/baseline/README.md",
+      "origin": {
+        "kind": "git",
+        "commit": "30fc37e9afa3117cab5464437f44ce5244903b78",
+        "path": "README.md"
+      },
+      "evidence_class": "preserved_historical_artifact",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitization": {},
+      "omission_reason": "empty_snapshot_readme"
+    },
+    {
+      "published_path": "snapshots/013/luna/README.md",
+      "origin": {
+        "kind": "git",
+        "commit": "5a518b4f85a722e0a1a87ec1089f525769cc3614",
+        "path": "README.md"
+      },
+      "evidence_class": "preserved_historical_artifact",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitization": {},
+      "omission_reason": "empty_snapshot_readme"
+    },
+    {
+      "published_path": "snapshots/013/sol/README.md",
+      "origin": {
+        "kind": "git",
+        "commit": "ec9b0d5d944a81398ed4f26e22a6ee4ae2934305",
+        "path": "README.md"
+      },
+      "evidence_class": "preserved_historical_artifact",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitization": {},
+      "omission_reason": "empty_snapshot_readme"
+    },
+    {
+      "published_path": "snapshots/014/baseline/README.md",
+      "origin": {
+        "kind": "git",
+        "commit": "252f565636bf5d0ff914e07c9d9d51fe16fa7f0f",
+        "path": "README.md"
+      },
+      "evidence_class": "preserved_historical_artifact",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitization": {},
+      "omission_reason": "empty_snapshot_readme"
+    },
+    {
+      "published_path": "snapshots/014/luna/README.md",
+      "origin": {
+        "kind": "git",
+        "commit": "f348eb0ac62ecc54248d4001a576a3e9ea1ae295",
+        "path": "README.md"
+      },
+      "evidence_class": "preserved_historical_artifact",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitization": {},
+      "omission_reason": "empty_snapshot_readme"
+    },
+    {
+      "published_path": "snapshots/014/sol/README.md",
+      "origin": {
+        "kind": "git",
+        "commit": "65ae516ec41babc554e4cac9c0f2f84d15ea5ea9",
+        "path": "README.md"
+      },
+      "evidence_class": "preserved_historical_artifact",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitization": {},
+      "omission_reason": "empty_snapshot_readme"
+    },
+    {
+      "published_path": "snapshots/015/baseline/README.md",
+      "origin": {
+        "kind": "git",
+        "commit": "5a1a6f16bebb817cb22e3397980c2ba591eba92e",
+        "path": "README.md"
+      },
+      "evidence_class": "preserved_historical_artifact",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitization": {},
+      "omission_reason": "empty_snapshot_readme"
+    },
+    {
+      "published_path": "snapshots/015/luna/README.md",
+      "origin": {
+        "kind": "git",
+        "commit": "893c78189ad9d8122e34efbe8bea125bbfbb3d6f",
+        "path": "README.md"
+      },
+      "evidence_class": "preserved_historical_artifact",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitization": {},
+      "omission_reason": "empty_snapshot_readme"
+    },
+    {
+      "published_path": "snapshots/015/sol/README.md",
+      "origin": {
+        "kind": "git",
+        "commit": "2fb133ad9f0bd18c563f189504e7f9d547764a80",
+        "path": "README.md"
+      },
+      "evidence_class": "preserved_historical_artifact",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitization": {},
+      "omission_reason": "empty_snapshot_readme"
+    },
+    {
+      "published_path": "snapshots/016/baseline/README.md",
+      "origin": {
+        "kind": "git",
+        "commit": "ccc072c5aae77936f3cdda2cab076f8e09a32abb",
+        "path": "README.md"
+      },
+      "evidence_class": "preserved_historical_artifact",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitization": {},
+      "omission_reason": "empty_snapshot_readme"
+    },
+    {
+      "published_path": "snapshots/016/luna/README.md",
+      "origin": {
+        "kind": "git",
+        "commit": "de27854e0dc12887c790430f59f9f41557ecd89e",
+        "path": "README.md"
+      },
+      "evidence_class": "preserved_historical_artifact",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitization": {},
+      "omission_reason": "empty_snapshot_readme"
+    },
+    {
+      "published_path": "snapshots/016/sol/README.md",
+      "origin": {
+        "kind": "git",
+        "commit": "ed5f8e5eb16fd7a123d639bb5b7300a2f52bfc19",
+        "path": "README.md"
+      },
+      "evidence_class": "preserved_historical_artifact",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitization": {},
+      "omission_reason": "empty_snapshot_readme"
+    },
+    {
+      "published_path": "snapshots/017/baseline/README.md",
+      "origin": {
+        "kind": "git",
+        "commit": "af2eb001d3a00fa4408e4545cc2db4a7754674ec",
+        "path": "README.md"
+      },
+      "evidence_class": "preserved_historical_artifact",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitization": {},
+      "omission_reason": "empty_snapshot_readme"
+    },
+    {
+      "published_path": "snapshots/017/luna/README.md",
+      "origin": {
+        "kind": "git",
+        "commit": "928a14345ed8b5b01cdd76c9b407ce9f4edeccf2",
+        "path": "README.md"
+      },
+      "evidence_class": "preserved_historical_artifact",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitization": {},
+      "omission_reason": "empty_snapshot_readme"
+    },
+    {
+      "published_path": "snapshots/017/sol/README.md",
+      "origin": {
+        "kind": "git",
+        "commit": "9d06cc72affd78e40626ffbf0782e1d588e73af6",
+        "path": "README.md"
+      },
+      "evidence_class": "preserved_historical_artifact",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitization": {},
+      "omission_reason": "empty_snapshot_readme"
+    },
+    {
+      "published_path": "snapshots/018/repaired-luna/README.md",
+      "origin": {
+        "kind": "experiment_018_frozen_snapshot",
+        "path": "results/018/phase23/repaired/README.md"
+      },
+      "evidence_class": "preserved_historical_artifact",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sanitization": {},
+      "omission_reason": "empty_snapshot_readme"
+    }
+  ]
 }

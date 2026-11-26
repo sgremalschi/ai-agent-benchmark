@@ -1,12 +1,12 @@
 {
   "evidence_class": "newly_executed_publication_validation",
-  "checked_utc": "2026-11-26T20:52:00.487729+00:00",
-  "public_files_scanned": 858,
+  "checked_utc": "2026-11-26T21:05:23.205587+00:00",
+  "public_files_scanned": 669,
   "archive_members_scanned": 0,
   "raw_agent_stdout_logs_scanned": 0,
-  "local_documentation_links_checked": 30,
-  "historical_provenance_records_checked": 536,
-  "current_inventory_entries": 856,
+  "local_documentation_links_checked": 55,
+  "historical_provenance_records_checked": 504,
+  "current_inventory_entries": 667,
   "findings": [],
   "snapshot_lineages_checked": 31,
   "limitations": [
