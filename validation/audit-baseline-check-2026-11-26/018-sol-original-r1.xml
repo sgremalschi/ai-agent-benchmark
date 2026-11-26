@@ -1,0 +1,1 @@
+<testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="1.021" timestamp="2026-11-26T15:48:25.451365-05:00"><testcase classname="" name="test_jobs_scheduled_during_clock_read_wait_for_next_invocation" time="1.006" /></testsuite></testsuites>

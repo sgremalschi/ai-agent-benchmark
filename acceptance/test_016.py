@@ -4,7 +4,6 @@ from concurrent.futures import ThreadPoolExecutor
 from threading import Barrier
 
 import pytest
-
 from problems.inventory import Inventory
 
 
@@ -167,4 +166,23 @@ def test_concurrent_release_only_once():
         results = list(pool.map(release, range(10)))
 
     assert sum(results) == 1
+    assert inventory.available("A") == 10
+
+
+@pytest.mark.parametrize("quantity", [0.5, 1.5, True, False])
+@pytest.mark.parametrize("operation", ["add_stock", "reserve"])
+def test_quantity_type_rejection_preserves_state(quantity, operation):
+    inventory = Inventory()
+    inventory.add_stock("A", 10)
+    assert inventory.reserve("existing", "A", 3)
+    with pytest.raises(ValueError):
+        if operation == "add_stock":
+            inventory.add_stock("A", quantity)
+        else:
+            inventory.reserve("new", "A", quantity)
+    assert inventory.available("A") == 7
+    assert inventory.release("new") is False
+    assert inventory.reserve("new", "A", 2)
+    assert inventory.release("new")
+    assert inventory.release("existing")
     assert inventory.available("A") == 10

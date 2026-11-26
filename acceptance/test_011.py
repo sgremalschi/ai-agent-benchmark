@@ -3,7 +3,7 @@ import time
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from queue import Empty, Full
-from threading import Event, Thread
+from threading import Condition, Event, Thread, current_thread
 
 import pytest
 
@@ -11,6 +11,27 @@ sys.path.insert(0, str(Path(__file__).resolve().parent / "candidate"))
 
 from problems.bounded_task_queue import BoundedTaskQueue, QueueClosed
 
+
+@pytest.fixture
+def waiting_queue(monkeypatch):
+    """Signal at Condition.wait while its lock is held, before releasing it.
+
+    A controller operation must acquire that same lock, so it cannot overtake
+    entry into wait. Instrument the standard primitive, not queue internals.
+    A bounded wait also lets failed-notification mutants terminate cleanly.
+    """
+    waiting = Event()
+    original_wait = Condition.wait
+    controller = current_thread()
+
+    def observed_wait(condition, timeout=None):
+        if current_thread() is not controller:
+            waiting.set()
+            return original_wait(condition, 2 if timeout is None else timeout)
+        return original_wait(condition, timeout)
+
+    monkeypatch.setattr(Condition, "wait", observed_wait)
+    return BoundedTaskQueue(1), waiting
 
 def test_invalid_capacity():
     for size in (0, -1):
@@ -68,13 +89,11 @@ def test_put_timeout():
     assert time.monotonic() - start >= 0.04
 
 
-def test_blocked_get_receives_item():
-    q = BoundedTaskQueue(1)
+def test_blocked_get_receives_item(waiting_queue):
+    q, started = waiting_queue
     result = []
-    started = Event()
 
     def consumer():
-        started.set()
         result.append(q.get())
 
     t = Thread(target=consumer)
@@ -90,14 +109,12 @@ def test_blocked_get_receives_item():
         t.join(1)
 
 
-def test_blocked_put_proceeds_after_get():
-    q = BoundedTaskQueue(1)
+def test_blocked_put_proceeds_after_get(waiting_queue):
+    q, started = waiting_queue
     q.put("first")
-    started = Event()
     result = []
 
     def producer():
-        started.set()
         q.put("second")
         result.append("done")
 
@@ -138,13 +155,11 @@ def test_close_drains_existing_items():
         q.get(block=False)
 
 
-def test_close_wakes_blocked_consumer():
-    q = BoundedTaskQueue(1)
-    started = Event()
+def test_close_wakes_blocked_consumer(waiting_queue):
+    q, started = waiting_queue
     result = []
 
     def consumer():
-        started.set()
         try:
             q.get()
         except QueueClosed:
@@ -163,14 +178,12 @@ def test_close_wakes_blocked_consumer():
         t.join(1)
 
 
-def test_close_wakes_blocked_producer():
-    q = BoundedTaskQueue(1)
+def test_close_wakes_blocked_producer(waiting_queue):
+    q, started = waiting_queue
     q.put(1)
-    started = Event()
     result = []
 
     def producer():
-        started.set()
         try:
             q.put(2)
         except QueueClosed:

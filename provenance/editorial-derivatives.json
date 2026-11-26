@@ -16,8 +16,9 @@
     {
       "path": "README.md",
       "source_sha256": "13e289f3648cb678fb5d0eae4e057410e4a007cccde32b3ff8f4654d0e1570d5",
-      "release_sha256": "0163287b2b3d71cfeb20db042d10fbdc14bcb993a3ec9d120bd21c951b183aad",
-      "evidence_class": "revised_explanatory_documentation_or_tooling"
+      "release_sha256": "9d3a46b77a5d01ad9c9cc7ce46c86e2d2e3e40ade4b83f74d8cd2cc2d766dd11",
+      "evidence_class": "revised_explanatory_documentation_or_tooling",
+      "pre_audit_release_sha256": "0163287b2b3d71cfeb20db042d10fbdc14bcb993a3ec9d120bd21c951b183aad"
     },
     {
       "path": "experiments/017.txt",

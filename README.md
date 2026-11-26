@@ -54,15 +54,15 @@ uv run --locked python tools/evaluate.py --experiment 018
 
 Each run writes a new directory under `validation/`, containing a JSON report, Markdown summary, and JUnit XML. Checks run in separate processes against temporary candidate copies. The lockfile pins the test dependencies. `uv` may download Python or public packages if needed.
 
-**Exit 0 means the results match the documented expectations, including known failures. It does not mean every test passed.** Exit 1 indicates an unexpected outcome or changed snapshot. Invalid arguments and runtime or dependency failures are tool errors.
+**Exit 0 means the results match the documented expectations, including known failures. It does not mean every test passed.** Exit 1 indicates an input-integrity mismatch, unexpected outcome (including changed test identities/counts), or a snapshot changed during execution. Invalid arguments and runtime or dependency failures are tool errors.
 
-The [current reproduction results](validation/editorial-2026-11-26/summary.md) cover all 23 candidate entries with zero unexpected outcomes. The [earlier full-test validation](validation/p1-2026-11-26/summary.md) used the pre-exclusion test set. The release omits identified example cases without established distribution permission, so repository-test counts differ. Implementations and independent suites are unchanged.
+The [current reproduction results](validation/audit-corrections-2026-11-26/summary.md) cover all 23 candidate entries with zero unexpected outcomes. The [earlier full-test validation](validation/p1-2026-11-26/summary.md) used the pre-exclusion test set. The release omits identified example cases without established distribution permission, so repository-test counts differ. Historical implementations remain unchanged. [Post-audit corrections](provenance/AUDIT_CORRECTIONS.md) strengthen the 011 and 016 acceptance suites; earlier validation records retain their original test sets.
 
 ## How to interpret the evidence
 
 Recorded experimental results, source reconstructed from commits, and fresh local validation are distinct evidence classes. Original prompts and structured measurements for 008–011 were unavailable; later passing tests do not recover that missing history. Both experiment 010 candidates began from Luna's 009 implementation.
 
-The study is small and exploratory. Models ran in a fixed Luna-then-Sol order in 012–017. Test coverage differs between candidates, and acceptance suites are incomplete specifications. Do not count overlapping test cases as independent evidence. The results retain known inherited lint failures. The evaluation includes neither a performance rerun nor a monetary cost comparison.
+The study is small and exploratory. Models ran in a fixed Luna-then-Sol order in 012–017. Test coverage differs between candidates, and acceptance suites are incomplete specifications. Do not count overlapping test cases as independent evidence. The results retain known inherited lint failures. The portable evaluator does not measure performance or monetary cost. A [separate reproducible scaling assessment](provenance/AUDIT_CORRECTIONS.md) compares experiment 014 implementations with the quadratic control.
 
 [Methodology and limitations](METHODOLOGY.md) describe experimental controls, reviewer limitations, test portability, and the complete effort accounting. [Provenance](provenance/PUBLICATION.md) explains source identities, sanitization, and the distinction between original evidence and edited release copies.
 

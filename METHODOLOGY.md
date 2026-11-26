@@ -37,11 +37,11 @@ Setup is a lower bound; some infrastructure authoring and initial inspection wer
 
 ## Reproduction and known failures
 
-The evaluator uses temporary candidate copies, validates implementation import locations, disables third-party pytest plugin autoloading and checks that snapshots remain unchanged during evaluation. It needs no AI credentials or original repositories. Python 3.14.7/macOS is the tested configuration; metadata allowing later Python versions is not evidence that they were tested. Locked tools are pytest 9.1.1 and Ruff 0.16.8.
+The evaluator verifies published input hashes and expected collected test identities/counts, uses temporary candidate copies, validates implementation import locations, disables third-party pytest plugin autoloading and checks that snapshots remain unchanged during evaluation. It needs no AI credentials or original repositories. Python 3.14.7/macOS is the tested configuration; metadata allowing later Python versions is not evidence that they were tested. Locked tools are pytest 9.1.1 and Ruff 0.16.8.
 
 All 23 release candidate entries match documented outcomes. That includes original/repaired Luna interruption failures, original Luna's R1 failure, and inherited repository-wide Ruff I001 failures for 014–018 in order_processor.py. Experiment 011 passes its recovered 16-case acceptance suite in fresh validation, without establishing its historical outcome. Independent suites for 008–010 are unavailable. Baseline snapshots establish provenance rather than additional implemented candidates.
 
-Release tests omit identified example cases without established distribution permission; historical test counts remain tied to their original test sets. Independent acceptance, interruption and R1 suites are unchanged. Concurrent tests use bounded waits and may behave differently on slow machines. The evaluator does not measure experiment 014 performance, run agents or reconstruct missing independent suites. Supplementary tests are now available to readers; future blinded experiments require a fresh design.
+Release tests omit identified example cases without established distribution permission; historical test counts remain tied to their original test sets. Historical interruption and R1 suites remain unchanged. Post-audit acceptance changes and their baseline are documented in [audit corrections](provenance/AUDIT_CORRECTIONS.md). Concurrent tests use bounded waits and may behave differently on slow machines. The evaluator does not measure experiment 014 performance, run agents or reconstruct missing independent suites. Supplementary tests are now available to readers; future blinded experiments require a fresh design.
 
 ## Reading the records
 

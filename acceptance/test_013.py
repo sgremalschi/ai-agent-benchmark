@@ -4,13 +4,25 @@ import json
 from pathlib import Path
 
 import pytest
-
 from problems.order_processor import process_order
-
 
 DATA = json.loads(
     (Path(__file__).with_name("013_cases.json")).read_text()
 )
+
+
+
+def assert_same_types(actual, expected):
+    """Equality alone accepts bool/int and int/float substitutions."""
+    assert type(actual) is type(expected)
+    if isinstance(expected, dict):
+        assert actual.keys() == expected.keys()
+        for key in expected:
+            assert_same_types(actual[key], expected[key])
+    elif isinstance(expected, list):
+        assert len(actual) == len(expected)
+        for value, reference in zip(actual, expected):
+            assert_same_types(value, reference)
 
 
 @pytest.mark.parametrize(
@@ -32,4 +44,6 @@ def test_preserves_legacy_behavior(case):
         assert type(caught.value).__name__ == expected["type"]
         assert str(caught.value) == expected["message"]
     else:
-        assert process_order(order, catalog, tax_rates) == case["result"]
+        actual = process_order(order, catalog, tax_rates)
+        assert_same_types(actual, case["result"])
+        assert actual == case["result"]

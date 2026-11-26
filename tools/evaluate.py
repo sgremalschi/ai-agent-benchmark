@@ -72,11 +72,44 @@ def expected_failures(exp, role, suite):
     return []
 
 
+
+def verify_inputs():
+    """Check published evaluation inputs before importing candidate code.
+
+    Generated validation outputs are deliberately outside this input boundary.
+    Trust is rooted in the reviewed inventory, not an external signature.
+    """
+    inventory = json.loads((ROOT / "provenance/p1-publication-checksums.json").read_text())
+    prefixes = ("snapshots/", "acceptance/", "fixtures/", "experiments/", "tools/")
+    explicit = {"pyproject.toml", "uv.lock", "results/018/phase23/test_r1.py",
+                "provenance/expected-test-cases.json"}
+    expected = {p: digest for p, digest in inventory.items()
+                if p.startswith(prefixes) or p in explicit}
+    actual = {str(p.relative_to(ROOT)) for directory in prefixes
+              for p in (ROOT / directory).rglob("*")
+              if p.is_file() and not any(x in p.parts for x in ("__pycache__", ".pytest_cache"))}
+    actual.update(explicit)
+    bad = sorted(actual ^ set(expected))
+    bad += [p for p, digest in expected.items()
+            if not (ROOT / p).is_file() or hashlib.sha256((ROOT / p).read_bytes()).hexdigest() != digest]
+    if bad:
+        raise ValueError("Published evaluation inputs differ: " + ", ".join(sorted(set(bad))))
+
+
+def case_identities(cases):
+    return sorted([case.attrib.get("classname", ""), case.attrib["name"]] for case in cases)
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--experiment", choices=MODULES, help="Default: all preserved experiments")
     parser.add_argument("--output", type=Path, help="New directory; never overwrites existing results")
     args = parser.parse_args()
+    try:
+        verify_inputs()
+    except (ValueError, OSError) as exc:
+        print(str(exc), file=sys.stderr)
+        return 1
+    expected_cases = json.loads((ROOT / "provenance/expected-test-cases.json").read_text())
     out = args.output or ROOT / "validation" / datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S%fZ")
     out = out.resolve()
     if not out.is_relative_to(ROOT / "validation"):
@@ -127,7 +160,10 @@ def main():
                     suites["interruption"] = ROOT / "acceptance/test_015_interrupt.py"
                 if exp == "018":
                     suites["r1"] = ROOT / "results/018/phase23/test_r1.py"
-                checks = {}
+                checks = {
+                    missing: {"status": "missing", "matches_documented_outcome": False}
+                    for missing in set(expected_cases[key]) - set(suites)
+                }
                 for suite, testfile in suites.items():
                     xml = out / f"{exp}-{role}-{suite}.xml"
                     module = "problems." + MODULES[exp]
@@ -180,6 +216,10 @@ def main():
                             "errors": errors,
                             "skipped": skipped,
                         }
+                        data["collected_test_identities"] = case_identities(cases)
+                        data["collection_matches_expected"] = (
+                            data["collected_test_identities"] == expected_cases.get(key, {}).get(suite)
+                        )
                         data["failure_names"] = failed
                         wanted = sorted(expected_failures(exp, role, suite))
                         data["expected_failure_names"] = wanted
@@ -188,12 +228,13 @@ def main():
                             and errors == 0
                             and skipped == 0
                             and bool(cases)
+                            and data["collection_matches_expected"]
                             and data["returncode"] == (1 if wanted else 0)
                         )
                     else:
                         data["matches_documented_outcome"] = False
                     checks[suite] = data
-                if "acceptance" not in suites:
+                if "acceptance" not in suites and "acceptance" not in expected_cases[key]:
                     checks["acceptance"] = {
                         "status": "unavailable",
                         "reason": "No preserved independent suite; repository tests are not independent.",

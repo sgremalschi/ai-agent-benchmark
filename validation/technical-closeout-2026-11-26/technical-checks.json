@@ -1,0 +1,16 @@
+{
+  "evidence_class": "newly_executed_publication_validation",
+  "publication_commit": "730653289bc64db44674f63c1bde9a6bcab31775",
+  "historical_paths_checked": 656,
+  "historical_differences": [],
+  "regression_command": ".venv/bin/python -B tools/test_evaluate.py",
+  "regression_returncode": 0,
+  "regression_summary": "....\n----------------------------------------------------------------------\nRan 4 tests in 3.298s\n\nOK",
+  "checks": [
+    "013 exact nested types with bool/int and float/int mutations",
+    "missing acceptance suite",
+    "unauthorized implementation modification",
+    "smoke replacement before and after inventory resealing",
+    "PYTEST_ADDOPTS environment deselection"
+  ]
+}

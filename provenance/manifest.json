@@ -431,8 +431,10 @@
       },
       "evidence_class": "preserved_historical_artifact",
       "original_sha256": "b33a951f05bc8e640f6ef296870ae9f786d51284017249b4816e95a946259de4",
-      "published_sha256": "b33a951f05bc8e640f6ef296870ae9f786d51284017249b4816e95a946259de4",
-      "sanitization": {}
+      "published_sha256": "f76730bf8cee38a65bc37dc0fc8728cbe3215152e57e9a0964ecb646e9eb5c6c",
+      "sanitization": {},
+      "pre_audit_published_sha256": "b33a951f05bc8e640f6ef296870ae9f786d51284017249b4816e95a946259de4",
+      "post_audit_change": "Recursive exact output type preservation added; original suite retained at publication commit 7306532."
     },
     {
       "published_path": "acceptance/test_014.py",
@@ -475,8 +477,10 @@
       },
       "evidence_class": "preserved_historical_artifact",
       "original_sha256": "34c4c3d61e05406bf7331b909fb0ba36dbf6e67a8062aea2185d70f5f8d8f7eb",
-      "published_sha256": "34c4c3d61e05406bf7331b909fb0ba36dbf6e67a8062aea2185d70f5f8d8f7eb",
-      "sanitization": {}
+      "published_sha256": "3f934c9e4186e44b90b827c059c74a79171e3e6d0cacf7dcf969188b096b5843",
+      "sanitization": {},
+      "pre_audit_published_sha256": "34c4c3d61e05406bf7331b909fb0ba36dbf6e67a8062aea2185d70f5f8d8f7eb",
+      "post_audit_change": "Acceptance coverage strengthened; historical version retained in publication commit 7306532."
     },
     {
       "published_path": "acceptance/test_017.py",
@@ -1765,8 +1769,10 @@
       },
       "evidence_class": "preserved_historical_artifact",
       "original_sha256": "12460701c6dd5467dfada28689d031259c0639314a24be468e98accba9febc15",
-      "published_sha256": "12460701c6dd5467dfada28689d031259c0639314a24be468e98accba9febc15",
-      "sanitization": {}
+      "published_sha256": "228ad8f5ccb129a2d6e2a44f444ac3cb39f24d553770d947aad775a3b78522f1",
+      "sanitization": {},
+      "pre_audit_published_sha256": "12460701c6dd5467dfada28689d031259c0639314a24be468e98accba9febc15",
+      "post_audit_change": "Acceptance coverage strengthened; historical version retained in publication commit 7306532."
     },
     {
       "published_path": "snapshots/008/baseline/.gitignore",

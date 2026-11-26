@@ -1,0 +1,5624 @@
+{
+  "evidence_class": "newly_executed_publication_validation",
+  "started_utc": "2026-11-26T20:48:12.452976+00:00",
+  "runtime": {
+    "python": "3.14.7",
+    "platform": "Darwin",
+    "pytest": "9.1.1",
+    "ruff": "0.16.8"
+  },
+  "model_experiments_launched": 0,
+  "candidates": {
+    "008/luna": {
+      "snapshot": "snapshots/008/luna",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": "..................                                                       [100%]\n18 passed in 0.01s\n",
+          "stderr": "",
+          "seconds": 0.2347,
+          "counts": {
+            "total": 18,
+            "passed": 18,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "tests.test_problem_0041_first_missing_positive",
+              "test_all_negative"
+            ],
+            [
+              "tests.test_problem_0041_first_missing_positive",
+              "test_missing_at_end"
+            ],
+            [
+              "tests.test_problem_0041_first_missing_positive",
+              "test_with_duplicates"
+            ],
+            [
+              "tests.test_problem_0056_merge_intervals",
+              "test_disjoint_intervals_remain_separate"
+            ],
+            [
+              "tests.test_problem_0056_merge_intervals",
+              "test_duplicate_intervals_are_merged"
+            ],
+            [
+              "tests.test_problem_0056_merge_intervals",
+              "test_empty_input"
+            ],
+            [
+              "tests.test_problem_0056_merge_intervals",
+              "test_input_and_nested_intervals_are_not_mutated"
+            ],
+            [
+              "tests.test_problem_0056_merge_intervals",
+              "test_intervals_sharing_endpoint_are_merged"
+            ],
+            [
+              "tests.test_problem_0056_merge_intervals",
+              "test_negative_endpoints"
+            ],
+            [
+              "tests.test_problem_0056_merge_intervals",
+              "test_nested_interval_is_absorbed"
+            ],
+            [
+              "tests.test_problem_0056_merge_intervals",
+              "test_rejects_interval_with_start_after_end"
+            ],
+            [
+              "tests.test_problem_0056_merge_intervals",
+              "test_rejects_intervals_with_wrong_number_of_endpoints[interval0]"
+            ],
+            [
+              "tests.test_problem_0056_merge_intervals",
+              "test_rejects_intervals_with_wrong_number_of_endpoints[interval1]"
+            ],
+            [
+              "tests.test_problem_0056_merge_intervals",
+              "test_rejects_intervals_with_wrong_number_of_endpoints[interval2]"
+            ],
+            [
+              "tests.test_problem_0056_merge_intervals",
+              "test_single_interval"
+            ],
+            [
+              "tests.test_problem_0056_merge_intervals",
+              "test_zero_length_intervals_merge_at_shared_endpoint"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_empty"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_single_balloon"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "status": "unavailable",
+          "reason": "No preserved independent suite; repository tests are not independent."
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0294,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0295,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "008/sol": {
+      "snapshot": "snapshots/008/sol",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": "...................                                                      [100%]\n19 passed in 0.01s\n",
+          "stderr": "",
+          "seconds": 0.241,
+          "counts": {
+            "total": 19,
+            "passed": 19,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "tests.test_problem_0041_first_missing_positive",
+              "test_all_negative"
+            ],
+            [
+              "tests.test_problem_0041_first_missing_positive",
+              "test_missing_at_end"
+            ],
+            [
+              "tests.test_problem_0041_first_missing_positive",
+              "test_with_duplicates"
+            ],
+            [
+              "tests.test_problem_0056_merge_intervals",
+              "test_duplicate_intervals"
+            ],
+            [
+              "tests.test_problem_0056_merge_intervals",
+              "test_empty"
+            ],
+            [
+              "tests.test_problem_0056_merge_intervals",
+              "test_equal_starts"
+            ],
+            [
+              "tests.test_problem_0056_merge_intervals",
+              "test_input_immutability"
+            ],
+            [
+              "tests.test_problem_0056_merge_intervals",
+              "test_invalid_interval[invalid0]"
+            ],
+            [
+              "tests.test_problem_0056_merge_intervals",
+              "test_invalid_interval[invalid1]"
+            ],
+            [
+              "tests.test_problem_0056_merge_intervals",
+              "test_invalid_interval[invalid2]"
+            ],
+            [
+              "tests.test_problem_0056_merge_intervals",
+              "test_invalid_interval[invalid3]"
+            ],
+            [
+              "tests.test_problem_0056_merge_intervals",
+              "test_negative_endpoints"
+            ],
+            [
+              "tests.test_problem_0056_merge_intervals",
+              "test_nested_intervals"
+            ],
+            [
+              "tests.test_problem_0056_merge_intervals",
+              "test_single_interval"
+            ],
+            [
+              "tests.test_problem_0056_merge_intervals",
+              "test_transitive_overlap"
+            ],
+            [
+              "tests.test_problem_0056_merge_intervals",
+              "test_unsorted_disjoint_intervals"
+            ],
+            [
+              "tests.test_problem_0056_merge_intervals",
+              "test_zero_length_intervals"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_empty"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_single_balloon"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "status": "unavailable",
+          "reason": "No preserved independent suite; repository tests are not independent."
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0302,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0299,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "009/luna": {
+      "snapshot": "snapshots/009/luna",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": ".......................                                                  [100%]\n23 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2469,
+          "counts": {
+            "total": 23,
+            "passed": 23,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "tests.test_problem_0041_first_missing_positive",
+              "test_all_negative"
+            ],
+            [
+              "tests.test_problem_0041_first_missing_positive",
+              "test_missing_at_end"
+            ],
+            [
+              "tests.test_problem_0041_first_missing_positive",
+              "test_with_duplicates"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_empty"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_single_balloon"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_clear"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_custom_ttl"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_delete_existing_and_missing"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_delete_expired"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_expiration_boundary_and_length"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_expired_cleaned_before_eviction"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_get_and_length"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_get_recency"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_invalid_capacity[-1]"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_invalid_capacity[0]"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_invalid_default_ttl[-1]"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_invalid_default_ttl[0]"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_invalid_entry_ttl[-1]"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_invalid_entry_ttl[0]"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_none_is_stored"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_overwrite_value_and_expiration"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_thread_safe_concurrent_operations"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_update_recency"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "status": "unavailable",
+          "reason": "No preserved independent suite; repository tests are not independent."
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0295,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0285,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "009/sol": {
+      "snapshot": "snapshots/009/sol",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": ".....................................                                    [100%]\n37 passed in 0.04s\n",
+          "stderr": "",
+          "seconds": 0.2716,
+          "counts": {
+            "total": 37,
+            "passed": 37,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "tests.test_problem_0041_first_missing_positive",
+              "test_all_negative"
+            ],
+            [
+              "tests.test_problem_0041_first_missing_positive",
+              "test_missing_at_end"
+            ],
+            [
+              "tests.test_problem_0041_first_missing_positive",
+              "test_with_duplicates"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_empty"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_single_balloon"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_access_updates_recency[get]"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_access_updates_recency[set]"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_capacity_one_and_expired_overwrite"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_clear_and_reuse"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_concurrent_delete_has_one_winner"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_concurrent_mixed_operations_respect_capacity"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_concurrent_unique_keys"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_default_clock_uses_monotonic"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_delete_live_and_expired[10-False]"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_delete_live_and_expired[11-False]"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_delete_live_and_expired[9-True]"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_empty_cache"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_expiration_boundary[10-False]"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_expiration_boundary[10.001-False]"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_expiration_boundary[9.999-True]"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_expired_mru_removed_before_live_lru"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_get_does_not_extend_ttl"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_invalid_capacity[-1]"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_invalid_capacity[0]"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_invalid_default_ttl[-0.1]"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_invalid_default_ttl[-1]"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_invalid_default_ttl[0]"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_invalid_entry_ttl_preserves_value[-0.1]"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_invalid_entry_ttl_preserves_value[-1]"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_invalid_entry_ttl_preserves_value[0]"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_length_excludes_expired_without_get"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_lru_eviction"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_none_value_is_live_and_updates_recency"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_overwrite_resets_expiration"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_overwrite_uses_new_ttl"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_ttl_starts_at_set_time"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_value_round_trip"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "status": "unavailable",
+          "reason": "No preserved independent suite; repository tests are not independent."
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0298,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0297,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "010/luna": {
+      "snapshot": "snapshots/010/luna",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": "..................................                                       [100%]\n34 passed in 0.03s\n",
+          "stderr": "",
+          "seconds": 0.2536,
+          "counts": {
+            "total": 34,
+            "passed": 34,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "tests.test_problem_0041_first_missing_positive",
+              "test_all_negative"
+            ],
+            [
+              "tests.test_problem_0041_first_missing_positive",
+              "test_missing_at_end"
+            ],
+            [
+              "tests.test_problem_0041_first_missing_positive",
+              "test_with_duplicates"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_empty"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_single_balloon"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_clear"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_clear_preserves_stats_and_does_not_expire_entries"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_concurrent_stats_access_counts_operations"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_custom_ttl"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_delete_existing_and_missing"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_delete_expired"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_delete_expired_counts_expiration"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_delete_live_does_not_change_counters"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_expiration_boundary_and_length"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_expiration_counted_once_by_get"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_expired_cleaned_before_eviction"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_expired_cleanup_before_capacity_does_not_evict"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_get_and_length"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_get_recency"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_invalid_capacity[-1]"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_invalid_capacity[0]"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_invalid_default_ttl[-1]"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_invalid_default_ttl[0]"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_invalid_entry_ttl[-1]"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_invalid_entry_ttl[0]"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_len_expiration_counted"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_none_is_stored"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_overwrite_at_capacity_does_not_evict"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_overwrite_value_and_expiration"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_set_expired_cleanup_counted"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_stats_count_none_as_hit_and_missing_as_miss"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_stats_returns_independent_snapshot"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_thread_safe_concurrent_operations"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_update_recency"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "status": "unavailable",
+          "reason": "No preserved independent suite; repository tests are not independent."
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0291,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0322,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "010/sol": {
+      "snapshot": "snapshots/010/sol",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": ".......................................                                  [100%]\n39 passed in 0.04s\n",
+          "stderr": "",
+          "seconds": 0.2657,
+          "counts": {
+            "total": 39,
+            "passed": 39,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "tests.test_problem_0041_first_missing_positive",
+              "test_all_negative"
+            ],
+            [
+              "tests.test_problem_0041_first_missing_positive",
+              "test_missing_at_end"
+            ],
+            [
+              "tests.test_problem_0041_first_missing_positive",
+              "test_with_duplicates"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_empty"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_single_balloon"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_clear"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_custom_ttl"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_delete_existing_and_missing"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_delete_expired"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_expiration_boundary_and_length"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_expired_cleaned_before_eviction"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_get_and_length"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_get_recency"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_invalid_capacity[-1]"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_invalid_capacity[0]"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_invalid_default_ttl[-1]"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_invalid_default_ttl[0]"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_invalid_entry_ttl[-1]"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_invalid_entry_ttl[0]"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_none_is_stored"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_overwrite_value_and_expiration"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_stats_clear_preserves_all_counters_and_skips_expiration"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_stats_concurrent_access_exact_totals"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_stats_concurrent_expiration_counted_once"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_stats_delete_expired_entry"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_stats_delete_live_and_missing_entries"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_stats_does_not_read_clock_or_clean_expired_entries"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_stats_expired_entry_removed_before_live_lru_eviction"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_stats_get_expiration_counted_once"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_stats_initial_counters"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_stats_length_removes_multiple_expired_entries_once"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_stats_live_hits_and_missing_misses"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_stats_live_lru_eviction"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_stats_none_counts_as_hit"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_stats_overwrite_at_capacity_resets_ttl_and_recency"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_stats_replacing_expired_key_counts_expiration"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_stats_snapshots_are_independent"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_thread_safe_concurrent_operations"
+            ],
+            [
+              "tests.test_ttl_cache",
+              "test_update_recency"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "status": "unavailable",
+          "reason": "No preserved independent suite; repository tests are not independent."
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.031,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0285,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "011/luna": {
+      "snapshot": "snapshots/011/luna",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": "...............                                                          [100%]\n15 passed in 0.29s\n",
+          "stderr": "",
+          "seconds": 0.5556,
+          "counts": {
+            "total": 15,
+            "passed": 15,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "tests.test_bounded_task_queue",
+              "test_capacity_and_nonblocking_operations"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_close_is_idempotent_and_drains_items"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_close_wakes_blocked_consumer"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_close_wakes_blocked_producer"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_fifo_and_qsize"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_get_timeout_and_zero_timeout"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_get_waits_until_item_available"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_invalid_timeouts[get]"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_invalid_timeouts[put]"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_max_size_must_be_positive[-1]"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_max_size_must_be_positive[0]"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_put_timeout_and_zero_timeout"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_put_waits_until_space_available"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_empty"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_single_balloon"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "returncode": 0,
+          "stdout": "................                                                         [100%]\n16 passed in 0.14s\n",
+          "stderr": "",
+          "seconds": 0.3801,
+          "counts": {
+            "total": 16,
+            "passed": 16,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "",
+              "test_blocked_get_receives_item"
+            ],
+            [
+              "",
+              "test_blocked_put_proceeds_after_get"
+            ],
+            [
+              "",
+              "test_close_drains_existing_items"
+            ],
+            [
+              "",
+              "test_close_is_idempotent_and_rejects_put"
+            ],
+            [
+              "",
+              "test_close_wakes_blocked_consumer"
+            ],
+            [
+              "",
+              "test_close_wakes_blocked_producer"
+            ],
+            [
+              "",
+              "test_closed_queue_reports_remaining_size"
+            ],
+            [
+              "",
+              "test_concurrent_consumers_exactly_once"
+            ],
+            [
+              "",
+              "test_concurrent_producers_no_loss"
+            ],
+            [
+              "",
+              "test_fifo_and_size"
+            ],
+            [
+              "",
+              "test_get_timeout"
+            ],
+            [
+              "",
+              "test_invalid_capacity"
+            ],
+            [
+              "",
+              "test_invalid_timeout_arguments"
+            ],
+            [
+              "",
+              "test_nonblocking_full_and_empty"
+            ],
+            [
+              "",
+              "test_put_timeout"
+            ],
+            [
+              "",
+              "test_zero_timeout"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0321,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0273,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "011/sol": {
+      "snapshot": "snapshots/011/sol",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": "...............................                                          [100%]\n31 passed in 0.12s\n",
+          "stderr": "",
+          "seconds": 0.3509,
+          "counts": {
+            "total": 31,
+            "passed": 31,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "tests.test_bounded_task_queue",
+              "test_all_put_calls_after_close_raise_closed[kwargs0]"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_all_put_calls_after_close_raise_closed[kwargs1]"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_all_put_calls_after_close_raise_closed[kwargs2]"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_all_put_calls_after_close_raise_closed[kwargs3]"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_all_put_calls_after_close_raise_closed[kwargs4]"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_blocked_consumer_resumes_when_item_available"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_blocked_producer_resumes_when_space_available"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_blocking_rejects_negative_timeout[get]"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_blocking_rejects_negative_timeout[put]"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_close_is_idempotent_and_drains_fifo"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_close_wakes_all_waiters[False]"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_close_wakes_all_waiters[True]"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_fifo_and_size"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_invalid_capacity[-10]"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_invalid_capacity[-1]"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_invalid_capacity[0]"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_multiple_producers_and_consumers"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_nonblocking_full_and_empty"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_nonblocking_rejects_any_timeout[-1-get]"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_nonblocking_rejects_any_timeout[-1-put]"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_nonblocking_rejects_any_timeout[0-get]"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_nonblocking_rejects_any_timeout[0-put]"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_nonblocking_rejects_any_timeout[1-get]"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_nonblocking_rejects_any_timeout[1-put]"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_spurious_wakeups_preserve_monotonic_deadline[get-Empty]"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_spurious_wakeups_preserve_monotonic_deadline[put-Full]"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_timeout_waits[get-Empty]"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_timeout_waits[put-Full]"
+            ],
+            [
+              "tests.test_bounded_task_queue",
+              "test_zero_timeout"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_empty"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_single_balloon"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "returncode": 0,
+          "stdout": "................                                                         [100%]\n16 passed in 0.14s\n",
+          "stderr": "",
+          "seconds": 0.3731,
+          "counts": {
+            "total": 16,
+            "passed": 16,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "",
+              "test_blocked_get_receives_item"
+            ],
+            [
+              "",
+              "test_blocked_put_proceeds_after_get"
+            ],
+            [
+              "",
+              "test_close_drains_existing_items"
+            ],
+            [
+              "",
+              "test_close_is_idempotent_and_rejects_put"
+            ],
+            [
+              "",
+              "test_close_wakes_blocked_consumer"
+            ],
+            [
+              "",
+              "test_close_wakes_blocked_producer"
+            ],
+            [
+              "",
+              "test_closed_queue_reports_remaining_size"
+            ],
+            [
+              "",
+              "test_concurrent_consumers_exactly_once"
+            ],
+            [
+              "",
+              "test_concurrent_producers_no_loss"
+            ],
+            [
+              "",
+              "test_fifo_and_size"
+            ],
+            [
+              "",
+              "test_get_timeout"
+            ],
+            [
+              "",
+              "test_invalid_capacity"
+            ],
+            [
+              "",
+              "test_invalid_timeout_arguments"
+            ],
+            [
+              "",
+              "test_nonblocking_full_and_empty"
+            ],
+            [
+              "",
+              "test_put_timeout"
+            ],
+            [
+              "",
+              "test_zero_timeout"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0324,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0289,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "012/luna": {
+      "snapshot": "snapshots/012/luna",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": "..................                                                       [100%]\n18 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2456,
+          "counts": {
+            "total": 18,
+            "passed": 18,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_empty"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_single_balloon"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_allows_requests_up_to_limit"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_concurrent_requests_never_exceed_limit"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_injected_clock_controls_expiration"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_keys_have_independent_limits"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_rejected_request_does_not_consume_capacity"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_rejects_non_positive_limit"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_rejects_non_positive_window"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_remaining_decreases_after_allowed_request"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_remaining_does_not_count_rejected_request"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_remaining_for_unknown_key_is_full_capacity"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_remaining_ignores_expired_requests"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_request_does_not_expire_before_window_boundary"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_request_expires_at_exact_window_boundary"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_reset_clears_only_requested_key"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_reset_unknown_key_is_safe"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_rolling_window_expires_only_oldest_request"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "returncode": 0,
+          "stdout": "..................                                                       [100%]\n18 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2479,
+          "counts": {
+            "total": 18,
+            "passed": 18,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "",
+              "test_concurrent_distinct_keys"
+            ],
+            [
+              "",
+              "test_concurrent_requests_respect_capacity"
+            ],
+            [
+              "",
+              "test_exact_capacity"
+            ],
+            [
+              "",
+              "test_independent_keys"
+            ],
+            [
+              "",
+              "test_invalid_limit_negative"
+            ],
+            [
+              "",
+              "test_invalid_limit_zero"
+            ],
+            [
+              "",
+              "test_invalid_window_negative"
+            ],
+            [
+              "",
+              "test_invalid_window_zero"
+            ],
+            [
+              "",
+              "test_just_before_window_boundary"
+            ],
+            [
+              "",
+              "test_rejected_requests_do_not_consume_capacity"
+            ],
+            [
+              "",
+              "test_remaining_after_expiration"
+            ],
+            [
+              "",
+              "test_remaining_after_requests"
+            ],
+            [
+              "",
+              "test_remaining_initial_capacity"
+            ],
+            [
+              "",
+              "test_remaining_never_negative"
+            ],
+            [
+              "",
+              "test_reset_does_not_affect_other_keys"
+            ],
+            [
+              "",
+              "test_reset_restores_capacity"
+            ],
+            [
+              "",
+              "test_rolling_window_partial_expiration"
+            ],
+            [
+              "",
+              "test_window_boundary"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0307,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0299,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "012/sol": {
+      "snapshot": "snapshots/012/sol",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": "............................                                             [100%]\n28 passed in 0.03s\n",
+          "stderr": "",
+          "seconds": 0.2544,
+          "counts": {
+            "total": 28,
+            "passed": 28,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_empty"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_single_balloon"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_allow_expires_request_at_exact_boundary"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_allows_exactly_limit_requests"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_clock_is_sampled_after_lock_acquisition[allow]"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_clock_is_sampled_after_lock_acquisition[remaining]"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_concurrent_requests_cannot_exceed_capacity"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_default_clock_is_usable"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_expiry_after_long_idle_period"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_falsey_injected_clock_is_used"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_fractional_window_and_nonzero_clock_origin"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_keys_have_independent_capacity"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_new_key_has_full_capacity"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_operations_wait_for_shared_lock[allow]"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_operations_wait_for_shared_lock[remaining]"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_operations_wait_for_shared_lock[reset]"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_rejections_do_not_consume_capacity_or_extend_expiry"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_rejects_nonpositive_configuration[-1-1]"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_rejects_nonpositive_configuration[0-1]"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_rejects_nonpositive_configuration[1--1]"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_rejects_nonpositive_configuration[1-0]"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_remaining_does_not_consume_capacity"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_remaining_expires_requests_at_exact_boundary"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_request_stays_active_just_before_expiry"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_reset_missing_key_is_idempotent"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_reset_preserves_other_keys"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_reset_restores_capacity"
+            ],
+            [
+              "tests.test_rate_limiter",
+              "test_window_rolls_over_staggered_requests"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "returncode": 0,
+          "stdout": "..................                                                       [100%]\n18 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2473,
+          "counts": {
+            "total": 18,
+            "passed": 18,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "",
+              "test_concurrent_distinct_keys"
+            ],
+            [
+              "",
+              "test_concurrent_requests_respect_capacity"
+            ],
+            [
+              "",
+              "test_exact_capacity"
+            ],
+            [
+              "",
+              "test_independent_keys"
+            ],
+            [
+              "",
+              "test_invalid_limit_negative"
+            ],
+            [
+              "",
+              "test_invalid_limit_zero"
+            ],
+            [
+              "",
+              "test_invalid_window_negative"
+            ],
+            [
+              "",
+              "test_invalid_window_zero"
+            ],
+            [
+              "",
+              "test_just_before_window_boundary"
+            ],
+            [
+              "",
+              "test_rejected_requests_do_not_consume_capacity"
+            ],
+            [
+              "",
+              "test_remaining_after_expiration"
+            ],
+            [
+              "",
+              "test_remaining_after_requests"
+            ],
+            [
+              "",
+              "test_remaining_initial_capacity"
+            ],
+            [
+              "",
+              "test_remaining_never_negative"
+            ],
+            [
+              "",
+              "test_reset_does_not_affect_other_keys"
+            ],
+            [
+              "",
+              "test_reset_restores_capacity"
+            ],
+            [
+              "",
+              "test_rolling_window_partial_expiration"
+            ],
+            [
+              "",
+              "test_window_boundary"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0308,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0283,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "013/luna": {
+      "snapshot": "snapshots/013/luna",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": ".........................                                                [100%]\n25 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2445,
+          "counts": {
+            "total": 25,
+            "passed": 25,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "tests.test_order_processor",
+              "test_basic_order_returns_expected_structure_and_string_amounts"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_boolean_quantity_retains_python_integer_behavior"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_customer_and_sku_values_are_returned_without_coercion"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_discount_is_applied_before_line_rounding"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_empty_list_is_rejected"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_express_shipping_overrides_free_shipping_threshold"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_invalid_quantity_is_rejected[-1]"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_invalid_quantity_is_rejected[0]"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_invalid_quantity_is_rejected[1.5]"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_invalid_quantity_is_rejected[2]"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_invalid_quantity_is_rejected[None]"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_items_must_be_a_list"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_line_amount_rounding_does_not_change_subtotal_intermediate_precision"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_missing_customer_precedes_missing_items"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_missing_items_has_exact_message"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_missing_quantity_has_exact_message"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_missing_sku_is_checked_before_missing_quantity"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_non_dict_order_has_exact_type_error"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_non_express_priority_uses_regular_shipping"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_region_tax_uses_decimal_conversion_and_half_up_rounding"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_regular_shipping_is_free_at_subtotal_threshold"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_unknown_region_has_zero_tax"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_unknown_sku_precedes_invalid_quantity"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_empty"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_single_balloon"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "returncode": 0,
+          "stdout": "..............................                                           [100%]\n30 passed in 0.01s\n",
+          "stderr": "",
+          "seconds": 0.2402,
+          "counts": {
+            "total": 30,
+            "passed": 30,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "",
+              "test_preserves_legacy_behavior[None]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[[]]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'A', 'items': 'invalid'}]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'A', 'items': []}]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'A', 'items': [{'sku': 'A', 'quantity': '2'}]}]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'A', 'items': [{'sku': 'A', 'quantity': -1}]}]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'A', 'items': [{'sku': 'A', 'quantity': 0}]}]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'A', 'items': [{'sku': 'A', 'quantity': 1.5}]}]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'A', 'items': [{'sku': 'A'}]}]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'A', 'items': [{'sku': 'MISSING', 'quantity': 1}]}]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'A', 'items': [{}]}]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'A'}]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'Alice', 'items': [{'sku': 'A', 'quantity': 1}]}]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'Bob', 'items': [{'sku': 'B', 'quantity': 2}]}]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'Cara', 'items': [{'sku': 'C', 'quantity': 1}]}]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'Dan', 'items': [{'sku': 'A', 'quantity': 3, 'discount': ]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'Eve', 'items': [{'sku': 'B', 'quantity': 3}], 'region': ]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'Frank', 'items': [{'sku': 'FREE', 'quantity': 1}], 'regi]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'Grace', 'items': [{'sku': 'A', 'quantity': 2}, {'sku': ']"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'Hank', 'items': [{'sku': 'C', 'quantity': 1, 'discount':]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'Ivy', 'items': [{'sku': 'A', 'quantity': 1, 'discount': ]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'Jay', 'items': [{'sku': 'B', 'quantity': 1, 'discount': ]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'Kim', 'items': [{'sku': 'C', 'quantity': 1}], 'priority']"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'Lee', 'items': [{'sku': 'A', 'quantity': 8}], 'priority']"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'Mia', 'items': [{'sku': 'A', 'quantity': 1}], 'region': ]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'Nia', 'items': [{'sku': 'A', 'quantity': 1}], 'region': ]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'Omar', 'items': [{'sku': 'A', 'quantity': 1, 'discount':]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'Pam', 'items': [{'sku': 'A', 'quantity': 1}, {'sku': 'A']"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'items': []}]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{}]"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0292,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0287,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "013/sol": {
+      "snapshot": "snapshots/013/sol",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": "................................................                         [100%]\n48 passed in 0.03s\n",
+          "stderr": "",
+          "seconds": 0.2545,
+          "counts": {
+            "total": 48,
+            "passed": 48,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "tests.test_order_processor",
+              "test_complete_result_and_value_types"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_express_priority_bypasses_nan_shipping_comparison"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_first_line_failure_precedes_later_item_validation"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_inputs_are_not_mutated"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_intermediate_arithmetic_respects_decimal_context"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_invalid_quantity_precedes_missing_price"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_invalid_tax_precedes_shipping_lookup"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_item_validation_order_and_messages[item0-missing sku]"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_item_validation_order_and_messages[item1-missing sku]"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_item_validation_order_and_messages[item2-missing quantity]"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_item_validation_order_and_messages[item3-unknown sku: unknown]"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_item_validation_order_and_messages[item4-unknown sku: 42]"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_item_validation_order_and_messages[item5-invalid quantity]"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_item_validation_order_and_messages[item6-invalid quantity]"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_item_validation_order_and_messages[item7-invalid quantity]"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_item_validation_order_and_messages[item8-invalid quantity]"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_item_validation_order_and_messages[item9-invalid quantity]"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_line_rounding_does_not_affect_subtotal_or_total"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_missing_price_is_not_wrapped"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_nan_subtotal_fails_shipping_comparison"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_negative_half_cent_rounds_away_from_zero"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_non_mapping_item_retains_native_error"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_numeric_values_are_converted_through_strings"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_order_validation_order_and_messages[None-TypeError-order must be a dict]"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_order_validation_order_and_messages[order1-TypeError-order must be a dict]"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_order_validation_order_and_messages[order2-ValueError-missing customer]"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_order_validation_order_and_messages[order3-ValueError-missing customer]"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_order_validation_order_and_messages[order4-ValueError-missing items]"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_order_validation_order_and_messages[order5-TypeError-items must be a list]"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_order_validation_order_and_messages[order6-ValueError-empty order]"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_shipping_uses_unrounded_subtotal_and_exact_priority[10-Express-7.50-17.50]"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_shipping_uses_unrounded_subtotal_and_exact_priority[10-True-7.50-17.50]"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_shipping_uses_unrounded_subtotal_and_exact_priority[10-express-15.00-25.00]"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_shipping_uses_unrounded_subtotal_and_exact_priority[100-None-0.00-100.00]"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_shipping_uses_unrounded_subtotal_and_exact_priority[101-express-15.00-116.00]"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_shipping_uses_unrounded_subtotal_and_exact_priority[99.999-None-7.50-107.50]"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_tax_region_defaults_and_rounding[overrides0-rates0-1.25]"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_tax_region_defaults_and_rounding[overrides1-rates1-0.00]"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_tax_region_defaults_and_rounding[overrides2-rates2--0.50]"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_tax_region_defaults_and_rounding[overrides3-rates3-0.26]"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_true_quantity_is_preserved"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_unhashable_sku_retains_native_error"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_unrestricted_discounts[-10-11.00]"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_unrestricted_discounts[0.5-9.95]"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_unrestricted_discounts[100-0.00]"
+            ],
+            [
+              "tests.test_order_processor",
+              "test_unrestricted_discounts[150--5.00]"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_empty"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_single_balloon"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "returncode": 0,
+          "stdout": "..............................                                           [100%]\n30 passed in 0.01s\n",
+          "stderr": "",
+          "seconds": 0.2412,
+          "counts": {
+            "total": 30,
+            "passed": 30,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "",
+              "test_preserves_legacy_behavior[None]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[[]]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'A', 'items': 'invalid'}]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'A', 'items': []}]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'A', 'items': [{'sku': 'A', 'quantity': '2'}]}]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'A', 'items': [{'sku': 'A', 'quantity': -1}]}]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'A', 'items': [{'sku': 'A', 'quantity': 0}]}]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'A', 'items': [{'sku': 'A', 'quantity': 1.5}]}]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'A', 'items': [{'sku': 'A'}]}]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'A', 'items': [{'sku': 'MISSING', 'quantity': 1}]}]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'A', 'items': [{}]}]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'A'}]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'Alice', 'items': [{'sku': 'A', 'quantity': 1}]}]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'Bob', 'items': [{'sku': 'B', 'quantity': 2}]}]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'Cara', 'items': [{'sku': 'C', 'quantity': 1}]}]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'Dan', 'items': [{'sku': 'A', 'quantity': 3, 'discount': ]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'Eve', 'items': [{'sku': 'B', 'quantity': 3}], 'region': ]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'Frank', 'items': [{'sku': 'FREE', 'quantity': 1}], 'regi]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'Grace', 'items': [{'sku': 'A', 'quantity': 2}, {'sku': ']"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'Hank', 'items': [{'sku': 'C', 'quantity': 1, 'discount':]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'Ivy', 'items': [{'sku': 'A', 'quantity': 1, 'discount': ]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'Jay', 'items': [{'sku': 'B', 'quantity': 1, 'discount': ]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'Kim', 'items': [{'sku': 'C', 'quantity': 1}], 'priority']"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'Lee', 'items': [{'sku': 'A', 'quantity': 8}], 'priority']"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'Mia', 'items': [{'sku': 'A', 'quantity': 1}], 'region': ]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'Nia', 'items': [{'sku': 'A', 'quantity': 1}], 'region': ]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'Omar', 'items': [{'sku': 'A', 'quantity': 1, 'discount':]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'customer': 'Pam', 'items': [{'sku': 'A', 'quantity': 1}, {'sku': 'A']"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{'items': []}]"
+            ],
+            [
+              "",
+              "test_preserves_legacy_behavior[{}]"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0332,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0293,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "014/luna": {
+      "snapshot": "snapshots/014/luna",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": "................                                                         [100%]\n16 passed in 0.01s\n",
+          "stderr": "",
+          "seconds": 0.2399,
+          "counts": {
+            "total": 16,
+            "passed": 16,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "tests.test_pair_counter",
+              "test_duplicate_complements"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_duplicate_values_count_distinct_indices"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_empty_input"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_input_is_not_mutated"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_large_integers"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_matches_expected_count_for_mixed_values"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_negative_target"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_negative_values"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_no_matching_pair"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_pair_count_can_be_large"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_simple_pair"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_single_number"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_zero_target_with_opposites"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_zero_values"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_empty"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_single_balloon"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "returncode": 0,
+          "stdout": "...............................                                          [100%]\n31 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2428,
+          "counts": {
+            "total": 31,
+            "passed": 31,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "",
+              "test_known_cases[numbers0-0-0]"
+            ],
+            [
+              "",
+              "test_known_cases[numbers1-2-0]"
+            ],
+            [
+              "",
+              "test_known_cases[numbers2-3-1]"
+            ],
+            [
+              "",
+              "test_known_cases[numbers3-2-1]"
+            ],
+            [
+              "",
+              "test_known_cases[numbers4-2-6]"
+            ],
+            [
+              "",
+              "test_known_cases[numbers5-0-4950]"
+            ],
+            [
+              "",
+              "test_known_cases[numbers6-0-2]"
+            ],
+            [
+              "",
+              "test_known_cases[numbers7-6-2]"
+            ],
+            [
+              "",
+              "test_known_cases[numbers8-5-4]"
+            ],
+            [
+              "",
+              "test_known_cases[numbers9-0-1]"
+            ],
+            [
+              "",
+              "test_large_duplicate_count"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[0]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[10]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[11]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[12]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[13]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[14]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[15]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[16]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[17]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[18]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[19]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[1]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[2]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[3]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[4]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[5]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[6]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[7]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[8]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[9]"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0307,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 1,
+          "stdout": "[\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 43,\n      \"row\": 6\n    },\n    \"filename\": \"<candidate>/problems/order_processor.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"from decimal import ROUND_HALF_UP, Decimal\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 9\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 6\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 6\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 6,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  }\n]",
+          "stderr": "",
+          "seconds": 0.0281,
+          "expected_diagnostics": [
+            [
+              "I001",
+              "problems/order_processor.py"
+            ]
+          ],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "014/sol": {
+      "snapshot": "snapshots/014/sol",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": "......................                                                   [100%]\n22 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2478,
+          "counts": {
+            "total": 22,
+            "passed": 22,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "tests.test_pair_counter",
+              "test_all_zeros"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_arbitrary_precision_integers"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_arbitrary_precision_target"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_calls_do_not_share_frequency_state"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_duplicate_complements_count_every_index_pair"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_empty_list"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_exhaustive_small_inputs_against_brute_force"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_identical_values_count_combinations"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_identical_values_with_wrong_target"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_input_list_is_not_mutated"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_input_order_does_not_affect_count"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_large_duplicate_count"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_mixed_signs_with_zero_target"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_multiple_distinct_pairs"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_negative_and_positive_values_with_positive_target"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_negative_values_and_target"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_no_matching_pairs"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_single_element_cannot_pair_with_itself"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_two_matching_elements"
+            ],
+            [
+              "tests.test_pair_counter",
+              "test_zeros_pair_with_nonzero_values"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_empty"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_single_balloon"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "returncode": 0,
+          "stdout": "...............................                                          [100%]\n31 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2437,
+          "counts": {
+            "total": 31,
+            "passed": 31,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "",
+              "test_known_cases[numbers0-0-0]"
+            ],
+            [
+              "",
+              "test_known_cases[numbers1-2-0]"
+            ],
+            [
+              "",
+              "test_known_cases[numbers2-3-1]"
+            ],
+            [
+              "",
+              "test_known_cases[numbers3-2-1]"
+            ],
+            [
+              "",
+              "test_known_cases[numbers4-2-6]"
+            ],
+            [
+              "",
+              "test_known_cases[numbers5-0-4950]"
+            ],
+            [
+              "",
+              "test_known_cases[numbers6-0-2]"
+            ],
+            [
+              "",
+              "test_known_cases[numbers7-6-2]"
+            ],
+            [
+              "",
+              "test_known_cases[numbers8-5-4]"
+            ],
+            [
+              "",
+              "test_known_cases[numbers9-0-1]"
+            ],
+            [
+              "",
+              "test_large_duplicate_count"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[0]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[10]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[11]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[12]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[13]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[14]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[15]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[16]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[17]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[18]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[19]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[1]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[2]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[3]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[4]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[5]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[6]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[7]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[8]"
+            ],
+            [
+              "",
+              "test_randomized_against_reference[9]"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0306,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 1,
+          "stdout": "[\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 43,\n      \"row\": 6\n    },\n    \"filename\": \"<candidate>/problems/order_processor.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"from decimal import ROUND_HALF_UP, Decimal\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 9\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 6\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 6\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 6,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  }\n]",
+          "stderr": "",
+          "seconds": 0.0285,
+          "expected_diagnostics": [
+            [
+              "I001",
+              "problems/order_processor.py"
+            ]
+          ],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "015/luna": {
+      "snapshot": "snapshots/015/luna",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": "....................                                                     [100%]\n20 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2476,
+          "counts": {
+            "total": 20,
+            "passed": 20,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "tests.test_job_scheduler",
+              "test_callback_attempted_only_once_even_if_it_raises"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_callback_can_cancel_another_due_job"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_callback_can_schedule_job_for_next_invocation"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_callback_exception_does_not_stop_later_jobs"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_cancel_pending_job"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_cancel_reserved_due_job_before_its_callback_starts"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_cancel_unknown_id_returns_false"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_clock_is_injected_and_read_once_per_invocation"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_concurrent_run_due_calls_do_not_duplicate_execution"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_concurrent_scheduling_keeps_all_jobs"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_due_jobs_run_in_time_order"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_duplicate_pending_id_rejected"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_equal_times_use_insertion_order"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_executing_id_cannot_be_cancelled_or_reused"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_id_reused_after_cancel"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_id_reused_after_execution"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_jobs_wait_until_due"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_shutdown_is_idempotent_and_pending_jobs_drain"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_empty"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_single_balloon"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "returncode": 0,
+          "stdout": "..................                                                       [100%]\n18 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2448,
+          "counts": {
+            "total": 18,
+            "passed": 18,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "",
+              "test_callback_can_cancel_another_job"
+            ],
+            [
+              "",
+              "test_callback_can_schedule_another_job"
+            ],
+            [
+              "",
+              "test_callback_exception_does_not_stop_other_jobs"
+            ],
+            [
+              "",
+              "test_cancel_after_execution"
+            ],
+            [
+              "",
+              "test_cancel_pending_job"
+            ],
+            [
+              "",
+              "test_cancel_unknown_job"
+            ],
+            [
+              "",
+              "test_concurrent_run_due_executes_once"
+            ],
+            [
+              "",
+              "test_concurrent_scheduling"
+            ],
+            [
+              "",
+              "test_deadline_order"
+            ],
+            [
+              "",
+              "test_duplicate_pending_id_rejected"
+            ],
+            [
+              "",
+              "test_equal_deadlines_preserve_insertion_order"
+            ],
+            [
+              "",
+              "test_future_job_not_executed"
+            ],
+            [
+              "",
+              "test_job_executes_at_deadline"
+            ],
+            [
+              "",
+              "test_job_executes_once"
+            ],
+            [
+              "",
+              "test_no_jobs"
+            ],
+            [
+              "",
+              "test_shutdown_is_idempotent"
+            ],
+            [
+              "",
+              "test_shutdown_preserves_pending_jobs"
+            ],
+            [
+              "",
+              "test_shutdown_prevents_scheduling"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "interruption": {
+          "returncode": 1,
+          "stdout": "FF                                                                       [100%]\n=================================== FAILURES ===================================\n______ test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt] ______\n\nexception = <class 'KeyboardInterrupt'>\n\n    @pytest.mark.parametrize(\"exception\", [KeyboardInterrupt, SystemExit])\n    def test_interrupted_batch_preserves_unstarted_jobs(exception):\n        scheduler = JobScheduler(clock=lambda: 0)\n        calls = []\n    \n        def interrupt():\n            raise exception()\n    \n        scheduler.schedule(\"first\", 0, interrupt)\n        scheduler.schedule(\"second\", 0, lambda: calls.append(\"second\"))\n    \n        with pytest.raises(exception):\n            scheduler.run_due()\n    \n>       assert scheduler.run_due() == 1\nE       assert 0 == 1\nE        +  where 0 = run_due()\nE        +    where run_due = <problems.job_scheduler.JobScheduler object at 0x108b10440>.run_due\n\n<repo>/acceptance/test_015_interrupt.py:20: AssertionError\n_________ test_interrupted_batch_preserves_unstarted_jobs[SystemExit] __________\n\nexception = <class 'SystemExit'>\n\n    @pytest.mark.parametrize(\"exception\", [KeyboardInterrupt, SystemExit])\n    def test_interrupted_batch_preserves_unstarted_jobs(exception):\n        scheduler = JobScheduler(clock=lambda: 0)\n        calls = []\n    \n        def interrupt():\n            raise exception()\n    \n        scheduler.schedule(\"first\", 0, interrupt)\n        scheduler.schedule(\"second\", 0, lambda: calls.append(\"second\"))\n    \n        with pytest.raises(exception):\n            scheduler.run_due()\n    \n>       assert scheduler.run_due() == 1\nE       assert 0 == 1\nE        +  where 0 = run_due()\nE        +    where run_due = <problems.job_scheduler.JobScheduler object at 0x108b40050>.run_due\n\n<repo>/acceptance/test_015_interrupt.py:20: AssertionError\n=========================== short test summary info ============================\nFAILED ::test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt]\nFAILED ::test_interrupted_batch_preserves_unstarted_jobs[SystemExit] - assert...\n2 failed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.242,
+          "counts": {
+            "total": 2,
+            "passed": 0,
+            "failed": 2,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "",
+              "test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt]"
+            ],
+            [
+              "",
+              "test_interrupted_batch_preserves_unstarted_jobs[SystemExit]"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [
+            "test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt]",
+            "test_interrupted_batch_preserves_unstarted_jobs[SystemExit]"
+          ],
+          "expected_failure_names": [
+            "test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt]",
+            "test_interrupted_batch_preserves_unstarted_jobs[SystemExit]"
+          ],
+          "matches_documented_outcome": true
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.033,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 1,
+          "stdout": "[\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 43,\n      \"row\": 6\n    },\n    \"filename\": \"<candidate>/problems/order_processor.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"from decimal import ROUND_HALF_UP, Decimal\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 9\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 6\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 6\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 6,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  }\n]",
+          "stderr": "",
+          "seconds": 0.0288,
+          "expected_diagnostics": [
+            [
+              "I001",
+              "problems/order_processor.py"
+            ]
+          ],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "015/sol": {
+      "snapshot": "snapshots/015/sol",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": "...............................                                          [100%]\n31 passed in 0.03s\n",
+          "stderr": "",
+          "seconds": 0.259,
+          "counts": {
+            "total": 31,
+            "passed": 31,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "tests.test_job_scheduler",
+              "test_base_exception_releases_unstarted_jobs"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_callback_attempted_only_once"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_callback_can_cancel_and_replace_due_job"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_callback_can_schedule_but_new_job_waits"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_callback_can_shutdown"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_callback_cannot_cancel_or_reuse_own_executing_id"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_cancel_after_shutdown"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_cancel_pending_job"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_cancel_unknown_id"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_clock_is_sampled_once_per_run"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_concurrent_duplicate_scheduling_has_one_winner"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_concurrent_run_cannot_take_reserved_jobs"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_concurrent_runners_attempt_each_job_once"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_concurrent_unique_scheduling"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_default_clock_is_monotonic"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_due_job_can_be_cancelled_from_another_thread"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_duplicate_pending_id_rejected"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_empty_run"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_exception_counts_and_does_not_stop_batch"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_executing_and_reserved_ids_reject_duplicates"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_future_job_waits_for_clock"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_orders_by_deadline_then_insertion"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_reentrant_run_does_not_repeat_reserved_jobs"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_reuse_cancelled_id_has_new_insertion_order"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_reuse_id_after_execution"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_schedule_during_execution_waits_for_next_run"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_shutdown_during_execution_drains_reserved_jobs"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_shutdown_is_idempotent_and_rejects_scheduling"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_shutdown_preserves_pending_jobs"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_empty"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_single_balloon"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "returncode": 0,
+          "stdout": "..................                                                       [100%]\n18 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2426,
+          "counts": {
+            "total": 18,
+            "passed": 18,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "",
+              "test_callback_can_cancel_another_job"
+            ],
+            [
+              "",
+              "test_callback_can_schedule_another_job"
+            ],
+            [
+              "",
+              "test_callback_exception_does_not_stop_other_jobs"
+            ],
+            [
+              "",
+              "test_cancel_after_execution"
+            ],
+            [
+              "",
+              "test_cancel_pending_job"
+            ],
+            [
+              "",
+              "test_cancel_unknown_job"
+            ],
+            [
+              "",
+              "test_concurrent_run_due_executes_once"
+            ],
+            [
+              "",
+              "test_concurrent_scheduling"
+            ],
+            [
+              "",
+              "test_deadline_order"
+            ],
+            [
+              "",
+              "test_duplicate_pending_id_rejected"
+            ],
+            [
+              "",
+              "test_equal_deadlines_preserve_insertion_order"
+            ],
+            [
+              "",
+              "test_future_job_not_executed"
+            ],
+            [
+              "",
+              "test_job_executes_at_deadline"
+            ],
+            [
+              "",
+              "test_job_executes_once"
+            ],
+            [
+              "",
+              "test_no_jobs"
+            ],
+            [
+              "",
+              "test_shutdown_is_idempotent"
+            ],
+            [
+              "",
+              "test_shutdown_preserves_pending_jobs"
+            ],
+            [
+              "",
+              "test_shutdown_prevents_scheduling"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "interruption": {
+          "returncode": 0,
+          "stdout": "..                                                                       [100%]\n2 passed in 0.01s\n",
+          "stderr": "",
+          "seconds": 0.2324,
+          "counts": {
+            "total": 2,
+            "passed": 2,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "",
+              "test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt]"
+            ],
+            [
+              "",
+              "test_interrupted_batch_preserves_unstarted_jobs[SystemExit]"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0293,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 1,
+          "stdout": "[\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 43,\n      \"row\": 6\n    },\n    \"filename\": \"<candidate>/problems/order_processor.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"from decimal import ROUND_HALF_UP, Decimal\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 9\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 6\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 6\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 6,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  }\n]",
+          "stderr": "",
+          "seconds": 0.0299,
+          "expected_diagnostics": [
+            [
+              "I001",
+              "problems/order_processor.py"
+            ]
+          ],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "016/luna": {
+      "snapshot": "snapshots/016/luna",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": ".............................                                            [100%]\n29 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2509,
+          "counts": {
+            "total": 29,
+            "passed": 29,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "tests.test_inventory",
+              "test_add_stock_replaces_existing_quantity"
+            ],
+            [
+              "tests.test_inventory",
+              "test_concurrent_reservations_never_oversell"
+            ],
+            [
+              "tests.test_inventory",
+              "test_duplicate_active_id_raises_without_changing_state"
+            ],
+            [
+              "tests.test_inventory",
+              "test_fulfill_consumes_stock_without_restoring_it"
+            ],
+            [
+              "tests.test_inventory",
+              "test_insufficient_stock_fails_without_state_change"
+            ],
+            [
+              "tests.test_inventory",
+              "test_negative_stock_quantity_raises_without_mutation[-1]"
+            ],
+            [
+              "tests.test_inventory",
+              "test_negative_stock_quantity_raises_without_mutation[-5]"
+            ],
+            [
+              "tests.test_inventory",
+              "test_non_integer_reservation_quantity_raises_without_mutation[1.5]"
+            ],
+            [
+              "tests.test_inventory",
+              "test_non_integer_reservation_quantity_raises_without_mutation[2]"
+            ],
+            [
+              "tests.test_inventory",
+              "test_non_integer_reservation_quantity_raises_without_mutation[True]"
+            ],
+            [
+              "tests.test_inventory",
+              "test_non_integer_stock_quantity_raises_without_mutation[1.5]"
+            ],
+            [
+              "tests.test_inventory",
+              "test_non_integer_stock_quantity_raises_without_mutation[2]"
+            ],
+            [
+              "tests.test_inventory",
+              "test_non_integer_stock_quantity_raises_without_mutation[True]"
+            ],
+            [
+              "tests.test_inventory",
+              "test_nonpositive_reservation_quantity_raises_without_mutation[-1]"
+            ],
+            [
+              "tests.test_inventory",
+              "test_nonpositive_reservation_quantity_raises_without_mutation[-3]"
+            ],
+            [
+              "tests.test_inventory",
+              "test_nonpositive_reservation_quantity_raises_without_mutation[0]"
+            ],
+            [
+              "tests.test_inventory",
+              "test_repeated_fulfill_returns_false"
+            ],
+            [
+              "tests.test_inventory",
+              "test_repeated_release_returns_false_and_does_not_restore_twice"
+            ],
+            [
+              "tests.test_inventory",
+              "test_reservation_for_unknown_sku_fails"
+            ],
+            [
+              "tests.test_inventory",
+              "test_reservation_id_reuse_after_fulfillment"
+            ],
+            [
+              "tests.test_inventory",
+              "test_reservation_id_reuse_after_release"
+            ],
+            [
+              "tests.test_inventory",
+              "test_reservation_lifecycle_release_restores_stock"
+            ],
+            [
+              "tests.test_inventory",
+              "test_reserve_deducts_stock_once"
+            ],
+            [
+              "tests.test_inventory",
+              "test_reserve_exact_available_quantity"
+            ],
+            [
+              "tests.test_inventory",
+              "test_sku_stock_and_reservations_are_isolated"
+            ],
+            [
+              "tests.test_inventory",
+              "test_unknown_sku_has_zero_stock"
+            ],
+            [
+              "tests.test_inventory",
+              "test_zero_stock_is_valid"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_empty"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_single_balloon"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "returncode": 0,
+          "stdout": "..............................                                           [100%]\n30 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.25,
+          "counts": {
+            "total": 30,
+            "passed": 30,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "",
+              "test_add_stock"
+            ],
+            [
+              "",
+              "test_add_stock_replaces_quantity"
+            ],
+            [
+              "",
+              "test_concurrent_release_only_once"
+            ],
+            [
+              "",
+              "test_concurrent_reservations_never_oversell"
+            ],
+            [
+              "",
+              "test_duplicate_active_reservation_id"
+            ],
+            [
+              "",
+              "test_duplicate_id_across_skus"
+            ],
+            [
+              "",
+              "test_fulfill_consumes_reservation"
+            ],
+            [
+              "",
+              "test_insufficient_stock"
+            ],
+            [
+              "",
+              "test_negative_stock_rejected[-10]"
+            ],
+            [
+              "",
+              "test_negative_stock_rejected[-1]"
+            ],
+            [
+              "",
+              "test_nonpositive_reservation_rejected[-10]"
+            ],
+            [
+              "",
+              "test_nonpositive_reservation_rejected[-1]"
+            ],
+            [
+              "",
+              "test_nonpositive_reservation_rejected[0]"
+            ],
+            [
+              "",
+              "test_quantity_type_rejection_preserves_state[add_stock-0.5]"
+            ],
+            [
+              "",
+              "test_quantity_type_rejection_preserves_state[add_stock-1.5]"
+            ],
+            [
+              "",
+              "test_quantity_type_rejection_preserves_state[add_stock-False]"
+            ],
+            [
+              "",
+              "test_quantity_type_rejection_preserves_state[add_stock-True]"
+            ],
+            [
+              "",
+              "test_quantity_type_rejection_preserves_state[reserve-0.5]"
+            ],
+            [
+              "",
+              "test_quantity_type_rejection_preserves_state[reserve-1.5]"
+            ],
+            [
+              "",
+              "test_quantity_type_rejection_preserves_state[reserve-False]"
+            ],
+            [
+              "",
+              "test_quantity_type_rejection_preserves_state[reserve-True]"
+            ],
+            [
+              "",
+              "test_release_only_once"
+            ],
+            [
+              "",
+              "test_release_restores_stock"
+            ],
+            [
+              "",
+              "test_reservation_id_reusable[fulfill]"
+            ],
+            [
+              "",
+              "test_reservation_id_reusable[release]"
+            ],
+            [
+              "",
+              "test_sku_isolation"
+            ],
+            [
+              "",
+              "test_successful_reservation"
+            ],
+            [
+              "",
+              "test_unknown_sku"
+            ],
+            [
+              "",
+              "test_unknown_sku_reservation"
+            ],
+            [
+              "",
+              "test_zero_stock_allowed"
+            ]
+          ],
+          "collection_matches_expected": false,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": false
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0309,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 1,
+          "stdout": "[\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 43,\n      \"row\": 6\n    },\n    \"filename\": \"<candidate>/problems/order_processor.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"from decimal import ROUND_HALF_UP, Decimal\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 9\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 6\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 6\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 6,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  }\n]",
+          "stderr": "",
+          "seconds": 0.0287,
+          "expected_diagnostics": [
+            [
+              "I001",
+              "problems/order_processor.py"
+            ]
+          ],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "016/sol": {
+      "snapshot": "snapshots/016/sol",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": "..............................                [100%]\n30 passed, 27 subtests passed in 0.03s\n",
+          "stderr": "",
+          "seconds": 0.2554,
+          "counts": {
+            "total": 30,
+            "passed": 30,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "tests.test_inventory.InventoryTests",
+              "test_add_stock_replaces_existing_quantity"
+            ],
+            [
+              "tests.test_inventory.InventoryTests",
+              "test_add_zero_stock"
+            ],
+            [
+              "tests.test_inventory.InventoryTests",
+              "test_can_reserve_exactly_available_stock"
+            ],
+            [
+              "tests.test_inventory.InventoryTests",
+              "test_concurrent_duplicate_ids_have_one_winner"
+            ],
+            [
+              "tests.test_inventory.InventoryTests",
+              "test_concurrent_fulfillments_consume_reservation_once"
+            ],
+            [
+              "tests.test_inventory.InventoryTests",
+              "test_concurrent_release_and_fulfill_have_one_winner"
+            ],
+            [
+              "tests.test_inventory.InventoryTests",
+              "test_concurrent_releases_restore_stock_once"
+            ],
+            [
+              "tests.test_inventory.InventoryTests",
+              "test_concurrent_reservations_never_oversell"
+            ],
+            [
+              "tests.test_inventory.InventoryTests",
+              "test_duplicate_id_on_another_sku_changes_neither_sku"
+            ],
+            [
+              "tests.test_inventory.InventoryTests",
+              "test_duplicate_id_preserves_original_reservation"
+            ],
+            [
+              "tests.test_inventory.InventoryTests",
+              "test_duplicate_id_raises_even_when_stock_is_insufficient"
+            ],
+            [
+              "tests.test_inventory.InventoryTests",
+              "test_fulfill_consumes_reservation_without_restoring_stock"
+            ],
+            [
+              "tests.test_inventory.InventoryTests",
+              "test_id_can_be_reused_after_fulfillment"
+            ],
+            [
+              "tests.test_inventory.InventoryTests",
+              "test_id_can_be_reused_after_release"
+            ],
+            [
+              "tests.test_inventory.InventoryTests",
+              "test_insufficient_stock_does_not_create_reservation"
+            ],
+            [
+              "tests.test_inventory.InventoryTests",
+              "test_invalid_request_does_not_replace_active_reservation"
+            ],
+            [
+              "tests.test_inventory.InventoryTests",
+              "test_invalid_reservation_quantities_leave_state_unchanged"
+            ],
+            [
+              "tests.test_inventory.InventoryTests",
+              "test_invalid_stock_does_not_create_available_inventory"
+            ],
+            [
+              "tests.test_inventory.InventoryTests",
+              "test_invalid_stock_quantities_leave_stock_unchanged"
+            ],
+            [
+              "tests.test_inventory.InventoryTests",
+              "test_multiple_reservations_have_independent_lifecycles"
+            ],
+            [
+              "tests.test_inventory.InventoryTests",
+              "test_operations_on_one_sku_leave_other_sku_unchanged"
+            ],
+            [
+              "tests.test_inventory.InventoryTests",
+              "test_release_restores_stock_exactly_once"
+            ],
+            [
+              "tests.test_inventory.InventoryTests",
+              "test_replacement_stock_and_active_reservation_are_independent"
+            ],
+            [
+              "tests.test_inventory.InventoryTests",
+              "test_reservation_deducts_quantity_once"
+            ],
+            [
+              "tests.test_inventory.InventoryTests",
+              "test_unknown_reservation_operations_return_false"
+            ],
+            [
+              "tests.test_inventory.InventoryTests",
+              "test_unknown_sku_cannot_be_reserved"
+            ],
+            [
+              "tests.test_inventory.InventoryTests",
+              "test_unknown_sku_has_zero_stock"
+            ],
+            [
+              "tests.test_inventory.InventoryTests",
+              "test_zero_reservation_for_unknown_sku_is_invalid"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_empty"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_single_balloon"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "returncode": 0,
+          "stdout": "..............................                                           [100%]\n30 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2505,
+          "counts": {
+            "total": 30,
+            "passed": 30,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "",
+              "test_add_stock"
+            ],
+            [
+              "",
+              "test_add_stock_replaces_quantity"
+            ],
+            [
+              "",
+              "test_concurrent_release_only_once"
+            ],
+            [
+              "",
+              "test_concurrent_reservations_never_oversell"
+            ],
+            [
+              "",
+              "test_duplicate_active_reservation_id"
+            ],
+            [
+              "",
+              "test_duplicate_id_across_skus"
+            ],
+            [
+              "",
+              "test_fulfill_consumes_reservation"
+            ],
+            [
+              "",
+              "test_insufficient_stock"
+            ],
+            [
+              "",
+              "test_negative_stock_rejected[-10]"
+            ],
+            [
+              "",
+              "test_negative_stock_rejected[-1]"
+            ],
+            [
+              "",
+              "test_nonpositive_reservation_rejected[-10]"
+            ],
+            [
+              "",
+              "test_nonpositive_reservation_rejected[-1]"
+            ],
+            [
+              "",
+              "test_nonpositive_reservation_rejected[0]"
+            ],
+            [
+              "",
+              "test_quantity_type_rejection_preserves_state[add_stock-0.5]"
+            ],
+            [
+              "",
+              "test_quantity_type_rejection_preserves_state[add_stock-1.5]"
+            ],
+            [
+              "",
+              "test_quantity_type_rejection_preserves_state[add_stock-False]"
+            ],
+            [
+              "",
+              "test_quantity_type_rejection_preserves_state[add_stock-True]"
+            ],
+            [
+              "",
+              "test_quantity_type_rejection_preserves_state[reserve-0.5]"
+            ],
+            [
+              "",
+              "test_quantity_type_rejection_preserves_state[reserve-1.5]"
+            ],
+            [
+              "",
+              "test_quantity_type_rejection_preserves_state[reserve-False]"
+            ],
+            [
+              "",
+              "test_quantity_type_rejection_preserves_state[reserve-True]"
+            ],
+            [
+              "",
+              "test_release_only_once"
+            ],
+            [
+              "",
+              "test_release_restores_stock"
+            ],
+            [
+              "",
+              "test_reservation_id_reusable[fulfill]"
+            ],
+            [
+              "",
+              "test_reservation_id_reusable[release]"
+            ],
+            [
+              "",
+              "test_sku_isolation"
+            ],
+            [
+              "",
+              "test_successful_reservation"
+            ],
+            [
+              "",
+              "test_unknown_sku"
+            ],
+            [
+              "",
+              "test_unknown_sku_reservation"
+            ],
+            [
+              "",
+              "test_zero_stock_allowed"
+            ]
+          ],
+          "collection_matches_expected": false,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": false
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0298,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 1,
+          "stdout": "[\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 43,\n      \"row\": 6\n    },\n    \"filename\": \"<candidate>/problems/order_processor.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"from decimal import ROUND_HALF_UP, Decimal\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 9\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 6\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 6\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 6,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  }\n]",
+          "stderr": "",
+          "seconds": 0.0286,
+          "expected_diagnostics": [
+            [
+              "I001",
+              "problems/order_processor.py"
+            ]
+          ],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "017/luna": {
+      "snapshot": "snapshots/017/luna",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": "...........................                                              [100%]\n27 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2475,
+          "counts": {
+            "total": 27,
+            "passed": 27,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "tests.test_order_system",
+              "test_cancellation_emits_exactly_one_event"
+            ],
+            [
+              "tests.test_order_system",
+              "test_cancellation_restores_stock_and_changes_status"
+            ],
+            [
+              "tests.test_order_system",
+              "test_cancelling_unknown_order_raises_key_error"
+            ],
+            [
+              "tests.test_order_system",
+              "test_duplicate_order_id_does_not_change_state"
+            ],
+            [
+              "tests.test_order_system",
+              "test_event_order_matches_successful_operations"
+            ],
+            [
+              "tests.test_order_system",
+              "test_events_returns_a_defensive_list_copy"
+            ],
+            [
+              "tests.test_order_system",
+              "test_get_unknown_order_returns_none"
+            ],
+            [
+              "tests.test_order_system",
+              "test_initial_stock_is_copied"
+            ],
+            [
+              "tests.test_order_system",
+              "test_insufficient_stock_does_not_change_state"
+            ],
+            [
+              "tests.test_order_system",
+              "test_invalid_initial_stock_is_rejected[-1]"
+            ],
+            [
+              "tests.test_order_system",
+              "test_invalid_initial_stock_is_rejected[1.5]"
+            ],
+            [
+              "tests.test_order_system",
+              "test_invalid_initial_stock_is_rejected[2]"
+            ],
+            [
+              "tests.test_order_system",
+              "test_invalid_initial_stock_is_rejected[True]"
+            ],
+            [
+              "tests.test_order_system",
+              "test_invalid_order_quantities_are_rejected[-1]"
+            ],
+            [
+              "tests.test_order_system",
+              "test_invalid_order_quantities_are_rejected[0]"
+            ],
+            [
+              "tests.test_order_system",
+              "test_invalid_order_quantities_are_rejected[1.5]"
+            ],
+            [
+              "tests.test_order_system",
+              "test_invalid_order_quantities_are_rejected[2]"
+            ],
+            [
+              "tests.test_order_system",
+              "test_invalid_order_quantities_are_rejected[None]"
+            ],
+            [
+              "tests.test_order_system",
+              "test_invalid_order_quantities_are_rejected[True]"
+            ],
+            [
+              "tests.test_order_system",
+              "test_placement_emits_one_order_placed_event"
+            ],
+            [
+              "tests.test_order_system",
+              "test_publication_failure_does_not_commit_order_or_inventory[cancel]"
+            ],
+            [
+              "tests.test_order_system",
+              "test_publication_failure_does_not_commit_order_or_inventory[place]"
+            ],
+            [
+              "tests.test_order_system",
+              "test_repeated_cancellation_is_idempotent"
+            ],
+            [
+              "tests.test_order_system",
+              "test_successful_placement_reserves_stock_and_creates_pending_order"
+            ],
+            [
+              "tests.test_order_system",
+              "test_unknown_sku_has_zero_stock"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_empty"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_single_balloon"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "returncode": 0,
+          "stdout": "...........................                                              [100%]\n27 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2462,
+          "counts": {
+            "total": 27,
+            "passed": 27,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "",
+              "test_cancel_unknown_order"
+            ],
+            [
+              "",
+              "test_cancellation_publish_failure_rolls_back"
+            ],
+            [
+              "",
+              "test_cancellation_restores_stock"
+            ],
+            [
+              "",
+              "test_duplicate_order_id_is_atomic"
+            ],
+            [
+              "",
+              "test_event_list_is_defensive_copy"
+            ],
+            [
+              "",
+              "test_event_order"
+            ],
+            [
+              "",
+              "test_exact_stock_reservation"
+            ],
+            [
+              "",
+              "test_get_unknown_order"
+            ],
+            [
+              "",
+              "test_initial_stock"
+            ],
+            [
+              "",
+              "test_insufficient_stock_is_atomic"
+            ],
+            [
+              "",
+              "test_invalid_initial_stock[-10]"
+            ],
+            [
+              "",
+              "test_invalid_initial_stock[-1]"
+            ],
+            [
+              "",
+              "test_invalid_initial_stock[1.5]"
+            ],
+            [
+              "",
+              "test_invalid_initial_stock[True]"
+            ],
+            [
+              "",
+              "test_invalid_order_quantity[-1]"
+            ],
+            [
+              "",
+              "test_invalid_order_quantity[0]"
+            ],
+            [
+              "",
+              "test_invalid_order_quantity[1.5]"
+            ],
+            [
+              "",
+              "test_invalid_order_quantity[False]"
+            ],
+            [
+              "",
+              "test_invalid_order_quantity[True]"
+            ],
+            [
+              "",
+              "test_multiple_orders_accounting"
+            ],
+            [
+              "",
+              "test_negative_and_zero_initial_stock"
+            ],
+            [
+              "",
+              "test_placement_publish_failure_rolls_back"
+            ],
+            [
+              "",
+              "test_repeated_cancellation_is_idempotent"
+            ],
+            [
+              "",
+              "test_sku_isolation"
+            ],
+            [
+              "",
+              "test_successful_placement"
+            ],
+            [
+              "",
+              "test_unknown_sku_has_zero_stock"
+            ],
+            [
+              "",
+              "test_unknown_sku_order_rejected"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0302,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 1,
+          "stdout": "[\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 43,\n      \"row\": 6\n    },\n    \"filename\": \"<candidate>/problems/order_processor.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"from decimal import ROUND_HALF_UP, Decimal\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 9\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 6\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 6\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 6,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  }\n]",
+          "stderr": "",
+          "seconds": 0.0299,
+          "expected_diagnostics": [
+            [
+              "I001",
+              "problems/order_processor.py"
+            ]
+          ],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "017/sol": {
+      "snapshot": "snapshots/017/sol",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": "......................................                                   [100%]\n38 passed in 0.03s\n",
+          "stderr": "",
+          "seconds": 0.2577,
+          "counts": {
+            "total": 38,
+            "passed": 38,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "tests.test_order_system",
+              "test_cancellation_emits_exactly_one_complete_event"
+            ],
+            [
+              "tests.test_order_system",
+              "test_cancellation_restores_stock_and_changes_status"
+            ],
+            [
+              "tests.test_order_system",
+              "test_cancelled_order_id_cannot_be_reused"
+            ],
+            [
+              "tests.test_order_system",
+              "test_cancelling_unknown_order_raises_without_changes"
+            ],
+            [
+              "tests.test_order_system",
+              "test_duplicate_id_preserves_order_inventory_and_events"
+            ],
+            [
+              "tests.test_order_system",
+              "test_events_follow_successful_operation_order"
+            ],
+            [
+              "tests.test_order_system",
+              "test_events_returns_independent_lists"
+            ],
+            [
+              "tests.test_order_system",
+              "test_failed_cancellation_preserves_pending_order_and_can_be_retried"
+            ],
+            [
+              "tests.test_order_system",
+              "test_failed_placement_rolls_back_and_can_be_retried"
+            ],
+            [
+              "tests.test_order_system",
+              "test_get_unknown_order_returns_none"
+            ],
+            [
+              "tests.test_order_system",
+              "test_idempotent_cancellation_does_not_attempt_publication"
+            ],
+            [
+              "tests.test_order_system",
+              "test_initial_stock_is_copied"
+            ],
+            [
+              "tests.test_order_system",
+              "test_insufficient_stock_leaves_state_unchanged[unknown-1]"
+            ],
+            [
+              "tests.test_order_system",
+              "test_insufficient_stock_leaves_state_unchanged[widget-11]"
+            ],
+            [
+              "tests.test_order_system",
+              "test_invalid_initial_stock_is_rejected[-1]"
+            ],
+            [
+              "tests.test_order_system",
+              "test_invalid_initial_stock_is_rejected[1.5]"
+            ],
+            [
+              "tests.test_order_system",
+              "test_invalid_initial_stock_is_rejected[2]"
+            ],
+            [
+              "tests.test_order_system",
+              "test_invalid_initial_stock_is_rejected[False]"
+            ],
+            [
+              "tests.test_order_system",
+              "test_invalid_initial_stock_is_rejected[None]"
+            ],
+            [
+              "tests.test_order_system",
+              "test_invalid_initial_stock_is_rejected[True]"
+            ],
+            [
+              "tests.test_order_system",
+              "test_invalid_order_quantities_leave_state_unchanged[-1]"
+            ],
+            [
+              "tests.test_order_system",
+              "test_invalid_order_quantities_leave_state_unchanged[0]"
+            ],
+            [
+              "tests.test_order_system",
+              "test_invalid_order_quantities_leave_state_unchanged[1.0]"
+            ],
+            [
+              "tests.test_order_system",
+              "test_invalid_order_quantities_leave_state_unchanged[2]"
+            ],
+            [
+              "tests.test_order_system",
+              "test_invalid_order_quantities_leave_state_unchanged[False]"
+            ],
+            [
+              "tests.test_order_system",
+              "test_invalid_order_quantities_leave_state_unchanged[None]"
+            ],
+            [
+              "tests.test_order_system",
+              "test_invalid_order_quantities_leave_state_unchanged[True]"
+            ],
+            [
+              "tests.test_order_system",
+              "test_orders_cannot_be_mutated_by_callers"
+            ],
+            [
+              "tests.test_order_system",
+              "test_orders_share_available_inventory_and_cancel_independently"
+            ],
+            [
+              "tests.test_order_system",
+              "test_placement_can_exhaust_stock"
+            ],
+            [
+              "tests.test_order_system",
+              "test_placement_emits_exactly_one_complete_event"
+            ],
+            [
+              "tests.test_order_system",
+              "test_placement_reserves_stock_and_returns_pending_order"
+            ],
+            [
+              "tests.test_order_system",
+              "test_repeated_cancellation_is_idempotent"
+            ],
+            [
+              "tests.test_order_system",
+              "test_stored_events_cannot_be_mutated_by_callers"
+            ],
+            [
+              "tests.test_order_system",
+              "test_unknown_sku_has_zero_stock"
+            ],
+            [
+              "tests.test_order_system",
+              "test_zero_initial_stock_is_valid"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_empty"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_single_balloon"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "returncode": 0,
+          "stdout": "...........................                                              [100%]\n27 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2484,
+          "counts": {
+            "total": 27,
+            "passed": 27,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "",
+              "test_cancel_unknown_order"
+            ],
+            [
+              "",
+              "test_cancellation_publish_failure_rolls_back"
+            ],
+            [
+              "",
+              "test_cancellation_restores_stock"
+            ],
+            [
+              "",
+              "test_duplicate_order_id_is_atomic"
+            ],
+            [
+              "",
+              "test_event_list_is_defensive_copy"
+            ],
+            [
+              "",
+              "test_event_order"
+            ],
+            [
+              "",
+              "test_exact_stock_reservation"
+            ],
+            [
+              "",
+              "test_get_unknown_order"
+            ],
+            [
+              "",
+              "test_initial_stock"
+            ],
+            [
+              "",
+              "test_insufficient_stock_is_atomic"
+            ],
+            [
+              "",
+              "test_invalid_initial_stock[-10]"
+            ],
+            [
+              "",
+              "test_invalid_initial_stock[-1]"
+            ],
+            [
+              "",
+              "test_invalid_initial_stock[1.5]"
+            ],
+            [
+              "",
+              "test_invalid_initial_stock[True]"
+            ],
+            [
+              "",
+              "test_invalid_order_quantity[-1]"
+            ],
+            [
+              "",
+              "test_invalid_order_quantity[0]"
+            ],
+            [
+              "",
+              "test_invalid_order_quantity[1.5]"
+            ],
+            [
+              "",
+              "test_invalid_order_quantity[False]"
+            ],
+            [
+              "",
+              "test_invalid_order_quantity[True]"
+            ],
+            [
+              "",
+              "test_multiple_orders_accounting"
+            ],
+            [
+              "",
+              "test_negative_and_zero_initial_stock"
+            ],
+            [
+              "",
+              "test_placement_publish_failure_rolls_back"
+            ],
+            [
+              "",
+              "test_repeated_cancellation_is_idempotent"
+            ],
+            [
+              "",
+              "test_sku_isolation"
+            ],
+            [
+              "",
+              "test_successful_placement"
+            ],
+            [
+              "",
+              "test_unknown_sku_has_zero_stock"
+            ],
+            [
+              "",
+              "test_unknown_sku_order_rejected"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0305,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 1,
+          "stdout": "[\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 43,\n      \"row\": 6\n    },\n    \"filename\": \"<candidate>/problems/order_processor.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"from decimal import ROUND_HALF_UP, Decimal\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 9\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 6\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 6\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 6,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  }\n]",
+          "stderr": "",
+          "seconds": 0.0292,
+          "expected_diagnostics": [
+            [
+              "I001",
+              "problems/order_processor.py"
+            ]
+          ],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "018/luna-original": {
+      "snapshot": "snapshots/015/luna",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": "....................                                                     [100%]\n20 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2492,
+          "counts": {
+            "total": 20,
+            "passed": 20,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "tests.test_job_scheduler",
+              "test_callback_attempted_only_once_even_if_it_raises"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_callback_can_cancel_another_due_job"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_callback_can_schedule_job_for_next_invocation"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_callback_exception_does_not_stop_later_jobs"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_cancel_pending_job"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_cancel_reserved_due_job_before_its_callback_starts"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_cancel_unknown_id_returns_false"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_clock_is_injected_and_read_once_per_invocation"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_concurrent_run_due_calls_do_not_duplicate_execution"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_concurrent_scheduling_keeps_all_jobs"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_due_jobs_run_in_time_order"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_duplicate_pending_id_rejected"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_equal_times_use_insertion_order"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_executing_id_cannot_be_cancelled_or_reused"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_id_reused_after_cancel"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_id_reused_after_execution"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_jobs_wait_until_due"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_shutdown_is_idempotent_and_pending_jobs_drain"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_empty"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_single_balloon"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "returncode": 0,
+          "stdout": "..................                                                       [100%]\n18 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2456,
+          "counts": {
+            "total": 18,
+            "passed": 18,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "",
+              "test_callback_can_cancel_another_job"
+            ],
+            [
+              "",
+              "test_callback_can_schedule_another_job"
+            ],
+            [
+              "",
+              "test_callback_exception_does_not_stop_other_jobs"
+            ],
+            [
+              "",
+              "test_cancel_after_execution"
+            ],
+            [
+              "",
+              "test_cancel_pending_job"
+            ],
+            [
+              "",
+              "test_cancel_unknown_job"
+            ],
+            [
+              "",
+              "test_concurrent_run_due_executes_once"
+            ],
+            [
+              "",
+              "test_concurrent_scheduling"
+            ],
+            [
+              "",
+              "test_deadline_order"
+            ],
+            [
+              "",
+              "test_duplicate_pending_id_rejected"
+            ],
+            [
+              "",
+              "test_equal_deadlines_preserve_insertion_order"
+            ],
+            [
+              "",
+              "test_future_job_not_executed"
+            ],
+            [
+              "",
+              "test_job_executes_at_deadline"
+            ],
+            [
+              "",
+              "test_job_executes_once"
+            ],
+            [
+              "",
+              "test_no_jobs"
+            ],
+            [
+              "",
+              "test_shutdown_is_idempotent"
+            ],
+            [
+              "",
+              "test_shutdown_preserves_pending_jobs"
+            ],
+            [
+              "",
+              "test_shutdown_prevents_scheduling"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "interruption": {
+          "returncode": 1,
+          "stdout": "FF                                                                       [100%]\n=================================== FAILURES ===================================\n______ test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt] ______\n\nexception = <class 'KeyboardInterrupt'>\n\n    @pytest.mark.parametrize(\"exception\", [KeyboardInterrupt, SystemExit])\n    def test_interrupted_batch_preserves_unstarted_jobs(exception):\n        scheduler = JobScheduler(clock=lambda: 0)\n        calls = []\n    \n        def interrupt():\n            raise exception()\n    \n        scheduler.schedule(\"first\", 0, interrupt)\n        scheduler.schedule(\"second\", 0, lambda: calls.append(\"second\"))\n    \n        with pytest.raises(exception):\n            scheduler.run_due()\n    \n>       assert scheduler.run_due() == 1\nE       assert 0 == 1\nE        +  where 0 = run_due()\nE        +    where run_due = <problems.job_scheduler.JobScheduler object at 0x107068440>.run_due\n\n<repo>/acceptance/test_015_interrupt.py:20: AssertionError\n_________ test_interrupted_batch_preserves_unstarted_jobs[SystemExit] __________\n\nexception = <class 'SystemExit'>\n\n    @pytest.mark.parametrize(\"exception\", [KeyboardInterrupt, SystemExit])\n    def test_interrupted_batch_preserves_unstarted_jobs(exception):\n        scheduler = JobScheduler(clock=lambda: 0)\n        calls = []\n    \n        def interrupt():\n            raise exception()\n    \n        scheduler.schedule(\"first\", 0, interrupt)\n        scheduler.schedule(\"second\", 0, lambda: calls.append(\"second\"))\n    \n        with pytest.raises(exception):\n            scheduler.run_due()\n    \n>       assert scheduler.run_due() == 1\nE       assert 0 == 1\nE        +  where 0 = run_due()\nE        +    where run_due = <problems.job_scheduler.JobScheduler object at 0x107098050>.run_due\n\n<repo>/acceptance/test_015_interrupt.py:20: AssertionError\n=========================== short test summary info ============================\nFAILED ::test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt]\nFAILED ::test_interrupted_batch_preserves_unstarted_jobs[SystemExit] - assert...\n2 failed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2415,
+          "counts": {
+            "total": 2,
+            "passed": 0,
+            "failed": 2,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "",
+              "test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt]"
+            ],
+            [
+              "",
+              "test_interrupted_batch_preserves_unstarted_jobs[SystemExit]"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [
+            "test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt]",
+            "test_interrupted_batch_preserves_unstarted_jobs[SystemExit]"
+          ],
+          "expected_failure_names": [
+            "test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt]",
+            "test_interrupted_batch_preserves_unstarted_jobs[SystemExit]"
+          ],
+          "matches_documented_outcome": true
+        },
+        "r1": {
+          "returncode": 1,
+          "stdout": "F                                                                        [100%]\n=================================== FAILURES ===================================\n________ test_jobs_scheduled_during_clock_read_wait_for_next_invocation ________\n\n    def test_jobs_scheduled_during_clock_read_wait_for_next_invocation():\n        entered_clock, release_clock = Event(), Event()\n        schedule_started, schedule_finished = Event(), Event()\n        calls, attempts, errors = [], [], []\n    \n        def clock():\n            entered_clock.set()\n            if not release_clock.wait(5):\n                raise RuntimeError('clock release timed out')\n            return 10\n    \n        scheduler = JobScheduler(clock=clock)\n        scheduler.schedule('original', 1, lambda: calls.append('original'))\n    \n        def run():\n            try:\n                attempts.append(scheduler.run_due())\n            except BaseException as exc:\n                errors.append(repr(exc))\n    \n        def add():\n            try:\n                schedule_started.set()\n                scheduler.schedule('new', 2, lambda: calls.append('new'))\n            except BaseException as exc:\n                errors.append(repr(exc))\n            finally:\n                schedule_finished.set()\n    \n        runner = Thread(target=run, daemon=True)\n        adder = Thread(target=add, daemon=True)\n        runner.start()\n        try:\n            assert entered_clock.wait(5), 'clock was not entered'\n            adder.start()\n            assert schedule_started.wait(5), 'scheduler thread did not start'\n            # A scheduler holding its lock during clock() may block schedule().\n            # Permit that valid implementation; never block the controller on it.\n            schedule_finished.wait(1)\n        finally:\n            release_clock.set()\n            runner.join(5)\n            if adder.ident is not None:\n                adder.join(5)\n        assert not runner.is_alive() and not adder.is_alive(), 'workers did not finish'\n        assert not errors, errors\n        first_calls = calls.copy()\n        next_attempts = scheduler.run_due()\n>       assert (attempts, first_calls, next_attempts, calls) == (\n            [1], ['original'], 1, ['original', 'new']\n        )\nE       AssertionError: assert ([2], ['origi...inal', 'new']) == ([1], ['origi...inal', 'new'])\nE         \nE         At index 0 diff: [2] != [1]\nE         Use -v to get more diff\n\n<repo>/results/018/phase23/test_r1.py:55: AssertionError\n=========================== short test summary info ============================\nFAILED ::test_jobs_scheduled_during_clock_read_wait_for_next_invocation - Ass...\n1 failed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2407,
+          "counts": {
+            "total": 1,
+            "passed": 0,
+            "failed": 1,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "",
+              "test_jobs_scheduled_during_clock_read_wait_for_next_invocation"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [
+            "test_jobs_scheduled_during_clock_read_wait_for_next_invocation"
+          ],
+          "expected_failure_names": [
+            "test_jobs_scheduled_during_clock_read_wait_for_next_invocation"
+          ],
+          "matches_documented_outcome": true
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.029,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 1,
+          "stdout": "[\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 43,\n      \"row\": 6\n    },\n    \"filename\": \"<candidate>/problems/order_processor.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"from decimal import ROUND_HALF_UP, Decimal\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 9\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 6\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 6\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 6,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  }\n]",
+          "stderr": "",
+          "seconds": 0.0291,
+          "expected_diagnostics": [
+            [
+              "I001",
+              "problems/order_processor.py"
+            ]
+          ],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "018/sol-original": {
+      "snapshot": "snapshots/015/sol",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": "...............................                                          [100%]\n31 passed in 0.03s\n",
+          "stderr": "",
+          "seconds": 0.2583,
+          "counts": {
+            "total": 31,
+            "passed": 31,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "tests.test_job_scheduler",
+              "test_base_exception_releases_unstarted_jobs"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_callback_attempted_only_once"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_callback_can_cancel_and_replace_due_job"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_callback_can_schedule_but_new_job_waits"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_callback_can_shutdown"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_callback_cannot_cancel_or_reuse_own_executing_id"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_cancel_after_shutdown"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_cancel_pending_job"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_cancel_unknown_id"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_clock_is_sampled_once_per_run"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_concurrent_duplicate_scheduling_has_one_winner"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_concurrent_run_cannot_take_reserved_jobs"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_concurrent_runners_attempt_each_job_once"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_concurrent_unique_scheduling"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_default_clock_is_monotonic"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_due_job_can_be_cancelled_from_another_thread"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_duplicate_pending_id_rejected"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_empty_run"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_exception_counts_and_does_not_stop_batch"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_executing_and_reserved_ids_reject_duplicates"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_future_job_waits_for_clock"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_orders_by_deadline_then_insertion"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_reentrant_run_does_not_repeat_reserved_jobs"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_reuse_cancelled_id_has_new_insertion_order"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_reuse_id_after_execution"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_schedule_during_execution_waits_for_next_run"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_shutdown_during_execution_drains_reserved_jobs"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_shutdown_is_idempotent_and_rejects_scheduling"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_shutdown_preserves_pending_jobs"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_empty"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_single_balloon"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "returncode": 0,
+          "stdout": "..................                                                       [100%]\n18 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2444,
+          "counts": {
+            "total": 18,
+            "passed": 18,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "",
+              "test_callback_can_cancel_another_job"
+            ],
+            [
+              "",
+              "test_callback_can_schedule_another_job"
+            ],
+            [
+              "",
+              "test_callback_exception_does_not_stop_other_jobs"
+            ],
+            [
+              "",
+              "test_cancel_after_execution"
+            ],
+            [
+              "",
+              "test_cancel_pending_job"
+            ],
+            [
+              "",
+              "test_cancel_unknown_job"
+            ],
+            [
+              "",
+              "test_concurrent_run_due_executes_once"
+            ],
+            [
+              "",
+              "test_concurrent_scheduling"
+            ],
+            [
+              "",
+              "test_deadline_order"
+            ],
+            [
+              "",
+              "test_duplicate_pending_id_rejected"
+            ],
+            [
+              "",
+              "test_equal_deadlines_preserve_insertion_order"
+            ],
+            [
+              "",
+              "test_future_job_not_executed"
+            ],
+            [
+              "",
+              "test_job_executes_at_deadline"
+            ],
+            [
+              "",
+              "test_job_executes_once"
+            ],
+            [
+              "",
+              "test_no_jobs"
+            ],
+            [
+              "",
+              "test_shutdown_is_idempotent"
+            ],
+            [
+              "",
+              "test_shutdown_preserves_pending_jobs"
+            ],
+            [
+              "",
+              "test_shutdown_prevents_scheduling"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "interruption": {
+          "returncode": 0,
+          "stdout": "..                                                                       [100%]\n2 passed in 0.01s\n",
+          "stderr": "",
+          "seconds": 0.2319,
+          "counts": {
+            "total": 2,
+            "passed": 2,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "",
+              "test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt]"
+            ],
+            [
+              "",
+              "test_interrupted_batch_preserves_unstarted_jobs[SystemExit]"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "r1": {
+          "returncode": 0,
+          "stdout": ".                                                                        [100%]\n1 passed in 1.02s\n",
+          "stderr": "",
+          "seconds": 1.2807,
+          "counts": {
+            "total": 1,
+            "passed": 1,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "",
+              "test_jobs_scheduled_during_clock_read_wait_for_next_invocation"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0409,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 1,
+          "stdout": "[\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 43,\n      \"row\": 6\n    },\n    \"filename\": \"<candidate>/problems/order_processor.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"from decimal import ROUND_HALF_UP, Decimal\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 9\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 6\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 6\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 6,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  }\n]",
+          "stderr": "",
+          "seconds": 0.0306,
+          "expected_diagnostics": [
+            [
+              "I001",
+              "problems/order_processor.py"
+            ]
+          ],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "018/luna-repaired": {
+      "snapshot": "snapshots/018/repaired-luna",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": ".....................                                                    [100%]\n21 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.248,
+          "counts": {
+            "total": 21,
+            "passed": 21,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "tests.test_job_scheduler",
+              "test_callback_attempted_only_once_even_if_it_raises"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_callback_can_cancel_another_due_job"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_callback_can_schedule_job_for_next_invocation"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_callback_exception_does_not_stop_later_jobs"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_cancel_pending_job"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_cancel_reserved_due_job_before_its_callback_starts"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_cancel_unknown_id_returns_false"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_clock_is_injected_and_read_once_per_invocation"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_concurrent_run_due_calls_do_not_duplicate_execution"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_concurrent_scheduling_keeps_all_jobs"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_due_jobs_run_in_time_order"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_duplicate_pending_id_rejected"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_equal_times_use_insertion_order"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_executing_id_cannot_be_cancelled_or_reused"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_id_reused_after_cancel"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_id_reused_after_execution"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_job_scheduled_during_clock_read_waits_for_next_invocation"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_jobs_wait_until_due"
+            ],
+            [
+              "tests.test_job_scheduler",
+              "test_shutdown_is_idempotent_and_pending_jobs_drain"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_empty"
+            ],
+            [
+              "tests.test_problem_0452_minimum_number_arrows",
+              "test_single_balloon"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "returncode": 0,
+          "stdout": "..................                                                       [100%]\n18 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2441,
+          "counts": {
+            "total": 18,
+            "passed": 18,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "",
+              "test_callback_can_cancel_another_job"
+            ],
+            [
+              "",
+              "test_callback_can_schedule_another_job"
+            ],
+            [
+              "",
+              "test_callback_exception_does_not_stop_other_jobs"
+            ],
+            [
+              "",
+              "test_cancel_after_execution"
+            ],
+            [
+              "",
+              "test_cancel_pending_job"
+            ],
+            [
+              "",
+              "test_cancel_unknown_job"
+            ],
+            [
+              "",
+              "test_concurrent_run_due_executes_once"
+            ],
+            [
+              "",
+              "test_concurrent_scheduling"
+            ],
+            [
+              "",
+              "test_deadline_order"
+            ],
+            [
+              "",
+              "test_duplicate_pending_id_rejected"
+            ],
+            [
+              "",
+              "test_equal_deadlines_preserve_insertion_order"
+            ],
+            [
+              "",
+              "test_future_job_not_executed"
+            ],
+            [
+              "",
+              "test_job_executes_at_deadline"
+            ],
+            [
+              "",
+              "test_job_executes_once"
+            ],
+            [
+              "",
+              "test_no_jobs"
+            ],
+            [
+              "",
+              "test_shutdown_is_idempotent"
+            ],
+            [
+              "",
+              "test_shutdown_preserves_pending_jobs"
+            ],
+            [
+              "",
+              "test_shutdown_prevents_scheduling"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "interruption": {
+          "returncode": 1,
+          "stdout": "FF                                                                       [100%]\n=================================== FAILURES ===================================\n______ test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt] ______\n\nexception = <class 'KeyboardInterrupt'>\n\n    @pytest.mark.parametrize(\"exception\", [KeyboardInterrupt, SystemExit])\n    def test_interrupted_batch_preserves_unstarted_jobs(exception):\n        scheduler = JobScheduler(clock=lambda: 0)\n        calls = []\n    \n        def interrupt():\n            raise exception()\n    \n        scheduler.schedule(\"first\", 0, interrupt)\n        scheduler.schedule(\"second\", 0, lambda: calls.append(\"second\"))\n    \n        with pytest.raises(exception):\n            scheduler.run_due()\n    \n>       assert scheduler.run_due() == 1\nE       assert 0 == 1\nE        +  where 0 = run_due()\nE        +    where run_due = <problems.job_scheduler.JobScheduler object at 0x10aadc440>.run_due\n\n<repo>/acceptance/test_015_interrupt.py:20: AssertionError\n_________ test_interrupted_batch_preserves_unstarted_jobs[SystemExit] __________\n\nexception = <class 'SystemExit'>\n\n    @pytest.mark.parametrize(\"exception\", [KeyboardInterrupt, SystemExit])\n    def test_interrupted_batch_preserves_unstarted_jobs(exception):\n        scheduler = JobScheduler(clock=lambda: 0)\n        calls = []\n    \n        def interrupt():\n            raise exception()\n    \n        scheduler.schedule(\"first\", 0, interrupt)\n        scheduler.schedule(\"second\", 0, lambda: calls.append(\"second\"))\n    \n        with pytest.raises(exception):\n            scheduler.run_due()\n    \n>       assert scheduler.run_due() == 1\nE       assert 0 == 1\nE        +  where 0 = run_due()\nE        +    where run_due = <problems.job_scheduler.JobScheduler object at 0x10ab0c050>.run_due\n\n<repo>/acceptance/test_015_interrupt.py:20: AssertionError\n=========================== short test summary info ============================\nFAILED ::test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt]\nFAILED ::test_interrupted_batch_preserves_unstarted_jobs[SystemExit] - assert...\n2 failed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2415,
+          "counts": {
+            "total": 2,
+            "passed": 0,
+            "failed": 2,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "",
+              "test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt]"
+            ],
+            [
+              "",
+              "test_interrupted_batch_preserves_unstarted_jobs[SystemExit]"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [
+            "test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt]",
+            "test_interrupted_batch_preserves_unstarted_jobs[SystemExit]"
+          ],
+          "expected_failure_names": [
+            "test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt]",
+            "test_interrupted_batch_preserves_unstarted_jobs[SystemExit]"
+          ],
+          "matches_documented_outcome": true
+        },
+        "r1": {
+          "returncode": 0,
+          "stdout": ".                                                                        [100%]\n1 passed in 0.01s\n",
+          "stderr": "",
+          "seconds": 0.2352,
+          "counts": {
+            "total": 1,
+            "passed": 1,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "collected_test_identities": [
+            [
+              "",
+              "test_jobs_scheduled_during_clock_read_wait_for_next_invocation"
+            ]
+          ],
+          "collection_matches_expected": true,
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0334,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 1,
+          "stdout": "[\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 43,\n      \"row\": 6\n    },\n    \"filename\": \"<candidate>/problems/order_processor.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"from decimal import ROUND_HALF_UP, Decimal\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 9\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 6\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 6\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 6,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  }\n]",
+          "stderr": "",
+          "seconds": 0.0287,
+          "expected_diagnostics": [
+            [
+              "I001",
+              "problems/order_processor.py"
+            ]
+          ],
+          "matches_documented_outcome": true
+        }
+      }
+    }
+  },
+  "snapshots_unchanged": true,
+  "ended_utc": "2026-11-26T20:48:27.685225+00:00",
+  "seconds": 15.2323,
+  "unexpected_outcomes": [
+    "016/luna:acceptance",
+    "016/sol:acceptance"
+  ]
+}
