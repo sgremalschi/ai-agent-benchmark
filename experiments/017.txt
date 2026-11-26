@@ -1,0 +1,64 @@
+Historical task input (workspace references normalized).
+
+Experiment 017 — Multi-file order processing architecture
+
+Implement the order processing system described in:
+fixtures/017/spec.txt
+
+IMPORTANT: Do not access the benchmark workspace. The complete
+behavioral contract is reproduced below.
+
+Implement a synchronous, in-memory order processing system using
+the existing starter package problems/order_system/.
+
+Public API (all importable from problems.order_system):
+- OrderService(inventory, event_store)
+- OrderService.place_order(order_id, sku, quantity) -> Order
+- OrderService.cancel_order(order_id) -> Order
+- OrderService.get_order(order_id) -> Order | None
+- Inventory(initial_stock: dict[str, int])
+- Inventory.available(sku) -> int
+- EventStore.events() -> list[Event]
+
+Order fields: order_id, sku, quantity, status.
+Event fields: event_type, order_id, sku, quantity.
+
+Requirements:
+1. Quantities must be positive integers; bool is invalid.
+2. Initial stock must contain nonnegative integer quantities.
+3. Unknown SKUs have zero stock.
+4. Successful placement reserves stock and creates a PENDING order.
+5. Placement emits exactly one OrderPlaced event.
+6. Duplicate order IDs raise ValueError without modifying state.
+7. Insufficient stock raises ValueError without modifying state.
+8. Cancelling a PENDING order restores its stock.
+9. Cancellation changes status to CANCELLED.
+10. Cancellation emits exactly one OrderCancelled event.
+11. Repeated cancellation is idempotent; no additional event.
+12. Cancelling an unknown order raises KeyError.
+13. get_order returns None for unknown IDs.
+14. Event ordering matches successful operation ordering.
+15. EventStore.events() returns a defensive copy.
+16. Event publication failures must not leave partially committed
+    order or inventory state.
+17. No external dependencies, databases, network calls, or threads.
+18. Prefer clear module boundaries and simple abstractions.
+
+Implement the system across these existing files:
+- problems/order_system/models.py
+- problems/order_system/inventory.py
+- problems/order_system/events.py
+- problems/order_system/service.py
+- problems/order_system/__init__.py
+
+Write at least 15 meaningful tests in:
+- tests/test_order_system.py
+
+Include tests for successful placement, cancellation, duplicate IDs,
+invalid quantities, insufficient stock, idempotency, event ordering,
+and rollback on event publication failure.
+
+You may modify ONLY the six files listed above.
+Do not commit or push changes.
+Do not access the independent evaluation workspace or any benchmark results.
+Run your tests and Ruff before finishing.

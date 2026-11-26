@@ -1,0 +1,844 @@
+{
+  "evidence_class": "release_derivation",
+  "date": "2026-11-26",
+  "excluded_files": [
+    {
+      "path": "results/018/phase23/repaired/tests/test_problem_0041_first_missing_positive.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "results/018/phase23/repaired/tests/test_problem_0057_insert_interval.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/008/baseline/tests/test_problem_0057_insert_interval.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/008/luna/tests/test_problem_0057_insert_interval.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/008/sol/tests/test_problem_0057_insert_interval.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/009/baseline/tests/test_problem_0057_insert_interval.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/009/luna/tests/test_problem_0057_insert_interval.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/009/sol/tests/test_problem_0057_insert_interval.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/010/baseline/tests/test_problem_0057_insert_interval.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/010/luna/tests/test_problem_0057_insert_interval.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/010/sol/tests/test_problem_0057_insert_interval.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/011/baseline/tests/test_problem_0041_first_missing_positive.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/011/baseline/tests/test_problem_0057_insert_interval.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/011/luna/tests/test_problem_0041_first_missing_positive.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/011/luna/tests/test_problem_0057_insert_interval.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/011/sol/tests/test_problem_0041_first_missing_positive.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/011/sol/tests/test_problem_0057_insert_interval.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/012/baseline/tests/test_problem_0041_first_missing_positive.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/012/baseline/tests/test_problem_0057_insert_interval.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/012/luna/tests/test_problem_0041_first_missing_positive.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/012/luna/tests/test_problem_0057_insert_interval.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/012/sol/tests/test_problem_0041_first_missing_positive.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/012/sol/tests/test_problem_0057_insert_interval.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/013/baseline/tests/test_problem_0041_first_missing_positive.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/013/baseline/tests/test_problem_0057_insert_interval.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/013/luna/tests/test_problem_0041_first_missing_positive.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/013/luna/tests/test_problem_0057_insert_interval.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/013/sol/tests/test_problem_0041_first_missing_positive.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/013/sol/tests/test_problem_0057_insert_interval.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/014/baseline/tests/test_problem_0041_first_missing_positive.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/014/baseline/tests/test_problem_0057_insert_interval.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/014/luna/tests/test_problem_0041_first_missing_positive.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/014/luna/tests/test_problem_0057_insert_interval.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/014/sol/tests/test_problem_0041_first_missing_positive.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/014/sol/tests/test_problem_0057_insert_interval.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/015/baseline/tests/test_problem_0041_first_missing_positive.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/015/baseline/tests/test_problem_0057_insert_interval.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/015/luna/tests/test_problem_0041_first_missing_positive.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/015/luna/tests/test_problem_0057_insert_interval.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/015/sol/tests/test_problem_0041_first_missing_positive.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/015/sol/tests/test_problem_0057_insert_interval.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/016/baseline/tests/test_problem_0041_first_missing_positive.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/016/baseline/tests/test_problem_0057_insert_interval.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/016/luna/tests/test_problem_0041_first_missing_positive.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/016/luna/tests/test_problem_0057_insert_interval.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/016/sol/tests/test_problem_0041_first_missing_positive.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/016/sol/tests/test_problem_0057_insert_interval.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/017/baseline/tests/test_problem_0041_first_missing_positive.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/017/baseline/tests/test_problem_0057_insert_interval.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/017/luna/tests/test_problem_0041_first_missing_positive.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/017/luna/tests/test_problem_0057_insert_interval.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/017/sol/tests/test_problem_0041_first_missing_positive.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/017/sol/tests/test_problem_0057_insert_interval.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/018/repaired-luna/tests/test_problem_0041_first_missing_positive.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    },
+    {
+      "path": "snapshots/018/repaired-luna/tests/test_problem_0057_insert_interval.py",
+      "reason": "Example-only test file excluded; named example tests have no established redistribution permission"
+    }
+  ],
+  "transformed_files": [
+    {
+      "path": "results/018/phase23/evaluation/luna-original.acceptance.xml",
+      "reason": "Removed identifying JUnit hostname; measurements and test outcomes unchanged",
+      "pre_release_sha256": "9ef13de72963f41b7e188f5eeb258ffffda2e6b5f2cdfd326e6e6ab4e31914dd",
+      "release_sha256": "db404469e06a770ff2b96f15657d628deaaf6e21a64225baa84d5644f8dbcb6a"
+    },
+    {
+      "path": "results/018/phase23/evaluation/luna-original.interruption.xml",
+      "reason": "Removed identifying JUnit hostname; measurements and test outcomes unchanged",
+      "pre_release_sha256": "c552f318744c19714d6e3adc48162d2c24573defda2dfde34c93fce76c0d34e8",
+      "release_sha256": "fd1cc521cdf8b3735925675b8549f27d7293dc34e7e0be82c2642644a57114f1",
+      "pre_editorial_sha256": "80c83d663be58fd4bee105b4b2e3af9e650ce90df63cbbeff57f358d8dcc0ed6",
+      "editorial_note": "Failure-trace paths normalized; test outcomes and timings retained."
+    },
+    {
+      "path": "results/018/phase23/evaluation/luna-original.original_luna_scheduler_tests.xml",
+      "reason": "Removed identifying JUnit hostname; measurements and test outcomes unchanged",
+      "pre_release_sha256": "1d5793d99aa3d84c867e3c300ad8420b6de3f370d5dbea58186b787e196cb1ea",
+      "release_sha256": "2a4ff5ab7aed2d1e5ca33507e4dfb40621da64d3887c513c190f1ae2a070adae"
+    },
+    {
+      "path": "results/018/phase23/evaluation/luna-original.original_sol_scheduler_tests.xml",
+      "reason": "Removed identifying JUnit hostname; measurements and test outcomes unchanged",
+      "pre_release_sha256": "ca9576f33709555adb440e4ebacd50d0f4c6a276c9cebac44b1fbe314ad3de1a",
+      "release_sha256": "aaf9c02dc92b7381bc56259fa094d7d6504bc7e17fb40eef08edf86acbbc58ec"
+    },
+    {
+      "path": "results/018/phase23/evaluation/luna-original.r1.xml",
+      "reason": "Removed identifying JUnit hostname; measurements and test outcomes unchanged",
+      "pre_release_sha256": "363671be5b590133af0a5d828a69f5714eda88e6b1254906f700da996981792b",
+      "release_sha256": "e3e75f2b90186d4c502084183da5b2bb53583b3dfaefa3782f7d97fe9e319888",
+      "pre_editorial_sha256": "d04ab574f1de4c3960628fa24fb5b6bac5d5eeb478c06237ecad496e18f70325",
+      "editorial_note": "Failure-trace paths normalized; test outcomes and timings retained."
+    },
+    {
+      "path": "results/018/phase23/evaluation/luna-original.repaired_luna_scheduler_tests.xml",
+      "reason": "Removed identifying JUnit hostname; measurements and test outcomes unchanged",
+      "pre_release_sha256": "4b2b9209b74e7b6e6d7626e2d11c70f3ec412d8d48e16da3dda9864fcf012d4c",
+      "release_sha256": "3d37acedf16d8a250093ef47204b1b0e9248b3c0adb112aef548a65f11324269",
+      "pre_editorial_sha256": "052d5a383b04fb49b5c22c483714bb1e3fc2e98ff39bde703adf65dbf981d8d9",
+      "editorial_note": "Failure-trace paths normalized; test outcomes and timings retained."
+    },
+    {
+      "path": "results/018/phase23/evaluation/luna-original.repository.xml",
+      "reason": "Removed identifying JUnit hostname; measurements and test outcomes unchanged",
+      "pre_release_sha256": "830d6f3f8cb630e65a4f91f1b85c0b736ef3c9fd19c951af66c0bdfb5d82e236",
+      "release_sha256": "7508c75fe5849c9225171736c9d8cd90c201f3e21318ba4ea69abd304da49f5b"
+    },
+    {
+      "path": "results/018/phase23/evaluation/luna-repaired.acceptance.xml",
+      "reason": "Removed identifying JUnit hostname; measurements and test outcomes unchanged",
+      "pre_release_sha256": "35229ec552f9f1774bf6d5cd5bc23cab83fee288871dd4ed6072c48e41f76004",
+      "release_sha256": "2b536b0ba849ac70660e414b9deecb4fe2c92b0c27a90f8fa6359fbec349fea9"
+    },
+    {
+      "path": "results/018/phase23/evaluation/luna-repaired.interruption.xml",
+      "reason": "Removed identifying JUnit hostname; measurements and test outcomes unchanged",
+      "pre_release_sha256": "4a51608dfa6acc9611b13542ae64c648c254c73eb0ba0b35083ac537d7f677c3",
+      "release_sha256": "f1d040f8cb3a332a73785cb7e443559b2b96b7166f061884dadac14a06c4faf1"
+    },
+    {
+      "path": "results/018/phase23/evaluation/luna-repaired.original_luna_scheduler_tests.xml",
+      "reason": "Removed identifying JUnit hostname; measurements and test outcomes unchanged",
+      "pre_release_sha256": "6ea4b59bc83d17209eeeb2b76d3c4c5361df1e6106a34a69744f8e907f1ed47a",
+      "release_sha256": "fd3f32fea028520802927c52515c2edf59e5a70c3e8b2bb3ee19b485ed375ee2"
+    },
+    {
+      "path": "results/018/phase23/evaluation/luna-repaired.original_sol_scheduler_tests.xml",
+      "reason": "Removed identifying JUnit hostname; measurements and test outcomes unchanged",
+      "pre_release_sha256": "a604586d0e72ecd1f9ce74b1a41420b18e22131bbe5422aa4bae0fba367b0940",
+      "release_sha256": "52eead157345992cf52b6988149edbc111896aef63197853adfd36befca087d9",
+      "pre_editorial_sha256": "74fd83a14f281bfb75683f05ea03fbb9b4c14b6aa2860c0e6347d18bc392bc13",
+      "editorial_note": "Failure-trace paths normalized; test outcomes and timings retained."
+    },
+    {
+      "path": "results/018/phase23/evaluation/luna-repaired.r1.xml",
+      "reason": "Removed identifying JUnit hostname; measurements and test outcomes unchanged",
+      "pre_release_sha256": "2d6577b2c24d8042ae389f73e20df14ed98129ac1a7f97ed86f2ff0ba3bc7852",
+      "release_sha256": "b06b422920fea1558819dceebe3336464dcb433b41fbda167b3cbadcd2cbfc3b"
+    },
+    {
+      "path": "results/018/phase23/evaluation/luna-repaired.repaired_luna_scheduler_tests.xml",
+      "reason": "Removed identifying JUnit hostname; measurements and test outcomes unchanged",
+      "pre_release_sha256": "19df32bfbd2eb73ac0113cdec72bfd77e10b4b12a72d9ce348d3b8e652f613b0",
+      "release_sha256": "1aa4494a783eebf7faa9ef44db933b4b64594cc2c6ec06c04132eecd2fbd18ab"
+    },
+    {
+      "path": "results/018/phase23/evaluation/luna-repaired.repository.xml",
+      "reason": "Removed identifying JUnit hostname; measurements and test outcomes unchanged",
+      "pre_release_sha256": "27145c7292004b8990642e0fa7bb8765f5499a5e8b3c322a57f337e7252b2ae6",
+      "release_sha256": "1cd4be01671d39da19d0e1cffb5264e77708e26befd868b017491d40ebfa7df2"
+    },
+    {
+      "path": "results/018/phase23/evaluation/sol-original.acceptance.xml",
+      "reason": "Removed identifying JUnit hostname; measurements and test outcomes unchanged",
+      "pre_release_sha256": "da95dd04288f81593798ced7f66dae549b397fd26f889f099f70395713bedf7d",
+      "release_sha256": "42ecfdbbfcc50be8c6caeaa1fbe3755825a564917a1cee030833d866850ec830"
+    },
+    {
+      "path": "results/018/phase23/evaluation/sol-original.interruption.xml",
+      "reason": "Removed identifying JUnit hostname; measurements and test outcomes unchanged",
+      "pre_release_sha256": "82de29ce3e6b044bfcc104229ab8038ffbbbc4adc80af229e87c7cec55f0c967",
+      "release_sha256": "f9c4d4ff3329984b68bad8c5eb361fb94d6d5102afd718d96bcdccaa797d1205"
+    },
+    {
+      "path": "results/018/phase23/evaluation/sol-original.original_luna_scheduler_tests.xml",
+      "reason": "Removed identifying JUnit hostname; measurements and test outcomes unchanged",
+      "pre_release_sha256": "198b3cf6c0e79ab26b24e464f2fe103c2d4f721925c62b4902ee877370a664bb",
+      "release_sha256": "aa5caed827a98483be6a3706b4791c50781011ff8f66f19752589b33587bdc3a"
+    },
+    {
+      "path": "results/018/phase23/evaluation/sol-original.original_sol_scheduler_tests.xml",
+      "reason": "Removed identifying JUnit hostname; measurements and test outcomes unchanged",
+      "pre_release_sha256": "d5417166f6a225133a8d9e1c03c5a034184582c3e5026ee9f16788069376945a",
+      "release_sha256": "d362cf5fe7f3ae2e3302d3a509d9363f45cdd72cd003ff99af3a930bf9062270"
+    },
+    {
+      "path": "results/018/phase23/evaluation/sol-original.r1.xml",
+      "reason": "Removed identifying JUnit hostname; measurements and test outcomes unchanged",
+      "pre_release_sha256": "289185ba01991e07c66e59152fec702d50b1e90fb4b079c8a0194be5dea9ef5c",
+      "release_sha256": "68f657cdf93fed489fd9030594897a1dff60ac72b990ac896dbdbd701e432956"
+    },
+    {
+      "path": "results/018/phase23/evaluation/sol-original.repaired_luna_scheduler_tests.xml",
+      "reason": "Removed identifying JUnit hostname; measurements and test outcomes unchanged",
+      "pre_release_sha256": "09913ee56825ec412b5295ee77c641a5a6ef1615051f0aa8aeed289bb2ee19e0",
+      "release_sha256": "211a914bab23b82f74352e5000f272b83927d47f7a6521a0cceffeb9419ec145",
+      "pre_editorial_sha256": "a5338550ac7b19a31c5c3bf2583a3b5d2f6065b50d9f004085c6ffa3588b8fc5",
+      "editorial_note": "Failure-trace paths normalized and trailing whitespace removed; test outcomes and timings retained."
+    },
+    {
+      "path": "results/018/phase23/evaluation/sol-original.repository.xml",
+      "reason": "Removed identifying JUnit hostname; measurements and test outcomes unchanged",
+      "pre_release_sha256": "fc78bdae9fafefa438696440a32555857f5e4251e13fde200bfaf057677db173",
+      "release_sha256": "58eef3c415a85ba9b8418c7dc0600793936be2ac95eb9e513558c9b9b7729514"
+    },
+    {
+      "path": "results/018/phase23/repaired/tests/test_problem_0452_minimum_number_arrows.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "a44b0a01c117384721852fd5bda7feabf2d3c8c5901bd9146efd20e4244d07eb",
+      "release_sha256": "1029aa9086e88b9ab52ef146ea4450f6fb34e330ec8bc66bc63f87023b08db80"
+    },
+    {
+      "path": "snapshots/008/baseline/tests/test_problem_0041_first_missing_positive.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "69f412b1a04c7834f7969f715b952c9d6bf1b15b97ea4bf8a9a37b798887add7",
+      "release_sha256": "9b94d1d6ef388cb5ab1c8a7c18cb4e9f1cabf4d70b4786c16e8c97353870f6c1"
+    },
+    {
+      "path": "snapshots/008/baseline/tests/test_problem_0452_minimum_number_arrows.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "a44b0a01c117384721852fd5bda7feabf2d3c8c5901bd9146efd20e4244d07eb",
+      "release_sha256": "1029aa9086e88b9ab52ef146ea4450f6fb34e330ec8bc66bc63f87023b08db80"
+    },
+    {
+      "path": "snapshots/008/luna/tests/test_problem_0041_first_missing_positive.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "69f412b1a04c7834f7969f715b952c9d6bf1b15b97ea4bf8a9a37b798887add7",
+      "release_sha256": "9b94d1d6ef388cb5ab1c8a7c18cb4e9f1cabf4d70b4786c16e8c97353870f6c1"
+    },
+    {
+      "path": "snapshots/008/luna/tests/test_problem_0056_merge_intervals.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_leetcode_example",
+        "test_unsorted_input_returns_sorted_result"
+      ],
+      "pre_release_sha256": "bee5d3f10d377e09042294d73adb07e30d617e5b8f27c1fae3491e9bb56ac735",
+      "release_sha256": "4a2481af7852799648795569f6942857279386238a2bbf5512184c2021c94663"
+    },
+    {
+      "path": "snapshots/008/luna/tests/test_problem_0452_minimum_number_arrows.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "a44b0a01c117384721852fd5bda7feabf2d3c8c5901bd9146efd20e4244d07eb",
+      "release_sha256": "1029aa9086e88b9ab52ef146ea4450f6fb34e330ec8bc66bc63f87023b08db80"
+    },
+    {
+      "path": "snapshots/008/sol/tests/test_problem_0041_first_missing_positive.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "69f412b1a04c7834f7969f715b952c9d6bf1b15b97ea4bf8a9a37b798887add7",
+      "release_sha256": "9b94d1d6ef388cb5ab1c8a7c18cb4e9f1cabf4d70b4786c16e8c97353870f6c1"
+    },
+    {
+      "path": "snapshots/008/sol/tests/test_problem_0056_merge_intervals.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_shared_endpoint"
+      ],
+      "pre_release_sha256": "539f08e2d78510dd105c5b6ea41c3b54df66131a93cf2450d9f78d00c4b85ee1",
+      "release_sha256": "2a9c11cbaac4afb1627c1f0a70a3e67a086b6ac52e36545e4a2252dbee54508f"
+    },
+    {
+      "path": "snapshots/008/sol/tests/test_problem_0452_minimum_number_arrows.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "a44b0a01c117384721852fd5bda7feabf2d3c8c5901bd9146efd20e4244d07eb",
+      "release_sha256": "1029aa9086e88b9ab52ef146ea4450f6fb34e330ec8bc66bc63f87023b08db80"
+    },
+    {
+      "path": "snapshots/009/baseline/tests/test_problem_0041_first_missing_positive.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "69f412b1a04c7834f7969f715b952c9d6bf1b15b97ea4bf8a9a37b798887add7",
+      "release_sha256": "9b94d1d6ef388cb5ab1c8a7c18cb4e9f1cabf4d70b4786c16e8c97353870f6c1"
+    },
+    {
+      "path": "snapshots/009/baseline/tests/test_problem_0452_minimum_number_arrows.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "a44b0a01c117384721852fd5bda7feabf2d3c8c5901bd9146efd20e4244d07eb",
+      "release_sha256": "1029aa9086e88b9ab52ef146ea4450f6fb34e330ec8bc66bc63f87023b08db80"
+    },
+    {
+      "path": "snapshots/009/luna/tests/test_problem_0041_first_missing_positive.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "69f412b1a04c7834f7969f715b952c9d6bf1b15b97ea4bf8a9a37b798887add7",
+      "release_sha256": "9b94d1d6ef388cb5ab1c8a7c18cb4e9f1cabf4d70b4786c16e8c97353870f6c1"
+    },
+    {
+      "path": "snapshots/009/luna/tests/test_problem_0452_minimum_number_arrows.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "a44b0a01c117384721852fd5bda7feabf2d3c8c5901bd9146efd20e4244d07eb",
+      "release_sha256": "1029aa9086e88b9ab52ef146ea4450f6fb34e330ec8bc66bc63f87023b08db80"
+    },
+    {
+      "path": "snapshots/009/sol/tests/test_problem_0041_first_missing_positive.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "69f412b1a04c7834f7969f715b952c9d6bf1b15b97ea4bf8a9a37b798887add7",
+      "release_sha256": "9b94d1d6ef388cb5ab1c8a7c18cb4e9f1cabf4d70b4786c16e8c97353870f6c1"
+    },
+    {
+      "path": "snapshots/009/sol/tests/test_problem_0452_minimum_number_arrows.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "a44b0a01c117384721852fd5bda7feabf2d3c8c5901bd9146efd20e4244d07eb",
+      "release_sha256": "1029aa9086e88b9ab52ef146ea4450f6fb34e330ec8bc66bc63f87023b08db80"
+    },
+    {
+      "path": "snapshots/010/baseline/tests/test_problem_0041_first_missing_positive.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "69f412b1a04c7834f7969f715b952c9d6bf1b15b97ea4bf8a9a37b798887add7",
+      "release_sha256": "9b94d1d6ef388cb5ab1c8a7c18cb4e9f1cabf4d70b4786c16e8c97353870f6c1"
+    },
+    {
+      "path": "snapshots/010/baseline/tests/test_problem_0452_minimum_number_arrows.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "a44b0a01c117384721852fd5bda7feabf2d3c8c5901bd9146efd20e4244d07eb",
+      "release_sha256": "1029aa9086e88b9ab52ef146ea4450f6fb34e330ec8bc66bc63f87023b08db80"
+    },
+    {
+      "path": "snapshots/010/luna/tests/test_problem_0041_first_missing_positive.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "69f412b1a04c7834f7969f715b952c9d6bf1b15b97ea4bf8a9a37b798887add7",
+      "release_sha256": "9b94d1d6ef388cb5ab1c8a7c18cb4e9f1cabf4d70b4786c16e8c97353870f6c1"
+    },
+    {
+      "path": "snapshots/010/luna/tests/test_problem_0452_minimum_number_arrows.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "a44b0a01c117384721852fd5bda7feabf2d3c8c5901bd9146efd20e4244d07eb",
+      "release_sha256": "1029aa9086e88b9ab52ef146ea4450f6fb34e330ec8bc66bc63f87023b08db80"
+    },
+    {
+      "path": "snapshots/010/sol/tests/test_problem_0041_first_missing_positive.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "69f412b1a04c7834f7969f715b952c9d6bf1b15b97ea4bf8a9a37b798887add7",
+      "release_sha256": "9b94d1d6ef388cb5ab1c8a7c18cb4e9f1cabf4d70b4786c16e8c97353870f6c1"
+    },
+    {
+      "path": "snapshots/010/sol/tests/test_problem_0452_minimum_number_arrows.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "a44b0a01c117384721852fd5bda7feabf2d3c8c5901bd9146efd20e4244d07eb",
+      "release_sha256": "1029aa9086e88b9ab52ef146ea4450f6fb34e330ec8bc66bc63f87023b08db80"
+    },
+    {
+      "path": "snapshots/011/baseline/tests/test_problem_0452_minimum_number_arrows.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "a44b0a01c117384721852fd5bda7feabf2d3c8c5901bd9146efd20e4244d07eb",
+      "release_sha256": "1029aa9086e88b9ab52ef146ea4450f6fb34e330ec8bc66bc63f87023b08db80"
+    },
+    {
+      "path": "snapshots/011/luna/tests/test_problem_0452_minimum_number_arrows.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "a44b0a01c117384721852fd5bda7feabf2d3c8c5901bd9146efd20e4244d07eb",
+      "release_sha256": "1029aa9086e88b9ab52ef146ea4450f6fb34e330ec8bc66bc63f87023b08db80"
+    },
+    {
+      "path": "snapshots/011/sol/tests/test_problem_0452_minimum_number_arrows.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "a44b0a01c117384721852fd5bda7feabf2d3c8c5901bd9146efd20e4244d07eb",
+      "release_sha256": "1029aa9086e88b9ab52ef146ea4450f6fb34e330ec8bc66bc63f87023b08db80"
+    },
+    {
+      "path": "snapshots/012/baseline/tests/test_problem_0452_minimum_number_arrows.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "a44b0a01c117384721852fd5bda7feabf2d3c8c5901bd9146efd20e4244d07eb",
+      "release_sha256": "1029aa9086e88b9ab52ef146ea4450f6fb34e330ec8bc66bc63f87023b08db80"
+    },
+    {
+      "path": "snapshots/012/luna/tests/test_problem_0452_minimum_number_arrows.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "a44b0a01c117384721852fd5bda7feabf2d3c8c5901bd9146efd20e4244d07eb",
+      "release_sha256": "1029aa9086e88b9ab52ef146ea4450f6fb34e330ec8bc66bc63f87023b08db80"
+    },
+    {
+      "path": "snapshots/012/sol/tests/test_problem_0452_minimum_number_arrows.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "a44b0a01c117384721852fd5bda7feabf2d3c8c5901bd9146efd20e4244d07eb",
+      "release_sha256": "1029aa9086e88b9ab52ef146ea4450f6fb34e330ec8bc66bc63f87023b08db80"
+    },
+    {
+      "path": "snapshots/013/baseline/tests/test_problem_0452_minimum_number_arrows.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "a44b0a01c117384721852fd5bda7feabf2d3c8c5901bd9146efd20e4244d07eb",
+      "release_sha256": "1029aa9086e88b9ab52ef146ea4450f6fb34e330ec8bc66bc63f87023b08db80"
+    },
+    {
+      "path": "snapshots/013/luna/tests/test_problem_0452_minimum_number_arrows.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "a44b0a01c117384721852fd5bda7feabf2d3c8c5901bd9146efd20e4244d07eb",
+      "release_sha256": "1029aa9086e88b9ab52ef146ea4450f6fb34e330ec8bc66bc63f87023b08db80"
+    },
+    {
+      "path": "snapshots/013/sol/tests/test_problem_0452_minimum_number_arrows.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "a44b0a01c117384721852fd5bda7feabf2d3c8c5901bd9146efd20e4244d07eb",
+      "release_sha256": "1029aa9086e88b9ab52ef146ea4450f6fb34e330ec8bc66bc63f87023b08db80"
+    },
+    {
+      "path": "snapshots/014/baseline/tests/test_problem_0452_minimum_number_arrows.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "a44b0a01c117384721852fd5bda7feabf2d3c8c5901bd9146efd20e4244d07eb",
+      "release_sha256": "1029aa9086e88b9ab52ef146ea4450f6fb34e330ec8bc66bc63f87023b08db80"
+    },
+    {
+      "path": "snapshots/014/luna/tests/test_problem_0452_minimum_number_arrows.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "a44b0a01c117384721852fd5bda7feabf2d3c8c5901bd9146efd20e4244d07eb",
+      "release_sha256": "1029aa9086e88b9ab52ef146ea4450f6fb34e330ec8bc66bc63f87023b08db80"
+    },
+    {
+      "path": "snapshots/014/sol/tests/test_problem_0452_minimum_number_arrows.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "a44b0a01c117384721852fd5bda7feabf2d3c8c5901bd9146efd20e4244d07eb",
+      "release_sha256": "1029aa9086e88b9ab52ef146ea4450f6fb34e330ec8bc66bc63f87023b08db80"
+    },
+    {
+      "path": "snapshots/015/baseline/tests/test_problem_0452_minimum_number_arrows.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "a44b0a01c117384721852fd5bda7feabf2d3c8c5901bd9146efd20e4244d07eb",
+      "release_sha256": "1029aa9086e88b9ab52ef146ea4450f6fb34e330ec8bc66bc63f87023b08db80"
+    },
+    {
+      "path": "snapshots/015/luna/tests/test_problem_0452_minimum_number_arrows.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "a44b0a01c117384721852fd5bda7feabf2d3c8c5901bd9146efd20e4244d07eb",
+      "release_sha256": "1029aa9086e88b9ab52ef146ea4450f6fb34e330ec8bc66bc63f87023b08db80"
+    },
+    {
+      "path": "snapshots/015/sol/tests/test_problem_0452_minimum_number_arrows.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "a44b0a01c117384721852fd5bda7feabf2d3c8c5901bd9146efd20e4244d07eb",
+      "release_sha256": "1029aa9086e88b9ab52ef146ea4450f6fb34e330ec8bc66bc63f87023b08db80"
+    },
+    {
+      "path": "snapshots/016/baseline/tests/test_problem_0452_minimum_number_arrows.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "a44b0a01c117384721852fd5bda7feabf2d3c8c5901bd9146efd20e4244d07eb",
+      "release_sha256": "1029aa9086e88b9ab52ef146ea4450f6fb34e330ec8bc66bc63f87023b08db80"
+    },
+    {
+      "path": "snapshots/016/luna/tests/test_problem_0452_minimum_number_arrows.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "a44b0a01c117384721852fd5bda7feabf2d3c8c5901bd9146efd20e4244d07eb",
+      "release_sha256": "1029aa9086e88b9ab52ef146ea4450f6fb34e330ec8bc66bc63f87023b08db80"
+    },
+    {
+      "path": "snapshots/016/sol/tests/test_problem_0452_minimum_number_arrows.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "a44b0a01c117384721852fd5bda7feabf2d3c8c5901bd9146efd20e4244d07eb",
+      "release_sha256": "1029aa9086e88b9ab52ef146ea4450f6fb34e330ec8bc66bc63f87023b08db80"
+    },
+    {
+      "path": "snapshots/017/baseline/tests/test_problem_0452_minimum_number_arrows.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "a44b0a01c117384721852fd5bda7feabf2d3c8c5901bd9146efd20e4244d07eb",
+      "release_sha256": "1029aa9086e88b9ab52ef146ea4450f6fb34e330ec8bc66bc63f87023b08db80"
+    },
+    {
+      "path": "snapshots/017/luna/tests/test_problem_0452_minimum_number_arrows.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "a44b0a01c117384721852fd5bda7feabf2d3c8c5901bd9146efd20e4244d07eb",
+      "release_sha256": "1029aa9086e88b9ab52ef146ea4450f6fb34e330ec8bc66bc63f87023b08db80"
+    },
+    {
+      "path": "snapshots/017/sol/tests/test_problem_0452_minimum_number_arrows.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "a44b0a01c117384721852fd5bda7feabf2d3c8c5901bd9146efd20e4244d07eb",
+      "release_sha256": "1029aa9086e88b9ab52ef146ea4450f6fb34e330ec8bc66bc63f87023b08db80"
+    },
+    {
+      "path": "snapshots/018/repaired-luna/tests/test_problem_0452_minimum_number_arrows.py",
+      "reason": "Removed LeetCode-associated verbatim/example-derived test cases; implementations unchanged",
+      "removed_functions": [
+        "test_example_1",
+        "test_example_2",
+        "test_example_3"
+      ],
+      "pre_release_sha256": "a44b0a01c117384721852fd5bda7feabf2d3c8c5901bd9146efd20e4244d07eb",
+      "release_sha256": "1029aa9086e88b9ab52ef146ea4450f6fb34e330ec8bc66bc63f87023b08db80"
+    }
+  ],
+  "remaining_diffs_reviewed": 13,
+  "diff_review_result": "Only independently created benchmark implementations; no identified statement/example excerpts",
+  "problem_statement_result": "No full proprietary problem statement identified in reviewed retained source/prompts/reports",
+  "omitted_material_categories": [
+    "Raw execution logs",
+    "Duplicate candidate archives",
+    "Identified example tests without established distribution permission",
+    "Machine-specific execution records"
+  ]
+}

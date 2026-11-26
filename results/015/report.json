@@ -1,0 +1,79 @@
+{
+  "experiment": "015",
+  "baseline": "5a1a6f16bebb817cb22e3397980c2ba591eba92e",
+  "started_utc": "2026-11-19T21:52:27.736776+00:00",
+  "models": {
+    "luna": {
+      "unexpected_modifications": [],
+      "model": "gpt-6-luna",
+      "agent": {
+        "returncode": 0,
+        "seconds": 92.66,
+        "timed_out": false
+      },
+      "checks": {
+        "pytest": {
+          "returncode": 0,
+          "seconds": 0.17,
+          "timed_out": false
+        },
+        "ruff": {
+          "returncode": 1,
+          "seconds": 0.03,
+          "timed_out": false
+        },
+        "diff_check": {
+          "returncode": 0,
+          "seconds": 0.01,
+          "timed_out": false
+        },
+        "acceptance": {
+          "returncode": 0,
+          "seconds": 0.15,
+          "timed_out": false
+        }
+      },
+      "changed_files": [
+        "M problems/job_scheduler.py",
+        "?? tests/test_job_scheduler.py"
+      ],
+      "diff_stat": "problems/job_scheduler.py | 62 ++++++++++++++++++++++++++++++++++++++++++++---\n 1 file changed, 58 insertions(+), 4 deletions(-)"
+    },
+    "sol": {
+      "unexpected_modifications": [],
+      "model": "gpt-6.1-sol",
+      "agent": {
+        "returncode": 0,
+        "seconds": 122.98,
+        "timed_out": false
+      },
+      "checks": {
+        "pytest": {
+          "returncode": 0,
+          "seconds": 0.18,
+          "timed_out": false
+        },
+        "ruff": {
+          "returncode": 1,
+          "seconds": 0.03,
+          "timed_out": false
+        },
+        "diff_check": {
+          "returncode": 0,
+          "seconds": 0.01,
+          "timed_out": false
+        },
+        "acceptance": {
+          "returncode": 0,
+          "seconds": 0.15,
+          "timed_out": false
+        }
+      },
+      "changed_files": [
+        "M problems/job_scheduler.py",
+        "?? tests/test_job_scheduler.py"
+      ],
+      "diff_stat": "problems/job_scheduler.py | 68 ++++++++++++++++++++++++++++++++++++++++++++---\n 1 file changed, 64 insertions(+), 4 deletions(-)"
+    }
+  }
+}

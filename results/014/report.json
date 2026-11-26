@@ -1,0 +1,83 @@
+{
+  "experiment": "014",
+  "baseline": "252f565636bf5d0ff914e07c9d9d51fe16fa7f0f",
+  "started_utc": "2026-11-19T21:38:58.661488+00:00",
+  "models": {
+    "luna": {
+      "unexpected_modifications": [
+        "M problems/pair_counter.py"
+      ],
+      "model": "gpt-6-luna",
+      "agent": {
+        "returncode": 0,
+        "seconds": 55.94,
+        "timed_out": false
+      },
+      "checks": {
+        "pytest": {
+          "returncode": 0,
+          "seconds": 0.17,
+          "timed_out": false
+        },
+        "ruff": {
+          "returncode": 1,
+          "seconds": 0.03,
+          "timed_out": false
+        },
+        "diff_check": {
+          "returncode": 0,
+          "seconds": 0.01,
+          "timed_out": false
+        },
+        "acceptance": {
+          "returncode": 0,
+          "seconds": 0.16,
+          "timed_out": false
+        }
+      },
+      "changed_files": [
+        "M problems/pair_counter.py",
+        "?? tests/test_pair_counter.py"
+      ],
+      "diff_stat": "problems/pair_counter.py | 8 ++++----\n 1 file changed, 4 insertions(+), 4 deletions(-)"
+    },
+    "sol": {
+      "unexpected_modifications": [
+        "M problems/pair_counter.py"
+      ],
+      "model": "gpt-6.1-sol",
+      "agent": {
+        "returncode": 0,
+        "seconds": 65.14,
+        "timed_out": false
+      },
+      "checks": {
+        "pytest": {
+          "returncode": 0,
+          "seconds": 0.19,
+          "timed_out": false
+        },
+        "ruff": {
+          "returncode": 1,
+          "seconds": 0.03,
+          "timed_out": false
+        },
+        "diff_check": {
+          "returncode": 0,
+          "seconds": 0.01,
+          "timed_out": false
+        },
+        "acceptance": {
+          "returncode": 0,
+          "seconds": 0.16,
+          "timed_out": false
+        }
+      },
+      "changed_files": [
+        "M problems/pair_counter.py",
+        "?? tests/test_pair_counter.py"
+      ],
+      "diff_stat": "problems/pair_counter.py | 14 +++++++++-----\n 1 file changed, 9 insertions(+), 5 deletions(-)"
+    }
+  }
+}

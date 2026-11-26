@@ -1,0 +1,17 @@
+[project]
+name = "ai-agent-benchmark"
+version = "0.1.0"
+description = "Preserved AI coding experiments and credential-free local evaluation"
+requires-python = ">=3.14"
+
+[dependency-groups]
+dev = ["pytest==9.1.1", "ruff==0.16.8"]
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+line-length = 110
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]

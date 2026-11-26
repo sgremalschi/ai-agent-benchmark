@@ -1,0 +1,47 @@
+{
+  "started_utc": "2026-11-26T00:06:44+00:00",
+  "prepared_utc": "2026-11-26T00:08:59.754588+00:00",
+  "commits": {
+    "luna": "893c78189ad9d8122e34efbe8bea125bbfbb3d6f",
+    "sol": "2fb133ad9f0bd18c563f189504e7f9d547764a80"
+  },
+  "review_hashes": {
+    ".github/workflows/python-ci.yml": "9e1630800b668dbba1b1822ccc1c85b64478cd867a20667233713565dd22591c",
+    ".gitignore": "ed7b84e816359d17276a801802de5c362c2c572ce3e50a8670c8362b08351380",
+    ".python-version": "a876e0b10411037a012498b9fe18d9bc1df32ed8b722a13564dc944ddcfd9135",
+    ".vscode/settings.json": "9f7880af9b5e366a795622e916c6e3acc3dafc39bcbcbd6ed0eed3e3917e4f3f",
+    "CHEATSHEET.md": "ff490cca83cac5bf88ae003c8a43584b09eb86b7ea08af5f36b85dcaf2d82f27",
+    "README.md": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "problems/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "problems/job_scheduler.py": "1f75d641dabe12f684a4506830be55df1c15e3561d57876fad049b920a9e5ab9",
+    "problems/order_processor.py": "af9e2f58705eca15ccebbb5a7b6c9625e0e4c4696b8d334912fd6fbd3eda2522",
+    "problems/pair_counter.py": "44173c7d8a0672534dd0389c53b18e556d26aaa3edee9ecedd539e7a343d6b5f",
+    "problems/problem_0041_first_missing_positive.py": "d7de018947396bbd62751765930e986dc5d4010a2f8d4fdef0c239c43e5adb51",
+    "problems/problem_0057_insert_interval.py": "b532b57a65c6c736cd3be33447f1d6a35b877792341d61714d31fe5722ba6327",
+    "problems/problem_0452_minimum_number_arrows.py": "f95a51ba97d3a3b159837633016f52e9324f7f208053da8c075bc4bfcdc9cd47",
+    "problems/rate_limiter.py": "3d258c077b48aaffe510a8e18eb62dfc8c41a16a7ea80ed80e5cb011c86b8e1e",
+    "pyproject.toml": "0e33f688a6f353dce59f82354f59a566fe4fd558fdf853b1a0b3ba91cc605818",
+    "tests/test_job_scheduler.py": "da673983ce94747265d62fb05b614e4224214db0b3b22cdbcc6d80afbcae6bd8",
+    "tests/test_problem_0041_first_missing_positive.py": "d76a4da46f630481b544a73ffc4bf24a30cfc70727d75f5559475e94b30d94c4",
+    "tests/test_problem_0057_insert_interval.py": "fcbfc9169104f4383e076e40814a9c8fc4360eb30ebcebd393bbae2b3f9ffccc",
+    "tests/test_problem_0452_minimum_number_arrows.py": "a44b0a01c117384721852fd5bda7feabf2d3c8c5901bd9146efd20e4244d07eb",
+    "uv.lock": "772de240ca511264256b9ddfd1fafa736b0b35b08da317e543e35c91e6d9ea6d"
+  },
+  "original_luna_agent_seconds": 92.66,
+  "original_luna_usage": [
+    {
+      "input_tokens": 205862,
+      "cached_input_tokens": 188416,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 4271,
+      "reasoning_output_tokens": 512
+    }
+  ],
+  "original_orchestration_seconds": null,
+  "original_human_effort_seconds": null,
+  "editorial_derivation": {
+    "source_sha256": "b4a5ebe11a7642c6bf79a57bc6fb39b3683b4ce1ed81f2b3886779912dcc791d",
+    "evidence_class": "edited_recorded_evidence",
+    "changes": "Machine paths and incidental execution details omitted or normalized; interim statuses clarified; experimental observations and measurements retained."
+  }
+}

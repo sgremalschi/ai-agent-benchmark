@@ -1,0 +1,27 @@
+{
+  "started_utc": "2026-11-26T00:14:55.927724+00:00",
+  "reasoning_effort": "medium",
+  "model": "gpt-6.1-sol",
+  "timeout_seconds": 900,
+  "isolation_setup_seconds": 485.390464,
+  "returncode": 0,
+  "timed_out": false,
+  "seconds": 40.02,
+  "ended_utc": "2026-11-26T00:15:35.949727+00:00",
+  "usage": [
+    {
+      "input_tokens": 89340,
+      "cached_input_tokens": 73856,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 1466,
+      "reasoning_output_tokens": 561
+    }
+  ],
+  "workspace_unchanged": true,
+  "execution_tool": "Codex CLI",
+  "editorial_derivation": {
+    "source_sha256": "9767f0a96290473fc7d14700cca4681abd6af7ce2d5f74b69f54e0c861b344ba",
+    "evidence_class": "edited_recorded_evidence",
+    "changes": "Machine paths and incidental execution details omitted or normalized; interim statuses clarified; experimental observations and measurements retained."
+  }
+}

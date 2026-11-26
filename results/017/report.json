@@ -1,0 +1,85 @@
+{
+  "experiment": "017",
+  "baseline": "af2eb001d3a00fa4408e4545cc2db4a7754674ec",
+  "started_utc": "2026-11-19T22:12:57.037849+00:00",
+  "models": {
+    "luna": {
+      "unexpected_modifications": [],
+      "model": "gpt-6-luna",
+      "agent": {
+        "returncode": 0,
+        "seconds": 91.13,
+        "timed_out": false
+      },
+      "checks": {
+        "pytest": {
+          "returncode": 0,
+          "seconds": 0.18,
+          "timed_out": false
+        },
+        "ruff": {
+          "returncode": 1,
+          "seconds": 0.03,
+          "timed_out": false
+        },
+        "diff_check": {
+          "returncode": 0,
+          "seconds": 0.01,
+          "timed_out": false
+        },
+        "acceptance": {
+          "returncode": 0,
+          "seconds": 0.15,
+          "timed_out": false
+        }
+      },
+      "changed_files": [
+        "M problems/order_system/events.py",
+        " M problems/order_system/inventory.py",
+        " M problems/order_system/models.py",
+        " M problems/order_system/service.py",
+        "?? tests/test_order_system.py"
+      ],
+      "diff_stat": "problems/order_system/events.py    |  7 +++++--\n problems/order_system/inventory.py | 15 ++++++++++++--\n problems/order_system/models.py    |  4 ++--\n problems/order_system/service.py   | 40 +++++++++++++++++++++++++++++++++-----\n 4 files changed, 55 insertions(+), 11 deletions(-)"
+    },
+    "sol": {
+      "unexpected_modifications": [],
+      "model": "gpt-6.1-sol",
+      "agent": {
+        "returncode": 0,
+        "seconds": 108.94,
+        "timed_out": false
+      },
+      "checks": {
+        "pytest": {
+          "returncode": 0,
+          "seconds": 0.19,
+          "timed_out": false
+        },
+        "ruff": {
+          "returncode": 1,
+          "seconds": 0.03,
+          "timed_out": false
+        },
+        "diff_check": {
+          "returncode": 0,
+          "seconds": 0.01,
+          "timed_out": false
+        },
+        "acceptance": {
+          "returncode": 0,
+          "seconds": 0.15,
+          "timed_out": false
+        }
+      },
+      "changed_files": [
+        "M problems/order_system/events.py",
+        " M problems/order_system/inventory.py",
+        " M problems/order_system/models.py",
+        " M problems/order_system/service.py",
+        "?? tests/test_order_system.py"
+      ],
+      "diff_stat": "problems/order_system/events.py    |  7 +++++--\n problems/order_system/inventory.py | 24 ++++++++++++++++++++++--\n problems/order_system/models.py    |  4 ++--\n problems/order_system/service.py   | 34 +++++++++++++++++++++++++++++-----\n 4 files changed, 58 insertions(+), 11 deletions(-)"
+    }
+  }
+}

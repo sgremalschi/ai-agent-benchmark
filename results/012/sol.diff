@@ -1,0 +1,56 @@
+diff --git a/problems/rate_limiter.py b/problems/rate_limiter.py
+index 0f957dd..d67c7c8 100644
+--- a/problems/rate_limiter.py
++++ b/problems/rate_limiter.py
+@@ -1,4 +1,4 @@
+-"""Sliding-window rate limiter with intentionally seeded defects."""
++"""Thread-safe sliding-window rate limiter."""
+ 
+ import time
+ from collections import deque
+@@ -12,21 +12,20 @@ class SlidingWindowRateLimiter:
+ 
+         self.limit = limit
+         self.window = window
+-        self.clock = clock or time.monotonic
++        self.clock = time.monotonic if clock is None else clock
+         self._events = {}
+         self._lock = Lock()
+ 
+     def allow(self, key: str) -> bool:
+         """Return whether a request is allowed for this key."""
+-        now = self.clock()
+-
+         with self._lock:
++            now = self.clock()
+             events = self._events.setdefault(key, deque())
+ 
+-            while events and now - events[0] > self.window:
++            while events and now - events[0] >= self.window:
+                 events.popleft()
+ 
+-            if len(events) > self.limit:
++            if len(events) >= self.limit:
+                 return False
+ 
+             events.append(now)
+@@ -34,9 +33,16 @@ class SlidingWindowRateLimiter:
+ 
+     def remaining(self, key: str) -> int:
+         """Return available request slots for this key."""
+-        events = self._events.get(key, deque())
+-        return max(0, self.limit - len(events))
++        with self._lock:
++            now = self.clock()
++            events = self._events.get(key, deque())
++
++            while events and now - events[0] >= self.window:
++                events.popleft()
++
++            return max(0, self.limit - len(events))
+ 
+     def reset(self, key: str) -> None:
+         """Remove the recorded requests for a key."""
+-        self._events.pop(key, None)
++        with self._lock:
++            self._events.pop(key, None)

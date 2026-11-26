@@ -1,0 +1,664 @@
+{
+  "started_utc": "2026-11-26T00:25:13.419333+00:00",
+  "candidates": {
+    "luna-original": {
+      "checks": {
+        "acceptance": {
+          "command": [
+            "python",
+            "-B",
+            "-c",
+            "import os,sys; import problems.job_scheduler as m; assert os.path.realpath(m.__file__)==os.path.realpath(sys.argv.pop(1)),m.__file__; print(\"CANDIDATE_MODULE=\"+m.__file__,flush=True); import pytest; sys.exit(pytest.main(sys.argv[1:]))",
+            "<candidate>/luna-original/problems/job_scheduler.py",
+            "-c",
+            "<candidate>/luna-original/pyproject.toml",
+            "-q",
+            "-p",
+            "no:cacheprovider",
+            "--junitxml=results/018/phase23/evaluation/luna-original.acceptance.xml",
+            "acceptance/test_015.py"
+          ],
+          "returncode": 0,
+          "timed_out": false,
+          "seconds": 0.263,
+          "counts": {
+            "total": 18,
+            "passed": 18,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          }
+        },
+        "interruption": {
+          "command": [
+            "python",
+            "-B",
+            "-c",
+            "import os,sys; import problems.job_scheduler as m; assert os.path.realpath(m.__file__)==os.path.realpath(sys.argv.pop(1)),m.__file__; print(\"CANDIDATE_MODULE=\"+m.__file__,flush=True); import pytest; sys.exit(pytest.main(sys.argv[1:]))",
+            "<candidate>/luna-original/problems/job_scheduler.py",
+            "-c",
+            "<candidate>/luna-original/pyproject.toml",
+            "-q",
+            "-p",
+            "no:cacheprovider",
+            "--junitxml=results/018/phase23/evaluation/luna-original.interruption.xml",
+            "acceptance/test_015_interrupt.py"
+          ],
+          "returncode": 1,
+          "timed_out": false,
+          "seconds": 0.2559,
+          "counts": {
+            "total": 2,
+            "passed": 0,
+            "failed": 2,
+            "errors": 0,
+            "skipped": 0
+          }
+        },
+        "r1": {
+          "command": [
+            "python",
+            "-B",
+            "-c",
+            "import os,sys; import problems.job_scheduler as m; assert os.path.realpath(m.__file__)==os.path.realpath(sys.argv.pop(1)),m.__file__; print(\"CANDIDATE_MODULE=\"+m.__file__,flush=True); import pytest; sys.exit(pytest.main(sys.argv[1:]))",
+            "<candidate>/luna-original/problems/job_scheduler.py",
+            "-c",
+            "<candidate>/luna-original/pyproject.toml",
+            "-q",
+            "-p",
+            "no:cacheprovider",
+            "--junitxml=results/018/phase23/evaluation/luna-original.r1.xml",
+            "results/018/phase23/test_r1.py"
+          ],
+          "returncode": 1,
+          "timed_out": false,
+          "seconds": 0.2476,
+          "counts": {
+            "total": 1,
+            "passed": 0,
+            "failed": 1,
+            "errors": 0,
+            "skipped": 0
+          }
+        },
+        "original_luna_scheduler_tests": {
+          "command": [
+            "python",
+            "-B",
+            "-c",
+            "import os,sys; import problems.job_scheduler as m; assert os.path.realpath(m.__file__)==os.path.realpath(sys.argv.pop(1)),m.__file__; print(\"CANDIDATE_MODULE=\"+m.__file__,flush=True); import pytest; sys.exit(pytest.main(sys.argv[1:]))",
+            "<candidate>/luna-original/problems/job_scheduler.py",
+            "-c",
+            "<candidate>/luna-original/pyproject.toml",
+            "-q",
+            "-p",
+            "no:cacheprovider",
+            "--junitxml=results/018/phase23/evaluation/luna-original.original_luna_scheduler_tests.xml",
+            "<candidate>/luna-original/tests/test_job_scheduler.py"
+          ],
+          "returncode": 0,
+          "timed_out": false,
+          "seconds": 0.2478,
+          "counts": {
+            "total": 18,
+            "passed": 18,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          }
+        },
+        "original_sol_scheduler_tests": {
+          "command": [
+            "python",
+            "-B",
+            "-c",
+            "import os,sys; import problems.job_scheduler as m; assert os.path.realpath(m.__file__)==os.path.realpath(sys.argv.pop(1)),m.__file__; print(\"CANDIDATE_MODULE=\"+m.__file__,flush=True); import pytest; sys.exit(pytest.main(sys.argv[1:]))",
+            "<candidate>/luna-original/problems/job_scheduler.py",
+            "-c",
+            "<candidate>/luna-original/pyproject.toml",
+            "-q",
+            "-p",
+            "no:cacheprovider",
+            "--junitxml=results/018/phase23/evaluation/luna-original.original_sol_scheduler_tests.xml",
+            "<candidate>/sol-original/tests/test_job_scheduler.py"
+          ],
+          "returncode": 1,
+          "timed_out": false,
+          "seconds": 0.2714,
+          "counts": {
+            "total": 29,
+            "passed": 28,
+            "failed": 1,
+            "errors": 0,
+            "skipped": 0
+          }
+        },
+        "repaired_luna_scheduler_tests": {
+          "command": [
+            "python",
+            "-B",
+            "-c",
+            "import os,sys; import problems.job_scheduler as m; assert os.path.realpath(m.__file__)==os.path.realpath(sys.argv.pop(1)),m.__file__; print(\"CANDIDATE_MODULE=\"+m.__file__,flush=True); import pytest; sys.exit(pytest.main(sys.argv[1:]))",
+            "<candidate>/luna-original/problems/job_scheduler.py",
+            "-c",
+            "<candidate>/luna-original/pyproject.toml",
+            "-q",
+            "-p",
+            "no:cacheprovider",
+            "--junitxml=results/018/phase23/evaluation/luna-original.repaired_luna_scheduler_tests.xml",
+            "results/018/phase23/repaired/tests/test_job_scheduler.py"
+          ],
+          "returncode": 1,
+          "timed_out": false,
+          "seconds": 0.262,
+          "counts": {
+            "total": 19,
+            "passed": 18,
+            "failed": 1,
+            "errors": 0,
+            "skipped": 0
+          }
+        },
+        "repository": {
+          "command": [
+            "python",
+            "-B",
+            "-c",
+            "import os,sys; import problems.job_scheduler as m; assert os.path.realpath(m.__file__)==os.path.realpath(sys.argv.pop(1)),m.__file__; print(\"CANDIDATE_MODULE=\"+m.__file__,flush=True); import pytest; sys.exit(pytest.main(sys.argv[1:]))",
+            "<candidate>/luna-original/problems/job_scheduler.py",
+            "-c",
+            "<candidate>/luna-original/pyproject.toml",
+            "-q",
+            "-p",
+            "no:cacheprovider",
+            "--junitxml=results/018/phase23/evaluation/luna-original.repository.xml",
+            "<candidate>/luna-original/tests"
+          ],
+          "returncode": 0,
+          "timed_out": false,
+          "seconds": 0.2546,
+          "counts": {
+            "total": 30,
+            "passed": 30,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          }
+        },
+        "scoped_ruff": {
+          "command": [
+            "ruff",
+            "check",
+            "--no-cache",
+            "problems/job_scheduler.py",
+            "tests/test_job_scheduler.py"
+          ],
+          "returncode": 0,
+          "timed_out": false,
+          "seconds": 0.0104
+        },
+        "repository_ruff": {
+          "command": [
+            "ruff",
+            "check",
+            "--no-cache",
+            "."
+          ],
+          "returncode": 1,
+          "timed_out": false,
+          "seconds": 0.0107
+        }
+      },
+      "unchanged_by_evaluation": true
+    },
+    "sol-original": {
+      "checks": {
+        "acceptance": {
+          "command": [
+            "python",
+            "-B",
+            "-c",
+            "import os,sys; import problems.job_scheduler as m; assert os.path.realpath(m.__file__)==os.path.realpath(sys.argv.pop(1)),m.__file__; print(\"CANDIDATE_MODULE=\"+m.__file__,flush=True); import pytest; sys.exit(pytest.main(sys.argv[1:]))",
+            "<candidate>/sol-original/problems/job_scheduler.py",
+            "-c",
+            "<candidate>/sol-original/pyproject.toml",
+            "-q",
+            "-p",
+            "no:cacheprovider",
+            "--junitxml=results/018/phase23/evaluation/sol-original.acceptance.xml",
+            "acceptance/test_015.py"
+          ],
+          "returncode": 0,
+          "timed_out": false,
+          "seconds": 0.2424,
+          "counts": {
+            "total": 18,
+            "passed": 18,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          }
+        },
+        "interruption": {
+          "command": [
+            "python",
+            "-B",
+            "-c",
+            "import os,sys; import problems.job_scheduler as m; assert os.path.realpath(m.__file__)==os.path.realpath(sys.argv.pop(1)),m.__file__; print(\"CANDIDATE_MODULE=\"+m.__file__,flush=True); import pytest; sys.exit(pytest.main(sys.argv[1:]))",
+            "<candidate>/sol-original/problems/job_scheduler.py",
+            "-c",
+            "<candidate>/sol-original/pyproject.toml",
+            "-q",
+            "-p",
+            "no:cacheprovider",
+            "--junitxml=results/018/phase23/evaluation/sol-original.interruption.xml",
+            "acceptance/test_015_interrupt.py"
+          ],
+          "returncode": 0,
+          "timed_out": false,
+          "seconds": 0.2406,
+          "counts": {
+            "total": 2,
+            "passed": 2,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          }
+        },
+        "r1": {
+          "command": [
+            "python",
+            "-B",
+            "-c",
+            "import os,sys; import problems.job_scheduler as m; assert os.path.realpath(m.__file__)==os.path.realpath(sys.argv.pop(1)),m.__file__; print(\"CANDIDATE_MODULE=\"+m.__file__,flush=True); import pytest; sys.exit(pytest.main(sys.argv[1:]))",
+            "<candidate>/sol-original/problems/job_scheduler.py",
+            "-c",
+            "<candidate>/sol-original/pyproject.toml",
+            "-q",
+            "-p",
+            "no:cacheprovider",
+            "--junitxml=results/018/phase23/evaluation/sol-original.r1.xml",
+            "results/018/phase23/test_r1.py"
+          ],
+          "returncode": 0,
+          "timed_out": false,
+          "seconds": 1.2691,
+          "counts": {
+            "total": 1,
+            "passed": 1,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          }
+        },
+        "original_luna_scheduler_tests": {
+          "command": [
+            "python",
+            "-B",
+            "-c",
+            "import os,sys; import problems.job_scheduler as m; assert os.path.realpath(m.__file__)==os.path.realpath(sys.argv.pop(1)),m.__file__; print(\"CANDIDATE_MODULE=\"+m.__file__,flush=True); import pytest; sys.exit(pytest.main(sys.argv[1:]))",
+            "<candidate>/sol-original/problems/job_scheduler.py",
+            "-c",
+            "<candidate>/sol-original/pyproject.toml",
+            "-q",
+            "-p",
+            "no:cacheprovider",
+            "--junitxml=results/018/phase23/evaluation/sol-original.original_luna_scheduler_tests.xml",
+            "<candidate>/luna-original/tests/test_job_scheduler.py"
+          ],
+          "returncode": 0,
+          "timed_out": false,
+          "seconds": 0.2545,
+          "counts": {
+            "total": 18,
+            "passed": 18,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          }
+        },
+        "original_sol_scheduler_tests": {
+          "command": [
+            "python",
+            "-B",
+            "-c",
+            "import os,sys; import problems.job_scheduler as m; assert os.path.realpath(m.__file__)==os.path.realpath(sys.argv.pop(1)),m.__file__; print(\"CANDIDATE_MODULE=\"+m.__file__,flush=True); import pytest; sys.exit(pytest.main(sys.argv[1:]))",
+            "<candidate>/sol-original/problems/job_scheduler.py",
+            "-c",
+            "<candidate>/sol-original/pyproject.toml",
+            "-q",
+            "-p",
+            "no:cacheprovider",
+            "--junitxml=results/018/phase23/evaluation/sol-original.original_sol_scheduler_tests.xml",
+            "<candidate>/sol-original/tests/test_job_scheduler.py"
+          ],
+          "returncode": 0,
+          "timed_out": false,
+          "seconds": 0.2625,
+          "counts": {
+            "total": 29,
+            "passed": 29,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          }
+        },
+        "repaired_luna_scheduler_tests": {
+          "command": [
+            "python",
+            "-B",
+            "-c",
+            "import os,sys; import problems.job_scheduler as m; assert os.path.realpath(m.__file__)==os.path.realpath(sys.argv.pop(1)),m.__file__; print(\"CANDIDATE_MODULE=\"+m.__file__,flush=True); import pytest; sys.exit(pytest.main(sys.argv[1:]))",
+            "<candidate>/sol-original/problems/job_scheduler.py",
+            "-c",
+            "<candidate>/sol-original/pyproject.toml",
+            "-q",
+            "-p",
+            "no:cacheprovider",
+            "--junitxml=results/018/phase23/evaluation/sol-original.repaired_luna_scheduler_tests.xml",
+            "results/018/phase23/repaired/tests/test_job_scheduler.py"
+          ],
+          "returncode": 1,
+          "timed_out": false,
+          "seconds": 2.3127,
+          "counts": {
+            "total": 19,
+            "passed": 18,
+            "failed": 1,
+            "errors": 0,
+            "skipped": 0
+          }
+        },
+        "repository": {
+          "command": [
+            "python",
+            "-B",
+            "-c",
+            "import os,sys; import problems.job_scheduler as m; assert os.path.realpath(m.__file__)==os.path.realpath(sys.argv.pop(1)),m.__file__; print(\"CANDIDATE_MODULE=\"+m.__file__,flush=True); import pytest; sys.exit(pytest.main(sys.argv[1:]))",
+            "<candidate>/sol-original/problems/job_scheduler.py",
+            "-c",
+            "<candidate>/sol-original/pyproject.toml",
+            "-q",
+            "-p",
+            "no:cacheprovider",
+            "--junitxml=results/018/phase23/evaluation/sol-original.repository.xml",
+            "<candidate>/sol-original/tests"
+          ],
+          "returncode": 0,
+          "timed_out": false,
+          "seconds": 0.2805,
+          "counts": {
+            "total": 41,
+            "passed": 41,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          }
+        },
+        "scoped_ruff": {
+          "command": [
+            "ruff",
+            "check",
+            "--no-cache",
+            "problems/job_scheduler.py",
+            "tests/test_job_scheduler.py"
+          ],
+          "returncode": 0,
+          "timed_out": false,
+          "seconds": 0.0104
+        },
+        "repository_ruff": {
+          "command": [
+            "ruff",
+            "check",
+            "--no-cache",
+            "."
+          ],
+          "returncode": 1,
+          "timed_out": false,
+          "seconds": 0.012
+        }
+      },
+      "unchanged_by_evaluation": true
+    },
+    "luna-repaired": {
+      "checks": {
+        "acceptance": {
+          "command": [
+            "python",
+            "-B",
+            "-c",
+            "import os,sys; import problems.job_scheduler as m; assert os.path.realpath(m.__file__)==os.path.realpath(sys.argv.pop(1)),m.__file__; print(\"CANDIDATE_MODULE=\"+m.__file__,flush=True); import pytest; sys.exit(pytest.main(sys.argv[1:]))",
+            "results/018/phase23/repaired/problems/job_scheduler.py",
+            "-c",
+            "results/018/phase23/repaired/pyproject.toml",
+            "-q",
+            "-p",
+            "no:cacheprovider",
+            "--junitxml=results/018/phase23/evaluation/luna-repaired.acceptance.xml",
+            "acceptance/test_015.py"
+          ],
+          "returncode": 0,
+          "timed_out": false,
+          "seconds": 0.239,
+          "counts": {
+            "total": 18,
+            "passed": 18,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          }
+        },
+        "interruption": {
+          "command": [
+            "python",
+            "-B",
+            "-c",
+            "import os,sys; import problems.job_scheduler as m; assert os.path.realpath(m.__file__)==os.path.realpath(sys.argv.pop(1)),m.__file__; print(\"CANDIDATE_MODULE=\"+m.__file__,flush=True); import pytest; sys.exit(pytest.main(sys.argv[1:]))",
+            "results/018/phase23/repaired/problems/job_scheduler.py",
+            "-c",
+            "results/018/phase23/repaired/pyproject.toml",
+            "-q",
+            "-p",
+            "no:cacheprovider",
+            "--junitxml=results/018/phase23/evaluation/luna-repaired.interruption.xml",
+            "acceptance/test_015_interrupt.py"
+          ],
+          "returncode": 1,
+          "timed_out": false,
+          "seconds": 0.2423,
+          "counts": {
+            "total": 2,
+            "passed": 0,
+            "failed": 2,
+            "errors": 0,
+            "skipped": 0
+          }
+        },
+        "r1": {
+          "command": [
+            "python",
+            "-B",
+            "-c",
+            "import os,sys; import problems.job_scheduler as m; assert os.path.realpath(m.__file__)==os.path.realpath(sys.argv.pop(1)),m.__file__; print(\"CANDIDATE_MODULE=\"+m.__file__,flush=True); import pytest; sys.exit(pytest.main(sys.argv[1:]))",
+            "results/018/phase23/repaired/problems/job_scheduler.py",
+            "-c",
+            "results/018/phase23/repaired/pyproject.toml",
+            "-q",
+            "-p",
+            "no:cacheprovider",
+            "--junitxml=results/018/phase23/evaluation/luna-repaired.r1.xml",
+            "results/018/phase23/test_r1.py"
+          ],
+          "returncode": 0,
+          "timed_out": false,
+          "seconds": 0.2333,
+          "counts": {
+            "total": 1,
+            "passed": 1,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          }
+        },
+        "original_luna_scheduler_tests": {
+          "command": [
+            "python",
+            "-B",
+            "-c",
+            "import os,sys; import problems.job_scheduler as m; assert os.path.realpath(m.__file__)==os.path.realpath(sys.argv.pop(1)),m.__file__; print(\"CANDIDATE_MODULE=\"+m.__file__,flush=True); import pytest; sys.exit(pytest.main(sys.argv[1:]))",
+            "results/018/phase23/repaired/problems/job_scheduler.py",
+            "-c",
+            "results/018/phase23/repaired/pyproject.toml",
+            "-q",
+            "-p",
+            "no:cacheprovider",
+            "--junitxml=results/018/phase23/evaluation/luna-repaired.original_luna_scheduler_tests.xml",
+            "<candidate>/luna-original/tests/test_job_scheduler.py"
+          ],
+          "returncode": 0,
+          "timed_out": false,
+          "seconds": 0.2474,
+          "counts": {
+            "total": 18,
+            "passed": 18,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          }
+        },
+        "original_sol_scheduler_tests": {
+          "command": [
+            "python",
+            "-B",
+            "-c",
+            "import os,sys; import problems.job_scheduler as m; assert os.path.realpath(m.__file__)==os.path.realpath(sys.argv.pop(1)),m.__file__; print(\"CANDIDATE_MODULE=\"+m.__file__,flush=True); import pytest; sys.exit(pytest.main(sys.argv[1:]))",
+            "results/018/phase23/repaired/problems/job_scheduler.py",
+            "-c",
+            "results/018/phase23/repaired/pyproject.toml",
+            "-q",
+            "-p",
+            "no:cacheprovider",
+            "--junitxml=results/018/phase23/evaluation/luna-repaired.original_sol_scheduler_tests.xml",
+            "<candidate>/sol-original/tests/test_job_scheduler.py"
+          ],
+          "returncode": 1,
+          "timed_out": false,
+          "seconds": 0.2742,
+          "counts": {
+            "total": 29,
+            "passed": 28,
+            "failed": 1,
+            "errors": 0,
+            "skipped": 0
+          }
+        },
+        "repaired_luna_scheduler_tests": {
+          "command": [
+            "python",
+            "-B",
+            "-c",
+            "import os,sys; import problems.job_scheduler as m; assert os.path.realpath(m.__file__)==os.path.realpath(sys.argv.pop(1)),m.__file__; print(\"CANDIDATE_MODULE=\"+m.__file__,flush=True); import pytest; sys.exit(pytest.main(sys.argv[1:]))",
+            "results/018/phase23/repaired/problems/job_scheduler.py",
+            "-c",
+            "results/018/phase23/repaired/pyproject.toml",
+            "-q",
+            "-p",
+            "no:cacheprovider",
+            "--junitxml=results/018/phase23/evaluation/luna-repaired.repaired_luna_scheduler_tests.xml",
+            "results/018/phase23/repaired/tests/test_job_scheduler.py"
+          ],
+          "returncode": 0,
+          "timed_out": false,
+          "seconds": 0.2515,
+          "counts": {
+            "total": 19,
+            "passed": 19,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          }
+        },
+        "repository": {
+          "command": [
+            "python",
+            "-B",
+            "-c",
+            "import os,sys; import problems.job_scheduler as m; assert os.path.realpath(m.__file__)==os.path.realpath(sys.argv.pop(1)),m.__file__; print(\"CANDIDATE_MODULE=\"+m.__file__,flush=True); import pytest; sys.exit(pytest.main(sys.argv[1:]))",
+            "results/018/phase23/repaired/problems/job_scheduler.py",
+            "-c",
+            "results/018/phase23/repaired/pyproject.toml",
+            "-q",
+            "-p",
+            "no:cacheprovider",
+            "--junitxml=results/018/phase23/evaluation/luna-repaired.repository.xml",
+            "results/018/phase23/repaired/tests"
+          ],
+          "returncode": 0,
+          "timed_out": false,
+          "seconds": 0.2615,
+          "counts": {
+            "total": 31,
+            "passed": 31,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          }
+        },
+        "scoped_ruff": {
+          "command": [
+            "ruff",
+            "check",
+            "--no-cache",
+            "problems/job_scheduler.py",
+            "tests/test_job_scheduler.py"
+          ],
+          "returncode": 0,
+          "timed_out": false,
+          "seconds": 0.012
+        },
+        "repository_ruff": {
+          "command": [
+            "ruff",
+            "check",
+            "--no-cache",
+            "."
+          ],
+          "returncode": 1,
+          "timed_out": false,
+          "seconds": 0.0109
+        }
+      },
+      "unchanged_by_evaluation": true
+    }
+  },
+  "whitespace": {
+    "command": [
+      "git",
+      "diff",
+      "--no-index",
+      "--check",
+      "<candidate>/luna-original",
+      "results/018/phase23/repaired"
+    ],
+    "returncode": 1,
+    "timed_out": false,
+    "seconds": 0.0163
+  },
+  "test_coverage_changes": {
+    "original_scheduler_tests": 18,
+    "repaired_scheduler_tests": 19,
+    "added": [
+      "test_job_scheduled_during_clock_read_waits_for_next_invocation"
+    ],
+    "removed": [],
+    "modified_existing": []
+  },
+  "ended_utc": "2026-11-26T00:25:21.962876+00:00",
+  "seconds": 8.5434,
+  "editorial_derivation": {
+    "source_sha256": "eb04e3bcace974462cb3f30b2626977f6e742da07c0c4fcfe903b8de6f1e356e",
+    "evidence_class": "edited_recorded_evidence",
+    "changes": "Machine paths and incidental execution details omitted or normalized; interim statuses clarified; experimental observations and measurements retained."
+  }
+}

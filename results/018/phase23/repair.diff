@@ -1,0 +1,51 @@
+--- a/problems/job_scheduler.py
++++ b/problems/job_scheduler.py
+@@ -52,9 +52,13 @@
+ 
+     def run_due(self) -> int:
+         """Attempt jobs due at invocation time."""
++        # Take the insertion boundary before calling user supplied clock code.
++        # Otherwise a concurrent schedule() during a slow clock call could
++        # enter this invocation's batch.
++        with self._lock:
++            cutoff = self._sequence
+         now = self.clock()
+         with self._lock:
+-            cutoff = self._sequence
+             due = sorted(
+                 (job for job in self._jobs.values()
+                  if job.state == "pending" and job.run_at <= now and job.sequence < cutoff),
+--- a/tests/test_job_scheduler.py
++++ b/tests/test_job_scheduler.py
+@@ -176,6 +176,31 @@
+     assert calls == [True]
+ 
+ 
++def test_job_scheduled_during_clock_read_waits_for_next_invocation():
++    clock_entered = Event()
++    release_clock = Event()
++
++    def clock():
++        clock_entered.set()
++        assert release_clock.wait(timeout=2)
++        return 10
++
++    scheduler = JobScheduler(clock=clock)
++    calls = []
++    scheduler.schedule("original", 1, lambda: calls.append("original"))
++    with ThreadPoolExecutor(max_workers=1) as pool:
++        run = pool.submit(scheduler.run_due)
++        assert clock_entered.wait(timeout=2)
++        scheduler.schedule("concurrent", 2, lambda: calls.append("concurrent"))
++        release_clock.set()
++        assert run.result(timeout=2) == 1
++
++    assert calls == ["original"]
++    # The same blocking clock is safe here because its event remains set.
++    assert scheduler.run_due() == 1
++    assert calls == ["original", "concurrent"]
++
++
+ def test_concurrent_scheduling_keeps_all_jobs():
+     scheduler = scheduler_at(100)
+     calls = []

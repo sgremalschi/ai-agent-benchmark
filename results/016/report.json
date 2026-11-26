@@ -1,0 +1,79 @@
+{
+  "experiment": "016",
+  "baseline": "ccc072c5aae77936f3cdda2cab076f8e09a32abb",
+  "started_utc": "2026-11-19T22:03:43.011745+00:00",
+  "models": {
+    "luna": {
+      "unexpected_modifications": [],
+      "model": "gpt-6-luna",
+      "agent": {
+        "returncode": 0,
+        "seconds": 76.85,
+        "timed_out": false
+      },
+      "checks": {
+        "pytest": {
+          "returncode": 0,
+          "seconds": 0.19,
+          "timed_out": false
+        },
+        "ruff": {
+          "returncode": 1,
+          "seconds": 0.03,
+          "timed_out": false
+        },
+        "diff_check": {
+          "returncode": 0,
+          "seconds": 0.01,
+          "timed_out": false
+        },
+        "acceptance": {
+          "returncode": 0,
+          "seconds": 0.15,
+          "timed_out": false
+        }
+      },
+      "changed_files": [
+        "M problems/inventory.py",
+        "?? tests/test_inventory.py"
+      ],
+      "diff_stat": "problems/inventory.py | 56 +++++++++++++++++++++++++++++++--------------------\n 1 file changed, 34 insertions(+), 22 deletions(-)"
+    },
+    "sol": {
+      "unexpected_modifications": [],
+      "model": "gpt-6.1-sol",
+      "agent": {
+        "returncode": 0,
+        "seconds": 117.77,
+        "timed_out": false
+      },
+      "checks": {
+        "pytest": {
+          "returncode": 0,
+          "seconds": 0.2,
+          "timed_out": false
+        },
+        "ruff": {
+          "returncode": 1,
+          "seconds": 0.03,
+          "timed_out": false
+        },
+        "diff_check": {
+          "returncode": 0,
+          "seconds": 0.01,
+          "timed_out": false
+        },
+        "acceptance": {
+          "returncode": 0,
+          "seconds": 0.18,
+          "timed_out": false
+        }
+      },
+      "changed_files": [
+        "M problems/inventory.py",
+        "?? tests/test_inventory.py"
+      ],
+      "diff_stat": "problems/inventory.py | 50 +++++++++++++++++++++++++++++---------------------\n 1 file changed, 29 insertions(+), 21 deletions(-)"
+    }
+  }
+}

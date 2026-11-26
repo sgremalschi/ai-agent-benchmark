@@ -1,0 +1,17 @@
+[
+  {
+    "id": "R1",
+    "reviewer_severity": "medium",
+    "status": "verified",
+    "requirement": 13,
+    "location": "problems/job_scheduler.py:55-60",
+    "finding": "A concurrent job scheduled during the injected clock call is included in the current run_due batch because the insertion cutoff is captured afterward.",
+    "expected": "First invocation attempts original job only (1); next invocation attempts new job (1).",
+    "observed": "First invocation attempts both jobs (2); next invocation attempts none (0).",
+    "reproduction": "verify_finding.py",
+    "repetitions": 20,
+    "reproduced": 20,
+    "original_contract_supported": true,
+    "supplementary_tests_used_for_verification": false
+  }
+]

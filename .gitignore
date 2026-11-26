@@ -1,0 +1,22 @@
+# Local runtime and caches; preserved evidence and validation remain visible.
+.venv/
+.cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+# Never publish local credentials or sessions.
+.env
+.env.*
+auth.json
+credentials.json
+.codex/
+
+# Local research evidence and developer records.
+/.private-research/
+
+# Developer continuity documents are maintained outside the release.
+/AGENTS.md
+/RESUME.md
+/WORKLOG.md

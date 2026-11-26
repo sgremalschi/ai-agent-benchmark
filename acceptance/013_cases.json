@@ -1,0 +1,616 @@
+{
+  "catalog": {
+    "A": {
+      "price": "12.345"
+    },
+    "B": {
+      "price": "49.99"
+    },
+    "C": {
+      "price": "100"
+    },
+    "FREE": {
+      "price": "0"
+    }
+  },
+  "tax_rates": {
+    "GA": "7.5",
+    "NY": "8.875",
+    "ZERO": "0"
+  },
+  "cases": [
+    {
+      "order": {
+        "customer": "Alice",
+        "items": [
+          {
+            "sku": "A",
+            "quantity": 1
+          }
+        ]
+      },
+      "result": {
+        "customer": "Alice",
+        "lines": [
+          {
+            "sku": "A",
+            "quantity": 1,
+            "amount": "12.35"
+          }
+        ],
+        "subtotal": "12.35",
+        "tax": "0.00",
+        "shipping": "7.50",
+        "total": "19.85"
+      }
+    },
+    {
+      "order": {
+        "customer": "Bob",
+        "items": [
+          {
+            "sku": "B",
+            "quantity": 2
+          }
+        ]
+      },
+      "result": {
+        "customer": "Bob",
+        "lines": [
+          {
+            "sku": "B",
+            "quantity": 2,
+            "amount": "99.98"
+          }
+        ],
+        "subtotal": "99.98",
+        "tax": "0.00",
+        "shipping": "7.50",
+        "total": "107.48"
+      }
+    },
+    {
+      "order": {
+        "customer": "Cara",
+        "items": [
+          {
+            "sku": "C",
+            "quantity": 1
+          }
+        ]
+      },
+      "result": {
+        "customer": "Cara",
+        "lines": [
+          {
+            "sku": "C",
+            "quantity": 1,
+            "amount": "100.00"
+          }
+        ],
+        "subtotal": "100.00",
+        "tax": "0.00",
+        "shipping": "0.00",
+        "total": "100.00"
+      }
+    },
+    {
+      "order": {
+        "customer": "Dan",
+        "items": [
+          {
+            "sku": "A",
+            "quantity": 3,
+            "discount": 10
+          }
+        ],
+        "region": "GA"
+      },
+      "result": {
+        "customer": "Dan",
+        "lines": [
+          {
+            "sku": "A",
+            "quantity": 3,
+            "amount": "33.33"
+          }
+        ],
+        "subtotal": "33.33",
+        "tax": "2.50",
+        "shipping": "7.50",
+        "total": "43.33"
+      }
+    },
+    {
+      "order": {
+        "customer": "Eve",
+        "items": [
+          {
+            "sku": "B",
+            "quantity": 3
+          }
+        ],
+        "region": "NY",
+        "priority": "express"
+      },
+      "result": {
+        "customer": "Eve",
+        "lines": [
+          {
+            "sku": "B",
+            "quantity": 3,
+            "amount": "149.97"
+          }
+        ],
+        "subtotal": "149.97",
+        "tax": "13.31",
+        "shipping": "15.00",
+        "total": "178.28"
+      }
+    },
+    {
+      "order": {
+        "customer": "Frank",
+        "items": [
+          {
+            "sku": "FREE",
+            "quantity": 1
+          }
+        ],
+        "region": "ZERO"
+      },
+      "result": {
+        "customer": "Frank",
+        "lines": [
+          {
+            "sku": "FREE",
+            "quantity": 1,
+            "amount": "0.00"
+          }
+        ],
+        "subtotal": "0.00",
+        "tax": "0.00",
+        "shipping": "7.50",
+        "total": "7.50"
+      }
+    },
+    {
+      "order": {
+        "customer": "Grace",
+        "items": [
+          {
+            "sku": "A",
+            "quantity": 2
+          },
+          {
+            "sku": "B",
+            "quantity": 1
+          }
+        ],
+        "region": "GA"
+      },
+      "result": {
+        "customer": "Grace",
+        "lines": [
+          {
+            "sku": "A",
+            "quantity": 2,
+            "amount": "24.69"
+          },
+          {
+            "sku": "B",
+            "quantity": 1,
+            "amount": "49.99"
+          }
+        ],
+        "subtotal": "74.68",
+        "tax": "5.60",
+        "shipping": "7.50",
+        "total": "87.78"
+      }
+    },
+    {
+      "order": {
+        "customer": "Hank",
+        "items": [
+          {
+            "sku": "C",
+            "quantity": 1,
+            "discount": 100
+          }
+        ]
+      },
+      "result": {
+        "customer": "Hank",
+        "lines": [
+          {
+            "sku": "C",
+            "quantity": 1,
+            "amount": "0.00"
+          }
+        ],
+        "subtotal": "0.00",
+        "tax": "0.00",
+        "shipping": "7.50",
+        "total": "7.50"
+      }
+    },
+    {
+      "order": {
+        "customer": "Ivy",
+        "items": [
+          {
+            "sku": "A",
+            "quantity": 1,
+            "discount": -10
+          }
+        ]
+      },
+      "result": {
+        "customer": "Ivy",
+        "lines": [
+          {
+            "sku": "A",
+            "quantity": 1,
+            "amount": "13.58"
+          }
+        ],
+        "subtotal": "13.58",
+        "tax": "0.00",
+        "shipping": "7.50",
+        "total": "21.08"
+      }
+    },
+    {
+      "order": {
+        "customer": "Jay",
+        "items": [
+          {
+            "sku": "B",
+            "quantity": 1,
+            "discount": 12.5
+          }
+        ]
+      },
+      "result": {
+        "customer": "Jay",
+        "lines": [
+          {
+            "sku": "B",
+            "quantity": 1,
+            "amount": "43.74"
+          }
+        ],
+        "subtotal": "43.74",
+        "tax": "0.00",
+        "shipping": "7.50",
+        "total": "51.24"
+      }
+    },
+    {
+      "order": {
+        "customer": "Kim",
+        "items": [
+          {
+            "sku": "C",
+            "quantity": 1
+          }
+        ],
+        "priority": "standard"
+      },
+      "result": {
+        "customer": "Kim",
+        "lines": [
+          {
+            "sku": "C",
+            "quantity": 1,
+            "amount": "100.00"
+          }
+        ],
+        "subtotal": "100.00",
+        "tax": "0.00",
+        "shipping": "0.00",
+        "total": "100.00"
+      }
+    },
+    {
+      "order": {
+        "customer": "Lee",
+        "items": [
+          {
+            "sku": "A",
+            "quantity": 8
+          }
+        ],
+        "priority": "express"
+      },
+      "result": {
+        "customer": "Lee",
+        "lines": [
+          {
+            "sku": "A",
+            "quantity": 8,
+            "amount": "98.76"
+          }
+        ],
+        "subtotal": "98.76",
+        "tax": "0.00",
+        "shipping": "15.00",
+        "total": "113.76"
+      }
+    },
+    {
+      "order": {
+        "customer": "Mia",
+        "items": [
+          {
+            "sku": "A",
+            "quantity": 1
+          }
+        ],
+        "region": "UNKNOWN"
+      },
+      "result": {
+        "customer": "Mia",
+        "lines": [
+          {
+            "sku": "A",
+            "quantity": 1,
+            "amount": "12.35"
+          }
+        ],
+        "subtotal": "12.35",
+        "tax": "0.00",
+        "shipping": "7.50",
+        "total": "19.85"
+      }
+    },
+    {
+      "order": {
+        "customer": "Nia",
+        "items": [
+          {
+            "sku": "A",
+            "quantity": 1
+          }
+        ],
+        "region": "GA",
+        "priority": "express"
+      },
+      "result": {
+        "customer": "Nia",
+        "lines": [
+          {
+            "sku": "A",
+            "quantity": 1,
+            "amount": "12.35"
+          }
+        ],
+        "subtotal": "12.35",
+        "tax": "0.93",
+        "shipping": "15.00",
+        "total": "28.27"
+      }
+    },
+    {
+      "order": {
+        "customer": "Omar",
+        "items": [
+          {
+            "sku": "A",
+            "quantity": 1,
+            "discount": 33.333
+          }
+        ]
+      },
+      "result": {
+        "customer": "Omar",
+        "lines": [
+          {
+            "sku": "A",
+            "quantity": 1,
+            "amount": "8.23"
+          }
+        ],
+        "subtotal": "8.23",
+        "tax": "0.00",
+        "shipping": "7.50",
+        "total": "15.73"
+      }
+    },
+    {
+      "order": {
+        "customer": "Pam",
+        "items": [
+          {
+            "sku": "A",
+            "quantity": 1
+          },
+          {
+            "sku": "A",
+            "quantity": 1
+          }
+        ]
+      },
+      "result": {
+        "customer": "Pam",
+        "lines": [
+          {
+            "sku": "A",
+            "quantity": 1,
+            "amount": "12.35"
+          },
+          {
+            "sku": "A",
+            "quantity": 1,
+            "amount": "12.35"
+          }
+        ],
+        "subtotal": "24.69",
+        "tax": "0.00",
+        "shipping": "7.50",
+        "total": "32.19"
+      }
+    },
+    {
+      "order": null,
+      "error": {
+        "type": "TypeError",
+        "message": "order must be a dict"
+      }
+    },
+    {
+      "order": [],
+      "error": {
+        "type": "TypeError",
+        "message": "order must be a dict"
+      }
+    },
+    {
+      "order": {},
+      "error": {
+        "type": "ValueError",
+        "message": "missing customer"
+      }
+    },
+    {
+      "order": {
+        "items": []
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "missing customer"
+      }
+    },
+    {
+      "order": {
+        "customer": "A"
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "missing items"
+      }
+    },
+    {
+      "order": {
+        "customer": "A",
+        "items": []
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "empty order"
+      }
+    },
+    {
+      "order": {
+        "customer": "A",
+        "items": "invalid"
+      },
+      "error": {
+        "type": "TypeError",
+        "message": "items must be a list"
+      }
+    },
+    {
+      "order": {
+        "customer": "A",
+        "items": [
+          {}
+        ]
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "missing sku"
+      }
+    },
+    {
+      "order": {
+        "customer": "A",
+        "items": [
+          {
+            "sku": "A"
+          }
+        ]
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "missing quantity"
+      }
+    },
+    {
+      "order": {
+        "customer": "A",
+        "items": [
+          {
+            "sku": "MISSING",
+            "quantity": 1
+          }
+        ]
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "unknown sku: MISSING"
+      }
+    },
+    {
+      "order": {
+        "customer": "A",
+        "items": [
+          {
+            "sku": "A",
+            "quantity": 0
+          }
+        ]
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "invalid quantity"
+      }
+    },
+    {
+      "order": {
+        "customer": "A",
+        "items": [
+          {
+            "sku": "A",
+            "quantity": -1
+          }
+        ]
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "invalid quantity"
+      }
+    },
+    {
+      "order": {
+        "customer": "A",
+        "items": [
+          {
+            "sku": "A",
+            "quantity": 1.5
+          }
+        ]
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "invalid quantity"
+      }
+    },
+    {
+      "order": {
+        "customer": "A",
+        "items": [
+          {
+            "sku": "A",
+            "quantity": "2"
+          }
+        ]
+      },
+      "error": {
+        "type": "ValueError",
+        "message": "invalid quantity"
+      }
+    }
+  ]
+}

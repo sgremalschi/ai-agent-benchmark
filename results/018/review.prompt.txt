@@ -1,0 +1,51 @@
+Independently review the existing JobScheduler implementation against the original requirements below. Review only: do not change implementation or tests, write patches, or perform repairs. The workspace is a history-free snapshot. Do not access other workspaces, prior sessions, results, or external sources. No commits or pushes.
+
+Inspect problems/job_scheduler.py and its existing tests. Report only concrete correctness defects with source line references, the relevant requirement, a reproducible failure scenario, severity, and reasoning. Separate uncertainty from demonstrated defects. Do not manufacture findings if none are supported. You may run non-mutating checks; do not install dependencies. Return the review in your final response.
+
+The following is the original implementation task, supplied as the review contract; its implementation and test-writing instructions are historical, not authorization to edit during this review:
+
+Experiment 015 — Thread-safe in-memory job scheduler
+
+Implement JobScheduler in problems/job_scheduler.py.
+
+Read the existing starter implementation and preserve its public API.
+
+Requirements:
+1. Use an injected clock, defaulting to time.monotonic.
+2. schedule(job_id, run_at, callback) registers a pending job.
+3. Duplicate IDs are rejected with ValueError while a job is pending or executing.
+4. IDs may be reused after execution or cancellation.
+5. run_due() processes jobs due at the instant it begins.
+6. Execute in ascending run_at order, breaking ties by insertion order.
+7. Each callback is attempted at most once.
+8. Return the number of callbacks attempted, including those that raise exceptions.
+9. Callback exceptions must not prevent other jobs from executing.
+10. Never invoke callbacks while holding an internal lock.
+11. Callbacks may schedule or cancel other jobs.
+12. A due job remains cancellable until its callback starts.
+13. Jobs scheduled during run_due() must wait for a subsequent invocation.
+14. Concurrent run_due() calls must never execute the same job twice.
+15. shutdown() is idempotent and rejects future schedule() calls with RuntimeError.
+16. Pending jobs remain executable after shutdown().
+17. All public operations must be thread-safe.
+18. Do not create background threads or use external dependencies.
+
+Implementation constraints:
+- Prefer simple, maintainable Python.
+- Use standard-library synchronization primitives.
+- Avoid busy-waiting.
+- Do not modify the caller's data.
+- Do not commit or push.
+
+Testing:
+- Create tests/test_job_scheduler.py.
+- Include at least 15 meaningful tests.
+- Cover ordering, cancellation, exceptions, shutdown, reentrancy,
+  concurrent scheduling, and concurrent execution.
+- Run pytest and Ruff on the files you modify.
+
+Allowed modifications:
+- problems/job_scheduler.py
+- tests/test_job_scheduler.py
+
+Do not modify other files.

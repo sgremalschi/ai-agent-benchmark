@@ -1,0 +1,1369 @@
+{
+  "evidence_class": "newly_executed_publication_validation",
+  "started_utc": "2026-11-26T18:24:43.769156+00:00",
+  "runtime": {
+    "python": "3.14.7",
+    "platform": "Darwin",
+    "pytest": "9.1.1",
+    "ruff": "0.16.8"
+  },
+  "model_experiments_launched": 0,
+  "candidates": {
+    "008/luna": {
+      "snapshot": "snapshots/008/luna",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": "..................                                                       [100%]\n18 passed in 0.01s\n",
+          "stderr": "",
+          "seconds": 0.2792,
+          "counts": {
+            "total": 18,
+            "passed": 18,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "status": "unavailable",
+          "reason": "No preserved independent suite; repository tests are not independent."
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0324,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0316,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "008/sol": {
+      "snapshot": "snapshots/008/sol",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": "...................                                                      [100%]\n19 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2446,
+          "counts": {
+            "total": 19,
+            "passed": 19,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "status": "unavailable",
+          "reason": "No preserved independent suite; repository tests are not independent."
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0327,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.03,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "009/luna": {
+      "snapshot": "snapshots/009/luna",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": ".......................                                                  [100%]\n23 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2506,
+          "counts": {
+            "total": 23,
+            "passed": 23,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "status": "unavailable",
+          "reason": "No preserved independent suite; repository tests are not independent."
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0315,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0313,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "009/sol": {
+      "snapshot": "snapshots/009/sol",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": ".....................................                                    [100%]\n37 passed in 0.04s\n",
+          "stderr": "",
+          "seconds": 0.2749,
+          "counts": {
+            "total": 37,
+            "passed": 37,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "status": "unavailable",
+          "reason": "No preserved independent suite; repository tests are not independent."
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0306,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0315,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "010/luna": {
+      "snapshot": "snapshots/010/luna",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": "..................................                                       [100%]\n34 passed in 0.03s\n",
+          "stderr": "",
+          "seconds": 0.256,
+          "counts": {
+            "total": 34,
+            "passed": 34,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "status": "unavailable",
+          "reason": "No preserved independent suite; repository tests are not independent."
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0323,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0311,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "010/sol": {
+      "snapshot": "snapshots/010/sol",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": ".......................................                                  [100%]\n39 passed in 0.04s\n",
+          "stderr": "",
+          "seconds": 0.2715,
+          "counts": {
+            "total": 39,
+            "passed": 39,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "status": "unavailable",
+          "reason": "No preserved independent suite; repository tests are not independent."
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0331,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0311,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "011/luna": {
+      "snapshot": "snapshots/011/luna",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": "...............                                                          [100%]\n15 passed in 0.29s\n",
+          "stderr": "",
+          "seconds": 0.5559,
+          "counts": {
+            "total": 15,
+            "passed": 15,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "returncode": 0,
+          "stdout": "................                                                         [100%]\n16 passed in 0.14s\n",
+          "stderr": "",
+          "seconds": 0.3822,
+          "counts": {
+            "total": 16,
+            "passed": 16,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0347,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0322,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "011/sol": {
+      "snapshot": "snapshots/011/sol",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": "...............................                                          [100%]\n31 passed in 0.11s\n",
+          "stderr": "",
+          "seconds": 0.3445,
+          "counts": {
+            "total": 31,
+            "passed": 31,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "returncode": 0,
+          "stdout": "................                                                         [100%]\n16 passed in 0.14s\n",
+          "stderr": "",
+          "seconds": 0.3687,
+          "counts": {
+            "total": 16,
+            "passed": 16,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0364,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0305,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "012/luna": {
+      "snapshot": "snapshots/012/luna",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": "..................                                                       [100%]\n18 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2502,
+          "counts": {
+            "total": 18,
+            "passed": 18,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "returncode": 0,
+          "stdout": "..................                                                       [100%]\n18 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2501,
+          "counts": {
+            "total": 18,
+            "passed": 18,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0318,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0309,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "012/sol": {
+      "snapshot": "snapshots/012/sol",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": "............................                                             [100%]\n28 passed in 0.03s\n",
+          "stderr": "",
+          "seconds": 0.2743,
+          "counts": {
+            "total": 28,
+            "passed": 28,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "returncode": 0,
+          "stdout": "..................                                                       [100%]\n18 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2557,
+          "counts": {
+            "total": 18,
+            "passed": 18,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0308,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0296,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "013/luna": {
+      "snapshot": "snapshots/013/luna",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": ".........................                                                [100%]\n25 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.247,
+          "counts": {
+            "total": 25,
+            "passed": 25,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "returncode": 0,
+          "stdout": "..............................                                           [100%]\n30 passed in 0.01s\n",
+          "stderr": "",
+          "seconds": 0.2381,
+          "counts": {
+            "total": 30,
+            "passed": 30,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0323,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0327,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "013/sol": {
+      "snapshot": "snapshots/013/sol",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": "................................................                         [100%]\n48 passed in 0.03s\n",
+          "stderr": "",
+          "seconds": 0.2559,
+          "counts": {
+            "total": 48,
+            "passed": 48,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "returncode": 0,
+          "stdout": "..............................                                           [100%]\n30 passed in 0.01s\n",
+          "stderr": "",
+          "seconds": 0.2401,
+          "counts": {
+            "total": 30,
+            "passed": 30,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0318,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0324,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "014/luna": {
+      "snapshot": "snapshots/014/luna",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": "................                                                         [100%]\n16 passed in 0.01s\n",
+          "stderr": "",
+          "seconds": 0.2394,
+          "counts": {
+            "total": 16,
+            "passed": 16,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "returncode": 0,
+          "stdout": "...............................                                          [100%]\n31 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2446,
+          "counts": {
+            "total": 31,
+            "passed": 31,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0319,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 1,
+          "stdout": "[\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 43,\n      \"row\": 6\n    },\n    \"filename\": \"<candidate>/problems/order_processor.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"from decimal import ROUND_HALF_UP, Decimal\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 9\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 6\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 6\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 6,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  }\n]",
+          "stderr": "",
+          "seconds": 0.0349,
+          "expected_diagnostics": [
+            [
+              "I001",
+              "problems/order_processor.py"
+            ]
+          ],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "014/sol": {
+      "snapshot": "snapshots/014/sol",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": "......................                                                   [100%]\n22 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2506,
+          "counts": {
+            "total": 22,
+            "passed": 22,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "returncode": 0,
+          "stdout": "...............................                                          [100%]\n31 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2425,
+          "counts": {
+            "total": 31,
+            "passed": 31,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0318,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 1,
+          "stdout": "[\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 43,\n      \"row\": 6\n    },\n    \"filename\": \"<candidate>/problems/order_processor.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"from decimal import ROUND_HALF_UP, Decimal\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 9\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 6\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 6\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 6,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  }\n]",
+          "stderr": "",
+          "seconds": 0.0319,
+          "expected_diagnostics": [
+            [
+              "I001",
+              "problems/order_processor.py"
+            ]
+          ],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "015/luna": {
+      "snapshot": "snapshots/015/luna",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": "....................                                                     [100%]\n20 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2474,
+          "counts": {
+            "total": 20,
+            "passed": 20,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "returncode": 0,
+          "stdout": "..................                                                       [100%]\n18 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2455,
+          "counts": {
+            "total": 18,
+            "passed": 18,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "interruption": {
+          "returncode": 1,
+          "stdout": "FF                                                                       [100%]\n=================================== FAILURES ===================================\n______ test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt] ______\n\nexception = <class 'KeyboardInterrupt'>\n\n    @pytest.mark.parametrize(\"exception\", [KeyboardInterrupt, SystemExit])\n    def test_interrupted_batch_preserves_unstarted_jobs(exception):\n        scheduler = JobScheduler(clock=lambda: 0)\n        calls = []\n    \n        def interrupt():\n            raise exception()\n    \n        scheduler.schedule(\"first\", 0, interrupt)\n        scheduler.schedule(\"second\", 0, lambda: calls.append(\"second\"))\n    \n        with pytest.raises(exception):\n            scheduler.run_due()\n    \n>       assert scheduler.run_due() == 1\nE       assert 0 == 1\nE        +  where 0 = run_due()\nE        +    where run_due = <problems.job_scheduler.JobScheduler object at 0x106c54440>.run_due\n\n<repo>/acceptance/test_015_interrupt.py:20: AssertionError\n_________ test_interrupted_batch_preserves_unstarted_jobs[SystemExit] __________\n\nexception = <class 'SystemExit'>\n\n    @pytest.mark.parametrize(\"exception\", [KeyboardInterrupt, SystemExit])\n    def test_interrupted_batch_preserves_unstarted_jobs(exception):\n        scheduler = JobScheduler(clock=lambda: 0)\n        calls = []\n    \n        def interrupt():\n            raise exception()\n    \n        scheduler.schedule(\"first\", 0, interrupt)\n        scheduler.schedule(\"second\", 0, lambda: calls.append(\"second\"))\n    \n        with pytest.raises(exception):\n            scheduler.run_due()\n    \n>       assert scheduler.run_due() == 1\nE       assert 0 == 1\nE        +  where 0 = run_due()\nE        +    where run_due = <problems.job_scheduler.JobScheduler object at 0x106c84050>.run_due\n\n<repo>/acceptance/test_015_interrupt.py:20: AssertionError\n=========================== short test summary info ============================\nFAILED ::test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt]\nFAILED ::test_interrupted_batch_preserves_unstarted_jobs[SystemExit] - assert...\n2 failed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2507,
+          "counts": {
+            "total": 2,
+            "passed": 0,
+            "failed": 2,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [
+            "test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt]",
+            "test_interrupted_batch_preserves_unstarted_jobs[SystemExit]"
+          ],
+          "expected_failure_names": [
+            "test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt]",
+            "test_interrupted_batch_preserves_unstarted_jobs[SystemExit]"
+          ],
+          "matches_documented_outcome": true
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.034,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 1,
+          "stdout": "[\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 43,\n      \"row\": 6\n    },\n    \"filename\": \"<candidate>/problems/order_processor.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"from decimal import ROUND_HALF_UP, Decimal\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 9\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 6\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 6\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 6,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  }\n]",
+          "stderr": "",
+          "seconds": 0.0306,
+          "expected_diagnostics": [
+            [
+              "I001",
+              "problems/order_processor.py"
+            ]
+          ],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "015/sol": {
+      "snapshot": "snapshots/015/sol",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": "...............................                                          [100%]\n31 passed in 0.03s\n",
+          "stderr": "",
+          "seconds": 0.2627,
+          "counts": {
+            "total": 31,
+            "passed": 31,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "returncode": 0,
+          "stdout": "..................                                                       [100%]\n18 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2453,
+          "counts": {
+            "total": 18,
+            "passed": 18,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "interruption": {
+          "returncode": 0,
+          "stdout": "..                                                                       [100%]\n2 passed in 0.01s\n",
+          "stderr": "",
+          "seconds": 0.2332,
+          "counts": {
+            "total": 2,
+            "passed": 2,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0318,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 1,
+          "stdout": "[\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 43,\n      \"row\": 6\n    },\n    \"filename\": \"<candidate>/problems/order_processor.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"from decimal import ROUND_HALF_UP, Decimal\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 9\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 6\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 6\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 6,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  }\n]",
+          "stderr": "",
+          "seconds": 0.031,
+          "expected_diagnostics": [
+            [
+              "I001",
+              "problems/order_processor.py"
+            ]
+          ],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "016/luna": {
+      "snapshot": "snapshots/016/luna",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": ".............................                                            [100%]\n29 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2525,
+          "counts": {
+            "total": 29,
+            "passed": 29,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "returncode": 0,
+          "stdout": "......................                                                   [100%]\n22 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2481,
+          "counts": {
+            "total": 22,
+            "passed": 22,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0306,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 1,
+          "stdout": "[\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 43,\n      \"row\": 6\n    },\n    \"filename\": \"<candidate>/problems/order_processor.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"from decimal import ROUND_HALF_UP, Decimal\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 9\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 6\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 6\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 6,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  }\n]",
+          "stderr": "",
+          "seconds": 0.0303,
+          "expected_diagnostics": [
+            [
+              "I001",
+              "problems/order_processor.py"
+            ]
+          ],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "016/sol": {
+      "snapshot": "snapshots/016/sol",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": "..............................                [100%]\n30 passed, 27 subtests passed in 0.03s\n",
+          "stderr": "",
+          "seconds": 0.2567,
+          "counts": {
+            "total": 30,
+            "passed": 30,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "returncode": 0,
+          "stdout": "......................                                                   [100%]\n22 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2491,
+          "counts": {
+            "total": 22,
+            "passed": 22,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0322,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 1,
+          "stdout": "[\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 43,\n      \"row\": 6\n    },\n    \"filename\": \"<candidate>/problems/order_processor.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"from decimal import ROUND_HALF_UP, Decimal\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 9\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 6\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 6\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 6,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  }\n]",
+          "stderr": "",
+          "seconds": 0.0293,
+          "expected_diagnostics": [
+            [
+              "I001",
+              "problems/order_processor.py"
+            ]
+          ],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "017/luna": {
+      "snapshot": "snapshots/017/luna",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": "...........................                                              [100%]\n27 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2491,
+          "counts": {
+            "total": 27,
+            "passed": 27,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "returncode": 0,
+          "stdout": "...........................                                              [100%]\n27 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2483,
+          "counts": {
+            "total": 27,
+            "passed": 27,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0306,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 1,
+          "stdout": "[\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 43,\n      \"row\": 6\n    },\n    \"filename\": \"<candidate>/problems/order_processor.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"from decimal import ROUND_HALF_UP, Decimal\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 9\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 6\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 6\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 6,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  }\n]",
+          "stderr": "",
+          "seconds": 0.0318,
+          "expected_diagnostics": [
+            [
+              "I001",
+              "problems/order_processor.py"
+            ]
+          ],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "017/sol": {
+      "snapshot": "snapshots/017/sol",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": "......................................                                   [100%]\n38 passed in 0.03s\n",
+          "stderr": "",
+          "seconds": 0.2597,
+          "counts": {
+            "total": 38,
+            "passed": 38,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "returncode": 0,
+          "stdout": "...........................                                              [100%]\n27 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2491,
+          "counts": {
+            "total": 27,
+            "passed": 27,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0319,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 1,
+          "stdout": "[\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 43,\n      \"row\": 6\n    },\n    \"filename\": \"<candidate>/problems/order_processor.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"from decimal import ROUND_HALF_UP, Decimal\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 9\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 6\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 6\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 6,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  }\n]",
+          "stderr": "",
+          "seconds": 0.0298,
+          "expected_diagnostics": [
+            [
+              "I001",
+              "problems/order_processor.py"
+            ]
+          ],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "018/luna-original": {
+      "snapshot": "snapshots/015/luna",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": "....................                                                     [100%]\n20 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2484,
+          "counts": {
+            "total": 20,
+            "passed": 20,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "returncode": 0,
+          "stdout": "..................                                                       [100%]\n18 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2453,
+          "counts": {
+            "total": 18,
+            "passed": 18,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "interruption": {
+          "returncode": 1,
+          "stdout": "FF                                                                       [100%]\n=================================== FAILURES ===================================\n______ test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt] ______\n\nexception = <class 'KeyboardInterrupt'>\n\n    @pytest.mark.parametrize(\"exception\", [KeyboardInterrupt, SystemExit])\n    def test_interrupted_batch_preserves_unstarted_jobs(exception):\n        scheduler = JobScheduler(clock=lambda: 0)\n        calls = []\n    \n        def interrupt():\n            raise exception()\n    \n        scheduler.schedule(\"first\", 0, interrupt)\n        scheduler.schedule(\"second\", 0, lambda: calls.append(\"second\"))\n    \n        with pytest.raises(exception):\n            scheduler.run_due()\n    \n>       assert scheduler.run_due() == 1\nE       assert 0 == 1\nE        +  where 0 = run_due()\nE        +    where run_due = <problems.job_scheduler.JobScheduler object at 0x109020440>.run_due\n\n<repo>/acceptance/test_015_interrupt.py:20: AssertionError\n_________ test_interrupted_batch_preserves_unstarted_jobs[SystemExit] __________\n\nexception = <class 'SystemExit'>\n\n    @pytest.mark.parametrize(\"exception\", [KeyboardInterrupt, SystemExit])\n    def test_interrupted_batch_preserves_unstarted_jobs(exception):\n        scheduler = JobScheduler(clock=lambda: 0)\n        calls = []\n    \n        def interrupt():\n            raise exception()\n    \n        scheduler.schedule(\"first\", 0, interrupt)\n        scheduler.schedule(\"second\", 0, lambda: calls.append(\"second\"))\n    \n        with pytest.raises(exception):\n            scheduler.run_due()\n    \n>       assert scheduler.run_due() == 1\nE       assert 0 == 1\nE        +  where 0 = run_due()\nE        +    where run_due = <problems.job_scheduler.JobScheduler object at 0x109050050>.run_due\n\n<repo>/acceptance/test_015_interrupt.py:20: AssertionError\n=========================== short test summary info ============================\nFAILED ::test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt]\nFAILED ::test_interrupted_batch_preserves_unstarted_jobs[SystemExit] - assert...\n2 failed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2412,
+          "counts": {
+            "total": 2,
+            "passed": 0,
+            "failed": 2,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [
+            "test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt]",
+            "test_interrupted_batch_preserves_unstarted_jobs[SystemExit]"
+          ],
+          "expected_failure_names": [
+            "test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt]",
+            "test_interrupted_batch_preserves_unstarted_jobs[SystemExit]"
+          ],
+          "matches_documented_outcome": true
+        },
+        "r1": {
+          "returncode": 1,
+          "stdout": "F                                                                        [100%]\n=================================== FAILURES ===================================\n________ test_jobs_scheduled_during_clock_read_wait_for_next_invocation ________\n\n    def test_jobs_scheduled_during_clock_read_wait_for_next_invocation():\n        entered_clock, release_clock = Event(), Event()\n        schedule_started, schedule_finished = Event(), Event()\n        calls, attempts, errors = [], [], []\n    \n        def clock():\n            entered_clock.set()\n            if not release_clock.wait(5):\n                raise RuntimeError('clock release timed out')\n            return 10\n    \n        scheduler = JobScheduler(clock=clock)\n        scheduler.schedule('original', 1, lambda: calls.append('original'))\n    \n        def run():\n            try:\n                attempts.append(scheduler.run_due())\n            except BaseException as exc:\n                errors.append(repr(exc))\n    \n        def add():\n            try:\n                schedule_started.set()\n                scheduler.schedule('new', 2, lambda: calls.append('new'))\n            except BaseException as exc:\n                errors.append(repr(exc))\n            finally:\n                schedule_finished.set()\n    \n        runner = Thread(target=run, daemon=True)\n        adder = Thread(target=add, daemon=True)\n        runner.start()\n        try:\n            assert entered_clock.wait(5), 'clock was not entered'\n            adder.start()\n            assert schedule_started.wait(5), 'scheduler thread did not start'\n            # A scheduler holding its lock during clock() may block schedule().\n            # Permit that valid implementation; never block the controller on it.\n            schedule_finished.wait(1)\n        finally:\n            release_clock.set()\n            runner.join(5)\n            if adder.ident is not None:\n                adder.join(5)\n        assert not runner.is_alive() and not adder.is_alive(), 'workers did not finish'\n        assert not errors, errors\n        first_calls = calls.copy()\n        next_attempts = scheduler.run_due()\n>       assert (attempts, first_calls, next_attempts, calls) == (\n            [1], ['original'], 1, ['original', 'new']\n        )\nE       AssertionError: assert ([2], ['origi...inal', 'new']) == ([1], ['origi...inal', 'new'])\nE         \nE         At index 0 diff: [2] != [1]\nE         Use -v to get more diff\n\n<repo>/results/018/phase23/test_r1.py:55: AssertionError\n=========================== short test summary info ============================\nFAILED ::test_jobs_scheduled_during_clock_read_wait_for_next_invocation - Ass...\n1 failed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2428,
+          "counts": {
+            "total": 1,
+            "passed": 0,
+            "failed": 1,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [
+            "test_jobs_scheduled_during_clock_read_wait_for_next_invocation"
+          ],
+          "expected_failure_names": [
+            "test_jobs_scheduled_during_clock_read_wait_for_next_invocation"
+          ],
+          "matches_documented_outcome": true
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0317,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 1,
+          "stdout": "[\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 43,\n      \"row\": 6\n    },\n    \"filename\": \"<candidate>/problems/order_processor.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"from decimal import ROUND_HALF_UP, Decimal\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 9\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 6\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 6\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 6,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  }\n]",
+          "stderr": "",
+          "seconds": 0.0313,
+          "expected_diagnostics": [
+            [
+              "I001",
+              "problems/order_processor.py"
+            ]
+          ],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "018/sol-original": {
+      "snapshot": "snapshots/015/sol",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": "...............................                                          [100%]\n31 passed in 0.03s\n",
+          "stderr": "",
+          "seconds": 0.2613,
+          "counts": {
+            "total": 31,
+            "passed": 31,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "returncode": 0,
+          "stdout": "..................                                                       [100%]\n18 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2437,
+          "counts": {
+            "total": 18,
+            "passed": 18,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "interruption": {
+          "returncode": 0,
+          "stdout": "..                                                                       [100%]\n2 passed in 0.01s\n",
+          "stderr": "",
+          "seconds": 0.2328,
+          "counts": {
+            "total": 2,
+            "passed": 2,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "r1": {
+          "returncode": 0,
+          "stdout": ".                                                                        [100%]\n1 passed in 1.02s\n",
+          "stderr": "",
+          "seconds": 1.2683,
+          "counts": {
+            "total": 1,
+            "passed": 1,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0383,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 1,
+          "stdout": "[\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 43,\n      \"row\": 6\n    },\n    \"filename\": \"<candidate>/problems/order_processor.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"from decimal import ROUND_HALF_UP, Decimal\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 9\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 6\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 6\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 6,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  }\n]",
+          "stderr": "",
+          "seconds": 0.0324,
+          "expected_diagnostics": [
+            [
+              "I001",
+              "problems/order_processor.py"
+            ]
+          ],
+          "matches_documented_outcome": true
+        }
+      }
+    },
+    "018/luna-repaired": {
+      "snapshot": "snapshots/018/repaired-luna",
+      "checks": {
+        "repository": {
+          "returncode": 0,
+          "stdout": ".....................                                                    [100%]\n21 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2565,
+          "counts": {
+            "total": 21,
+            "passed": 21,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "acceptance": {
+          "returncode": 0,
+          "stdout": "..................                                                       [100%]\n18 passed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2635,
+          "counts": {
+            "total": 18,
+            "passed": 18,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "interruption": {
+          "returncode": 1,
+          "stdout": "FF                                                                       [100%]\n=================================== FAILURES ===================================\n______ test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt] ______\n\nexception = <class 'KeyboardInterrupt'>\n\n    @pytest.mark.parametrize(\"exception\", [KeyboardInterrupt, SystemExit])\n    def test_interrupted_batch_preserves_unstarted_jobs(exception):\n        scheduler = JobScheduler(clock=lambda: 0)\n        calls = []\n    \n        def interrupt():\n            raise exception()\n    \n        scheduler.schedule(\"first\", 0, interrupt)\n        scheduler.schedule(\"second\", 0, lambda: calls.append(\"second\"))\n    \n        with pytest.raises(exception):\n            scheduler.run_due()\n    \n>       assert scheduler.run_due() == 1\nE       assert 0 == 1\nE        +  where 0 = run_due()\nE        +    where run_due = <problems.job_scheduler.JobScheduler object at 0x10ac54440>.run_due\n\n<repo>/acceptance/test_015_interrupt.py:20: AssertionError\n_________ test_interrupted_batch_preserves_unstarted_jobs[SystemExit] __________\n\nexception = <class 'SystemExit'>\n\n    @pytest.mark.parametrize(\"exception\", [KeyboardInterrupt, SystemExit])\n    def test_interrupted_batch_preserves_unstarted_jobs(exception):\n        scheduler = JobScheduler(clock=lambda: 0)\n        calls = []\n    \n        def interrupt():\n            raise exception()\n    \n        scheduler.schedule(\"first\", 0, interrupt)\n        scheduler.schedule(\"second\", 0, lambda: calls.append(\"second\"))\n    \n        with pytest.raises(exception):\n            scheduler.run_due()\n    \n>       assert scheduler.run_due() == 1\nE       assert 0 == 1\nE        +  where 0 = run_due()\nE        +    where run_due = <problems.job_scheduler.JobScheduler object at 0x10ac84050>.run_due\n\n<repo>/acceptance/test_015_interrupt.py:20: AssertionError\n=========================== short test summary info ============================\nFAILED ::test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt]\nFAILED ::test_interrupted_batch_preserves_unstarted_jobs[SystemExit] - assert...\n2 failed in 0.02s\n",
+          "stderr": "",
+          "seconds": 0.2598,
+          "counts": {
+            "total": 2,
+            "passed": 0,
+            "failed": 2,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [
+            "test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt]",
+            "test_interrupted_batch_preserves_unstarted_jobs[SystemExit]"
+          ],
+          "expected_failure_names": [
+            "test_interrupted_batch_preserves_unstarted_jobs[KeyboardInterrupt]",
+            "test_interrupted_batch_preserves_unstarted_jobs[SystemExit]"
+          ],
+          "matches_documented_outcome": true
+        },
+        "r1": {
+          "returncode": 0,
+          "stdout": ".                                                                        [100%]\n1 passed in 0.01s\n",
+          "stderr": "",
+          "seconds": 0.2507,
+          "counts": {
+            "total": 1,
+            "passed": 1,
+            "failed": 0,
+            "errors": 0,
+            "skipped": 0
+          },
+          "failure_names": [],
+          "expected_failure_names": [],
+          "matches_documented_outcome": true
+        },
+        "scoped_ruff": {
+          "returncode": 0,
+          "stdout": "[]",
+          "stderr": "",
+          "seconds": 0.0338,
+          "expected_diagnostics": [],
+          "matches_documented_outcome": true
+        },
+        "repository_ruff": {
+          "returncode": 1,
+          "stdout": "[\n  {\n    \"cell\": null,\n    \"code\": \"I001\",\n    \"end_location\": {\n      \"column\": 43,\n      \"row\": 6\n    },\n    \"filename\": \"<candidate>/problems/order_processor.py\",\n    \"fix\": {\n      \"applicability\": \"safe\",\n      \"edits\": [\n        {\n          \"content\": \"from decimal import ROUND_HALF_UP, Decimal\\n\\n\\n\",\n          \"end_location\": {\n            \"column\": 1,\n            \"row\": 9\n          },\n          \"location\": {\n            \"column\": 1,\n            \"row\": 6\n          }\n        }\n      ],\n      \"message\": \"Organize imports\"\n    },\n    \"location\": {\n      \"column\": 1,\n      \"row\": 6\n    },\n    \"message\": \"Import block is un-sorted or un-formatted\",\n    \"name\": \"unsorted-imports\",\n    \"noqa_row\": 6,\n    \"severity\": \"error\",\n    \"url\": \"https://docs.astral.sh/ruff/rules/unsorted-imports\"\n  }\n]",
+          "stderr": "",
+          "seconds": 0.0324,
+          "expected_diagnostics": [
+            [
+              "I001",
+              "problems/order_processor.py"
+            ]
+          ],
+          "matches_documented_outcome": true
+        }
+      }
+    }
+  },
+  "snapshots_unchanged": true,
+  "ended_utc": "2026-11-26T18:24:59.269126+00:00",
+  "seconds": 15.5,
+  "unexpected_outcomes": []
+}

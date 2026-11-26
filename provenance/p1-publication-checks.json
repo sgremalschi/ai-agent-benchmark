@@ -1,0 +1,18 @@
+{
+  "evidence_class": "newly_executed_publication_validation",
+  "checked_utc": "2026-11-26T19:06:15.507273+00:00",
+  "public_files_scanned": 702,
+  "archive_members_scanned": 0,
+  "raw_agent_stdout_logs_scanned": 0,
+  "local_documentation_links_checked": 27,
+  "historical_provenance_records_checked": 536,
+  "current_inventory_entries": 700,
+  "findings": [],
+  "snapshot_lineages_checked": 31,
+  "limitations": [
+    "Pattern scanning does not prove absence of every private detail.",
+    "System runtime paths and public package registry URLs are retained in historical evidence.",
+    "The inventory excludes itself and this changing check report.",
+    "These checks do not establish editorial quality, legal clearance or full correctness."
+  ]
+}

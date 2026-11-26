@@ -1,0 +1,48 @@
+{
+  "reported_utc": "2026-11-25T19:16:44.170891-05:00",
+  "current_experiment_wall_seconds": 600.17,
+  "original_luna_agent_seconds": 92.66,
+  "sol_review_agent_seconds": 40.02,
+  "total_agent_execution_seconds_so_far": 132.68,
+  "isolation_setup_and_verification_seconds": 485.390464,
+  "finding_verification_wall_seconds": 36.06,
+  "verification_commands_seconds": 0.621,
+  "current_nonreview_wall_seconds": 560.15,
+  "original_luna_usage": {
+    "input_tokens": 205862,
+    "cached_input_tokens": 188416,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 4271,
+    "reasoning_output_tokens": 512
+  },
+  "sol_review_usage": {
+    "input_tokens": 89340,
+    "cached_input_tokens": 73856,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1466,
+    "reasoning_output_tokens": 561
+  },
+  "combined_agent_usage_so_far": {
+    "input_tokens": 295202,
+    "cache_write_input_tokens": 0,
+    "cached_input_tokens": 262272,
+    "output_tokens": 5737,
+    "reasoning_output_tokens": 1073
+  },
+  "luna_repair": "Not included in this review-stage subtotal; see phase23/cumulative-effort.json for completed workflow totals.",
+  "human_active_effort_seconds": null,
+  "historical_orchestration_seconds": null,
+  "orchestrator_token_usage": null,
+  "notes": [
+    "Wall overhead includes experimental preparation, verification, reporting and waiting; it is not measured human labor.",
+    "Finding-verification wall includes reproduction preparation and command setup; command execution is separately reported.",
+    "Original implementation overhead and human effort were not recorded historically.",
+    "No monetary estimate: applicable pricing not established."
+  ],
+  "known_combined_elapsed_components_seconds": 692.83,
+  "editorial_derivation": {
+    "source_sha256": "631addfdb8acf59e4954be0b3c718b03b0d0d0cfbbf1bc5560f585f6a1380436",
+    "evidence_class": "edited_recorded_evidence",
+    "changes": "Machine paths and incidental execution details omitted or normalized; interim statuses clarified; experimental observations and measurements retained."
+  }
+}

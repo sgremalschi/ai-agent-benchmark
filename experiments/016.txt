@@ -1,0 +1,48 @@
+Experiment 016 — Inventory reservation bug discovery and repair
+
+You are given an existing inventory reservation implementation
+in problems/inventory.py. It contains defects.
+
+Your task:
+1. Inspect the implementation and identify correctness defects.
+2. Write meaningful regression tests in tests/test_inventory.py.
+3. Repair the implementation while preserving its public API.
+4. Run the tests and Ruff checks on the files you modify.
+
+Behavioral contract:
+- add_stock(sku, quantity) replaces the available stock for that SKU.
+- Stock quantities must be nonnegative integers.
+- Reservation quantities must be positive integers.
+- Negative quantities raise ValueError.
+- Unknown SKUs have zero available stock.
+- Reservations succeed only when sufficient stock exists.
+- Successful reservations deduct stock exactly once.
+- Failed reservations must not change state.
+- Duplicate active reservation IDs raise ValueError without changing state.
+- Reservation IDs may be reused after release or fulfillment.
+- release() restores reserved stock exactly once.
+- fulfill() consumes a reservation without restoring stock.
+- Repeated release() or fulfill() returns False.
+- Operations on one SKU must not affect another SKU.
+- All public operations must be thread-safe.
+- Concurrent reservations must never oversell inventory.
+- Invalid input must not partially modify state.
+
+Constraints:
+- Use Python standard library only.
+- Prefer simple, maintainable code.
+- Do not introduce background threads.
+- Do not commit or push.
+- Do not inspect or modify the benchmark workspace.
+
+Testing requirements:
+- Write at least 15 meaningful tests.
+- Include tests for reservation lifecycle, duplicate IDs,
+  invalid quantities, SKU isolation, and concurrency.
+- Test the behavior, not implementation details.
+
+Allowed modifications:
+- problems/inventory.py
+- tests/test_inventory.py
+
+Do not modify other files.

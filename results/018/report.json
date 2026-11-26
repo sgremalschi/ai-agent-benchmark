@@ -1,0 +1,34 @@
+{
+  "status": "review_stage_complete",
+  "review_model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "review_sessions_completed": 1,
+  "repair_sessions_launched": 0,
+  "findings_reported": 1,
+  "findings_verified": 1,
+  "findings_rejected": 0,
+  "finding_ids": [
+    "R1"
+  ],
+  "baseline": "893c78189ad9d8122e34efbe8bea125bbfbb3d6f",
+  "artifacts": {
+    "review": "review.final.txt",
+    "verification_ledger": "verification-ledger.json",
+    "reproduction": "verify_finding.py",
+    "effort": "effort.json",
+    "isolation": "isolation-probes.json",
+    "verified_repair_input": "verified-findings-for-repair.txt"
+  },
+  "limitations": [
+    "Reviewer could not execute pytest in its isolated environment; evaluator baseline suite passed separately.",
+    "Review missed defects may remain; no additional review cycle performed.",
+    "This review-stage record precedes final independent evaluation; see phase23/final-report.json.",
+    "Human active effort, historical orchestration time, and orchestrator token usage unavailable.",
+    "Information-access controls were tested; complete isolation was not established."
+  ],
+  "editorial_derivation": {
+    "source_sha256": "f4d6d521f6df4729e4b1b4011d326a0e96474981b1142828e8e0b0b5c6a77f2c",
+    "evidence_class": "edited_recorded_evidence",
+    "changes": "Machine paths and incidental execution details omitted or normalized; interim statuses clarified; experimental observations and measurements retained."
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "experiment": "012",
+  "baseline": "72d8e2b37e975cbacb6e9f4aae0637e4270bf694",
+  "started_utc": "2026-11-19T18:25:39.717353+00:00",
+  "models": {
+    "luna": {
+      "unexpected_modifications": [
+        "M problems/rate_limiter.py"
+      ],
+      "model": "gpt-6-luna",
+      "agent": {
+        "returncode": 0,
+        "seconds": 69.54,
+        "timed_out": false
+      },
+      "checks": {
+        "pytest": {
+          "returncode": 0,
+          "seconds": 0.19,
+          "timed_out": false
+        },
+        "ruff": {
+          "returncode": 0,
+          "seconds": 0.03,
+          "timed_out": false
+        },
+        "diff_check": {
+          "returncode": 0,
+          "seconds": 0.02,
+          "timed_out": false
+        },
+        "acceptance": {
+          "returncode": 0,
+          "seconds": 0.17,
+          "timed_out": false
+        }
+      },
+      "changed_files": [
+        "M problems/rate_limiter.py",
+        "?? tests/test_rate_limiter.py"
+      ],
+      "diff_stat": "problems/rate_limiter.py | 24 ++++++++++++++++--------\n 1 file changed, 16 insertions(+), 8 deletions(-)"
+    },
+    "sol": {
+      "unexpected_modifications": [
+        "M problems/rate_limiter.py"
+      ],
+      "model": "gpt-6.1-sol",
+      "agent": {
+        "returncode": 0,
+        "seconds": 94.53,
+        "timed_out": false
+      },
+      "checks": {
+        "pytest": {
+          "returncode": 0,
+          "seconds": 0.18,
+          "timed_out": false
+        },
+        "ruff": {
+          "returncode": 0,
+          "seconds": 0.03,
+          "timed_out": false
+        },
+        "diff_check": {
+          "returncode": 0,
+          "seconds": 0.01,
+          "timed_out": false
+        },
+        "acceptance": {
+          "returncode": 0,
+          "seconds": 0.15,
+          "timed_out": false
+        }
+      },
+      "changed_files": [
+        "M problems/rate_limiter.py",
+        "?? tests/test_rate_limiter.py"
+      ],
+      "diff_stat": "problems/rate_limiter.py | 24 +++++++++++++++---------\n 1 file changed, 15 insertions(+), 9 deletions(-)"
+    }
+  }
+}

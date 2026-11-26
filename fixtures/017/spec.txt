@@ -1,0 +1,57 @@
+Experiment 017 — Event-driven order processing
+
+Implement a small, synchronous, in-memory order processing system.
+
+Required modules:
+- problems/order_system/models.py
+- problems/order_system/inventory.py
+- problems/order_system/events.py
+- problems/order_system/service.py
+- problems/order_system/__init__.py
+
+Public API:
+- OrderService(inventory, event_store)
+- OrderService.place_order(order_id, sku, quantity) -> Order
+- OrderService.cancel_order(order_id) -> Order
+- OrderService.get_order(order_id) -> Order | None
+- Inventory(initial_stock: dict[str, int])
+- Inventory.available(sku) -> int
+- EventStore.events() -> list[Event]
+
+Order:
+- order_id: str
+- sku: str
+- quantity: int
+- status: str
+
+Event:
+- event_type: str
+- order_id: str
+- sku: str
+- quantity: int
+
+Behavioral requirements:
+1. Quantities must be positive integers (bool is invalid).
+2. Initial stock quantities must be nonnegative integers.
+3. Unknown SKUs have zero stock.
+4. Successful placement reserves stock and creates a PENDING order.
+5. Placement emits exactly one OrderPlaced event.
+6. Duplicate order IDs raise ValueError without modifying state.
+7. Insufficient stock raises ValueError without modifying state.
+8. Cancellation of PENDING orders restores stock.
+9. Cancellation changes status to CANCELLED.
+10. Cancellation emits exactly one OrderCancelled event.
+11. Repeated cancellation is idempotent and emits no new events.
+12. Cancelling an unknown order raises KeyError.
+13. get_order returns None for unknown IDs.
+14. Event order must match successful operation order.
+15. EventStore.events() returns a defensive copy.
+16. Event publication failure must not leave partially committed
+    order or inventory state.
+17. No external dependencies, databases, network calls, or threads.
+18. Prefer clear module boundaries and simple abstractions.
+
+All public types must be importable from problems.order_system.
+
+Agents must create their own tests and may modify only the
+five required modules and tests/test_order_system.py.

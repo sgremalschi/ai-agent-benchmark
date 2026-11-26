@@ -1,0 +1,31 @@
+Optimize the implementation in problems/pair_counter.py.
+
+The existing implementation is correct but inefficient.
+
+Requirements:
+1. Preserve the count_pairs(numbers, target) public API.
+2. Preserve exact results for all valid integer inputs.
+3. Count index pairs, not unique value pairs.
+4. Handle duplicates, negative numbers, zeros, and large integers.
+5. Do not mutate the input list.
+6. Improve time complexity from O(n^2) to O(n) expected time.
+7. Use O(n) or less additional space.
+8. Avoid unnecessary abstractions and external dependencies.
+9. Add at least 12 meaningful pytest tests.
+10. Modify only problems/pair_counter.py and tests/test_pair_counter.py.
+11. Do not commit or push.
+
+Inspect repository conventions before editing.
+
+Run and report:
+uv run pytest -q
+uv run ruff check .
+git diff --check
+
+Fix failures and rerun verification.
+
+Report:
+- Algorithm and complexity
+- Modified files
+- Exact verification results
+- Limitations

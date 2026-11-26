@@ -1,0 +1,31 @@
+Experiment 016 — Inventory reservation service
+
+Public API:
+- Inventory()
+- add_stock(sku: str, quantity: int) -> None
+- available(sku: str) -> int
+- reserve(reservation_id: str, sku: str, quantity: int) -> bool
+- release(reservation_id: str) -> bool
+- fulfill(reservation_id: str) -> bool
+
+Behavioral contract:
+
+1. Quantities must be positive integers for reservations.
+2. add_stock accepts nonnegative integers and replaces the
+   available stock quantity for the specified SKU.
+3. Negative quantities raise ValueError.
+4. Unknown SKUs have zero available stock.
+5. Reservations succeed only when sufficient stock exists.
+6. Successful reservations deduct stock exactly once.
+7. Failed reservations do not change inventory or reservations.
+8. Reservation IDs must be unique among active reservations.
+   Duplicate active IDs raise ValueError without changing state.
+9. After release or fulfillment, reservation IDs may be reused.
+10. release restores reserved stock exactly once.
+11. fulfill consumes a reservation without restoring stock.
+12. Repeated release or fulfill calls return False.
+13. A reservation for one SKU must not affect another SKU.
+14. All public operations must be thread-safe.
+15. Concurrent reservations must never oversell inventory.
+16. Invalid input must not partially modify state.
+17. No external dependencies or background threads.

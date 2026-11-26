@@ -1,0 +1,83 @@
+{
+  "experiment": "013",
+  "baseline": "30fc37e9afa3117cab5464437f44ce5244903b78",
+  "started_utc": "2026-11-19T21:28:30.797231+00:00",
+  "models": {
+    "luna": {
+      "unexpected_modifications": [
+        "M problems/order_processor.py"
+      ],
+      "model": "gpt-6-luna",
+      "agent": {
+        "returncode": 0,
+        "seconds": 98.72,
+        "timed_out": false
+      },
+      "checks": {
+        "pytest": {
+          "returncode": 0,
+          "seconds": 0.18,
+          "timed_out": false
+        },
+        "ruff": {
+          "returncode": 0,
+          "seconds": 0.03,
+          "timed_out": false
+        },
+        "diff_check": {
+          "returncode": 0,
+          "seconds": 0.01,
+          "timed_out": false
+        },
+        "acceptance": {
+          "returncode": 0,
+          "seconds": 0.15,
+          "timed_out": false
+        }
+      },
+      "changed_files": [
+        "M problems/order_processor.py",
+        "?? tests/test_order_processor.py"
+      ],
+      "diff_stat": "problems/order_processor.py | 113 ++++++++++++++++++++++----------------------\n 1 file changed, 57 insertions(+), 56 deletions(-)"
+    },
+    "sol": {
+      "unexpected_modifications": [
+        "M problems/order_processor.py"
+      ],
+      "model": "gpt-6.1-sol",
+      "agent": {
+        "returncode": 0,
+        "seconds": 139.97,
+        "timed_out": false
+      },
+      "checks": {
+        "pytest": {
+          "returncode": 0,
+          "seconds": 0.19,
+          "timed_out": false
+        },
+        "ruff": {
+          "returncode": 0,
+          "seconds": 0.03,
+          "timed_out": false
+        },
+        "diff_check": {
+          "returncode": 0,
+          "seconds": 0.01,
+          "timed_out": false
+        },
+        "acceptance": {
+          "returncode": 0,
+          "seconds": 0.14,
+          "timed_out": false
+        }
+      },
+      "changed_files": [
+        "M problems/order_processor.py",
+        "?? tests/test_order_processor.py"
+      ],
+      "diff_stat": "problems/order_processor.py | 69 +++++++++++++++++++++++++--------------------\n 1 file changed, 38 insertions(+), 31 deletions(-)"
+    }
+  }
+}

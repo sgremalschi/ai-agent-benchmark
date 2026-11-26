@@ -1,0 +1,51 @@
+{
+  "evidence_class": "edited_experimental_control_observations",
+  "checks": [
+    {
+      "name": "allowed_source",
+      "expected_readable": true,
+      "passed": true
+    },
+    {
+      "name": "benchmark",
+      "expected_readable": false,
+      "passed": true
+    },
+    {
+      "name": "acceptance",
+      "expected_readable": false,
+      "passed": true
+    },
+    {
+      "name": "supplementary",
+      "expected_readable": false,
+      "passed": true
+    },
+    {
+      "name": "results",
+      "expected_readable": false,
+      "passed": true
+    },
+    {
+      "name": "sol_original",
+      "expected_readable": false,
+      "passed": true
+    },
+    {
+      "name": "review_write",
+      "expected_writable": false,
+      "passed": true
+    },
+    {
+      "name": "scratch_write",
+      "expected_writable": true,
+      "passed": true
+    }
+  ],
+  "scope": "Observed experimental information-access controls; not proof of complete isolation.",
+  "editorial_derivation": {
+    "source_sha256": "819f426944569632cdef9186cae3c38848be3c8f8d1aa5b047b8d7fd3759e7d5",
+    "evidence_class": "edited_recorded_evidence",
+    "changes": "Machine paths and incidental execution details omitted or normalized; interim statuses clarified; experimental observations and measurements retained."
+  }
+}

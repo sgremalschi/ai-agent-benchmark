@@ -1,0 +1,26 @@
+Experiment 015: In-memory job scheduler
+
+Implement a thread-safe scheduler with this public API:
+
+class JobScheduler:
+    def __init__(self, clock=None): ...
+    def schedule(self, job_id: str, run_at: float, callback: Callable[[], None]) -> None: ...
+    def cancel(self, job_id: str) -> bool: ...
+    def run_due(self) -> int: ...
+    def shutdown(self) -> None: ...
+
+Behavior:
+1. schedule() registers a job for execution at or after run_at.
+2. Duplicate job IDs raise ValueError.
+3. Jobs execute at most once.
+4. run_due() executes all jobs due when it begins and returns the number attempted.
+5. Jobs execute in ascending run_at order; ties use insertion order.
+6. Callbacks execute outside internal locks.
+7. A callback may schedule or cancel another job.
+8. Callback exceptions do not prevent other due jobs from running.
+9. cancel() returns True only for pending jobs.
+10. shutdown() prevents new scheduling but preserves pending jobs.
+11. run_due() remains usable after shutdown to drain pending jobs.
+12. All public operations are thread-safe.
+13. Use the injected clock or time.monotonic by default.
+14. No background threads or external dependencies.

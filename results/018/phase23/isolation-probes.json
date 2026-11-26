@@ -1,0 +1,42 @@
+{
+  "evidence_class": "edited_experimental_control_observations",
+  "checks": [
+    {
+      "name": "source",
+      "expected_readable": true,
+      "passed": true
+    },
+    {
+      "name": "acceptance",
+      "expected_readable": false,
+      "passed": true
+    },
+    {
+      "name": "supplementary",
+      "expected_readable": false,
+      "passed": true
+    },
+    {
+      "name": "phase1_results",
+      "expected_readable": false,
+      "passed": true
+    },
+    {
+      "name": "sol_original",
+      "expected_readable": false,
+      "passed": true
+    },
+    {
+      "name": "pytest_runtime",
+      "passed": true
+    }
+  ],
+  "scope": "Observed experimental information-access controls; not proof of complete isolation.",
+  "started_utc": "2026-11-26T00:23:52.320810+00:00",
+  "ended_utc": "2026-11-26T00:23:52.709149+00:00",
+  "editorial_derivation": {
+    "source_sha256": "500a6e58ac4f8e295168700c85d7cd9aa1c7cbf52280b1b607708e54f90c84bb",
+    "evidence_class": "edited_recorded_evidence",
+    "changes": "Machine paths and incidental execution details omitted or normalized; interim statuses clarified; experimental observations and measurements retained."
+  }
+}

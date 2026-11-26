@@ -1,0 +1,7 @@
+Historical reviewer response; source link normalized. The reviewer did not execute pytest.
+
+- **Medium severity — jobs scheduled during `run_due()` can execute in that invocation.** At [job_scheduler.py:55–60](../../snapshots/015/luna/problems/job_scheduler.py), the clock is called before acquiring the lock and capturing the insertion cutoff. A concurrent `schedule()` in that interval is included in the current batch, violating requirement **13**: “Jobs scheduled during `run_due()` must wait for a subsequent invocation.”
+
+  **Reproduced:** Inject a clock that signals an event, waits for release, then returns `10`. Schedule an original job at `1`, start `run_due()` in another thread, wait for the clock’s signal, schedule another job at `2`, then release the clock. The first invocation returns **2** and executes both callbacks; it should return **1**, leaving the new job for the next invocation. The cutoff cannot exclude this insertion because it is captured afterward.
+
+Inspected all 18 existing tests. The reproduction succeeded; pytest could not run because it is unavailable in the installed Python environment. No implementation or test files were changed.

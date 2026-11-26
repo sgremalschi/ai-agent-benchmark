@@ -1,0 +1,138 @@
+diff --git a/problems/order_processor.py b/problems/order_processor.py
+index 6502aae..8c38085 100644
+--- a/problems/order_processor.py
++++ b/problems/order_processor.py
+@@ -3,7 +3,55 @@
+ Behavior is intentionally quirky. Refactoring must preserve it.
+ """
+ 
+-from decimal import Decimal, ROUND_HALF_UP
++from decimal import ROUND_HALF_UP, Decimal
++
++
++def _format_money(amount):
++    return str(amount.quantize(Decimal("0.01"), rounding=ROUND_HALF_UP))
++
++
++def _price_line(item, catalog):
++    if "sku" not in item:
++        raise ValueError("missing sku")
++    if "quantity" not in item:
++        raise ValueError("missing quantity")
++
++    sku = item["sku"]
++    quantity = item["quantity"]
++
++    if sku not in catalog:
++        raise ValueError("unknown sku: " + str(sku))
++
++    if not isinstance(quantity, int) or quantity <= 0:
++        raise ValueError("invalid quantity")
++
++    price = Decimal(str(catalog[sku]["price"]))
++    amount = price * quantity
++
++    if "discount" in item:
++        discount = Decimal(str(item["discount"]))
++        amount = amount - amount * discount / Decimal("100")
++
++    line = {
++        "sku": sku,
++        "quantity": quantity,
++        "amount": _format_money(amount),
++    }
++    return amount, line
++
++
++def _get_tax_rate(region, tax_rates):
++    if region in tax_rates:
++        return Decimal(str(tax_rates[region]))
++    return Decimal("0")
++
++
++def _get_shipping(order, subtotal):
++    if order.get("priority") == "express":
++        return Decimal("15")
++    if subtotal >= Decimal("100"):
++        return Decimal("0")
++    return Decimal("7.50")
+ 
+ 
+ def process_order(order, catalog, tax_rates):
+@@ -29,68 +77,21 @@ def process_order(order, catalog, tax_rates):
+     lines = []
+ 
+     for item in items:
+-        if "sku" not in item:
+-            raise ValueError("missing sku")
+-        if "quantity" not in item:
+-            raise ValueError("missing quantity")
+-
+-        sku = item["sku"]
+-        quantity = item["quantity"]
+-
+-        if sku not in catalog:
+-            raise ValueError("unknown sku: " + str(sku))
+-
+-        if not isinstance(quantity, int) or quantity <= 0:
+-            raise ValueError("invalid quantity")
+-
+-        price = Decimal(str(catalog[sku]["price"]))
+-        amount = price * quantity
+-
+-        if "discount" in item:
+-            discount = Decimal(str(item["discount"]))
+-            amount = amount - amount * discount / Decimal("100")
+-
++        amount, line = _price_line(item, catalog)
+         subtotal = subtotal + amount
+-
+-        lines.append({
+-            "sku": sku,
+-            "quantity": quantity,
+-            "amount": str(amount.quantize(
+-                Decimal("0.01"), rounding=ROUND_HALF_UP
+-            )),
+-        })
++        lines.append(line)
+ 
+     region = order.get("region", "default")
+-
+-    if region in tax_rates:
+-        rate = Decimal(str(tax_rates[region]))
+-    else:
+-        rate = Decimal("0")
+-
++    rate = _get_tax_rate(region, tax_rates)
+     tax = subtotal * rate / Decimal("100")
+-
+-    if order.get("priority") == "express":
+-        shipping = Decimal("15")
+-    elif subtotal >= Decimal("100"):
+-        shipping = Decimal("0")
+-    else:
+-        shipping = Decimal("7.50")
+-
++    shipping = _get_shipping(order, subtotal)
+     total = subtotal + tax + shipping
+ 
+     return {
+         "customer": customer,
+         "lines": lines,
+-        "subtotal": str(subtotal.quantize(
+-            Decimal("0.01"), rounding=ROUND_HALF_UP
+-        )),
+-        "tax": str(tax.quantize(
+-            Decimal("0.01"), rounding=ROUND_HALF_UP
+-        )),
+-        "shipping": str(shipping.quantize(
+-            Decimal("0.01"), rounding=ROUND_HALF_UP
+-        )),
+-        "total": str(total.quantize(
+-            Decimal("0.01"), rounding=ROUND_HALF_UP
+-        )),
++        "subtotal": _format_money(subtotal),
++        "tax": _format_money(tax),
++        "shipping": _format_money(shipping),
++        "total": _format_money(total),
+     }

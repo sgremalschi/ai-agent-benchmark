@@ -1,0 +1,27 @@
+Debug the existing sliding-window rate limiter in problems/rate_limiter.py.
+
+Inspect the implementation and repository conventions before making changes.
+
+Requirements:
+1. Preserve the SlidingWindowRateLimiter public API.
+2. Each key has an independent rate limit.
+3. Allow at most `limit` requests per rolling window.
+4. A request expires when its age is greater than or equal to `window`.
+5. Rejected requests must not consume capacity.
+6. remaining(key) returns the number of available slots at the current time.
+7. reset(key) removes the key's recorded requests.
+8. All operations must be thread-safe.
+9. Use the injected clock for time calculations.
+10. Avoid background threads and external dependencies.
+11. Fix defects without unnecessarily rewriting the implementation.
+12. Add at least 12 meaningful pytest tests.
+13. Modify only problems/rate_limiter.py and tests/test_rate_limiter.py.
+14. Do not commit or push.
+
+Run and report:
+UV_CACHE_DIR="$PWD/.cache/uv" uv run pytest -q
+UV_CACHE_DIR="$PWD/.cache/uv" uv run ruff check .
+git diff --check
+
+Fix any failures and rerun verification.
+Report modified files, design decisions, exact verification results, and limitations.

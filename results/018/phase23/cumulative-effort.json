@@ -1,0 +1,84 @@
+{
+  "agent_steps": {
+    "original_luna": {
+      "seconds": 92.66,
+      "usage": {
+        "input_tokens": 205862,
+        "cached_input_tokens": 188416,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4271,
+        "reasoning_output_tokens": 512
+      }
+    },
+    "sol_review": {
+      "seconds": 40.02,
+      "usage": {
+        "input_tokens": 89340,
+        "cached_input_tokens": 73856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1466,
+        "reasoning_output_tokens": 561
+      }
+    },
+    "luna_repair": {
+      "seconds": 28.41,
+      "usage": {
+        "input_tokens": 83016,
+        "cached_input_tokens": 76160,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1076,
+        "reasoning_output_tokens": 117
+      }
+    }
+  },
+  "cumulative_agent_seconds": 161.09,
+  "additional_review_and_repair_agent_seconds": 68.43,
+  "additional_agent_time_percent": 73.85,
+  "cumulative_usage": {
+    "input_tokens": 378218,
+    "cached_input_tokens": 338432,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 6813,
+    "reasoning_output_tokens": 1190
+  },
+  "cumulative_input_plus_output_tokens": 385031,
+  "cumulative_uncached_input_tokens": 39786,
+  "overhead": {
+    "instrumented_experimental_setup_seconds_lower_bound": 499.3683,
+    "phase1_isolation_setup_seconds": 485.390464,
+    "phase2_isolation_setup_seconds": 13.977846,
+    "normal_finding_verification_wall_seconds": 36.06,
+    "normal_independent_evaluation_wall_seconds": 8.5434,
+    "normal_verification_total_seconds": 44.6034,
+    "evaluator_infrastructure_preparation_after_freeze_seconds": 44.344586,
+    "original_orchestration_seconds": null,
+    "human_active_effort_seconds": null,
+    "orchestrator_token_usage": null,
+    "notes": [
+      "Experimental setup includes history-free exports, runtime preparation and information-access validation. This is a lower bound; some infrastructure authoring and inspection were outside the measured intervals.",
+      "Verification is normal development workflow overhead, reported separately from experimental isolation. Evaluator infrastructure authoring is experimental overhead.",
+      "Uninstrumented orchestration/report writing is not counted as agent execution; active human labor is unknown.",
+      "Idle time between experimental stages is excluded from workflow effort.",
+      "Cached input is included within input; reasoning output is reported as a subset of output and not added again.",
+      "Original Sol baseline execution is a comparator, excluded from collaborative totals.",
+      "No monetary cost estimated; applicable billed pricing is unavailable."
+    ]
+  },
+  "original_sol_comparator": {
+    "returncode": 0,
+    "seconds": 122.98,
+    "timed_out": false,
+    "usage": {
+      "input_tokens": 135107,
+      "cached_input_tokens": 128640,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 5357,
+      "reasoning_output_tokens": 538
+    }
+  },
+  "editorial_derivation": {
+    "source_sha256": "01f7b05a90ca85eb5447526d5b7abf34c20f52e4a16aeaa116e701a6379ea52e",
+    "evidence_class": "edited_recorded_evidence",
+    "changes": "Machine paths and incidental execution details omitted or normalized; interim statuses clarified; experimental observations and measurements retained."
+  }
+}

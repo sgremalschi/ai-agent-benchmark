@@ -1,0 +1,26 @@
+diff --git a/problems/pair_counter.py b/problems/pair_counter.py
+index bf1b55d..9b14f1e 100644
+--- a/problems/pair_counter.py
++++ b/problems/pair_counter.py
+@@ -2,12 +2,16 @@
+ 
+ 
+ def count_pairs(numbers: list[int], target: int) -> int:
+-    """Count pairs (i, j) where i < j and numbers[i] + numbers[j] == target."""
++    """Count pairs (i, j) with i < j whose values sum to target.
++
++    Uses O(n) expected time and O(n) additional space.
++    """
+     count = 0
++    seen: dict[int, int] = {}
+ 
+-    for i in range(len(numbers)):
+-        for j in range(i + 1, len(numbers)):
+-            if numbers[i] + numbers[j] == target:
+-                count += 1
++    for number in numbers:
++        # Only earlier indices can pair with this number.
++        count += seen.get(target - number, 0)
++        seen[number] = seen.get(number, 0) + 1
+ 
+     return count

@@ -1,0 +1,300 @@
+{
+  "completed_utc": "2026-11-26T00:26:32.407655+00:00",
+  "status": "final_evaluation_complete",
+  "correctness": {
+    "luna-original": {
+      "acceptance": {
+        "total": 18,
+        "passed": 18,
+        "failed": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "interruption": {
+        "total": 2,
+        "passed": 0,
+        "failed": 2,
+        "errors": 0,
+        "skipped": 0
+      },
+      "r1": {
+        "total": 1,
+        "passed": 0,
+        "failed": 1,
+        "errors": 0,
+        "skipped": 0
+      },
+      "original_luna_scheduler_tests": {
+        "total": 18,
+        "passed": 18,
+        "failed": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "original_sol_scheduler_tests": {
+        "total": 29,
+        "passed": 28,
+        "failed": 1,
+        "errors": 0,
+        "skipped": 0
+      },
+      "repaired_luna_scheduler_tests": {
+        "total": 19,
+        "passed": 18,
+        "failed": 1,
+        "errors": 0,
+        "skipped": 0
+      },
+      "repository": {
+        "total": 30,
+        "passed": 30,
+        "failed": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    },
+    "sol-original": {
+      "acceptance": {
+        "total": 18,
+        "passed": 18,
+        "failed": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "interruption": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "r1": {
+        "total": 1,
+        "passed": 1,
+        "failed": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "original_luna_scheduler_tests": {
+        "total": 18,
+        "passed": 18,
+        "failed": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "original_sol_scheduler_tests": {
+        "total": 29,
+        "passed": 29,
+        "failed": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "repaired_luna_scheduler_tests": {
+        "total": 19,
+        "passed": 18,
+        "failed": 1,
+        "errors": 0,
+        "skipped": 0
+      },
+      "repository": {
+        "total": 41,
+        "passed": 41,
+        "failed": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    },
+    "luna-repaired": {
+      "acceptance": {
+        "total": 18,
+        "passed": 18,
+        "failed": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "interruption": {
+        "total": 2,
+        "passed": 0,
+        "failed": 2,
+        "errors": 0,
+        "skipped": 0
+      },
+      "r1": {
+        "total": 1,
+        "passed": 1,
+        "failed": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "original_luna_scheduler_tests": {
+        "total": 18,
+        "passed": 18,
+        "failed": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "original_sol_scheduler_tests": {
+        "total": 29,
+        "passed": 28,
+        "failed": 1,
+        "errors": 0,
+        "skipped": 0
+      },
+      "repaired_luna_scheduler_tests": {
+        "total": 19,
+        "passed": 19,
+        "failed": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "repository": {
+        "total": 31,
+        "passed": 31,
+        "failed": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    }
+  },
+  "review_effectiveness": {
+    "findings_reported": 1,
+    "findings_verified": 1,
+    "finding": "R1",
+    "supplementary_interruption_defect_reported": false,
+    "recall_estimate": null
+  },
+  "repair_effectiveness": {
+    "r1_fixed": true,
+    "new_behavioral_regressions_observed": false,
+    "inherited_interruption_failures": 2,
+    "unnecessary_implementation_changes_observed": false,
+    "changed_files": [
+      "problems/job_scheduler.py",
+      "tests/test_job_scheduler.py"
+    ],
+    "coverage_changes": {
+      "original_scheduler_tests": 18,
+      "repaired_scheduler_tests": 19,
+      "added": [
+        "test_job_scheduled_during_clock_read_waits_for_next_invocation"
+      ],
+      "removed": [],
+      "modified_existing": []
+    },
+    "test_quality_limitation": "Added Luna regression test blocks controller on schedule(); it fails on original Sol because Sol holds the lock during clock(). The independent R1 test permits either locking design and passes Sol."
+  },
+  "effort": {
+    "agent_steps": {
+      "original_luna": {
+        "seconds": 92.66,
+        "usage": {
+          "input_tokens": 205862,
+          "cached_input_tokens": 188416,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 4271,
+          "reasoning_output_tokens": 512
+        }
+      },
+      "sol_review": {
+        "seconds": 40.02,
+        "usage": {
+          "input_tokens": 89340,
+          "cached_input_tokens": 73856,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1466,
+          "reasoning_output_tokens": 561
+        }
+      },
+      "luna_repair": {
+        "seconds": 28.41,
+        "usage": {
+          "input_tokens": 83016,
+          "cached_input_tokens": 76160,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1076,
+          "reasoning_output_tokens": 117
+        }
+      }
+    },
+    "cumulative_agent_seconds": 161.09,
+    "additional_review_and_repair_agent_seconds": 68.43,
+    "additional_agent_time_percent": 73.85,
+    "cumulative_usage": {
+      "input_tokens": 378218,
+      "cached_input_tokens": 338432,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 6813,
+      "reasoning_output_tokens": 1190
+    },
+    "cumulative_input_plus_output_tokens": 385031,
+    "cumulative_uncached_input_tokens": 39786,
+    "overhead": {
+      "instrumented_experimental_setup_seconds_lower_bound": 499.3683,
+      "phase1_isolation_setup_seconds": 485.390464,
+      "phase2_isolation_setup_seconds": 13.977846,
+      "normal_finding_verification_wall_seconds": 36.06,
+      "normal_independent_evaluation_wall_seconds": 8.5434,
+      "normal_verification_total_seconds": 44.6034,
+      "evaluator_infrastructure_preparation_after_freeze_seconds": 44.344586,
+      "original_orchestration_seconds": null,
+      "human_active_effort_seconds": null,
+      "orchestrator_token_usage": null,
+      "notes": [
+        "Experimental setup includes history-free exports, runtime preparation and information-access validation. This is a lower bound; some infrastructure authoring and inspection were outside the measured intervals.",
+        "Verification is normal development workflow overhead, reported separately from experimental isolation. Evaluator infrastructure authoring is experimental overhead.",
+        "Uninstrumented orchestration/report writing is not counted as agent execution; active human labor is unknown.",
+        "Idle time between experimental stages is excluded from workflow effort.",
+        "Cached input is included within input; reasoning output is reported as a subset of output and not added again.",
+        "Original Sol baseline execution is a comparator, excluded from collaborative totals.",
+        "No monetary cost estimated; applicable billed pricing is unavailable."
+      ]
+    },
+    "original_sol_comparator": {
+      "returncode": 0,
+      "seconds": 122.98,
+      "timed_out": false,
+      "usage": {
+        "input_tokens": 135107,
+        "cached_input_tokens": 128640,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5357,
+        "reasoning_output_tokens": 538
+      }
+    }
+  },
+  "preservation_audit": {
+    "baseline_exports_match_original_archives": {
+      "luna": true,
+      "sol": true
+    },
+    "all_phase1_artifacts_unchanged": true,
+    "repaired_snapshot_matches_freeze": true,
+    "repair_workspace_matches_freeze": true,
+    "repair_session_count": 1,
+    "review_session_count": 1,
+    "unexpected_candidate_changes": []
+  },
+  "limitations": [
+    "Single targeted diagnostic cycle, not a statistical or monetary cost-effectiveness comparison.",
+    "Independent acceptance and interruption tests were not exposed to either agent; R1 alone was delivered to Luna.",
+    "Reviewer did not execute pytest; the repair stage had pytest and Ruff available.",
+    "R1 regression adapts Phase 1 reproduction to use a separate scheduling thread, avoiding test-induced deadlock for Sol\u2019s lock-held clock.",
+    "Interruption cases are supplementary robustness checks, separately reported from the original acceptance suite.",
+    "Shared test suites overlap; counts must not be summed as independent coverage.",
+    "Information-access controls were tested; complete isolation was not established.",
+    "Correctness claims are limited to inspected changes and executed tests; no further repair attempted."
+  ],
+  "implementation_quality": {
+    "scope": "Insertion cutoff captured under a short lock before injected clock; due-job selection retains existing second lock. No API, data structure, dependency, or unrelated file changes.",
+    "complexity": "Existing scan/sort complexity retained; one additional short lock acquisition per run_due invocation.",
+    "existing_test_functions_preserved": true,
+    "new_test_portability_issue": true,
+    "lint": "All candidates pass scoped Ruff; all retain I001 in inherited order_processor.py.",
+    "whitespace": "No whitespace diagnostics; git diff --no-index --check returned 1 because snapshots differ."
+  },
+  "editorial_derivation": {
+    "source_sha256": "6a40ecce048540471195904ea8260556dbd6dd6c8175a02eac6390c829fac0f9",
+    "evidence_class": "edited_recorded_evidence",
+    "changes": "Machine paths and incidental execution details omitted or normalized; interim statuses clarified; experimental observations and measurements retained."
+  }
+}

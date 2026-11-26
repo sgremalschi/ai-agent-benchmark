@@ -1,0 +1,173 @@
+{
+  "description": "Source hashes identify the exact pre-editorial copies. Release hashes identify edited public derivatives; original experimental measurements are not relabeled as new observations.",
+  "derivatives": [
+    {
+      "path": ".gitignore",
+      "source_sha256": "220494343eea703383a9cccae8c0f70706adbf1c00830e4ac7bbd793895dbfdd",
+      "release_sha256": "dda2d08d87e53f8ce178f5a1b95edb8b19c7e2c72e120e5656662da3c9229075",
+      "evidence_class": "revised_explanatory_documentation_or_tooling"
+    },
+    {
+      "path": "LICENSE_SCOPE.md",
+      "source_sha256": "ede1f68eb0c9176c61014bcbf85ebcb0e1b11252724dfd7e3f03bc7b86bfe7f7",
+      "release_sha256": "f480d391c42f79499ce9c86da95271c8b756202ce07b3393615993d663a5f5ce",
+      "evidence_class": "revised_explanatory_documentation_or_tooling"
+    },
+    {
+      "path": "README.md",
+      "source_sha256": "13e289f3648cb678fb5d0eae4e057410e4a007cccde32b3ff8f4654d0e1570d5",
+      "release_sha256": "0163287b2b3d71cfeb20db042d10fbdc14bcb993a3ec9d120bd21c951b183aad",
+      "evidence_class": "revised_explanatory_documentation_or_tooling"
+    },
+    {
+      "path": "experiments/017.txt",
+      "source_sha256": "5f471a41e4854c826ea32c1c04d660617a5aa9bd75071c85970076b251e2b0d1",
+      "release_sha256": "affead1b1dbf22fba2b90282b42e1c480387b554f1d02fa35a7ac6303b218343",
+      "evidence_class": "edited_recorded_evidence"
+    },
+    {
+      "path": "provenance/PUBLICATION.md",
+      "source_sha256": "9d33d6a1025762210a0380720135362c0332667b1eacf2064bae8ccac8926f3b",
+      "release_sha256": "157e6fd1d1d76ad7c6db8775eb20eaaa13fac6debaee166f843c28810d688dd6",
+      "evidence_class": "revised_explanatory_documentation_or_tooling"
+    },
+    {
+      "path": "provenance/RELEASE_EXCLUSIONS.json",
+      "source_sha256": "a85aa53cbef110b47940bf22ab77a98e86eaf4c019b5c6e5e022b28ea0011bba",
+      "release_sha256": "4a87c9dc78c027b5c39f298b62a6bf8f4b084c0fabe651f8f7defa8379ded7c0",
+      "evidence_class": "revised_explanatory_documentation_or_tooling"
+    },
+    {
+      "path": "provenance/RIGHTS_REVIEW.md",
+      "source_sha256": "af1a57a29b4d8d5baa8fd8e316b53f30924cac8af798c271c56801a1ac1216e2",
+      "release_sha256": "c19c2e86dca301e0fdf129133a43787ed89f36c8fade70261b0286c2b9072c40",
+      "evidence_class": "revised_explanatory_documentation_or_tooling"
+    },
+    {
+      "path": "provenance/manifest.json",
+      "source_sha256": "89635631c3dcf186ac9e393cae97a5ff27ab73a73841a5ad8ca68593427d4968",
+      "release_sha256": "3513fd88b49f7dd530233bbfae2f9f8e3f00ab6955ca39ee4016a87ce182283b",
+      "evidence_class": "revised_explanatory_documentation_or_tooling"
+    },
+    {
+      "path": "results/018/effort.json",
+      "source_sha256": "631addfdb8acf59e4954be0b3c718b03b0d0d0cfbbf1bc5560f585f6a1380436",
+      "release_sha256": "516dff55b276c3e8dc1858fcec9a5c48cc28f79fcc2026d944592942bf738699",
+      "evidence_class": "edited_recorded_evidence"
+    },
+    {
+      "path": "results/018/isolation-probes.json",
+      "source_sha256": "819f426944569632cdef9186cae3c38848be3c8f8d1aa5b047b8d7fd3759e7d5",
+      "release_sha256": "28109c09b7f2b63c9f946785008e16acadc6b73c0b3977e6f89e916304638078",
+      "evidence_class": "edited_recorded_evidence"
+    },
+    {
+      "path": "results/018/manifest.json",
+      "source_sha256": "b4a5ebe11a7642c6bf79a57bc6fb39b3683b4ce1ed81f2b3886779912dcc791d",
+      "release_sha256": "719023c88dcbfb25b480432bc6ba9e7793326ee7975642f575de20f1225b2856",
+      "evidence_class": "edited_recorded_evidence"
+    },
+    {
+      "path": "results/018/phase23/cumulative-effort.json",
+      "source_sha256": "01f7b05a90ca85eb5447526d5b7abf34c20f52e4a16aeaa116e701a6379ea52e",
+      "release_sha256": "e83ce2695a430cc0d742218c40ad5338ddf88500a264a5c03a2ea0e75d2772e3",
+      "evidence_class": "edited_recorded_evidence"
+    },
+    {
+      "path": "results/018/phase23/evaluation/luna-original.interruption.xml",
+      "source_sha256": "80c83d663be58fd4bee105b4b2e3af9e650ce90df63cbbeff57f358d8dcc0ed6",
+      "release_sha256": "fd1cc521cdf8b3735925675b8549f27d7293dc34e7e0be82c2642644a57114f1",
+      "evidence_class": "edited_recorded_evidence"
+    },
+    {
+      "path": "results/018/phase23/evaluation/luna-original.r1.xml",
+      "source_sha256": "d04ab574f1de4c3960628fa24fb5b6bac5d5eeb478c06237ecad496e18f70325",
+      "release_sha256": "e3e75f2b90186d4c502084183da5b2bb53583b3dfaefa3782f7d97fe9e319888",
+      "evidence_class": "edited_recorded_evidence"
+    },
+    {
+      "path": "results/018/phase23/evaluation/luna-original.repaired_luna_scheduler_tests.xml",
+      "source_sha256": "052d5a383b04fb49b5c22c483714bb1e3fc2e98ff39bde703adf65dbf981d8d9",
+      "release_sha256": "3d37acedf16d8a250093ef47204b1b0e9248b3c0adb112aef548a65f11324269",
+      "evidence_class": "edited_recorded_evidence"
+    },
+    {
+      "path": "results/018/phase23/evaluation/luna-repaired.original_sol_scheduler_tests.xml",
+      "source_sha256": "74fd83a14f281bfb75683f05ea03fbb9b4c14b6aa2860c0e6347d18bc392bc13",
+      "release_sha256": "52eead157345992cf52b6988149edbc111896aef63197853adfd36befca087d9",
+      "evidence_class": "edited_recorded_evidence"
+    },
+    {
+      "path": "results/018/phase23/evaluation/sol-original.repaired_luna_scheduler_tests.xml",
+      "source_sha256": "a5338550ac7b19a31c5c3bf2583a3b5d2f6065b50d9f004085c6ffa3588b8fc5",
+      "release_sha256": "211a914bab23b82f74352e5000f272b83927d47f7a6521a0cceffeb9419ec145",
+      "evidence_class": "edited_recorded_evidence"
+    },
+    {
+      "path": "results/018/phase23/evaluation.json",
+      "source_sha256": "eb04e3bcace974462cb3f30b2626977f6e742da07c0c4fcfe903b8de6f1e356e",
+      "release_sha256": "e361e39eeee09e84e91dd8666aee4d09e284ee5df2171e2551fb788300c208e4",
+      "evidence_class": "edited_recorded_evidence"
+    },
+    {
+      "path": "results/018/phase23/final-report.json",
+      "source_sha256": "6a40ecce048540471195904ea8260556dbd6dd6c8175a02eac6390c829fac0f9",
+      "release_sha256": "ec30a41201f9923b4061e9989d0267abb776717e17e2ade05c605e4e798cd301",
+      "evidence_class": "edited_recorded_evidence"
+    },
+    {
+      "path": "results/018/phase23/isolation-probes.json",
+      "source_sha256": "500a6e58ac4f8e295168700c85d7cd9aa1c7cbf52280b1b607708e54f90c84bb",
+      "release_sha256": "7bdd0402c172bdfb3da2b17bde8fde325efe59afee25c67bae84ee1749247f1b",
+      "evidence_class": "edited_recorded_evidence"
+    },
+    {
+      "path": "results/018/phase23/repair.execution.json",
+      "source_sha256": "29e79c497487ef6558d241fefd7796da80465355a6bfa53c5557893dd6ece8f4",
+      "release_sha256": "21255f3470124ec3abd9ebebae603977af7bf6aac06c2a922fccbdccb3ff9e1a",
+      "evidence_class": "edited_recorded_evidence"
+    },
+    {
+      "path": "results/018/phase23/repair.final.txt",
+      "source_sha256": "1902429eb70a9512689ac119d50a5bf2aac45d48e849aa1449f27465c0ff0297",
+      "release_sha256": "d7ba6d79c6666681e8d901c31b5a9d4075c526026faf4b9c1122311a24e78675",
+      "evidence_class": "edited_recorded_evidence"
+    },
+    {
+      "path": "results/018/phase23/repair.prompt.txt",
+      "source_sha256": "27522ade82a1b771aa59b4348933fae5787b988a513a4ecc3151e4893d83c3ac",
+      "release_sha256": "333b5b4c8a70dd74918dcc1302e5da80a831db7772de6421c4dc8b355eb9f43a",
+      "evidence_class": "edited_recorded_evidence"
+    },
+    {
+      "path": "results/018/report.json",
+      "source_sha256": "f4d6d521f6df4729e4b1b4011d326a0e96474981b1142828e8e0b0b5c6a77f2c",
+      "release_sha256": "650222cd2e44a661f2958b201e6f89328536789ec1cb30a6c9811208df05b4ef",
+      "evidence_class": "edited_recorded_evidence"
+    },
+    {
+      "path": "results/018/review.execution.json",
+      "source_sha256": "9767f0a96290473fc7d14700cca4681abd6af7ce2d5f74b69f54e0c861b344ba",
+      "release_sha256": "39587e9e5fa55a74aa9343793455a5a5ad87c3851ae0d20cd80cdbf3344811b6",
+      "evidence_class": "edited_recorded_evidence"
+    },
+    {
+      "path": "results/018/review.final.txt",
+      "source_sha256": "5d9cdf197555da09e4efe76136762e6480bf7886596f4215547e338bd4d108ef",
+      "release_sha256": "327899064040386d4f48aa3606fd9eb264afeb3f98f01900a32bed564f7b1fbf",
+      "evidence_class": "edited_recorded_evidence"
+    },
+    {
+      "path": "results/018/verification.execution.json",
+      "source_sha256": "9da5d382d233c7d8c4ed2188313e169adc9cd2bdf8959aaecb12bf9951d32755",
+      "release_sha256": "d348f531b293223e2639656fff2f20cc0ae1b7a9a4210029d57f304fafdd3a65",
+      "evidence_class": "edited_recorded_evidence"
+    },
+    {
+      "path": "tools/check_publication.py",
+      "source_sha256": "aaf57f98143869c8474dd3621f048a74e7e1e1f2f24ea397ed7c51dce0e72032",
+      "release_sha256": "c250e9334ae73619264d3323a005dd8b9896c8f88858d6d2cfa1334f5adb4fef",
+      "evidence_class": "revised_explanatory_documentation_or_tooling"
+    }
+  ]
+}

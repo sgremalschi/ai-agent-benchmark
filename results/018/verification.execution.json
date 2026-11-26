@@ -1,0 +1,54 @@
+{
+  "started_utc": "2026-11-26T00:16:11.384767+00:00",
+  "checks": {
+    "reproduction": {
+      "command": [
+        "python",
+        "results/018/verify_finding.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.0339
+    },
+    "baseline_pytest": {
+      "command": [
+        "python",
+        "-B",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider"
+      ],
+      "returncode": 0,
+      "seconds": 0.4345
+    },
+    "baseline_scoped_ruff": {
+      "command": [
+        "ruff",
+        "check",
+        "--no-cache",
+        "problems/job_scheduler.py",
+        "tests/test_job_scheduler.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.1384
+    },
+    "baseline_repository_ruff": {
+      "command": [
+        "ruff",
+        "check",
+        "--no-cache",
+        "."
+      ],
+      "returncode": 1,
+      "seconds": 0.0141
+    }
+  },
+  "ended_utc": "2026-11-26T00:16:12.005855+00:00",
+  "execution_seconds": 0.621,
+  "editorial_derivation": {
+    "source_sha256": "9da5d382d233c7d8c4ed2188313e169adc9cd2bdf8959aaecb12bf9951d32755",
+    "evidence_class": "edited_recorded_evidence",
+    "changes": "Machine paths and incidental execution details omitted or normalized; interim statuses clarified; experimental observations and measurements retained."
+  }
+}

@@ -1,0 +1,27 @@
+Refactor the legacy order processor in problems/order_processor.py.
+
+Goal: improve readability, maintainability, and separation of responsibilities without changing observable behavior.
+
+Requirements:
+1. Preserve the process_order(order, catalog, tax_rates) public API.
+2. Preserve all existing behavior, including unusual edge cases.
+3. Preserve exact validation order, exception types, and messages.
+4. Preserve Decimal arithmetic, intermediate precision, and rounding.
+5. Preserve discount, tax, shipping, and priority behavior.
+6. Preserve the returned dictionary structure and value types.
+7. Extract focused helper functions where they improve clarity.
+8. Avoid unnecessary abstractions, classes, and dependencies.
+9. Add at least 12 meaningful pytest tests.
+10. Modify only problems/order_processor.py and tests/test_order_processor.py.
+11. Do not commit or push.
+
+Inspect repository conventions before editing.
+
+Run and report:
+uv run pytest -q
+uv run ruff check .
+git diff --check
+
+Fix failures and rerun verification.
+
+Report modified files, refactoring decisions, exact verification results, and limitations.
